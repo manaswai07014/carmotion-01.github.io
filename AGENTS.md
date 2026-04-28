@@ -188,6 +188,36 @@ Purpose: Every answer IS new wiki knowledge — must be written back.
 
 ---
 
+## CAR MODEL CARD FORMAT
+When presenting any car model/generation data, always use this format
+as the canonical output template:
+
+    🅿️ Node [N]: [世代定位] ([年份]) — [代號/型號]
+
+    • 品牌/車系: [品牌] / [車系]
+    • 代表顏色: [顏色名] -> #HEX
+    • 引擎核心: [Engine Code] | [Displacement] | [NA/Turbo/Hybrid/EV]
+    • 馬力資料: [HP] (kW/PS) | [Torque] | [Source]
+    • 傳動配置: [RWD/AWD/FWD] | [Transmission]
+    • 進化點: 【一句核心定位】描述
+    • 🖼️ 外觀參考圖 (正面45度): [直接URL]
+    • 🔎 視覺直達: [資料頁連結]
+    • 資料可信度: [高/中/低]
+    • 備註
+
+Fields:
+- [N] = node number within the brand/series chart
+- 世代定位 = e.g. "旗艦巔峰", "賽道猛獸", "入門敞篷"
+- 年份 = production years, e.g. "2022–2025"
+- Engine Code = Volkswagen R64 etc. (or "unknown" if N/A)
+- Displacement = e.g. "7,993cc"
+- HP = e.g. "1,600 PS (1,850 kW)" — always include both PS and kW if available
+- Source priority: Wikipedia > 官網 > 汽車媒體 > Icona/Limited 系列
+- Color hex: use standard RGB hex (e.g. #8B0000)
+- 图片处理: Wikimedia block 时用外部URL嵌入，勿下载本地
+
+---
+
 ## OPERATION 3: lint() → structured health check
 Purpose: Periodically scan wiki health. Auto-lint (checks 1+4+6) runs on every !daily.
 
