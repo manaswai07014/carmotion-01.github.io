@@ -1,0 +1,9 @@
+data/*.db-shm
+data/*.db-wal
+data/backups/
+raw/images/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
