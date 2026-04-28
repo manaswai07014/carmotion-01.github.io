@@ -2,8 +2,8 @@
 Updated: 2026-04-28 | Architecture: V4.1
 
 ## Quick Stats
-- Total Generations: 0
-- Total Brands: 0
+- Total Generations: 1
+- Total Brands: 1
 - Last Ingest: (none yet)
 
 ## Brands
