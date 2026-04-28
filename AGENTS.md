@@ -59,6 +59,9 @@ Primary outputs: Shorts scripts / SEO metadata / wiki nodes / daily news brief.
 7. Mark image_verified: false until manually confirmed
 8. deepdive template REMOVED — never generate deepdive scripts
 9. log.md is APPEND-ONLY — never delete or modify existing entries
+10. BATCH LIMIT — any batch operation (loop/scan/delete) max 20 items per run; if >20, process in chunks and report progress, wait for confirmation before continuing
+11. TIMEOUT GUARD — if any single operation stalls >60 seconds with no progress, STOP immediately and report: [TIMEOUT] completed X/Y, input !continue to resume
+12. DESTRUCTIVE OPS — DELETE/DROP/TRUNCATE operations require user confirmation: display "Will delete X rows, confirm?" and wait for user reply "yes" before executing
 
 ---
 
