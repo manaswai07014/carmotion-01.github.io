@@ -1,0 +1,100 @@
+{"s": "tesla-roadster-2008", "p": "official_horsepower", "o": "248-288 hp", "conf": 0.95, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-roadster-2008", "p": "year_start", "o": "2008", "conf": 0.95, "tier": 1, "source": "official", "ts": "2026-05-12"}
+{"s": "tesla-roadster-2008", "p": "year_end", "o": "2012", "conf": 0.95, "tier": 1, "source": "official", "ts": "2026-05-12"}
+{"s": "tesla-model-s", "p": "official_horsepower", "o": "362-1020 hp", "conf": 0.95, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-model-s", "p": "year_start", "o": "2012", "conf": 0.95, "tier": 1, "source": "official", "ts": "2026-05-12"}
+{"s": "tesla-model-x", "p": "official_horsepower", "o": "670-1020 hp", "conf": 0.95, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-model-3", "p": "official_horsepower", "o": "283-450 hp", "conf": 0.95, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-model-y", "p": "official_horsepower", "o": "283-456 hp", "conf": 0.95, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-cybertruck", "p": "official_horsepower", "o": "350-845 hp", "conf": 0.95, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-semi", "p": "official_power", "o": "800 kW (1072 hp)", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e30", "p": "official_horsepower", "o": "200 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e30", "p": "year_start", "o": "1986", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e30", "p": "year_end", "o": "1991", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e30", "p": "engine_code", "o": "S14B23", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e36", "p": "official_horsepower", "o": "286-321 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e36", "p": "year_start", "o": "1992", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e36", "p": "year_end", "o": "1999", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e36", "p": "engine_code", "o": "S50B30/S50B32", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e46", "p": "official_horsepower", "o": "343 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e46", "p": "year_start", "o": "2000", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e46", "p": "year_end", "o": "2006", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e90", "p": "official_horsepower", "o": "420 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e90", "p": "year_start", "o": "2007", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-e90", "p": "year_end", "o": "2013", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-f80", "p": "official_horsepower", "o": "431-510 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-f80", "p": "year_start", "o": "2014", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-f80", "p": "year_end", "o": "2020", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-g80", "p": "official_horsepower", "o": "480-510 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m3-g80", "p": "year_start", "o": "2021", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e28", "p": "official_horsepower", "o": "256 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e28", "p": "year_start", "o": "1985", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e28", "p": "year_end", "o": "1988", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e34", "p": "official_horsepower", "o": "310-340 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e34", "p": "year_start", "o": "1989", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e34", "p": "year_end", "o": "1995", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e39", "p": "official_horsepower", "o": "400 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e39", "p": "year_start", "o": "1999", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e39", "p": "year_end", "o": "2003", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e60", "p": "official_horsepower", "o": "507 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e60", "p": "year_start", "o": "2005", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-e60", "p": "year_end", "o": "2010", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-f10", "p": "official_horsepower", "o": "560-600 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-f10", "p": "year_start", "o": "2011", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-f10", "p": "year_end", "o": "2017", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-f90", "p": "official_horsepower", "o": "600-617 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "bmw-m5-f90", "p": "year_start", "o": "2018", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-901", "p": "official_horsepower", "o": "130-210 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-901", "p": "year_start", "o": "1964", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-901", "p": "year_end", "o": "1973", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-gseries", "p": "official_horsepower", "o": "150-330 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-gseries", "p": "year_start", "o": "1974", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-gseries", "p": "year_end", "o": "1989", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-964", "p": "official_horsepower", "o": "250-360 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-964", "p": "year_start", "o": "1989", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-964", "p": "year_end", "o": "1994", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-993", "p": "official_horsepower", "o": "270-450 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-993", "p": "year_start", "o": "1994", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-993", "p": "year_end", "o": "1998", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-996", "p": "official_horsepower", "o": "296-420 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-996", "p": "year_start", "o": "1998", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-996", "p": "year_end", "o": "2005", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-997", "p": "official_horsepower", "o": "325-612 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-997", "p": "year_start", "o": "2004", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-997", "p": "year_end", "o": "2012", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-991", "p": "official_horsepower", "o": "350-700 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-991", "p": "year_start", "o": "2011", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-991", "p": "year_end", "o": "2019", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-992", "p": "official_horsepower", "o": "385-750 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "porsche-911-992", "p": "year_start", "o": "2018", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-458-italia", "p": "official_horsepower", "o": "570 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-458-italia", "p": "year_start", "o": "2009", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-458-italia", "p": "year_end", "o": "2015", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-488-gtb", "p": "official_horsepower", "o": "661 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-488-gtb", "p": "year_start", "o": "2015", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-488-gtb", "p": "year_end", "o": "2019", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-f8-tributo", "p": "official_horsepower", "o": "710 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-f8-tributo", "p": "year_start", "o": "2019", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-f8-tributo", "p": "year_end", "o": "2023", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-296-gtb", "p": "official_horsepower", "o": "830 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "ferrari-296-gtb", "p": "year_start", "o": "2022", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-ek9", "p": "official_horsepower", "o": "185 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-ek9", "p": "year_start", "o": "1997", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-ek9", "p": "year_end", "o": "2000", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-ep3", "p": "official_horsepower", "o": "200 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-ep3", "p": "year_start", "o": "2001", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-ep3", "p": "year_end", "o": "2005", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fd2", "p": "official_horsepower", "o": "225 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fd2", "p": "year_start", "o": "2006", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fd2", "p": "year_end", "o": "2011", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fk2", "p": "official_horsepower", "o": "310 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fk2", "p": "year_start", "o": "2015", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fk2", "p": "year_end", "o": "2017", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fk8", "p": "official_horsepower", "o": "320 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fk8", "p": "year_start", "o": "2018", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fk8", "p": "year_end", "o": "2021", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fl5", "p": "official_horsepower", "o": "330 hp", "conf": 0.9, "tier": 2, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "honda-civic-typer-fl5", "p": "year_start", "o": "2023", "conf": 0.95, "tier": 1, "source": "wikipedia", "ts": "2026-05-12"}
+{"s": "tesla-roadster", "p": "official_horsepower", "o": "248-288 hp", "conf": 0.9, "tier": 2, "source": "wiki", "ts": "2026-05-12"}
+{"s": "tesla-roadster", "p": "year_start", "o": "2008", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-05-12"}
+{"s": "tesla-roadster", "p": "year_end", "o": "2012", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-05-12"}

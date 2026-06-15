@@ -1,0 +1,17 @@
+{
+  "brand": "Ferrari",
+  "model": "458",
+  "generated": "2026-05-04 17:06",
+  "wikipedia_article": "",
+  "google_image_search": "https://www.google.com/search?tbm=isch&q=Ferrari+458",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Fort_Worth_June_2016_56_%28Ferrari%29_%28cropped%29.jpg/960px-Fort_Worth_June_2016_56_%28Ferrari%29_%28cropped%29.jpg",
+      "filename": "960px-Fort_Worth_June_2016_56_%28Ferrari%29_%28cropped%29.jpg",
+      "page": "Ferrari 458",
+      "verified": true,
+      "local_path": null
+    }
+  ],
+  "downloaded_count": 1
+}

@@ -1,0 +1,29 @@
+# Ferrari F12 — Evolution Wiki
+
+## Series Overview
+- **Brand**: Ferrari ()
+- **Production**: 2015–2017
+- **Assembly**: N/A
+- **Platform**: N/A
+- **Engine**: 6.3L
+- **Layout**: N/A
+- **Data Source Tier**: 2
+
+---
+
+
+## Summary Table
+
+| # | 型號 | 年份 | 引擎 | 馬力 | 扭力 | 0-100 | 極速 | 車重 | 特色 |
+|---|------|------|------|------|------|-------|------|------|------|
+
+
+## Engine Evolution Tree
+
+```
+```
+
+---
+
+## Sources
+- Wikipedia: https://en.wikipedia.org/wiki/Ferrari_F12

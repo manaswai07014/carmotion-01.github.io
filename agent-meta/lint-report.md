@@ -1,20 +1,13 @@
-# Lint Report — 2026-04-28 20:33
+# Lint Report — 2026-04-28 21:53
 Mode: FULL (all 8 checks)
 ## Summary
 - Errors:   0
-- Warnings: 8
+- Warnings: 1
 - Passed:   1
-- Pages:    3
+- Pages:    0
 
 ## Warnings (should fix)
-[WARN] orphan: wiki/generations/chiron-sport.md (not referenced in index or series)
-[WARN] orphan: wiki/generations/r35.md (not referenced in index or series)
-[WARN] orphan: wiki/generations/r35-gt-r-save.md (not referenced in index or series)
-[WARN] no image set: chiron-sport
-[WARN] no image set: r35
-[WARN] no image set: r35-gt-r-save
-[WARN] DB/wiki out of sync: wiki/r35.md exists but not in DB
-[WARN] DB/wiki out of sync: wiki/r35-gt-r-save.md exists but not in DB
+[WARN] index stale: index.md says 1, DB has 0
 
 ## Passed
-- OK    index in sync: 1 generations
+- OK    DB/wiki in sync (0 generations)

@@ -1,66 +1,109 @@
-# Daily Brief — 2026-04-28 19:52
+# 📰 Daily Brief — 2026-06-15
 
-## Top Headlines (20 articles)
+## ⚠️ DATA FRESHNESS
+- **Status:** ✅ LIVE (10 feeds OK)
+- **Generated:** 2026-06-15 07:00 HKT
+- **Articles:** 20
 
-1. [Jalopnik] What's The Practical Difference Between Pickup Truck Ton Ratings?
-   https://www.jalopnik.com/2155202/practical-differences-between-pickup-truck-ton-ratings/
+## 🏎️ Top Headlines (20 articles from 10 sources)
 
-2. [Autocar] Volkswagen to kick off new era with ID Polo unveiling tomorrow
-   https://www.autocar.co.uk/car-news/new-cars/volkswagen-kick-new-era-id-polo-unveiling-tomorrow
+📡 **Feeds:** TopGear: ✅, CarAndDriver: ✅, RoadandTrack: ✅, Autocar: ✅, Jalopnik: ✅, Evo-GN: ✅, Motor1: ✅, Autoblog: ✅, InsideEVs: ✅, SupercarBlog: ✅
 
-3. [Autocar] Is Audi's new RS3 Competition Limited worth £80k more than a Mk1?
-   https://www.autocar.co.uk/car-news/used-cars/audis-new-rs3-competition-limited-worth-%C2%A380k-more-mk1
+**1. [RoadandTrack] 2027 Audi SQ9 spied for first time**
+   🇨🇳 2027 奧迪 SQ9 spied for first time
+🔗 https://www.motorauthority.com/news/1146040_2027-audi-sq9-spy-shots
+   📝 Audi has been spotted testing prototypes for a full-size SUV.
 
-4. [Jalopnik] Why Replacing The Air Filter In Modern Cars Improves Performance But Not Fuel Economy
-   https://www.jalopnik.com/2155197/replacing-air-filter-improves-performance-not-fuel-economy/
+**2. [Evo-GN] This 992.2 Porsche 911 GT3 RS test mule might be hiding a secret… - evo.co.uk**
+   🇨🇳 This 992.2 保時捷 911 GT跑車3 RS 試駕 mule might be hiding a secret… - 電動車o.co.uk
+🔗 https://news.google.com/rss/articles/CBMisAFBVV95cUxNem0zQUpJc0NxR3pXV0xoX0lnY3dqaVllZHU1QTlLYURLa3NnY2NwYW9jZXpDMFhia0YtRlI3SGRwWmV2UG9QcHgxNGlDTGRZYk5WV1FTcVVuRnQzWUoyUlNnenNiaVpWOFZEd0luVUpjbjVjTnlqOC1sVGVpMWhuRUhxZHpWZmRZZ1hVZ1hKMnl6UW83YkM0ZG9ORG9mMHlnVkdwY0JobEljRHFzUU5aUQ?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-5. [Jalopnik] This Foldable Space Saving Spare From 1967 Was Too Clever For This World
-   https://www.jalopnik.com/2155598/first-space-saver-spare-tire-history/
+**3. [Evo-GN] Based on a Lamborghini but somehow more expensive – Audi's supercar goes testing - evo.co.uk**
+   🇨🇳 Based on a 林寶堅尼 but somehow more expensive – Audi's supercar goes 試駕ing - 電動車o.co.uk
+🔗 https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVJHd3RkLVJTZ0lvTG5ZV1c0djI3dUxWTTZmUHRDOUVrVTEzNHVsb1FQSjlIQndrejNxenRhRmEyd1RYamdYdHg4SGZVNXNDVGxRQmNVenp1bEJjNW5DYUNKbUJpRVFBcXpDb05zTGtTZ2VzYXh5RUtXMG9rc3pVcTJqaHhKU2tOY25NZGo4d0tpb0s3U3luZ293?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-6. [Autocar] Mercedes-AMG SL facelift to bring softer character and new V8
-   https://www.autocar.co.uk/car-news/new-cars/mercedes-amg-sl-facelift-bring-softer-character-and-new-v8
+**4. [TopGear] Here are 29 cheap used alternatives to great new cars - Top Gear**
+   🇨🇳 Here are 29 cheap used alternatives to great 全新 cars - Top Gear
+🔗 https://news.google.com/rss/articles/CBMimAFBVV95cUxOcDUwMWkyV0hXNWQ2ZEQ5RjVDLXJrRkM0QkkxdVdBUFdZa2hiNjgxRmZrWW5TNkZaZDUxZmJsQjRZVUJqNGRFSjBQNEtsT1A4emwxLUd1YVdOM28zaVVRU0RPTW5Wa3lHMG9qM2U3NEUyMkVEdUlUTTRhVGpEMXVDbG9qUGxycTBucDhLWUpaN0lLdEpISjE0NA?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-7. [Autocar] Can we rely on King Charles' charm, or should we build Trump a limo?
-   https://www.autocar.co.uk/opinion/business-corporate/can-we-rely-king-charles-charm-or-should-we-build-trump-limo
+**5. [TopGear] Rivian R2 (US) Review 2026 - Top Gear**
+   🇨🇳 Rivian R2 (US) R電動車iew 2026年 - Top Gear
+🔗 https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FSTAtZzd3d01IaEtxNGo3VVRncEN3QnlxOFhpSm1xdkJycFhMSEhuemp1UGdadVFwVEtlelRrcDhfRGlqNXFES2VzZDRfWUQ3THoxRWluM3h6RklIQ3ZUcnN3?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-8. [Jalopnik] Reliant Robin Survives Desert, Jungle, War In 14,000 Mile Record-Breaking Journey Through Africa
-   https://www.jalopnik.com/2158191/reliant-robin-survives-14000-mile-journey/
+**6. [RoadandTrack] Bugatti Tourbillon gains Équipe Pur Sang package boasting 8 exhaust tips**
+   🇨🇳 Bugatti Tourbillon gains Équipe Pur Sang package boasting 8 exhaust tips
+🔗 https://www.motorauthority.com/news/1146042_bugatti-tourbillon-equipe-pur-sang-revealed
+   📝 Bugatti Tourbillon customers have plenty of options to choose from, including a new performance pack dubbed the Équipe Pur Sang.
 
-9. [Jalopnik] The SCCA Booted The C4 Corvette From Racing Because It Made Things Boring
-   https://www.jalopnik.com/2154881/scca-nearly-kicked-out-c4-corvette/
+**7. [RoadandTrack] F1 personality Eddie Jordan dies aged 76**
+   🇨🇳 F1 personality Eddie Jordan dies aged 76
+🔗 https://www.motorauthority.com/news/1146041_f1-personality-eddie-jordan-dies-aged-76
+   📝 Eddie Jordan, the man who gave Michael Schumacher his F1 start, has passed away.
 
-10. [TopGear HK] 一片睇明電動車與電耗唔再齋講續航力
-   https://www.topgearhk.com/2025/12/11/%e4%b8%80%e7%89%87%e7%9d%87%e6%98%8e%e9%9b%bb%e5%8b%95%e8%bb%8a%e8%88%87%e9%9b%bb%e8%80%97%e5%94%94%e5%86%8d%e9%bd%8b%e8%ac%9b%e7%ba%8c%e8%88%aa%e5%8a%9b/
+**8. [InsideEVs] I Drove The 2027 Chevy Bolt. I Loved All The Storage Space But Its Cheap-Feeling Interior Was Underwhelming**
+   🇨🇳 I Drove The 2027 Ch電動車y Bolt. I Loved All The Storage Space But Its Cheap-Feeling Interior Was Underwhelming
+🔗 https://insideevs.com/reviews/798504/chevy-bolt-2027-review-pros-cons/
 
-11. [TopGear HK] TopGear Awards 2025 Interview一馬當先
-   https://www.topgearhk.com/2026/02/01/topgear-awards-2025-interview%e4%b8%80%e9%a6%ac%e7%95%b6%e5%85%88/
+**9. [Motor1] Fiat Has 5 New Models Coming Soon. Here's All Of Them**
+   🇨🇳 Fiat Has 5 全新 Models 來了 Soon. Here's All Of Them
+🔗 https://www.motor1.com/news/798495/new-fiat-models-2026/
 
-12. [TopGear HK] TopGear Awards 2025得獎品牌專訪
-   https://www.topgearhk.com/2026/02/01/topgear-awards-2025%e5%be%97%e7%8d%8e%e5%93%81%e7%89%8c%e5%b0%88%e8%a8%aa/
+**10. [Motor1] Mitsubishi's Next SUV Could Revive An Iconic Off-Road Trim**
+   🇨🇳 Mitsubishi's Next SUV 越野車 Could R電動車ive An Iconic Off-Road Trim
+🔗 https://www.motor1.com/news/798486/mitsubishi-pajero-ralliart-off-road-variant/
 
-13. [TopGear HK] TopGear Awards 2025 Interview面面俱圓
-   https://www.topgearhk.com/2026/02/01/topgear-awards-2025-interview%e9%9d%a2%e9%9d%a2%e4%bf%b1%e5%9c%93/
+**11. [RoadandTrack] Review: 2025 Ram Power Wagon and Rebel HD defend their mountain**
+   🇨🇳 R電動車iew: 2025年 公羊 馬力 旅行車 and Rebel HD defend their mountain
+🔗 https://www.motorauthority.com/news/1146014_2025-ram-power-wagon-rebel-hd-test-drive-review
+   📝 The 2025 Ram Power Wagon and Rebel HD get facelifts, and the Rebel adds power and gears to take on the new competition.
 
-14. [TopGear HK] TopGear Awards 2025 Interview務實主義
-   https://www.topgearhk.com/2026/02/01/topgear-awards-2025-interview%e5%8b%99%e5%af%a6%e4%b8%bb%e7%be%a9/
+**12. [RoadandTrack] Deep dive: Bugatti Tourbillon aerodynamics**
+   🇨🇳 Deep dive: Bugatti Tourbillon aerodynamics
+🔗 https://www.motorauthority.com/news/1145905_deep-dive-bugatti-tourbillon-aerodynamics
+   📝 To top the Bugattis of the past, the Tourbillon has to be smooth. Here&#039;s how the aero engineers got it there.
 
-15. [Autocar] Audi RS3 Competition: Driving the £100k five-cylinder swansong
-   https://www.autocar.co.uk/car-news/new-cars/audi-rs3-competition-driving-%C2%A3100k-five-cylinder-swansong
+**13. [Autocar] Bovensiepen 05 GT arrives as 790bhp super-estate**
+   🇨🇳 Bovensiepen 05 GT跑車 arrives as 790b匹 super-estate
+🔗 https://www.autocar.co.uk/car-news/new-cars/bovensiepen-05-gt-arrives-790bhp-super-estate
+   📝 Bovensiepen – erstwhile custodians of Alpina – has launched a more refined take on the M5 Touring
 
-16. [CarAndDriver] This Chinese Automaker Is Targeting Ferrari with a V-8-Powered Supercar
-   https://www.caranddriver.com/news/a71142374/chinese-automaker-gwm-v8-supercar/
+**14. [Autocar] Mercedes-AMG GLE and GLS gain upgraded 627bhp V8**
+   🇨🇳 Mercedes-AMG GLE and GLS gain upgraded 627b匹 V8
+🔗 https://www.autocar.co.uk/car-news/new-cars/mercedes-amg-gle-and-gls-gain-upgraded-627bhp-v8
+   📝 Potent new powerplant is also said to improve driveability and efficiency
 
-17. [CarAndDriver] Subaru Has Built the Turbocharged, All-Wheel-Drive BRZ of Your Dreams
-   https://www.caranddriver.com/news/a71141239/subaru-brz-turbocharged-awd-rally-car/
+**15. [Autoblog] Chrysler’s Designers Are Finally Free Of The 300 And The Minivan**
+   🇨🇳 Chrysler’s Designers Are Finally Free Of The 300 And The Mini客貨車
+🔗 https://www.carscoops.com/2026/06/chrysler-stla-one-revival/
+   📝 A new global architecture could give Chrysler the freedom it needs to move beyond the Pacifica
 
-18. [CarAndDriver] Future Electric Vehicles: The EVs You'll Soon Be Able to Buy
-   https://www.caranddriver.com/news/g29994375/future-electric-cars-trucks/
+**16. [Jalopnik] Here's How Your Car Can Become Uninsurable**
+   🇨🇳 Here's How Your Car Can Become Uninsurable
+🔗 https://www.jalopnik.com/2189313/car-insurance-company-you-can-become-uninsurable/
+   📝 Insurers can deny cover to customers for many reasons, including if the car is stolen, too valuable, or has been written off.
 
-19. [CarAndDriver] Next-Gen Porsche 911 GT3 Might Be the First to Be Turbocharged
-   https://www.caranddriver.com/news/a71140894/next-gen-porsche-911-gt3-turbocharged-possible/
+**17. [Autoblog] GM Wants Your Parked EV To Power The Grid, But There’s A $20,000 Catch**
+   🇨🇳 GM Wants Your Parked 電動車 To 馬力 The Grid, But There’s A $20,000 Catch
+🔗 https://www.carscoops.com/2026/06/gm-vehicle-to-grid-charging/
+   📝 Turning your electric vehicle into a power plant sounds great until the invoice for the setup arrives
 
-20. [CarAndDriver] Which Version of the Toyota Camry Gets You the Most for Your Money?
-   https://www.caranddriver.com/shopping-advice/a71138326/toyota-camry-trim-level-what-to-buy/
+**18. [Jalopnik] Here Is What NASA's Artemis III Mission Will Do**
+   🇨🇳 Here Is What NASA's Artemis III Mission Will Do
+🔗 https://www.jalopnik.com/2193310/nasa-artemis-iii-mission-details/
+
+**19. [Jalopnik] How You Should Clean Your Car's Touch Screen (And Mistakes You Need To Avoid)**
+   🇨🇳 How You Should Clean Your Car's Touch Screen (And Mistakes You Need To Avoid)
+🔗 https://www.jalopnik.com/2190789/best-and-worst-ways-to-clean-car-touch-screen/
+   📝 A microfiber towel plus soap and water or diluted isopropyl alcohol will clean your touch screen safely. No paper towels, bleach, or spraying alochol.
+
+**20. [Autoblog] The 2026 Chevy Suburban’s Best Seat Isn’t The One You’re Paying $101K To Drive From | Review**
+   🇨🇳 The 2026年 Ch電動車y Suburban’s Best Seat Isn’t The One You’re Paying $101K To Drive From | R電動車iew
+🔗 https://www.carscoops.com/2026/06/chevrolet-suburban-review-2026/
 
 ---
-*Auto-generated at 2026-04-28 19:52*
+*🤖 Auto-generated at 2026-06-15 07:01*
+*📊 Data: 20 articles with summaries from 9 RSS feeds*

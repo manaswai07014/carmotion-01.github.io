@@ -1,1 +1,49 @@
-[]
+{
+  "tesla": {
+    "nodes": {
+      "Roadster": {
+        "node_id": "** 1",
+        "year": "2008–2012",
+        "hp": "248-288 hp",
+        "source": "wiki"
+      },
+      "Model S": {
+        "node_id": "** 2",
+        "year": "2012–2026",
+        "hp": "1,020 hp",
+        "source": "wiki"
+      },
+      "Model X": {
+        "node_id": "** 3",
+        "year": "2015–2026",
+        "hp": "1,020 hp",
+        "source": "wiki"
+      },
+      "Model 3": {
+        "node_id": "** 4",
+        "year": "2017–present",
+        "hp": "283-450 hp",
+        "source": "wiki"
+      },
+      "Model Y": {
+        "node_id": "** 5",
+        "year": "2020–present",
+        "hp": "283-456 hp",
+        "source": "wiki"
+      },
+      "Cybertruck": {
+        "node_id": "** 6",
+        "year": "2023–present",
+        "hp": "350-845 hp",
+        "source": "wiki"
+      },
+      "Semi": {
+        "node_id": "** 7",
+        "year": "2022–present",
+        "hp": "350-845 hp",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-05-12"
+  }
+}

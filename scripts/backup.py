@@ -1,48 +1,45 @@
 #!/usr/bin/env python3
-# scripts/backup.py
-# Manual database backup
-# Usage: python3 scripts/backup.py
-
-import sqlite3, shutil, json
+"""
+backup.py — Python backup for cars.db using SQLite VACUUM INTO
+Replaces backup.sh which requires sqlite3 CLI (may not be installed)
+"""
+import sqlite3
 from pathlib import Path
 from datetime import datetime
+import sys, os
 
-BASE   = Path(__file__).parent.parent
-DB     = BASE / "data" / "cars.db"
-BACKUP = BASE / "backups"
+HOME = Path.home()
+DB = HOME / "car-evolution-project" / "data" / "cars.db"
+BACKUP_DIR = HOME / "car-evolution-project" / "data" / "backups"
+KEEP = 8  # keep last N backups
 
-def main():
-    if not DB.exists():
-        print("No database found at {0}".format(DB))
-        return
-
-    BACKUP.mkdir(parents=True, exist_ok=True)
+def backup():
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    out = BACKUP / "car_wiki_{0}.db".format(ts)
-    out_gz = BACKUP / "car_wiki_{0}.db.gz".format(ts)
+    backup_file = BACKUP_DIR / f"cars_{ts}.db"
 
-    # SQLite backup
-    conn = sqlite3.connect(str(DB))
-    bak = sqlite3.connect(str(out))
-    conn.backup(bak)
-    bak.close()
-    conn.close()
+    if not DB.exists():
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] [BACKUP] DB not found: {DB}")
+        return False
 
-    # Compress
-    import gzip
-    with open(out, "rb") as f_in:
-        with gzip.open(out_gz, "wb") as f_out:
-            shutil.copyfileobj(f_in, f_out)
-    out.unlink()
+    BACKUP_DIR.mkdir(exist_ok=True)
 
-    size = out_gz.stat().st_size
-    print("Backup complete: {0} ({1:,} bytes)".format(out_gz.name, size))
+    try:
+        conn = sqlite3.connect(DB)
+        conn.execute(f"VACUUM INTO '{backup_file}'")  # atomic, no sqlite3 CLI needed
+        conn.close()
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] [BACKUP] cars_{ts}.db saved")
 
-    # Keep last 10 backups
-    backups = sorted(BACKUP.glob("car_wiki_*.db.gz"), key=lambda p: p.stat().st_mtime)
-    for old in backups[:-10]:
-        old.unlink()
-        print("Removed old: {0}".format(old.name))
+        # Keep only last KEEP backups
+        backups = sorted(BACKUP_DIR.glob("cars_*.db"), key=lambda p: p.stat().st_mtime, reverse=True)
+        for old in backups[KEEP:]:
+            old.unlink()
+            print(f"  [CLEANUP] removed: {old.name}")
+
+        print(f"Backup complete: cars_{ts}.db")
+        return True
+    except Exception as e:
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] [BACKUP] ERROR: {e}")
+        return False
 
 if __name__ == "__main__":
-    main()
+    backup()

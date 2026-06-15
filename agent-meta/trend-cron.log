@@ -1,0 +1,720 @@
+Scanning 16 keywords for trends...
+
+  🤢 Nissan GT-R               █████████████░░░░░░░ 65
+  🤢 Toyota Supra              █████████████░░░░░░░ 65
+  🤢 Honda NSX                 █████████████░░░░░░░ 65
+  🤢 Mazda RX-7                █████████████░░░░░░░ 65
+  🤢 Porsche 911               █████████████░░░░░░░ 65
+  🤢 BMW M3                    ██████████░░░░░░░░░░ 50
+  🤢 Mercedes AMG              ██████████░░░░░░░░░░ 50
+  🔴 Ferrari                   ███████████████░░░░░ 78
+  🔴 Lamborghini               ███████████████░░░░░ 78
+  🤢 JDM                       ███████████░░░░░░░░░ 55
+  🤢 rally car                 ██████████░░░░░░░░░░ 50
+  🤢 drift car                 ███████████░░░░░░░░░ 55
+  🤢 electric supercar         ████████████░░░░░░░░ 60
+  🤢 hybrid hypercar           ████████████░░░░░░░░ 60
+  🔴 GTR R35                   ██████████████░░░░░░ 72
+  🤢 GR Supra                  █████████████░░░░░░░ 65
+
+Spikes detected (>= 70):
+  = Already in queue: Ferrari
+  = Already in queue: Lamborghini
+  = Already in queue: GTR R35
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 3 task(s)
+Scanning 16 keywords for trends...
+
+  🤢 Nissan GT-R               █████████████░░░░░░░ 65
+  🤢 Toyota Supra              █████████████░░░░░░░ 65
+  🤢 Honda NSX                 █████████████░░░░░░░ 65
+  🤢 Mazda RX-7                █████████████░░░░░░░ 65
+  🤢 Porsche 911               █████████████░░░░░░░ 65
+  🤢 BMW M3                    ██████████░░░░░░░░░░ 50
+  🤢 Mercedes AMG              ██████████░░░░░░░░░░ 50
+  🔴 Ferrari                   ███████████████░░░░░ 78
+  🔴 Lamborghini               ███████████████░░░░░ 78
+  🤢 JDM                       ███████████░░░░░░░░░ 55
+  🤢 rally car                 ██████████░░░░░░░░░░ 50
+  🤢 drift car                 ███████████░░░░░░░░░ 55
+  🤢 electric supercar         ████████████░░░░░░░░ 60
+  🤢 hybrid hypercar           ████████████░░░░░░░░ 60
+  🔴 GTR R35                   ██████████████░░░░░░ 72
+  🤢 GR Supra                  █████████████░░░░░░░ 65
+
+Spikes detected (>= 70):
+  = Already in queue: Ferrari
+  = Already in queue: Lamborghini
+  = Already in queue: GTR R35
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 3 task(s)
+Traceback (most recent call last):
+  File "/home/hermes/car-evolution-project/scripts/trend_monitor.py", line 11, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+Traceback (most recent call last):
+  File "/home/hermes/car-evolution-project/scripts/trend_monitor.py", line 11, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+Traceback (most recent call last):
+  File "/home/hermes/car-evolution-project/scripts/trend_monitor.py", line 11, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+Traceback (most recent call last):
+  File "/home/hermes/car-evolution-project/scripts/trend_monitor.py", line 11, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+Traceback (most recent call last):
+  File "/home/hermes/car-evolution-project/scripts/trend_monitor.py", line 11, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+Traceback (most recent call last):
+  File "/home/hermes/car-evolution-project/scripts/trend_monitor.py", line 11, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. hypercar             ████████████████████ 100 🔴 [google_news]
+  2. Tesla Model 3        ████████████████░░░░ 81 🔴 [google_news]
+  3. Mercedes AMG         ██████████████░░░░░░ 74 🔴 [google_news]
+  4. BMW M3               ███████░░░░░░░░░░░░░ 37 🤖 [google_news]
+  5. Porsche 911          ███████░░░░░░░░░░░░░ 35 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: hypercar
+  = Already in queue: Tesla Model 3
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 16 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Tesla Model 3        ██████████████████░░ 94 🔴 [google_news]
+  3. hypercar             ███████████░░░░░░░░░ 59 🤢 [google_news]
+  4. Porsche 911          ███████░░░░░░░░░░░░░ 36 🤖 [google_news]
+  5. BMW M3               █████░░░░░░░░░░░░░░░ 28 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+  = Already in queue: Tesla Model 3
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 16 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Tesla Model 3        ██████████████░░░░░░ 71 🔴 [google_news]
+  3. hypercar             ██████████████░░░░░░ 71 🔴 [google_news]
+  4. Porsche 911          ██████████░░░░░░░░░░ 51 🤢 [google_news]
+  5. BMW M3               ████░░░░░░░░░░░░░░░░ 20 🤖 [google_news]
+
+Spikes detected (>= 70):
+  + Added to queue: Mercedes AMG (score: 100)
+  + Added to queue: Tesla Model 3 (score: 71)
+  + Added to queue: hypercar (score: 71)
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 3 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. hypercar             ████████████████░░░░ 81 🔴 [google_news]
+  3. Tesla Model 3        █████████████░░░░░░░ 68 🤢 [google_news]
+  4. Porsche 911          █████░░░░░░░░░░░░░░░ 29 🤖 [google_news]
+  5. BMW M3               ████░░░░░░░░░░░░░░░░ 23 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+  = Already in queue: hypercar
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 3 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Tesla Model 3        ████████████████████ 100 🔴 [google_news]
+  2. hypercar             ████████████████░░░░ 80 🔴 [google_news]
+  3. Mercedes AMG         ███████████████░░░░░ 78 🔴 [google_news]
+  4. Lamborghini          ████████████░░░░░░░░ 64 🤢 [google_news]
+  5. BMW M3               ███████░░░░░░░░░░░░░ 36 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Tesla Model 3
+  = Already in queue: hypercar
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 3 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Lamborghini          ████████████████████ 100 🔴 [google_news]
+  2. hypercar             ████████████████░░░░ 82 🔴 [google_news]
+  3. Tesla Model 3        ████████████████░░░░ 81 🔴 [google_news]
+  4. Mercedes AMG         ████████████░░░░░░░░ 62 🤢 [google_news]
+  5. Porsche 911          ██████░░░░░░░░░░░░░░ 32 🤖 [google_news]
+
+Spikes detected (>= 70):
+  + Added to queue: Lamborghini (score: 100)
+  = Already in queue: hypercar
+  = Already in queue: Tesla Model 3
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 4 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Lamborghini          ████████████████████ 100 🔴 [google_news]
+  2. Mercedes AMG         █████████████████░░░ 88 🔴 [google_news]
+  3. Tesla Model 3        ██████████████░░░░░░ 70 🔴 [google_news]
+  4. electric supercar    ██████████░░░░░░░░░░ 52 🤢 [google_news]
+  5. hypercar             █████████░░░░░░░░░░░ 49 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Lamborghini
+  = Already in queue: Mercedes AMG
+  = Already in queue: Tesla Model 3
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 4 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Lamborghini          ███████████████░░░░░ 76 🔴 [google_news]
+  3. Porsche 911          ██████████████░░░░░░ 73 🔴 [google_news]
+  4. Tesla Model 3        █████████████░░░░░░░ 69 🤢 [google_news]
+  5. hypercar             ███████████░░░░░░░░░ 58 🤢 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+  = Already in queue: Lamborghini
+  + Added to queue: Porsche 911 (score: 73)
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 5 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Porsche 911          ███████████████████░ 98 🔴 [google_news]
+  3. Lamborghini          ███████████████░░░░░ 76 🔴 [google_news]
+  4. Tesla Model 3        █████████░░░░░░░░░░░ 47 🤖 [google_news]
+  5. hypercar             ████████░░░░░░░░░░░░ 40 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+  = Already in queue: Porsche 911
+  = Already in queue: Lamborghini
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 5 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Tesla Model 3        ███████████░░░░░░░░░ 58 🤢 [google_news]
+  3. Porsche 911          ████████░░░░░░░░░░░░ 44 🤖 [google_news]
+  4. Lamborghini          █████░░░░░░░░░░░░░░░ 28 🤖 [google_news]
+  5. Ferrari              █████░░░░░░░░░░░░░░░ 26 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 5 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Porsche 911          ███████████░░░░░░░░░ 56 🤢 [google_news]
+  3. hypercar             ██████████░░░░░░░░░░ 51 🤢 [google_news]
+  4. Ferrari              ██████████░░░░░░░░░░ 50 🤢 [google_news]
+  5. Tesla Model 3        █████████░░░░░░░░░░░ 48 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 5 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Porsche 911          ██████░░░░░░░░░░░░░░ 31 🤖 [google_news]
+  3. hypercar             ████░░░░░░░░░░░░░░░░ 23 🤖 [google_news]
+  4. BMW M3               ███░░░░░░░░░░░░░░░░░ 16 🤖 [google_news]
+  5. Ferrari              ██░░░░░░░░░░░░░░░░░░ 14 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 5 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. BMW M3               ████████████████████ 100 🔴 [google_news]
+  2. Mercedes AMG         ███████████░░░░░░░░░ 57 🤢 [google_news]
+  3. Porsche 911          █████░░░░░░░░░░░░░░░ 26 🤖 [google_news]
+  4. Ferrari              ████░░░░░░░░░░░░░░░░ 24 🤖 [google_news]
+  5. Lamborghini          ████░░░░░░░░░░░░░░░░ 23 🤖 [google_news]
+
+Spikes detected (>= 70):
+  + Added to queue: BMW M3 (score: 100)
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. BMW M3               ████████████████████ 100 🔴 [google_news]
+  2. Porsche 911          ████████████████░░░░ 84 🔴 [google_news]
+  3. Mercedes AMG         █████████░░░░░░░░░░░ 47 🤖 [google_news]
+  4. hypercar             ███████░░░░░░░░░░░░░ 35 🤖 [google_news]
+  5. Lamborghini          █████░░░░░░░░░░░░░░░ 26 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: BMW M3
+  = Already in queue: Porsche 911
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. Porsche 911          ███████░░░░░░░░░░░░░ 38 🤖 [google_news]
+  3. BMW M3               ██████░░░░░░░░░░░░░░ 31 🤖 [google_news]
+  4. Lamborghini          ████░░░░░░░░░░░░░░░░ 20 🤖 [google_news]
+  5. hypercar             ███░░░░░░░░░░░░░░░░░ 18 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Ferrari              ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  2. Lamborghini          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  3. Porsche 911          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  4. Toyota Supra         ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+  5. Nissan GT-R          ░░░░░░░░░░░░░░░░░░░░ 0 🤖 [error]
+
+No spikes detected
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. hypercar             █████████████░░░░░░░ 68 🤢 [google_news]
+  3. Porsche 911          █████████████░░░░░░░ 65 🤢 [google_news]
+  4. Tesla Model 3        ███████████░░░░░░░░░ 58 🤢 [google_news]
+  5. BMW M3               ██████████░░░░░░░░░░ 54 🤢 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Mercedes AMG         ████████████████████ 100 🔴 [google_news]
+  2. hypercar             ███████████████░░░░░ 77 🔴 [google_news]
+  3. Porsche 911          █████████████░░░░░░░ 69 🤢 [google_news]
+  4. Tesla Model 3        ████████████░░░░░░░░ 63 🤢 [google_news]
+  5. BMW M3               █████████░░░░░░░░░░░ 48 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Mercedes AMG
+  = Already in queue: hypercar
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Porsche 911          ████████████████████ 100 🔴 [google_news]
+  2. hypercar             █████████████████░░░ 86 🔴 [google_news]
+  3. Mercedes AMG         ███████████░░░░░░░░░ 59 🤢 [google_news]
+  4. Tesla Model 3        ████████░░░░░░░░░░░░ 43 🤖 [google_news]
+  5. Ferrari              ██████░░░░░░░░░░░░░░ 32 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Porsche 911
+  = Already in queue: hypercar
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Porsche 911          ████████████████████ 100 🔴 [google_news]
+  2. hypercar             ███████████░░░░░░░░░ 59 🤢 [google_news]
+  3. Mercedes AMG         █████████░░░░░░░░░░░ 47 🤖 [google_news]
+  4. Tesla Model 3        █████░░░░░░░░░░░░░░░ 26 🤖 [google_news]
+  5. BMW M3               ███░░░░░░░░░░░░░░░░░ 17 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Porsche 911
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. Porsche 911          ████████████████████ 100 🔴 [google_news]
+  2. hypercar             ████████████░░░░░░░░ 62 🤢 [google_news]
+  3. Mercedes AMG         ███████░░░░░░░░░░░░░ 39 🤖 [google_news]
+  4. Lamborghini          █████░░░░░░░░░░░░░░░ 25 🤖 [google_news]
+  5. Tesla Model 3        █████░░░░░░░░░░░░░░░ 25 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: Porsche 911
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. hypercar             ████████████████████ 100 🔴 [google_news]
+  2. BMW M3               █████████████████░░░ 89 🔴 [google_news]
+  3. Porsche 911          ██████████░░░░░░░░░░ 54 🤢 [google_news]
+  4. Mercedes AMG         ██████░░░░░░░░░░░░░░ 34 🤖 [google_news]
+  5. Tesla Model 3        ████░░░░░░░░░░░░░░░░ 20 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: hypercar
+  = Already in queue: BMW M3
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+/home/hermes/car-evolution-project/scripts/trend_monitor.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+Fetching REAL trend data for 16 keywords...
+Region: US | Timeframe: 7 days
+
+pytrends not installed — using Google News RSS fallback...
+Using: Google News RSS
+
+Top 5 Keywords (Google News RSS (article mentions)):
+--------------------------------------------------
+  1. hypercar             ████████████████████ 100 🔴 [google_news]
+  2. BMW M3               █████████████████░░░ 86 🔴 [google_news]
+  3. Porsche 911          ██████████░░░░░░░░░░ 53 🤢 [google_news]
+  4. Mercedes AMG         ███████░░░░░░░░░░░░░ 37 🤖 [google_news]
+  5. Lamborghini          █████░░░░░░░░░░░░░░░ 26 🤖 [google_news]
+
+Spikes detected (>= 70):
+  = Already in queue: hypercar
+  = Already in queue: BMW M3
+
+Report: /home/hermes/car-evolution-project/agent-meta/trend-report.md
+Queue: 6 task(s)
+python3: can't open file '/home/hermes/car-evolution-project/scripts/trend_monitor.py': [Errno 2] No such file or directory
