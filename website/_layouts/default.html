@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — CarMotion Daily</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {% if page.image %}<meta property="og:image" content="{{ page.image }}">{% endif %}
+  <meta name="description" content="{{ page.description | default: 'Daily automotive news curated and rewritten.' }}">
+</head>
+<body>
+
+<!-- Top nav with dropdown -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">Car<span class="accent">Motion</span> Daily</a>
+    <nav class="nav-menu">
+      <div class="nav-item">Category
+        <div class="dropdown">
+          <a href="/category/news.html">All News</a>
+          <a href="/category/reviews.html">Reviews</a>
+          <a href="/category/spy-shots.html">Spy Shots</a>
+          <a href="/category/electric.html">Electric</a>
+          <a href="/category/classic.html">Classic</a>
+          <a href="/category/motorsport.html">Motorsport</a>
+        </div>
+      </div>
+      <div class="nav-item">Brand
+        <div class="dropdown">
+          <a href="/brand/ferrari.html">Ferrari</a>
+          <a href="/brand/porsche.html">Porsche</a>
+          <a href="/brand/lamborghini.html">Lamborghini</a>
+          <a href="/brand/bmw.html">BMW</a>
+          <a href="/brand/mercedes.html">Mercedes-AMG</a>
+          <a href="/brand/tesla.html">Tesla</a>
+        </div>
+      </div>
+      <a href="/about.html" class="nav-item">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4>CarMotion Daily</h4>
+      <p style="font-size:13px;color:#b6b8b9;line-height:1.6;">
+        Auto-curated automotive news from 11 major publications.<br>
+        Rewritten, tagged, and published fresh every morning at 8 AM HKT.
+      </p>
+    </div>
+    <div>
+      <h4>Categories</h4>
+      <a href="/category/reviews.html">Reviews</a>
+      <a href="/category/spy-shots.html">Spy Shots</a>
+      <a href="/category/electric.html">Electric</a>
+      <a href="/category/classic.html">Classic</a>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <a href="/about.html">About</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 CarMotion Daily · Powered by Hermes Agent · All trademarks belong to their respective owners
+  </div>
+</footer>
+
+</body>
+</html>

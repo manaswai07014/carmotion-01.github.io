@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="article">
+  <header class="article-header">
+    <div class="kicker">{{ page.source }}</div>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+    <div class="meta-line">
+      {{ page.date | date: "%B %d, %Y" }} · Source: {{ page.source }} · Curated by CarMotion Daily
+    </div>
+  </header>
+
+  {% if page.image %}
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="article-hero-img">
+  {% endif %}
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+
+  {% if page.tags.size > 0 %}
+  <div class="tags-row">
+    {% for tag in page.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  <div style="margin-top:48px;padding-top:24px;border-top:1px solid var(--border-soft);">
+    <div class="source-box" style="background:var(--bg);border-left:4px solid var(--accent);padding:20px 24px;">
+      <strong>📝 Original Source:</strong><br>
+      This story was originally reported by <strong>{{ page.source }}</strong>.<br>
+      <a href="{{ page.source_url }}" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;">Read the full article at {{ page.source }} →</a>
+    </div>
+
+    <div class="disclaimer" style="background:#fffbe6;border:1px solid #ffe69b;border-left:4px solid var(--accent);padding:16px 20px;margin-top:16px;font-size:13px;color:#5a4a1c;">
+      ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service. We publish short rewritten summaries with links to original sources, under Fair Use principles. All copyrights belong to the original publishers.
+    </div>
+  </div>
+</article>
