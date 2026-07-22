@@ -13,7 +13,7 @@ layout: default
   </header>
 
   {% if page.image %}
-  <img src="{{ page.image }}" alt="{{ page.title }}" class="article-hero-img">
+  <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" class="article-hero-img">
   {% endif %}
 
   <div class="article-body">
