@@ -24,9 +24,35 @@ Understanding why this matters comes down to context.Each headline adds another 
   <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/gacs-m8-minivan-costs-less-than-half-a-lexus-lm-500h-but-nothing-about/gacs-m8-minivan-costs-less-than-half-a-lexus-lm-500h-but-nothing-about-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: this one's worth the click. Whether it shifts buyer behaviour or just grabs the headlines for a week will depend on what the next move from Lexus turns out to be.
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>Autoblog</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://www.carscoops.com/2026/07/gac-m8-phev-review/" target="_blank" rel="noopener">Read the full story at Autoblog →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>
 
 ---
 

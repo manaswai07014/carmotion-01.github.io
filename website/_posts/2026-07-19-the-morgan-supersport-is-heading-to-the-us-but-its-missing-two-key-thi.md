@@ -34,9 +34,40 @@ This story resonates because it marks a notable moment for the industry. Industr
   <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: The Morgan Supersport is heading to the US, but it’s missing two key things -… is more than a headline — it indicates a deliberate move from the parties involved's playbook. Watch the next 60 days for follow-through.
+
+<figure class="article-inline-img">
+  <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-3.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>TopGear</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2piTzN5aWUzUkppTVVhSU11RzVTZnkyeWxaOVdkQzYtbGswc3NoMUZQMnRaT3B0enc5cmpDbVNSSnphclRXWks0anpLbU9DRXVMakw3VVlqMi1JaEItLVFuWHRnc3g0N2VrZDZMODlVb1JqRDhmcjRSLVh3aVdlekQxUmNDMmFWQ2FmSnhyeERhaHd4elY0?oc=5" target="_blank" rel="noopener">Read the full story at TopGear →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>
 
 <figure class="article-inline-img">
   <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-3.jpg" alt="" loading="lazy">

@@ -5,8 +5,7 @@ date: 2026-07-22 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220382/these-musicians-should-make-ev-sounds-reader-answers/
 image: /static/images/news/these-musicians-should-make-ev-sounds-according-to-our-readers/these-musicians-should-make-ev-sounds-according-to-our-readers-1.jpg
-image_credit: "jalopnik.com (original article)"
-image_src: "https://www.jalopnik.com/img/gallery/these-musicians-should-make-ev-sounds-according-to-our-readers/l-intro-1784680187.jpg"
+image_credit: "Jalopnik (original article)"
 tags: [Electric]
 ---
 
@@ -37,7 +36,6 @@ This story resonates because it marks a notable moment for the industry. Industr
 
 Our read: These Musicians Should Make EV Sounds, According To Our Readers is more than a headline — it indicates a deliberate move from the parties involved's playbook. Watch the next 60 days for follow-through.
 
-
 ---
 
 <details class="source-disclaimer">
@@ -46,15 +44,11 @@ Our read: These Musicians Should Make EV Sounds, According To Our Readers is mor
 <div class="source-box">
   <strong>Original Source:</strong><br>
   This story was first reported by <strong>Jalopnik</strong>.
-  For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.jalopnik.com/2220382/these-musicians-should-make-ev-sounds-reader-answers/" target="_blank" rel="noopener">Read the full story at Jalopnik →</a>
 </div>
 
 <div class="disclaimer">
-  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
-  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  ⚠️ CarMotion Daily — automated news aggregation under Fair Use. All copyrights belong to original publishers.
 </div>
 
 </details>

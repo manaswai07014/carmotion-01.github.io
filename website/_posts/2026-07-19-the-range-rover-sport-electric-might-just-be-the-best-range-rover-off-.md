@@ -4,7 +4,7 @@ title: "The Range Rover Sport electric might just be the best Range Rover off ro
 date: 2026-07-19 08:00
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnZvMlgtMF9VakJrT191RU56M2U3b2xaQmNJLV9KR3cxXzhlYmVzVFZFM3cwalBWSVBnQjRsNXpyMnkxN1VyY01mLWhXNGcxS3AxNXltYzM4eU1zRVFGNGZnU0dIa0ZlS210M0JramwyX01hbm53TDNIUW92NVJRdUVDVE9hOXptajkwQzFsWnZmT3lMYk5XZW5tc3Rrc212b0VKc0dDVkxQZG0yaGdvM3liYkVfTUJleEFOVXhR?oc=5
-image: /static/images/news/the-range-rover-sport-electric-might-just-be-the-best-range-rover-off-/the-range-rover-sport-electric-might-just-be-the-best-range-rover-off--1.jpg
+image: 
 image_credit: "Evo-GN (original article)"
 tags: [Electric]
 ---
@@ -44,6 +44,27 @@ Our read: The Range Rover Sport electric might just be the best Range Rover off 
   <img src="/static/images/news/the-range-rover-sport-electric-might-just-be-the-best-range-rover-off-/the-range-rover-sport-electric-might-just-be-the-best-range-rover-off--3.jpg" alt="" loading="lazy">
   <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>Evo-GN</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnZvMlgtMF9VakJrT191RU56M2U3b2xaQmNJLV9KR3cxXzhlYmVzVFZFM3cwalBWSVBnQjRsNXpyMnkxN1VyY01mLWhXNGcxS3AxNXltYzM4eU1zRVFGNGZnU0dIa0ZlS210M0JramwyX01hbm53TDNIUW92NVJRdUVDVE9hOXptajkwQzFsWnZmT3lMYk5XZW5tc3Rrc212b0VKc0dDVkxQZG0yaGdvM3liYkVfTUJleEFOVXhR?oc=5" target="_blank" rel="noopener">Read the full story at Evo-GN →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>
 
 ---
 

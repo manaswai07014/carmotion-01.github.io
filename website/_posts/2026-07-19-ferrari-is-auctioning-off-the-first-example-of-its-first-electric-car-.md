@@ -63,3 +63,24 @@ Our read: Ferrari Is Auctioning Off The First Example Of its First Electric Car.
 </div>
 
 </details>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>InsideEVs</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://insideevs.com/news/802055/ferrari-luce-ev-auction-million/" target="_blank" rel="noopener">Read the full story at InsideEVs →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>

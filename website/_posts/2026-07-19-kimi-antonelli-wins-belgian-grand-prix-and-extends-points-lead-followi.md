@@ -36,9 +36,35 @@ This story resonates because it marks a notable moment for the industry. Industr
   <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/kimi-antonelli-wins-belgian-grand-prix-and-extends-points-lead-followi/kimi-antonelli-wins-belgian-grand-prix-and-extends-points-lead-followi-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: Kimi Antonelli Wins Belgian Grand Prix and Extends Points Lead Following Team… is more than a headline — it indicates a deliberate move from the parties involved's playbook. Watch the next 60 days for follow-through.
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>RoadandTrack</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://www.roadandtrack.com/news/a73179330/kimi-antonelli-wins-belgian-grand-prix-extends-points-lead-george-russell-lap-1-retirement/" target="_blank" rel="noopener">Read the full story at RoadandTrack →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>
 
 ---
 

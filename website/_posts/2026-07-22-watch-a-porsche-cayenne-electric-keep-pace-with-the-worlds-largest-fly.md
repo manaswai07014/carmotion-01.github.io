@@ -5,8 +5,7 @@ date: 2026-07-22 08:00 +0800
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73221318/porsche-cayenne-electric-stratolaunch-roc-drag-race/
 image: /static/images/news/watch-a-porsche-cayenne-electric-keep-pace-with-the-worlds-largest-fly/watch-a-porsche-cayenne-electric-keep-pace-with-the-worlds-largest-fly-1.jpg
-image_credit: "roadandtrack.com (original article)"
-image_src: "https://hips.hearstapps.com/hmg-prod/images/2d2c5e8b-e326-4b01-8eea-3ca830122fe0.jpg?crop=1.00xw:0.752xh;0,0.0625xh&amp;resize=1200:*"
+image_credit: "RoadandTrack (original article)"
 tags: [Porsche, Electric]
 ---
 
@@ -29,17 +28,16 @@ Now, an FAA coordinator was also on site for the test runs. Porsche said the Cay
 
 ## Why It Matters
 
-This story resonates because it puts **Porsche** squarely in the conversation. Industry watchers often read such moves as signals — for Porsche this could mean re-engagement with younger, digitised audiences.
-
-
-<figure class="article-inline-img">
-  <img src="/static/images/news/watch-a-porsche-cayenne-electric-keep-pace-with-the-worlds-largest-fly/watch-a-porsche-cayenne-electric-keep-pace-with-the-worlds-largest-fly-2.jpg" alt="" loading="lazy">
-  <figcaption class="img-credit">Source: roadandtrack.com (original article)</figcaption>
-</figure>
-
-## CarMotion Daily's Take
+This story resonates because it puts **Porsche** squarely in the conversation. Industry watchers often read such moves as signals — for Porsche this could mean re-engagement with younger, digitised audiences.## CarMotion Daily's Take
 
 Our read: Watch a Porsche Cayenne Electric Keep Pace With the World's Largest Flying Pl… is more than a headline — it indicates a deliberate move from Porsche's playbook. Watch the next 60 days for follow-through.
+
+<div class="article-gallery">
+<figure>
+  <img src="/static/images/news/watch-a-porsche-cayenne-electric-keep-pace-with-the-worlds-largest-fly/watch-a-porsche-cayenne-electric-keep-pace-with-the-worlds-largest-fly-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+</div>
 
 
 ---
@@ -50,15 +48,11 @@ Our read: Watch a Porsche Cayenne Electric Keep Pace With the World's Largest Fl
 <div class="source-box">
   <strong>Original Source:</strong><br>
   This story was first reported by <strong>RoadandTrack</strong>.
-  For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.roadandtrack.com/news/a73221318/porsche-cayenne-electric-stratolaunch-roc-drag-race/" target="_blank" rel="noopener">Read the full story at RoadandTrack →</a>
 </div>
 
 <div class="disclaimer">
-  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
-  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  ⚠️ CarMotion Daily — automated news aggregation under Fair Use. All copyrights belong to original publishers.
 </div>
 
 </details>
