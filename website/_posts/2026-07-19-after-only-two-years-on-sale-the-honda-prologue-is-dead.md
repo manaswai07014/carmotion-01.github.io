@@ -1,11 +1,11 @@
 ---
 layout: news-item
 title: "After Only Two Years On Sale The Honda Prologue Is Dead"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2217145/honda-prologue-dead-after-two-years/
 image: /static/images/news/after-only-two-years-on-sale-the-honda-prologue-is-dead/after-only-two-years-on-sale-the-honda-prologue-is-dead-1.jpg
-image_credit: "Wikipedia / Honda"
+image_credit: "Jalopnik (original article)"
 tags: [Honda]
 ---
 
@@ -33,31 +33,27 @@ Now, honda named the Prologue explicitly with the expectation that it'd serve as
 This story resonates because it puts **Honda** squarely in the conversation. Industry watchers often read such moves as signals — for Honda this could mean re-engagement with a strategic recalibration.
 
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/after-only-two-years-on-sale-the-honda-prologue-is-dead/after-only-two-years-on-sale-the-honda-prologue-is-dead-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: After Only Two Years On Sale The Honda Prologue Is Dead is more than a headline — it indicates a deliberate move from Honda's playbook. Watch the next 60 days for follow-through.
 
-
-<div class="article-gallery">
-<figure>
-  <img src="/static/images/news/after-only-two-years-on-sale-the-honda-prologue-is-dead/after-only-two-years-on-sale-the-honda-prologue-is-dead-2.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: Wikipedia / Honda Civic</figcaption>
-</figure>
-<figure>
+<figure class="article-inline-img">
   <img src="/static/images/news/after-only-two-years-on-sale-the-honda-prologue-is-dead/after-only-two-years-on-sale-the-honda-prologue-is-dead-3.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: Wikipedia / Honda Crossroad</figcaption>
+  <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
-<figure>
-  <img src="/static/images/news/after-only-two-years-on-sale-the-honda-prologue-is-dead/after-only-two-years-on-sale-the-honda-prologue-is-dead-4.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: Wikipedia / Honda Prelude</figcaption>
-</figure>
-</div>
-
 
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>Jalopnik</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.jalopnik.com/2217145/honda-prologue-dead-after-two-years/" target="_blank" rel="noopener">Read the full story at Jalopnik →</a>
@@ -66,6 +62,8 @@ Our read: After Only Two Years On Sale The Honda Prologue Is Dead is more than a
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>

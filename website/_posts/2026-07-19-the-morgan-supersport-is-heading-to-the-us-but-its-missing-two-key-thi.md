@@ -1,12 +1,11 @@
 ---
 layout: news-item
 title: "The Morgan Supersport is heading to the US, but it’s missing two key things - Top Gear"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2piTzN5aWUzUkppTVVhSU11RzVTZnkyeWxaOVdkQzYtbGswc3NoMUZQMnRaT3B0enc5cmpDbVNSSnphclRXWks0anpLbU9DRXVMakw3VVlqMi1JaEItLVFuWHRnc3g0N2VrZDZMODlVb1JqRDhmcjRSLVh3aVdlekQxUmNDMmFWQ2FmSnhyeERhaHd4elY0?oc=5
 image: /static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-1.jpg
-image_credit: "topgear.com (original article)"
-image_src: "https://www.topgear.com/sites/default/files/images/news-article/2026/07/b3b2f37d8b368b21df043cd2d76e7aa9/Morgan_Supersport_Location_US_001.jpg?w=1280&amp;h=720"
+image_credit: "TopGear (original article)"
 tags: [Industry]
 ---
 
@@ -30,31 +29,27 @@ Breaking this down, just 50 build slots remain available for the 2026 model year
 This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this could suggest a shift toward a strategic recalibration.
 
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: The Morgan Supersport is heading to the US, but it’s missing two key things -… is more than a headline — it indicates a deliberate move from the parties involved's playbook. Watch the next 60 days for follow-through.
 
-
-<div class="article-gallery">
-<figure>
-  <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-2.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: topgear.com (original article)</figcaption>
-</figure>
-<figure>
+<figure class="article-inline-img">
   <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-3.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: topgear.com (original article)</figcaption>
+  <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
-<figure>
-  <img src="/static/images/news/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi/the-morgan-supersport-is-heading-to-the-us-but-its-missing-two-key-thi-4.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: topgear.com (original article)</figcaption>
-</figure>
-</div>
-
 
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>TopGear</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2piTzN5aWUzUkppTVVhSU11RzVTZnkyeWxaOVdkQzYtbGswc3NoMUZQMnRaT3B0enc5cmpDbVNSSnphclRXWks0anpLbU9DRXVMakw3VVlqMi1JaEItLVFuWHRnc3g0N2VrZDZMODlVb1JqRDhmcjRSLVh3aVdlekQxUmNDMmFWQ2FmSnhyeERhaHd4elY0?oc=5" target="_blank" rel="noopener">Read the full story at TopGear →</a>
@@ -63,6 +58,8 @@ Our read: The Morgan Supersport is heading to the US, but it’s missing two key
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>

@@ -1,11 +1,11 @@
 ---
 layout: news-item
 title: "Bentley honey, Volvo blankets: The truth about car testing 'freebies'"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: Autocar
 source_url: https://www.autocar.co.uk/opinion/new-cars/bentley-honey-volvo-blankets-truth-about-car-testing-freebies
 image: /static/images/news/bentley-honey-volvo-blankets-the-truth-about-car-testing-freebies/bentley-honey-volvo-blankets-the-truth-about-car-testing-freebies-1.jpg
-image_credit: "autocar.co.uk (original article)"
+image_credit: "Autocar (original article)"
 tags: [Volvo, Spy Shots]
 ---
 
@@ -27,11 +27,13 @@ This story resonates because it puts **Volvo** squarely in the conversation. Ind
 
 Our read: Bentley honey, Volvo blankets: The truth about car testing 'freebies' is is interesting but ultimately a deliberate move from Volvo's playbook. Watch the next 60 days for follow-through.
 
-
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>Autocar</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.autocar.co.uk/opinion/new-cars/bentley-honey-volvo-blankets-truth-about-car-testing-freebies" target="_blank" rel="noopener">Read the full story at Autocar →</a>
@@ -40,6 +42,8 @@ Our read: Bentley honey, Volvo blankets: The truth about car testing 'freebies' 
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>

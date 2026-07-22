@@ -1,11 +1,11 @@
 ---
 layout: news-item
 title: "Ferrari Is Auctioning Off The First Example Of its First Electric Car. How Much Do You Think It'll Fetch?"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: InsideEVs
 source_url: https://insideevs.com/news/802055/ferrari-luce-ev-auction-million/
 image: /static/images/news/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car-/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car--1.jpg
-image_credit: "insideevs.com (original article)"
+image_credit: "InsideEVs (original article)"
 tags: [Ferrari, Electric]
 ---
 
@@ -29,31 +29,27 @@ Breaking this down, rM Sotheby's, which is hosting the auction, calls it "an unr
 This story resonates because it puts **Ferrari** squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean re-engagement with younger, digitised audiences.
 
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car-/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car--2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: Ferrari Is Auctioning Off The First Example Of its First Electric Car. How Mu… is more than a headline — it indicates a deliberate move from Ferrari's playbook. Watch the next 60 days for follow-through.
 
-
-<div class="article-gallery">
-<figure>
-  <img src="/static/images/news/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car-/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car--2.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: insideevs.com (original article)</figcaption>
-</figure>
-<figure>
+<figure class="article-inline-img">
   <img src="/static/images/news/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car-/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car--3.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: insideevs.com (original article)</figcaption>
+  <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
-<figure>
-  <img src="/static/images/news/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car-/ferrari-is-auctioning-off-the-first-example-of-its-first-electric-car--4.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: insideevs.com (original article)</figcaption>
-</figure>
-</div>
-
 
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>InsideEVs</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://insideevs.com/news/802055/ferrari-luce-ev-auction-million/" target="_blank" rel="noopener">Read the full story at InsideEVs →</a>
@@ -62,6 +58,8 @@ Our read: Ferrari Is Auctioning Off The First Example Of its First Electric Car.
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>

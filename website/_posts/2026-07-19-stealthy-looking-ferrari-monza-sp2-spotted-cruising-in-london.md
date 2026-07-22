@@ -1,11 +1,11 @@
 ---
 layout: news-item
 title: "Stealthy-looking Ferrari Monza SP2 spotted cruising in London"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: SupercarBlog
 source_url: https://www.thesupercarblog.com/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/
 image: /static/images/news/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london-1.jpg
-image_credit: "Wikipedia / Hijab"
+image_credit: "SupercarBlog (original article)"
 tags: [Ferrari]
 ---
 
@@ -29,31 +29,27 @@ Breaking this down, as for the specs, the Ferrari Monza SP2 uses a 6.5L naturall
 This story resonates because it puts **Ferrari** squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean re-engagement with a strategic recalibration.
 
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london-2.png" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: Stealthy-looking Ferrari Monza SP2 spotted cruising in London is more than a headline — it indicates a deliberate move from Ferrari's playbook. Watch the next 60 days for follow-through.
 
-
-<div class="article-gallery">
-<figure>
-  <img src="/static/images/news/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london-2.png" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: Wikipedia / Hunting</figcaption>
-</figure>
-<figure>
+<figure class="article-inline-img">
   <img src="/static/images/news/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london-3.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: Wikipedia / Janus</figcaption>
+  <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
-<figure>
-  <img src="/static/images/news/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london-4.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: Wikipedia / Otello</figcaption>
-</figure>
-</div>
-
 
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>SupercarBlog</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.thesupercarblog.com/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/" target="_blank" rel="noopener">Read the full story at SupercarBlog →</a>
@@ -62,6 +58,8 @@ Our read: Stealthy-looking Ferrari Monza SP2 spotted cruising in London is more 
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>
