@@ -5,8 +5,7 @@ date: 2026-07-22 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220666/mclaren-working-on-manual-hypercar-p50/
 image: /static/images/news/word-on-the-street-says-mclaren-is-working-on-a-manual-hypercar-called/word-on-the-street-says-mclaren-is-working-on-a-manual-hypercar-called-1.jpg
-image_credit: "jalopnik.com (original article)"
-image_src: "https://www.jalopnik.com/img/gallery/word-on-the-street-says-mclaren-is-working-on-a-manual-hypercar-called-the-p50/l-intro-1784681720.jpg"
+image_credit: "Jalopnik (original article)"
 tags: [McLaren]
 ---
 
@@ -34,7 +33,6 @@ This story resonates because it puts **McLaren** squarely in the conversation. I
 
 Our read: Word On The Street Says McLaren Is Working On A Manual Hypercar Called The P50 is more than a headline — it indicates a deliberate move from McLaren's playbook. Watch the next 60 days for follow-through.
 
-
 ---
 
 <details class="source-disclaimer">
@@ -43,15 +41,11 @@ Our read: Word On The Street Says McLaren Is Working On A Manual Hypercar Called
 <div class="source-box">
   <strong>Original Source:</strong><br>
   This story was first reported by <strong>Jalopnik</strong>.
-  For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.jalopnik.com/2220666/mclaren-working-on-manual-hypercar-p50/" target="_blank" rel="noopener">Read the full story at Jalopnik →</a>
 </div>
 
 <div class="disclaimer">
-  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
-  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  ⚠️ CarMotion Daily — automated news aggregation under Fair Use. All copyrights belong to original publishers.
 </div>
 
 </details>

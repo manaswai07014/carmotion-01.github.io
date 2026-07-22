@@ -5,8 +5,7 @@ date: 2026-07-22 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220663/gm-1-billion-dollar-contract-army-truck-buisness-trump/
 image: /static/images/news/gm-is-locking-in-a-1-billion-contract-with-the-army-as-truck-business-/gm-is-locking-in-a-1-billion-contract-with-the-army-as-truck-business--1.jpg
-image_credit: "jalopnik.com (original article)"
-image_src: "https://www.jalopnik.com/img/gallery/gm-is-locking-in-a-1-billion-contract-with-the-army-as-truck-business-flourishes-under-trump/l-intro-1784729630.jpg"
+image_credit: "Jalopnik (original article)"
 tags: [Industry]
 ---
 
@@ -38,7 +37,6 @@ This story resonates because it marks a notable moment for the industry. Industr
 
 Our read: GM Is Locking In A $1 Billion Contract With The Army As Truck Business Flouri… is more than a headline — it indicates a deliberate move from the parties involved's playbook. Watch the next 60 days for follow-through.
 
-
 ---
 
 <details class="source-disclaimer">
@@ -47,15 +45,11 @@ Our read: GM Is Locking In A $1 Billion Contract With The Army As Truck Business
 <div class="source-box">
   <strong>Original Source:</strong><br>
   This story was first reported by <strong>Jalopnik</strong>.
-  For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.jalopnik.com/2220663/gm-1-billion-dollar-contract-army-truck-buisness-trump/" target="_blank" rel="noopener">Read the full story at Jalopnik →</a>
 </div>
 
 <div class="disclaimer">
-  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
-  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  ⚠️ CarMotion Daily — automated news aggregation under Fair Use. All copyrights belong to original publishers.
 </div>
 
 </details>

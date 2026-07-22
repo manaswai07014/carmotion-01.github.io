@@ -36,9 +36,40 @@ This story resonates because it puts **Aston Martin** squarely in the conversati
   <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: Take cover! Aston Martin has built a massive, military-grade V12 supertruck -… is more than a headline — it indicates a deliberate move from Aston Martin's playbook. Watch the next 60 days for follow-through.
+
+<figure class="article-inline-img">
+  <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-3.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>TopGear</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3ZkQWpNZGstaldBbURXMlFvZldhZDBUM1hjUWlSc0tJdFdEdW9mdHJKM0pRMFhkaUR3YWNzdFBkUVdLR0lSY3djaE5UTmwwWWhIZmo0SFpLZ3lOcW5za2FMVzR4dDd0TzFvMFBiNGZBcGNRR3RFbmprcVFmSzlTZUFOZE14WnFQdkJPVnFJVkU5ajBfTndOaXhJYXladmRJaE9PS3otb3h2d1IwbnNuaEU2VQ?oc=5" target="_blank" rel="noopener">Read the full story at TopGear →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>
 
 <figure class="article-inline-img">
   <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-3.jpg" alt="" loading="lazy">

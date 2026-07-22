@@ -53,3 +53,24 @@ Our read: A 48-Pound Electric Motor and a Diesel V-12 Could Transform Electric F
 </div>
 
 </details>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>MotorTrend</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOc1hrLV9xVVFYc21qeG9tV1ZRY0dUb21HdlJZTXdrb29pVGt4dEtwOW1EVEpzVjdJTHdja21zckZkaHQ5Q2E4NVhBaTg0WWdad3Q4YVlLWFpDTmVvczJnQUdMMWdUcVdJaUpQMjcxUEpEZl82UUE4Q2djVWZmako5S1JYZFY?oc=5" target="_blank" rel="noopener">Read the full story at MotorTrend →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>

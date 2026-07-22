@@ -63,3 +63,24 @@ Our read: This Tiny Hatchback Is The Best-Selling Car In China. But How? is more
 </div>
 
 </details>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>Motor1</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://www.motor1.com/news/802061/best-selling-car-china/" target="_blank" rel="noopener">Read the full story at Motor1 →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>

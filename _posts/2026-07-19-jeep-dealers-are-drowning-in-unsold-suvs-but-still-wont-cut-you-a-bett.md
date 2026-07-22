@@ -43,3 +43,24 @@ Our read: this one's worth the click. Whether it shifts buyer behaviour or just 
 </div>
 
 </details>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>Autoblog</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://www.carscoops.com/2026/07/new-car-inventory-pricing-jeep/" target="_blank" rel="noopener">Read the full story at Autoblog →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>

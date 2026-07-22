@@ -36,9 +36,40 @@ This story resonates because it puts **BMW** squarely in the conversation. Indus
   <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/if-this-bmw-m3-on-bat-was-good-enough-for-an-indycar-racer-its-good-en/if-this-bmw-m3-on-bat-was-good-enough-for-an-indycar-racer-its-good-en-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: If This BMW M3 on BaT Was Good Enough for an IndyCar Racer, It's Good Enough … is more than a headline — it indicates a deliberate move from BMW's playbook. Watch the next 60 days for follow-through.
+
+<figure class="article-inline-img">
+  <img src="/static/images/news/if-this-bmw-m3-on-bat-was-good-enough-for-an-indycar-racer-its-good-en/if-this-bmw-m3-on-bat-was-good-enough-for-an-indycar-racer-its-good-en-3.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
+---
+
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
+<div class="source-box">
+  <strong>Original Source:</strong><br>
+  This story was first reported by <strong>CarAndDriver</strong>.
+  For the full article with original photography and complete coverage, visit the source:
+  <a href="https://www.caranddriver.com/news/a72626251/2006-bmw-m3-bring-a-trailer-auction/" target="_blank" rel="noopener">Read the full story at CarAndDriver →</a>
+</div>
+
+<div class="disclaimer">
+  ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
+  We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
+</div>
+
+</details>
 
 <figure class="article-inline-img">
   <img src="/static/images/news/if-this-bmw-m3-on-bat-was-good-enough-for-an-indycar-racer-its-good-en/if-this-bmw-m3-on-bat-was-good-enough-for-an-indycar-racer-its-good-en-3.jpg" alt="" loading="lazy">
