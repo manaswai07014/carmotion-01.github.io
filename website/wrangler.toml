@@ -1,0 +1,3 @@
+# Cloudflare Pages config — used by wrangler/CF dashboard
+name = "carmotion-daily"
+compatibility_date = "2026-07-22"
