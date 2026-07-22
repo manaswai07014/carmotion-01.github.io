@@ -1,11 +1,11 @@
 ---
 layout: news-item
 title: "12 Fuel-Efficient Hybrid Cars That Aren't A Toyota Prius"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2214279/fuel-efficient-hybrid-cars-not-toyota-prius/
 image: /static/images/news/12-fuel-efficient-hybrid-cars-that-arent-a-toyota-prius/12-fuel-efficient-hybrid-cars-that-arent-a-toyota-prius-1.jpg
-image_credit: "jalopnik.com (original article)"
+image_credit: "Jalopnik (original article)"
 tags: [Toyota]
 ---
 
@@ -37,11 +37,13 @@ This story resonates because it puts **Toyota** squarely in the conversation. In
 
 Our read: 12 Fuel-Efficient Hybrid Cars That Aren't A Toyota Prius is more than a headline — it indicates a deliberate move from Toyota's playbook. Watch the next 60 days for follow-through.
 
-
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>Jalopnik</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.jalopnik.com/2214279/fuel-efficient-hybrid-cars-not-toyota-prius/" target="_blank" rel="noopener">Read the full story at Jalopnik →</a>
@@ -50,6 +52,8 @@ Our read: 12 Fuel-Efficient Hybrid Cars That Aren't A Toyota Prius is more than 
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>

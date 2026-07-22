@@ -1,12 +1,11 @@
 ---
 layout: news-item
 title: "Take cover! Aston Martin has built a massive, military-grade V12 supertruck - Top Gear"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3ZkQWpNZGstaldBbURXMlFvZldhZDBUM1hjUWlSc0tJdFdEdW9mdHJKM0pRMFhkaUR3YWNzdFBkUVdLR0lSY3djaE5UTmwwWWhIZmo0SFpLZ3lOcW5za2FMVzR4dDd0TzFvMFBiNGZBcGNRR3RFbmprcVFmSzlTZUFOZE14WnFQdkJPVnFJVkU5ajBfTndOaXhJYXladmRJaE9PS3otb3h2d1IwbnNuaEU2VQ?oc=5
 image: /static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-1.jpg
-image_credit: "topgear.com (original article)"
-image_src: "https://www.topgear.com/sites/default/files/images/news-article/2026/07/8ddfc8d6d7c22a7201efd91fa433a93c/AstonMartin%20Dreadnought_01.jpg?w=1280&amp;h=720"
+image_credit: "TopGear (original article)"
 tags: [Aston Martin]
 ---
 
@@ -32,31 +31,27 @@ Now, you’ll note there’s no actual interior on the model, but we do have som
 This story resonates because it puts **Aston Martin** squarely in the conversation. Industry watchers often read such moves as signals — for Aston Martin this could mean re-engagement with a strategic recalibration.
 
 
+<figure class="article-inline-img">
+  <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: original article</figcaption>
+</figure>
+
 ## CarMotion Daily's Take
 
 Our read: Take cover! Aston Martin has built a massive, military-grade V12 supertruck -… is more than a headline — it indicates a deliberate move from Aston Martin's playbook. Watch the next 60 days for follow-through.
 
-
-<div class="article-gallery">
-<figure>
-  <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-2.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: topgear.com (original article)</figcaption>
-</figure>
-<figure>
+<figure class="article-inline-img">
   <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-3.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: topgear.com (original article)</figcaption>
+  <figcaption class="img-credit">Source: original article</figcaption>
 </figure>
-<figure>
-  <img src="/static/images/news/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr/take-cover-aston-martin-has-built-a-massive-military-grade-v12-supertr-4.jpg" alt="" loading="lazy">
-  <figcaption style="font-size:11px;color:#6b6b6b;margin-top:4px;text-align:right;font-style:italic;">Source: topgear.com (original article)</figcaption>
-</figure>
-</div>
-
 
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>TopGear</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3ZkQWpNZGstaldBbURXMlFvZldhZDBUM1hjUWlSc0tJdFdEdW9mdHJKM0pRMFhkaUR3YWNzdFBkUVdLR0lSY3djaE5UTmwwWWhIZmo0SFpLZ3lOcW5za2FMVzR4dDd0TzFvMFBiNGZBcGNRR3RFbmprcVFmSzlTZUFOZE14WnFQdkJPVnFJVkU5ajBfTndOaXhJYXladmRJaE9PS3otb3h2d1IwbnNuaEU2VQ?oc=5" target="_blank" rel="noopener">Read the full story at TopGear →</a>
@@ -65,6 +60,8 @@ Our read: Take cover! Aston Martin has built a massive, military-grade V12 super
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>

@@ -1,11 +1,11 @@
 ---
 layout: news-item
 title: "Jeep Dealers Are Drowning In Unsold SUVs But Still Won’t Cut You A Better Deal"
-date: 2026-07-19 08:00 +0800
+date: 2026-07-19 08:00
 source: Autoblog
 source_url: https://www.carscoops.com/2026/07/new-car-inventory-pricing-jeep/
-image: ""
-image_credit: ""
+image: 
+image_credit: "Autoblog (original article)"
 tags: [Industry]
 ---
 
@@ -23,11 +23,13 @@ Understanding why this matters comes down to context.Each headline adds another 
 
 Our read: this one's worth the click. Whether it shifts buyer behaviour or just grabs the headlines for a week will depend on what the next move from the parties involved turns out to be.
 
-
 ---
 
+<details class="source-disclaimer">
+<summary>📝 Source & Copyright Notice</summary>
+
 <div class="source-box">
-  <strong>📝 Original Source</strong><br>
+  <strong>Original Source:</strong><br>
   This story was first reported by <strong>Autoblog</strong>.
   For the full article with original photography and complete coverage, visit the source:
   <a href="https://www.carscoops.com/2026/07/new-car-inventory-pricing-jeep/" target="_blank" rel="noopener">Read the full story at Autoblog →</a>
@@ -36,6 +38,8 @@ Our read: this one's worth the click. Whether it shifts buyer behaviour or just 
 <div class="disclaimer">
   ⚠️ <strong>Copyright Notice:</strong> CarMotion Daily is an automated news aggregation service.
   We publish short rewritten summaries under Fair Use principles, with links back to the original sources.
-  Images are extracted directly from the original news articles via Open Graph protocol, with attribution and link-back to the source.
-  All trademarks and copyrights belong to their respective owners. For takedown requests, contact us.
+  Images are extracted directly from the original news articles, with attribution.
+  All trademarks and copyrights belong to their respective owners.
 </div>
+
+</details>
