@@ -17,10 +17,11 @@ NEWS_DIR = BASE / 'data' / 'daily-news'
 RSS_FEEDS = [
     ('TopGear',      'https://news.google.com/rss/search?q=cars+site:topgear.com&hl=en-US&gl=US&ceid=US:en'),
     ('CarAndDriver', 'https://www.caranddriver.com/rss/all.xml'),
-    ('RoadandTrack', 'https://www.motorauthority.com/rss'),
+    ('RoadandTrack', 'https://www.roadandtrack.com/rss/all.xml'),
     ('Autocar',      'https://www.autocar.co.uk/rss'),
     ('Jalopnik',     'https://jalopnik.com/feed'),
     ('Evo-GN',       'https://news.google.com/rss/search?q=site:evo.co.uk&hl=en-US&gl=US&ceid=US:en'),
+    ('MotorTrend',   'https://news.google.com/rss/search?q=site:motortrend.com+cars&hl=en-US&gl=US&ceid=US:en'),
     ('Motor1',       'https://www.motor1.com/rss/news/all/'),
     ('Autoblog',     'https://www.carscoops.com/feed'),
     ('InsideEVs',    'https://insideevs.com/feed/'),
@@ -63,16 +64,28 @@ def parse_date(date_str):
             continue
     return None
 
-def is_recent(date_str, days=7):
-    """Check if article is within the last N days."""
+def is_recent(date_str, days=7, hard_cutoff_days=30):
+    """Check if article is within the last N days.
+    
+    Args:
+        date_str: Date string from RSS feed
+        days: Soft window for preferred freshness (default 7)
+        hard_cutoff_days: Articles older than this are ALWAYS rejected,
+                          even if they can be parsed (default 30).
+                          This prevents dead feeds from spamming stale articles.
+    """
     dt = parse_date(date_str)
     if dt is None:
-        return True  # If can't parse, include it
+        return True  # If can't parse date, include it (might be fresh)
     # Make timezone naive for comparison
     if dt.tzinfo is not None:
         dt = dt.replace(tzinfo=None)
     now = datetime.now()
-    return (now - dt).days < days
+    age_days = (now - dt).days
+    # Hard cutoff: reject anything older than hard_cutoff_days
+    if age_days >= hard_cutoff_days:
+        return False
+    return age_days < days
 
 def fetch_feed_with_retry(name, url, retries=3, timeout=15):
     """
@@ -127,9 +140,12 @@ def fetch_feed_with_retry(name, url, retries=3, timeout=15):
                         'source':    name,
                     })
 
-            # Filter by date (7 days) for Google News feeds
+            # Filter by date: hard 30-day cutoff for ALL feeds,
+            # soft 7-day window for Google News feeds (they mix old + new)
+            entries = [e for e in entries if is_recent(e['published'], days=7, hard_cutoff_days=30)]
+
+            # For Google News feeds, further limit to recent items
             if 'google.com' in url:
-                entries = [e for e in entries if is_recent(e['published'], days=7)]
                 entries = entries[:5]
 
             if entries:
@@ -425,13 +441,36 @@ def main():
         llm_api_key = os.environ.get('MINIMAX_CN_API_KEY_FALLBACK', None)
     all_entries = []
     feed_status = []
+    stale_feeds = []
     for name, url in RSS_FEEDS:
         entries = fetch_feed(name, url)
-        feed_status.append({'name': name, 'ok': len(entries) > 0})
+        is_ok = len(entries) > 0
+        feed_status.append({'name': name, 'ok': is_ok})
+
+        # Check if feed is stale (all articles older than 30 days)
+        if entries:
+            newest_date = max(
+                (parse_date(e.get('published', '')) for e in entries),
+                key=lambda d: d or datetime.min
+            )
+            if newest_date:
+                if newest_date.tzinfo is not None:
+                    newest_date = newest_date.replace(tzinfo=None)
+                age_days = (datetime.now() - newest_date).days
+                if age_days >= 30:
+                    stale_feeds.append(f'{name} (newest={age_days}d old)')
+                    log(f'⚠️ STALE feed: {name} — newest article is {age_days} days old, skipping')
+                    feed_status[-1]['ok'] = False
+                    continue  # Skip stale feed entirely
+
         all_entries.extend(entries)
     all_entries.sort(key=lambda x: x.get('published', ''), reverse=True)
-    update_brief(all_entries[:20], llm_api_key=llm_api_key, feed_status=feed_status)
-    log(f'Done. Fetched {len(all_entries)} total articles')
+    # Telegram delivery needs ALL 20 headlines (per AGENTS.md + cron task spec).
+    # Website pipeline (news_to_website.py) has its own MAX_POSTS=5 cap,
+    # so raising this to 20 only affects the brief / Telegram, not the website.
+    TOP_N = 20
+    update_brief(all_entries[:TOP_N], max_articles=TOP_N, llm_api_key=llm_api_key, feed_status=feed_status)
+    log(f'Done. Fetched {len(all_entries)} total articles, keeping top {TOP_N}')
 
 if __name__ == '__main__':
     main()

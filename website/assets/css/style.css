@@ -350,6 +350,70 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   border-radius: 0;
 }
 
+/* Inline image — inserted between article paragraphs */
+.article-inline-img {
+  margin: 28px 0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.article-inline-img img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Image credit caption (shared) */
+.img-credit, .article-image-credit {
+  font-size: 11px;
+  color: var(--text-mute);
+  margin-top: 6px;
+  text-align: right;
+  font-style: italic;
+  padding: 0 4px;
+}
+
+/* Collapsible source + disclaimer */
+.source-disclaimer {
+  margin-top: 40px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.source-disclaimer summary {
+  padding: 14px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  background: var(--border-soft);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+}
+.source-disclaimer summary::before {
+  content: '▸';
+  font-size: 12px;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.source-disclaimer[open] summary::before {
+  transform: rotate(90deg);
+}
+.source-disclaimer summary::-webkit-details-marker {
+  display: none;
+}
+.source-disclaimer[open] summary {
+  border-bottom: 1px solid var(--border);
+}
+.source-disclaimer .source-box,
+.source-disclaimer .disclaimer {
+  border-radius: 0;
+  margin: 0;
+  border-left: none;
+  border-top: none;
+}
+
 .tags-row {
   display: flex;
   flex-wrap: wrap;

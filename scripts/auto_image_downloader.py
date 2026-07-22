@@ -6,7 +6,7 @@
 # Usage: python3 scripts/auto_image_downloader.py <brand> <model> [--save]
 # Example: python3 scripts/auto_image_downloader.py Ferrari 458
 
-import re, sys, json, time, os, urllib.request, ssl
+import re, sys, json, time, os, urllib.request, urllib.parse, ssl
 from pathlib import Path
 from datetime import datetime
 
@@ -118,6 +118,55 @@ def wikipedia_image_search(brand: str, model: str, limit: int = 8) -> list:
         pass
 
     return images[:limit]
+
+
+def wikipedia_generator_search(query: str, limit: int = 6) -> list:
+    """
+    Use Wikipedia's generator=search + prop=pageimages to find pages that
+    DO have thumbnails (the plain pageimages API returns nothing for well-known
+    brand articles because they use {{PAGEIMAGE}} logic that skips logos).
+    This calls the search+harness combo in one request, which gives us pages
+    like 'Aston Martin Vanquish' that actually have a thumbnail.
+    """
+    images = []
+    seen_urls = set()
+
+    params = (
+        "https://en.wikipedia.org/w/api.php?"
+        "action=query&format=json"
+        "&generator=search&gsrsearch=" + urllib.parse.quote(query) +
+        "&gsrlimit=" + str(limit * 2) +
+        "&gsrnamespace=0"
+        "&prop=pageimages&piprop=thumbnail&pithumbsize=800"
+    )
+    try:
+        req = urllib.request.Request(params, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=10, context=CTX) as r:
+            data = json.loads(r.read().decode('utf-8'))
+        pages = data.get('query', {}).get('pages', {})
+        for pid, pdat in pages.items():
+            thumb = pdat.get('thumbnail')
+            if not thumb:
+                continue
+            url = thumb.get('source')
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            verified = _verify_url(url)
+            filename = url.split('/')[-1].split('?')[0]
+            images.append({
+                'url': url,
+                'filename': filename,
+                'page': pdat.get('title', query),
+                'verified': verified,
+                'size': f"{thumb.get('width', '?')}px",
+            })
+            if len(images) >= limit:
+                break
+            time.sleep(0.2)
+    except Exception as e:
+        print(f"  [wiki-gen] error: {e}")
+    return images
 
 
 def _verify_url(url: str, timeout: int = 5) -> bool:
