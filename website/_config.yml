@@ -1,7 +1,7 @@
 title: CarMotion Daily
 description: Daily automotive news — curated, rewritten, and published fresh every morning.
-url: https://carmotion-01.github.io
-baseurl: ""
+url: https://manaswai07014.github.io
+baseurl: "/carmotion-01.github.io"
 
 # Theme & build
 theme: minima  # we'll override heavily

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CarMotion Daily — style.css
+   CarMotion Daily — style.css v2
    Top Gear-inspired: dark hero, red accent, black/white body, mobile-first
    ========================================================================== */
 
@@ -11,6 +11,7 @@
   --text-mute:  #6b6b6b;
   --accent:     #d5001c;        /* Top Gear red */
   --accent-dark:#a80016;
+  --accent-light: #ff2540;
   --border:     #e5e5e5;
   --border-soft:#f0f0f0;
   --shadow: 0 2px 8px rgba(0,0,0,0.06);
@@ -100,7 +101,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
 }
 .nav-item .dropdown a:hover { background: var(--border-soft); color: var(--accent); text-decoration: none; }
 
-/* Mobile menu toggle (shown under 860px) */
+/* Mobile menu toggle */
 .menu-toggle {
   display: inline-block;
   background: transparent;
@@ -119,57 +120,100 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   padding: 24px 16px;
 }
 
-/* ---------- Index Page Hero ---------- */
+/* ---------- Index Page Hero — Enhanced ---------- */
 .hero {
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 60%, #2a0000 100%);
   color: #fff;
-  padding: 56px 20px;
-  margin: -24px -16px 32px;
+  padding: 64px 20px;
+  margin: -24px -16px 36px;
   border-bottom: 4px solid var(--accent);
+  position: relative;
+  overflow: hidden;
 }
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="%23d5001c" stroke-width="0.5" opacity="0.15"/></svg>');
+  background-size: 200px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.hero-content { position: relative; z-index: 1; }
 .hero h1 {
   font-size: 36px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   letter-spacing: -1px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 .hero .tagline {
-  font-size: 16px;
+  font-size: 17px;
   color: #ccc;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  max-width: 600px;
 }
 .hero .meta {
   font-size: 13px;
   color: #999;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hero .meta::before {
+  content: '';
+  display: inline-block;
+  width: 8px; height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
 }
 
-/* ---------- News Grid (mobile-first: single column) ---------- */
+/* ---------- News Grid — Enhanced Cards ---------- */
 .news-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 24px;
 }
 .news-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 .news-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
+  border-color: var(--accent);
 }
 .news-image {
   aspect-ratio: 16 / 9;
   background: #222;
   overflow: hidden;
+  position: relative;
 }
 .news-image img {
   width: 100%; height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.news-card:hover .news-image img {
+  transform: scale(1.05);
+}
+.news-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 40px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.4));
+  pointer-events: none;
 }
 .news-image-placeholder {
   width: 100%; height: 100%;
@@ -178,37 +222,46 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   color: #888;
   font-size: 32px;
 }
-.news-body { padding: 16px; }
-.news-date { color: var(--text-mute); font-size: 12px; margin-right: 8px; }
+.news-body { padding: 18px 20px 20px; flex: 1; display: flex; flex-direction: column; }
+.news-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.news-date { color: var(--text-mute); font-size: 12px; font-weight: 500; }
 .news-source {
   display: inline-block;
   background: var(--accent);
   color: #fff;
   font-size: 11px;
   font-weight: 700;
-  padding: 2px 8px;
+  padding: 3px 8px;
   border-radius: 3px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 .news-body h2 {
   font-size: 19px;
-  margin: 12px 0 8px;
+  margin: 0 0 10px;
+  line-height: 1.25;
 }
 .news-body h2 a { color: var(--text); }
-.news-body h2 a:hover { color: var(--accent); }
+.news-body h2 a:hover { color: var(--accent); text-decoration: none; }
 .news-body p {
   color: var(--text-mute);
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  flex: 1;
 }
-.news-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.news-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
 .tag {
   font-size: 11px;
   background: var(--border-soft);
   color: var(--text-mute);
   padding: 3px 10px;
   border-radius: 12px;
+  font-weight: 500;
 }
 
 /* ---------- Article Page ---------- */
@@ -224,6 +277,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 12px;
+  border-radius: 3px;
 }
 .article-header h1 {
   font-size: 32px;
@@ -241,7 +295,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
 }
 .article-hero-img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 6px;
   margin-bottom: 24px;
   box-shadow: var(--shadow-lg);
 }
@@ -276,19 +330,24 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   margin: 16px 0;
   font-style: italic;
   color: var(--text-mute);
+  border-radius: 0 4px 4px 0;
 }
 
 /* Gallery — multiple images per article */
 .article-gallery {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
-  margin: 24px 0;
+  gap: 16px;
+  margin: 28px 0;
+}
+.article-gallery figure {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
 }
 .article-gallery img {
   width: 100%;
-  border-radius: 4px;
-  box-shadow: var(--shadow);
+  border-radius: 0;
 }
 
 .tags-row {
@@ -300,10 +359,10 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
 
 /* Boxout for source + disclaimer */
 .source-box {
-  background: #fafafa;
+  background: #f8f9fa;
   border-left: 4px solid var(--accent);
   padding: 20px 24px;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 6px 6px 0;
 }
 .disclaimer {
   background: #fffbe6;
@@ -313,27 +372,37 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   margin-top: 16px;
   font-size: 13px;
   color: #5a4a1c;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 6px 6px 0;
 }
 
-/* ---------- Archive list ---------- */
-.archive { margin-top: 40px; }
-.archive h3 { font-size: 22px; margin-bottom: 12px; }
+/* ---------- Archive list — Enhanced ---------- */
+.archive { margin-top: 48px; padding-top: 32px; border-top: 2px solid var(--border-soft); }
+.archive h3 { font-size: 22px; margin-bottom: 16px; }
 .archive ul { list-style: none; }
 .archive li {
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--border-soft);
   font-size: 14px;
+  transition: padding-left 0.15s ease;
 }
+.archive li:hover { padding-left: 8px; }
 .archive li a { color: var(--text); }
-.archive li a:hover { color: var(--accent); }
+.archive li a:hover { color: var(--accent); text-decoration: none; }
 
-/* ---------- Footer ---------- */
+/* ---------- Footer — Enhanced ---------- */
 .site-footer {
   background: var(--bg-dark);
   color: #b6b8b9;
-  padding: 40px 0 0;
-  margin-top: 60px;
+  padding: 48px 0 0;
+  margin-top: 64px;
+  position: relative;
+}
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-dark), var(--accent));
 }
 .footer-inner {
   max-width: 1200px;
@@ -343,12 +412,13 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   grid-template-columns: 1fr;
   gap: 24px;
 }
-.footer-inner h4 { color: #fff; margin-bottom: 10px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+.footer-inner h4 { color: #fff; margin-bottom: 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
 .footer-inner a { color: #b6b8b9; font-size: 13px; display: block; margin-bottom: 6px; }
 .footer-inner a:hover { color: var(--accent); text-decoration: none; }
+.footer-inner p { color: #b6b8b9; }
 .footer-bottom {
   margin-top: 32px;
-  padding: 16px;
+  padding: 20px 16px;
   text-align: center;
   border-top: 1px solid #1a1a1a;
   font-size: 12px;
@@ -359,10 +429,11 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
    MEDIA QUERIES — progressive enhancement
    ========================================================================== */
 
-/* Tablet — 2 columns, show nav with JS toggle */
+/* Tablet — 2 columns */
 @media (min-width: 600px) {
-  .news-grid { grid-template-columns: 1fr 1fr; }
+  .news-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
   .hero h1 { font-size: 42px; }
+  .hero .tagline { font-size: 18px; }
   .article-header h1 { font-size: 36px; }
   .article-gallery { grid-template-columns: 1fr 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
@@ -376,7 +447,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
     gap: 24px;
     align-items: center;
   }
-  .news-grid { grid-template-columns: repeat(3, 1fr); }
+  .news-grid { grid-template-columns: repeat(3, 1fr); gap: 28px; }
   .container { padding: 32px 24px; }
   .hero { padding: 80px 32px; }
   .hero h1 { font-size: 52px; }
@@ -386,6 +457,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
 /* Large desktop */
 @media (min-width: 1100px) {
   .article-header h1 { font-size: 42px; }
+  .news-grid { gap: 32px; }
 }
 
 /* Small phones — tighten */
@@ -394,6 +466,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   .article-body { font-size: 16px; }
   .header-inner { padding: 0 10px; }
   .logo { font-size: 18px; }
+  .hero h1 { font-size: 28px; }
 }
 
 /* Reduce motion preference */
