@@ -655,3 +655,1133 @@
 [00:00] Using API key for 20 titles
 [00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
 [00:00] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 85 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Using API key for 0 titles
+[00:06] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:06] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] MiniMax translation failed: HTTP Error 429: Too Many Requests
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] MiniMax translation failed: HTTP Error 429: Too Many Requests
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] MiniMax translation failed: HTTP Error 429: Too Many Requests
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] MiniMax translation failed: HTTP Error 429: Too Many Requests
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Using API key for 0 titles
+[00:03] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:03] Done. Fetched 0 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Using API key for 0 titles
+[00:07] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:07] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Using API key for 0 titles
+[00:07] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:07] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Using API key for 0 titles
+[00:07] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:07] Done. Fetched 0 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 85 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 89 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Retry 1/3 for MotorTrend: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:08] Retry 2/3 for MotorTrend: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:08] Error fetching MotorTrend (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:09] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:09] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:10] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:10] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:10] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:11] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:11] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:12] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:12] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:12] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:13] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:13] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:13] Using API key for 0 titles
+[00:13] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:13] Done. Fetched 0 total articles
+[00:00] Retry 1/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 2/3 for TopGear: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Error fetching TopGear (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:00] Retry 1/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for CarAndDriver: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Error fetching CarAndDriver (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 1/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:01] Retry 2/3 for RoadandTrack: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching RoadandTrack (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 1/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Retry 2/3 for Autocar: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:02] Error fetching Autocar (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 2/3 for Jalopnik: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Error fetching Jalopnik (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:03] Retry 1/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for Evo-GN: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Error fetching Evo-GN (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 1/3 for MotorTrend: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:04] Retry 2/3 for MotorTrend: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching MotorTrend (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 2/3 for Motor1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Error fetching Motor1 (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:05] Retry 1/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for Autoblog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Error fetching Autoblog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 1/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:06] Retry 2/3 for InsideEVs: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Error fetching InsideEVs (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Retry 1/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Retry 2/3 for SupercarBlog: <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Error fetching SupercarBlog (attempt 3/3): <urlopen error [Errno -3] Temporary failure in name resolution>
+[00:07] Using API key for 0 titles
+[00:07] Updated daily-brief.md with 0 detailed articles (bilingual)
+[00:07] Done. Fetched 0 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 4 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 9 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 87 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 4 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 88 total articles
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 89 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-23
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] Audi's Redesigned Q7 Drops the Turbo Four and Gets a Huge Price Hike
+       slug: audis-redesigned-q7-drops-the-turbo-four-and-gets-a-huge-price-hike | tags: Audi
+       [body] ✓ 11 paragraphs fetched
+  [decoder] https://www.caranddriver.com/news/a73229860/2027-audi-q7-sq7... → https://www.caranddriver.com/news/a73229860/2027-audi-q7-sq7-price/
+  [download] ✓ audis-redesigned-q7-drops-the-turbo-four-and-gets-a-huge-price-hike-1.jpg (616KB) via og:image
+  [download] ✓ audis-redesigned-q7-drops-the-turbo-four-and-gets-a-huge-price-hike-2.jpg (616KB) via twitter:image
+       ✓ wrote 2026-07-23-audis-redesigned-q7-drops-the-turbo-four-and-gets-a-huge-price-hike.md
+  [ 2] The 'Road Rover' Is Real: New Range Rover GT Is A Badly Named Electric
+       slug: the-road-rover-is-real-new-range-rover-gt-is-a-badly-named-electric-cr | tags: Electric
+       [body] ✓ 11 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2220777/land-rover-range-rover-gt-e... → https://www.jalopnik.com/2220777/land-rover-range-rover-gt-electric-sedan-teasers-details/
+  [download] ✓ the-road-rover-is-real-new-range-rover-gt-is-a-badly-named-electric-cr-1.jpg (384KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/land-rover-range-rover-gt-electric-sedan-te...)
+       ✓ wrote 2026-07-23-the-road-rover-is-real-new-range-rover-gt-is-a-badly-named-electric-cr.md
+  [ 3] U.S. Customs Seize $539,000 Luxury-Car Export Over Fraudulent Bills of
+       slug: us-customs-seize-539000-luxury-car-export-over-fraudulent-bills-of-sal | tags: Industry
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73229877/customs-seizes-l... → https://www.roadandtrack.com/news/a73229877/customs-seizes-luxury-car-export-over-fraudulent-bills-of-sale/
+  [download] ✓ us-customs-seize-539000-luxury-car-export-over-fraudulent-bills-of-sal-1.jpg (301KB) via og:image
+  [download] ✓ us-customs-seize-539000-luxury-car-export-over-fraudulent-bills-of-sal-2.jpg (301KB) via twitter:image
+       ✓ wrote 2026-07-23-us-customs-seize-539000-luxury-car-export-over-fraudulent-bills-of-sal.md
+  [ 4] A New Mercedes G-Class With An Alibaba Kit Bid To $60,000 Below What T
+       slug: a-new-mercedes-g-class-with-an-alibaba-kit-bid-to-60000-below-what-the | tags: Mercedes
+  [decoder] https://www.carscoops.com/2026/07/mercedes-g550-modified-auc... → https://www.carscoops.com/2026/07/mercedes-g550-modified-auction/
+  [extract] no images found in https://www.carscoops.com/2026/07/mercedes-g550-modified-auction/
+       ✓ wrote 2026-07-23-a-new-mercedes-g-class-with-an-alibaba-kit-bid-to-60000-below-what-the.md
+  [ 5] 2027 Audi SQ7
+       slug: 2027-audi-sq7 | tags: Audi
+       [body] ✓ 21 paragraphs fetched
+  [decoder] https://www.caranddriver.com/audi/sq7-2027... → https://www.caranddriver.com/audi/sq7-2027
+  [download] ✓ 2027-audi-sq7-1.jpg (71KB) via og:image
+  [download] ✓ 2027-audi-sq7-2.jpg (71KB) via twitter:image
+       ✓ wrote 2026-07-23-2027-audi-sq7.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-23
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-23
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-23
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-23 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-23
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-24
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] Why Semi Trucks Need Different Types Of Tires For Each Position
+       slug: why-semi-trucks-need-different-types-of-tires-for-each-position | tags: Industry
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2220236/why-semi-truck-tires-are-di... → https://www.jalopnik.com/2220236/why-semi-truck-tires-are-different-in-each-position/
+  [download] ✓ why-semi-trucks-need-different-types-of-tires-for-each-position-1.jpg (283KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/why-semi-trucks-need-different-types-of-tir...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/why-semi-trucks-need-different-types-of-tir...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/why-semi-trucks-need-different-types-of-tir...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/why-semi-trucks-need-different-types-of-tir...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/why-semi-trucks-need-different-types-of-tir...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/why-semi-trucks-need-different-types-of-tir...)
+       ✓ wrote 2026-07-24-why-semi-trucks-need-different-types-of-tires-for-each-position.md
+  [ 2] Ford Just Made It Easier To Back Up Your House With An F-150 Hybrid Or
+       slug: ford-just-made-it-easier-to-back-up-your-house-with-an-f-150-hybrid-or | tags: Ford
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://insideevs.com/news/802486/ford-truck-backup-power/... → https://insideevs.com/news/802486/ford-truck-backup-power/
+  [download] ✓ ford-just-made-it-easier-to-back-up-your-house-with-an-f-150-hybrid-or-1.jpg (84KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8AMg/s5/ford-pro-power-backup.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8AMg/s5/ford-pro-power-backup.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/oop2/s3/tim-levin.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/oop2/s3/tim-levin.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QebNkZ/s5/tesla-model-y-performance-2025-im-te...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QebNkZ/s5/tesla-model-y-performance-2025-im-te...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bglXXk/s5/tesla-diner.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bglXXk/s5/tesla-diner.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/1Zw7l9/s5/sila-factory.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/1Zw7l9/s5/sila-factory.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYPVe/s5/yangwang-u9-track-test.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYPVe/s5/yangwang-u9-track-test.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/VzW1Ky/s6/land-rover-range-rover-gt-interior-r...)
+  [download] ✓ ford-just-made-it-easier-to-back-up-your-house-with-an-f-150-hybrid-or-2.jpg (16KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7Lw6/s5/gas-vs.-electric-suv.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7Lw6/s5/gas-vs.-electric-suv.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKxAM/s6/ford-f150-lightning-bluetti-batterie...)
+  [download] ✓ ford-just-made-it-easier-to-back-up-your-house-with-an-f-150-hybrid-or-3.jpg (22KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJq04/s6/2027-subaru-getaway.webp...)
+  [download] ✓ ford-just-made-it-easier-to-back-up-your-house-with-an-f-150-hybrid-or-4.jpg (21KB) via picture
+       ✓ wrote 2026-07-24-ford-just-made-it-easier-to-back-up-your-house-with-an-f-150-hybrid-or.md
+  [ 3] 2028 Range Rover GT First Look: A Sleek, Electrified Grand Tourer - Mo
+       slug: 2028-range-rover-gt-first-look-a-sleek-electrified-grand-tourer-motort | tags: Industry
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMib0FVX3lxTFBkQi1kUmR... → https://www.motortrend.com/news/first-look-2028-range-rover-gt
+  [download] ✓ 2028-range-rover-gt-first-look-a-sleek-electrified-grand-tourer-motort-1.jpg (273KB) via og:image
+       ✓ wrote 2026-07-24-2028-range-rover-gt-first-look-a-sleek-electrified-grand-tourer-motort.md
+  [ 4] Big Owner Satisfaction Survey Suggests Big Problems For These Luxury B
+       slug: big-owner-satisfaction-survey-suggests-big-problems-for-these-luxury-b | tags: Industry
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2221074/acsi-owner-satisfaction-sur... → https://www.jalopnik.com/2221074/acsi-owner-satisfaction-survey-luxury-car-brands-in-trouble/
+  [download] ✓ big-owner-satisfaction-survey-suggests-big-problems-for-these-luxury-b-1.jpg (199KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/big-owner-satisfaction-survey-suggests-big-...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/big-owner-satisfaction-survey-suggests-big-...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/big-owner-satisfaction-survey-suggests-big-...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/big-owner-satisfaction-survey-suggests-big-...)
+       ✓ wrote 2026-07-24-big-owner-satisfaction-survey-suggests-big-problems-for-these-luxury-b.md
+  [ 5] Tesla Is Recalling 15 Cars For Being Too Canadian
+       slug: tesla-is-recalling-15-cars-for-being-too-canadian | tags: Tesla
+       [body] ✓ 2 paragraphs fetched
+  [decoder] https://insideevs.com/news/802480/tesla-recalls-15-canadian-... → https://insideevs.com/news/802480/tesla-recalls-15-canadian-models/
+  [download] ✓ tesla-is-recalling-15-cars-for-being-too-canadian-1.jpg (164KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QebNkZ/s5/tesla-model-y-performance-2025-im-te...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QebNkZ/s5/tesla-model-y-performance-2025-im-te...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/kvrmB/s5/tesla-model-3-interior.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/kvrmB/s5/tesla-model-3-interior.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBXE3e/s5/tesla-model-y-robotaxi.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBXE3e/s5/tesla-model-y-robotaxi.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/VzW1Ky/s6/land-rover-range-rover-gt-interior-r...)
+  [download] ✓ tesla-is-recalling-15-cars-for-being-too-canadian-2.jpg (16KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7Lw6/s5/gas-vs.-electric-suv.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7Lw6/s5/gas-vs.-electric-suv.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8AMg/s5/ford-pro-power-backup.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8AMg/s5/ford-pro-power-backup.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bglXXk/s5/tesla-diner.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bglXXk/s5/tesla-diner.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJq04/s6/2027-subaru-getaway.webp...)
+  [download] ✓ tesla-is-recalling-15-cars-for-being-too-canadian-3.jpg (21KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Kbgwk1/s6/a-volvo-ex60-at-a-tesla-supercharger...)
+  [download] ✓ tesla-is-recalling-15-cars-for-being-too-canadian-4.jpg (19KB) via picture
+       ✓ wrote 2026-07-24-tesla-is-recalling-15-cars-for-being-too-canadian.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-24
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-24
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-24
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-24 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-24
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+

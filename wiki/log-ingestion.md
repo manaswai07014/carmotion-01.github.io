@@ -615,3 +615,67 @@
 [2026-06-15 10:01] [INGEST] series=356 brand=Porsche generations=0
 
 [2026-06-15 10:01]   ✓ Brand Porsche ingested: 1 brand, 8 series, 7 generations
+[2026-06-16 10:01] ════════════════════════════════════════════════════════════
+[2026-06-16 10:01] AUTO WIKI INGESTION — LIVE
+[2026-06-16 10:01] Started: 2026-06-16 10:01
+[2026-06-16 10:01] ════════════════════════════════════════════════════════════
+[2026-06-16 10:01] AUTO WIKI INGESTION — LIVE
+[2026-06-16 10:01] Started: 2026-06-16 10:01
+[2026-06-16 10:01] 🔍 Ingesting brand: Porsche
+[2026-06-16 10:01] [INGEST] brand=Porsche slug=porsche tier=2
+
+[2026-06-16 10:01] [INGEST] series=Cayman brand=Porsche generations=0
+
+[2026-06-16 10:01] [INGEST] series=Macan brand=Porsche generations=3
+
+[2026-06-16 10:01] [INGEST] series=914 brand=Porsche generations=0
+
+[2026-06-16 10:01] [INGEST] series=911 brand=Porsche generations=4
+
+[2026-06-16 10:01] [INGEST] series=924 brand=Porsche generations=0
+
+[2026-06-16 10:01] [INGEST] series=944 brand=Porsche generations=0
+
+[2026-06-16 10:01] [INGEST] series=928 brand=Porsche generations=0
+
+[2026-06-16 10:01] [INGEST] series=918 Spyder brand=Porsche generations=0
+
+[2026-06-16 10:01]   ✓ Brand Porsche ingested: 1 brand, 8 series, 7 generations
+[2026-06-17 10:00] ════════════════════════════════════════════════════════════
+[2026-06-17 10:00] AUTO WIKI INGESTION — LIVE
+[2026-06-17 10:00] Started: 2026-06-17 10:00
+[2026-06-18 10:00] ════════════════════════════════════════════════════════════
+[2026-06-18 10:00] AUTO WIKI INGESTION — LIVE
+[2026-06-18 10:00] Started: 2026-06-18 10:00
+[2026-06-19 10:00] ════════════════════════════════════════════════════════════
+[2026-06-19 10:00] AUTO WIKI INGESTION — LIVE
+[2026-06-19 10:00] Started: 2026-06-19 10:00
+[2026-06-20 10:00] ════════════════════════════════════════════════════════════
+[2026-06-20 10:00] AUTO WIKI INGESTION — LIVE
+[2026-06-20 10:00] Started: 2026-06-20 10:00
+[2026-07-10 10:07] ════════════════════════════════════════════════════════════
+[2026-07-10 10:07] AUTO WIKI INGESTION — LIVE
+[2026-07-10 10:07] Started: 2026-07-10 10:07
+[2026-07-15 10:03] [AUTO-INGEST] dry-run completed — no eligible brands (all exist or in cooldown). Last successful ingest: 2026-06-16 Porsche (8 series, 7 generations)
+[2026-07-16 10:14] ════════════════════════════════════════════════════════════
+[2026-07-16 10:14] AUTO WIKI INGESTION — LIVE
+[2026-07-16 10:14] Started: 2026-07-16 10:14
+[2026-07-16 10:29] [AUTO-INGEST] LIVE run (no --save) — no eligible brands (25 brand pages exist). Priority top: Porsche(score=0.2), Mercedes/Toyota/Ferrari/Nissan/Honda(score=0.0). Last successful ingest: 2026-06-16 Porsche (8 series, 7 generations). Cron job uses --save which is invalid for this script.
+[2026-07-19 10:01] ════════════════════════════════════════════════════════════
+[2026-07-19 10:01] AUTO WIKI INGESTION — LIVE
+[2026-07-19 10:01] Started: 2026-07-19 10:01
+[2026-07-20 10:02] ════════════════════════════════════════════════════════════
+[2026-07-20 10:02] AUTO WIKI INGESTION — LIVE
+[2026-07-20 10:02] Started: 2026-07-20 10:02
+[2026-07-21 10:14] ════════════════════════════════════════════════════════════
+[2026-07-21 10:14] AUTO WIKI INGESTION — LIVE
+[2026-07-21 10:14] Started: 2026-07-21 10:14
+[2026-07-22 10:10] ════════════════════════════════════════════════════════════
+[2026-07-22 10:10] AUTO WIKI INGESTION — LIVE
+[2026-07-22 10:10] Started: 2026-07-22 10:10
+[2026-07-23 10:05] ════════════════════════════════════════════════════════════
+[2026-07-23 10:05] AUTO WIKI INGESTION — LIVE
+[2026-07-23 10:05] Started: 2026-07-23 10:05
+[2026-07-24 10:06] ════════════════════════════════════════════════════════════
+[2026-07-24 10:06] AUTO WIKI INGESTION — LIVE
+[2026-07-24 10:06] Started: 2026-07-24 10:06

@@ -1,43 +1,43 @@
-# Trend Report — 2026-06-15 07:02
+# Trend Report — 2026-07-24 07:21
 
 ## ⚠️ DATA FRESHNESS
 - **Status:** LIVE
-- **Source:** Google News RSS (v3: recency + velocity + diversity)
-- **Generated:** 2026-06-15 07:02 HKT
+- **Source:** Google Trends API (live)
+- **Generated:** 2026-07-24 07:21 HKT
 - **Scoring:** v3 (24h window + velocity vs 7-day avg + source diversity)
 
 ## Data Source
-- **Google News RSS (v3: recency + velocity + diversity)**
+- **Google Trends API (live)**
 - Region: US | Timeframe: 7 days | Category: Autos & Vehicles
 - RSS Window: 24h | Velocity: today vs 7-day avg
 
 ## Scan Summary
 - Keywords scanned: 16
-- Spikes (>= 70): 0
+- Spikes (>= 70): 1
 
 ## Top 5 Keywords
-1. **Porsche 911** — score: 31 ⚪ | velocity: ➡️1.00x | sources: 48
-2. **BMW M3** — score: 26 ⚪ | velocity: ➡️0.80x | sources: 55
-3. **Tesla Model 3** — score: 24 ⚪ | velocity: ➡️0.88x | sources: 39
-4. **Toyota Supra** — score: 23 ⚪ | velocity: 📈1.62x | sources: 37
-5. **GR Supra** — score: 22 ⚪ | velocity: ➡️1.17x | sources: 43
+1. **Ferrari** — score: 71 🔴 | velocity: ➡️1.00x | sources: 0
+2. **Mercedes AMG** — score: 58 🟡 | velocity: ➡️1.00x | sources: 0
+3. **Lamborghini** — score: 57 🟡 | velocity: ➡️1.00x | sources: 0
+4. **JDM** — score: 54 🟡 | velocity: ➡️1.00x | sources: 0
+5. **BMW M3** — score: 45 ⚪ | velocity: ➡️1.00x | sources: 0
 
 ## All Keywords
-- Porsche 911: 31 ⚪ vel=1.00x src=48
-- BMW M3: 26 ⚪ vel=0.80x src=55
-- Tesla Model 3: 24 ⚪ vel=0.88x src=39
-- Toyota Supra: 23 ⚪ vel=1.62x src=37
-- GR Supra: 22 ⚪ vel=1.17x src=43
-- hypercar: 22 ⚪ vel=0.51x src=36
-- Mercedes AMG: 21 ⚪ vel=0.48x src=29
-- GTR R35: 21 ⚪ vel=1.60x src=45
-- Nissan GT-R: 20 ⚪ vel=1.14x src=35
-- Mazda RX-7: 20 ⚪ vel=0.62x src=25
-- Ferrari: 0 ⚪ vel=1.00x src=53
-- Lamborghini: 0 ⚪ vel=1.00x src=38
-- Honda NSX: 0 ⚪ vel=1.00x src=33
-- JDM: 0 ⚪ vel=1.00x src=47
-- drift car: 0 ⚪ vel=1.00x src=58
-- electric supercar: 0 ⚪ vel=1.00x src=52
+- Ferrari: 71 🔴 vel=1.00x src=0
+- Mercedes AMG: 58 🟡 vel=1.00x src=0
+- Lamborghini: 57 🟡 vel=1.00x src=0
+- JDM: 54 🟡 vel=1.00x src=0
+- BMW M3: 45 ⚪ vel=1.00x src=0
+- Porsche 911: 42 ⚪ vel=1.00x src=0
+- Toyota Supra: 30 ⚪ vel=1.00x src=0
+- Tesla Model 3: 23 ⚪ vel=1.00x src=0
+- hypercar: 15 ⚪ vel=1.00x src=0
+- GTR R35: 13 ⚪ vel=1.00x src=0
+- GR Supra: 7 ⚪ vel=1.00x src=0
+- drift car: 6 ⚪ vel=1.00x src=0
+- Honda NSX: 3 ⚪ vel=1.00x src=0
+- Nissan GT-R: 0 ⚪ vel=1.00x src=0
+- Mazda RX-7: 0 ⚪ vel=1.00x src=0
+- electric supercar: 0 ⚪ vel=1.00x src=0
 
-_Report generated: 2026-06-15 07:02_
+_Report generated: 2026-07-24 07:21_

@@ -4,3 +4,4 @@
 {"keyword": "Lamborghini", "score": 100, "ts": "2026-05-12 01:00", "source": "Google News RSS (article mentions)", "priority": "high", "status": "pending"}
 {"keyword": "Porsche 911", "score": 73, "ts": "2026-05-14 01:00", "source": "Google News RSS (article mentions)", "priority": "medium", "status": "pending"}
 {"keyword": "BMW M3", "score": 100, "ts": "2026-05-19 01:00", "source": "Google News RSS (article mentions)", "priority": "high", "status": "pending"}
+{"keyword": "Ferrari", "score": 71, "velocity": 1.0, "ts": "2026-07-22 07:21", "source": "Google Trends API (live)", "priority": "medium", "status": "pending"}

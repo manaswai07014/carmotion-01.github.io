@@ -1,13 +1,16 @@
 # Car Wiki — Index
-Updated: 2026-04-28 | Architecture: V4.1
+Updated: 2026-07-24 | Architecture: V4.1
 
 ## Quick Stats
-- Total Generations: 0
-- Total Brands: 15
-- Last Ingest: (none yet)
+- Total Generations: 16 (15 published, 1 draft)
+- Total Brands: 4
+- Last Ingest: 2026-07-24 15:28
 
 ## Brands
-*(brand pages will appear here as they are added)*
+- [Aston Martin](brands/aston-martin/index.md) (4 generations)
+- [Audi](brands/audi/index.md) (1 generations)
+- [BMW](brands/bmw/index.md) (1 generations)
+- [Jaguar](brands/jaguar/index.md) (10 generations)
 
 ## Topics
 - [JDM Regulations](topics/jdm-regulations.md)

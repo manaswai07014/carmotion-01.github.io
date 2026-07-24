@@ -1,49 +1,349 @@
 {
   "tesla": {
     "nodes": {
-      "Roadster": {
+      "Models": {
         "node_id": "** 1",
-        "year": "2008–2012",
-        "hp": "248-288 hp",
-        "source": "wiki"
-      },
-      "Model S": {
-        "node_id": "** 2",
-        "year": "2012–2026",
-        "hp": "1,020 hp",
-        "source": "wiki"
-      },
-      "Model X": {
-        "node_id": "** 3",
-        "year": "2015–2026",
-        "hp": "1,020 hp",
-        "source": "wiki"
-      },
-      "Model 3": {
-        "node_id": "** 4",
-        "year": "2017–present",
-        "hp": "283-450 hp",
-        "source": "wiki"
-      },
-      "Model Y": {
-        "node_id": "** 5",
-        "year": "2020–present",
-        "hp": "283-456 hp",
-        "source": "wiki"
-      },
-      "Cybertruck": {
-        "node_id": "** 6",
-        "year": "2023–present",
-        "hp": "350-845 hp",
-        "source": "wiki"
-      },
-      "Semi": {
-        "node_id": "** 7",
-        "year": "2022–present",
-        "hp": "350-845 hp",
+        "year": "2021–2026",
+        "hp": "1000 hp",
         "source": "wiki"
       }
     },
-    "last_updated": "2026-05-12"
+    "last_updated": "2026-06-16"
+  },
+  "toyota": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "subaru": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "chevrolet": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "mclaren-p1": {
+    "nodes": {
+      "P12": {
+        "node_id": "** 1",
+        "year": "2015–2016",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Z39": {
+        "node_id": "** 2",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "B51": {
+        "node_id": "** 3",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-06-16"
+  },
+  "mitsubishi": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "mclaren": {
+    "nodes": {
+      "Evolution Full": {
+        "node_id": "** 1",
+        "year": "1992–2025",
+        "hp": "627 hp",
+        "source": "wiki"
+      },
+      "650S": {
+        "node_id": "** 2",
+        "year": "2014–2016",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "720S": {
+        "node_id": "** 3",
+        "year": "2017–2023",
+        "hp": "n/a",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-06-16"
+  },
+  "nissan": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "rolls-royce": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "bugatti": {
+    "nodes": {
+      "Eb 110": {
+        "node_id": "** 1",
+        "year": "1998–present",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Type 57": {
+        "node_id": "** 2",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Chiron": {
+        "node_id": "** 3",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Atlantic": {
+        "node_id": "** 4",
+        "year": "2007–2008",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Z39": {
+        "node_id": "** 5",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Centodieci": {
+        "node_id": "** 6",
+        "year": "1998–present",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Veyron": {
+        "node_id": "** 7",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Eb 112": {
+        "node_id": "** 8",
+        "year": "1998–2007",
+        "hp": "n/a",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-06-16"
+  },
+  "mazda": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "aston_martin": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "mercedes": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "honda": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "aston-martin": {
+    "nodes": {
+      "Vantage": {
+        "node_id": "** 1",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "V12 Speedster": {
+        "node_id": "** 2",
+        "year": "2018–2023",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Db5": {
+        "node_id": "** 3",
+        "year": "1963–1965",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Dbs": {
+        "node_id": "** 4",
+        "year": "2007–2015",
+        "hp": "n/a",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-06-16"
+  },
+  "porsche": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "ford": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "mercedes-amg": {
+    "nodes": {
+      "Mercedes Racing Top10": {
+        "node_id": "** 1",
+        "year": "2025–2026",
+        "hp": "1049 hp",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-06-16"
+  },
+  "ferrari": {
+    "nodes": {
+      "Roma": {
+        "node_id": "** 1",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Mondial": {
+        "node_id": "** 2",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "308 Gtb": {
+        "node_id": "** 3",
+        "year": "1973–1994",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "812 Superfast": {
+        "node_id": "** 4",
+        "year": "2017–2024",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "458 Spider": {
+        "node_id": "** 5",
+        "year": "2011–2015",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "575M": {
+        "node_id": "** 6",
+        "year": "2002–2006",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Gtc4Lusso": {
+        "node_id": "** 7",
+        "year": "2016–2020",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "365 Gt4": {
+        "node_id": "** 8",
+        "year": "1972–1989",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Sf90 Stradale": {
+        "node_id": "** 9",
+        "year": "2019–2024",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "F40": {
+        "node_id": "** 10",
+        "year": "1987–1996",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "550 Maranello": {
+        "node_id": "** 11",
+        "year": "2000–present",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "599 Gtb": {
+        "node_id": "** 12",
+        "year": "2006–2012",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "365 Gtb": {
+        "node_id": "** 13",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "296 Gtb": {
+        "node_id": "** 14",
+        "year": "2021–present",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Z39": {
+        "node_id": "** 15",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "458 Italia": {
+        "node_id": "** 16",
+        "year": "2011–2015",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "296 Gts": {
+        "node_id": "** 17",
+        "year": "2021–present",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Ff": {
+        "node_id": "** 18",
+        "year": "unknown",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "812 Gts": {
+        "node_id": "** 19",
+        "year": "2017–2024",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "F12": {
+        "node_id": "** 20",
+        "year": "2015–2017",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "Laferrari": {
+        "node_id": "** 21",
+        "year": "2025–present",
+        "hp": "n/a",
+        "source": "wiki"
+      },
+      "458": {
+        "node_id": "** 22",
+        "year": "2011–2015",
+        "hp": "570 hp",
+        "source": "wiki"
+      }
+    },
+    "last_updated": "2026-06-16"
+  },
+  "lamborghini": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "bentley": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
+  },
+  "maserati": {
+    "nodes": {},
+    "last_updated": "2026-06-16"
   }
 }

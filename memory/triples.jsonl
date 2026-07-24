@@ -98,3 +98,47 @@
 {"s": "tesla-roadster", "p": "official_horsepower", "o": "248-288 hp", "conf": 0.9, "tier": 2, "source": "wiki", "ts": "2026-05-12"}
 {"s": "tesla-roadster", "p": "year_start", "o": "2008", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-05-12"}
 {"s": "tesla-roadster", "p": "year_end", "o": "2012", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-05-12"}
+{"s": "spider", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "spider", "p": "year_end", "o": "2050", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "convertible", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "convertible", "p": "year_end", "o": "2026", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_end", "o": "2048", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "sport", "p": "year_start", "o": "1952", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "sport", "p": "year_end", "o": "2049", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_end", "o": "2048", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "s", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "s", "p": "year_end", "o": "2026", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "sport", "p": "year_start", "o": "1952", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "sport", "p": "year_end", "o": "2049", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "mclaren-p1-p12-p12-supercar", "p": "year_start", "o": "2015", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "mclaren-p1-p12-p12-supercar", "p": "year_end", "o": "2016", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "mclaren-p1-p12-p1-gt", "p": "year_start", "o": "2015", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "mclaren-p1-p12-p1-gt", "p": "year_end", "o": "2016", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "mclaren-p1-p12-f1-gt", "p": "year_start", "o": "2015", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "mclaren-p1-p12-f1-gt", "p": "year_end", "o": "2016", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_end", "o": "2053", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_end", "o": "2053", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "s", "p": "year_end", "o": "2055", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "sport", "p": "year_end", "o": "2057", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "coupe", "p": "year_end", "o": "2053", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "s", "p": "year_end", "o": "2055", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "performance", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "performance", "p": "year_end", "o": "2026", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "cabriolet", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "cabriolet", "p": "year_end", "o": "2026", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "convertible", "p": "year_end", "o": "2048", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "turbo_s", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "turbo_s", "p": "year_end", "o": "2053", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "s", "p": "year_end", "o": "2048", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "performance", "p": "year_end", "o": "2048", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "s", "p": "year_end", "o": "2044", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "gt2_rs", "p": "official_horsepower", "o": "450 hp", "conf": 0.85, "tier": 2, "source": "wiki", "ts": "2026-06-16"}
+{"s": "gt2_rs", "p": "year_start", "o": "1974", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "gt2_rs", "p": "year_end", "o": "2056", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "gt3_rs", "p": "official_horsepower", "o": "380 hp", "conf": 0.85, "tier": 2, "source": "wiki", "ts": "2026-06-16"}
+{"s": "gt3_rs", "p": "year_start", "o": "1956", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "gt3_rs", "p": "year_end", "o": "2056", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "turbo_s", "p": "year_start", "o": "1950", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}
+{"s": "turbo_s", "p": "year_end", "o": "2053", "conf": 0.95, "tier": 1, "source": "wiki", "ts": "2026-06-16"}

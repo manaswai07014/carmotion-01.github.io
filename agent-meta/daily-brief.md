@@ -1,109 +1,109 @@
-# 📰 Daily Brief — 2026-06-15
+# 📰 Daily Brief — 2026-07-24
 
 ## ⚠️ DATA FRESHNESS
-- **Status:** ✅ LIVE (10 feeds OK)
-- **Generated:** 2026-06-15 07:00 HKT
+- **Status:** ✅ LIVE (11 feeds OK)
+- **Generated:** 2026-07-24 07:00 HKT
 - **Articles:** 20
 
-## 🏎️ Top Headlines (20 articles from 10 sources)
+## 🏎️ Top Headlines (20 articles from 11 sources)
 
-📡 **Feeds:** TopGear: ✅, CarAndDriver: ✅, RoadandTrack: ✅, Autocar: ✅, Jalopnik: ✅, Evo-GN: ✅, Motor1: ✅, Autoblog: ✅, InsideEVs: ✅, SupercarBlog: ✅
+📡 **Feeds:** TopGear: ✅, CarAndDriver: ✅, RoadandTrack: ✅, Autocar: ✅, Jalopnik: ✅, Evo-GN: ✅, MotorTrend: ✅, Motor1: ✅, Autoblog: ✅, InsideEVs: ✅, SupercarBlog: ✅
 
-**1. [RoadandTrack] 2027 Audi SQ9 spied for first time**
-   🇨🇳 2027 奧迪 SQ9 spied for first time
-🔗 https://www.motorauthority.com/news/1146040_2027-audi-sq9-spy-shots
-   📝 Audi has been spotted testing prototypes for a full-size SUV.
+**1. [InsideEVs] Ford Just Made It Easier To Back Up Your House With An F-150 Hybrid Or Lightning**
+   🇨🇳 Ford Just Made It Easier To Back Up Your House With An F-150 混合動力 Or Lightning
+🔗 https://insideevs.com/news/802486/ford-truck-backup-power/
 
-**2. [Evo-GN] This 992.2 Porsche 911 GT3 RS test mule might be hiding a secret… - evo.co.uk**
-   🇨🇳 This 992.2 保時捷 911 GT跑車3 RS 試駕 mule might be hiding a secret… - 電動車o.co.uk
-🔗 https://news.google.com/rss/articles/CBMisAFBVV95cUxNem0zQUpJc0NxR3pXV0xoX0lnY3dqaVllZHU1QTlLYURLa3NnY2NwYW9jZXpDMFhia0YtRlI3SGRwWmV2UG9QcHgxNGlDTGRZYk5WV1FTcVVuRnQzWUoyUlNnenNiaVpWOFZEd0luVUpjbjVjTnlqOC1sVGVpMWhuRUhxZHpWZmRZZ1hVZ1hKMnl6UW83YkM0ZG9ORG9mMHlnVkdwY0JobEljRHFzUU5aUQ?oc=5
+**2. [MotorTrend] 2028 Range Rover GT First Look: A Sleek, Electrified Grand Tourer - MotorTrend**
+   🇨🇳 2028 續航 Rover GT跑車 First Look: A Sleek, Electrified Grand Tourer - 摩打Trend
+🔗 https://news.google.com/rss/articles/CBMib0FVX3lxTFBkQi1kUmRyeFlISHk3TmpFNnA0cXlHcnZlV3ZUWGJlZjlwMl9SczVfcmZ5b0cwejJ2Wm1OeWlfa2c2dVU2TUxUOW5jVUJjWGFHTV9pbG95cjlsdzNIY2o1blRoYmNTRnpka280V3VxRQ?oc=5
    📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**3. [Evo-GN] Based on a Lamborghini but somehow more expensive – Audi's supercar goes testing - evo.co.uk**
-   🇨🇳 Based on a 林寶堅尼 but somehow more expensive – Audi's supercar goes 試駕ing - 電動車o.co.uk
-🔗 https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVJHd3RkLVJTZ0lvTG5ZV1c0djI3dUxWTTZmUHRDOUVrVTEzNHVsb1FQSjlIQndrejNxenRhRmEyd1RYamdYdHg4SGZVNXNDVGxRQmNVenp1bEJjNW5DYUNKbUJpRVFBcXpDb05zTGtTZ2VzYXh5RUtXMG9rc3pVcTJqaHhKU2tOY25NZGo4d0tpb0s3U3luZ293?oc=5
+**3. [InsideEVs] Tesla Is Recalling 15 Cars For Being Too Canadian**
+   🇨🇳 Tesla Is Recalling 15 Cars For Being Too Canadian
+🔗 https://insideevs.com/news/802480/tesla-recalls-15-canadian-models/
+
+**4. [InsideEVs] The Tesla Diner Was The World's Most Utilized Supercharger In Its First Year**
+   🇨🇳 The 特斯拉 Diner Was The World's Most Utilized Supercharger In Its First Year
+🔗 https://insideevs.com/news/802464/tesla-diner-most-used-supercharger/
+
+**5. [Autocar] Driven: Lotus Emira 420 Sport is lighter, faster, £105k track weapon**
+   🇨🇳 Driven: Lotus Emira 420 運動 is lighter, faster, £105k track weapon
+🔗 https://www.autocar.co.uk/car-news/new-cars/driven-lotus-emira-420-sport-lighter-faster-%C2%A3105k-track-weapon
+   📝 Lightest and fastest version of sports car so far delivers even greater driver thrills
+
+**6. [Evo-GN] This great British sports car is better than ever, but is it worth Porsche 911 money? - evo.co.uk**
+   🇨🇳 This great British 運動s car is better than 電動車er, but is it worth 保時捷 911 money? - 電動車o.co.uk
+🔗 https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJUODlsNFIzQzNsV1BXNGlYaTVPNUdhTS1RZm02SnBfSEhHaGZhZDBtZ2x6ZVJCcmNselhvNmRhMXlmaW1JMWFQNFIzdkNja3pObDdEWC12Y0dWSGJwVHRfZkh2WVB0bjA5V1d3ZDVmWFhQa253Uk9LR1BtNnJsUERQZ2V4ZEtIN2Y2RHl2WkdKVnVGYjhPYkVyRElaa3FWOUV3OWRtdw?oc=5
    📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**4. [TopGear] Here are 29 cheap used alternatives to great new cars - Top Gear**
-   🇨🇳 Here are 29 cheap used alternatives to great 全新 cars - Top Gear
-🔗 https://news.google.com/rss/articles/CBMimAFBVV95cUxOcDUwMWkyV0hXNWQ2ZEQ5RjVDLXJrRkM0QkkxdVdBUFdZa2hiNjgxRmZrWW5TNkZaZDUxZmJsQjRZVUJqNGRFSjBQNEtsT1A4emwxLUd1YVdOM28zaVVRU0RPTW5Wa3lHMG9qM2U3NEUyMkVEdUlUTTRhVGpEMXVDbG9qUGxycTBucDhLWUpaN0lLdEpISjE0NA?oc=5
+**7. [TopGear] Lotus Emira 420 Sport review: has the Emira arrived now all its rivals are dead? Reviews 2026 - Top Gear**
+   🇨🇳 Lotus Emira 420 運動 r電動車iew: has the Emira arrived now all its rivals are dead? R電動車iews 2026年 - Top Gear
+🔗 https://news.google.com/rss/articles/CBMingFBVV95cUxPT3B3MERKTEswNjBxalZUR0J6U0lQcVdodWduaUJCOUhfM3JvU3hpNmw5ZG1UTzJUYTl4Tjg0UnBhNGxmM1l5TnVEX3lDS2wxYmZUV25lU1lLT2duN0R2SDVhWW1ObkJNdEQ4VG52cEYtN1NJVUF1YmpXLWg2TW9paXFJcGtfVVNLaXczVzF2eGVMalRxakYxcVRNU3FPdw?oc=5
    📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**5. [TopGear] Rivian R2 (US) Review 2026 - Top Gear**
-   🇨🇳 Rivian R2 (US) R電動車iew 2026年 - Top Gear
-🔗 https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FSTAtZzd3d01IaEtxNGo3VVRncEN3QnlxOFhpSm1xdkJycFhMSEhuemp1UGdadVFwVEtlelRrcDhfRGlqNXFES2VzZDRfWUQ3THoxRWluM3h6RklIQ3ZUcnN3?oc=5
+**8. [Autocar] Dutch courage: Driving the 592bhp lightweight coming to UK roads**
+   🇨🇳 Dutch courage: Driving the 592b匹 lightweight 來了 to UK roads
+🔗 https://www.autocar.co.uk/car-news/new-cars/dutch-courage-driving-592bhp-lightweight-coming-uk-roads
+   📝 Donkervoort has fascinated enthusiasts with its Lotus Seven spin-offs – now it’s building RHD cars for UK sale
+
+**9. [Autocar] Official: New Range Rover GT is brand's most saloon-like model yet**
+   🇨🇳 官方: 全新 續航 Rover GT跑車 is brand's most saloon-like model yet
+🔗 https://www.autocar.co.uk/car-news/electric-cars/official-new-range-rover-gt-brands-most-saloon-model-yet
+   📝 New addition to Range Rover model line will arrive as an EV, blending grand tourer style with SUV practicality
+
+**10. [Evo-GN] Range Rover’s creating a grand tourer, and this is our first look - evo.co.uk**
+   🇨🇳 續航 Rover’s creating a grand tourer, and this is our first look - 電動車o.co.uk
+🔗 https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWxtcm9pWWpOSllpRGJtZFNJcngxdnJFd2VzWXpyUUFmRmxnbjNHdmh1UkxpbW5kdXhGSVNmYjBRSm1uOFRlWHdqUmw4cXhFdjc0dGd1c3NKVXp6QTd6bllScGFILTZPcjlkMWFneVk4WTdjOGF4cEpHcEJCZE9iSXdQR3Z6bWtyUlVpSXkwa09uTkowS1JGS1dEOFpMZUhsZm9zVkJzNm1aMW8tRk95XzRn?oc=5
    📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**6. [RoadandTrack] Bugatti Tourbillon gains Équipe Pur Sang package boasting 8 exhaust tips**
-   🇨🇳 Bugatti Tourbillon gains Équipe Pur Sang package boasting 8 exhaust tips
-🔗 https://www.motorauthority.com/news/1146042_bugatti-tourbillon-equipe-pur-sang-revealed
-   📝 Bugatti Tourbillon customers have plenty of options to choose from, including a new performance pack dubbed the Équipe Pur Sang.
+**11. [TopGear] Surprise! The Range Rover GT is a new, all-electric… grand tourer - Top Gear**
+   🇨🇳 Surprise! The 續航 Rover GT跑車 is a 全新, all-電動車… grand tourer - Top Gear
+🔗 https://news.google.com/rss/articles/CBMingFBVV95cUxQbjI1WkNFQ3kxRWM4SURKM0JtVWE1em5yWUwxbHlUT1AtZlRhQzJlRXJqQ0RQSURabk9jaHhiV1pyR1d0dDRJM3Z6UGtlVF9Qd0pDRUt5QmZBY0xCVnFxY3JObEtWbXNPV0JaOEpWVGZRbmxOWmV4QmE3ZGlqMWk5d0haSE9TQzlMUzhZUS1xbkdXS3ZQZUxIYVZVeVY3UQ?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**7. [RoadandTrack] F1 personality Eddie Jordan dies aged 76**
-   🇨🇳 F1 personality Eddie Jordan dies aged 76
-🔗 https://www.motorauthority.com/news/1146041_f1-personality-eddie-jordan-dies-aged-76
-   📝 Eddie Jordan, the man who gave Michael Schumacher his F1 start, has passed away.
+**12. [MotorTrend] America's Car Owners Picked Their Winners (and Losers). The Biggest Surprises? - MotorTrend**
+   🇨🇳 America's Car Owners Picked Their Winners (and Losers). The Biggest Surprises? - 摩打Trend
+🔗 https://news.google.com/rss/articles/CBMib0FVX3lxTE9iTTN3YUxPRFR1Vks3Z0JVcms0R21VMVlCWWQ0LW93SW43eXU1MXRHeVF4UUZ6WnNhYS1fSlJ0S0dBTWx5S1MwVU9LQ3NuSnJFajJ2TzNmNTE2bG9vY2psdmZtVklFNzAxenNQSjR0VQ?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**8. [InsideEVs] I Drove The 2027 Chevy Bolt. I Loved All The Storage Space But Its Cheap-Feeling Interior Was Underwhelming**
-   🇨🇳 I Drove The 2027 Ch電動車y Bolt. I Loved All The Storage Space But Its Cheap-Feeling Interior Was Underwhelming
-🔗 https://insideevs.com/reviews/798504/chevy-bolt-2027-review-pros-cons/
+**13. [TopGear] Welcome to BINGO Sports Japan: is this the world's greatest car dealership? - Top Gear**
+   🇨🇳 Welcome to BINGO 運動s Japan: is this the world's grea試駕 car dealership? - Top Gear
+🔗 https://news.google.com/rss/articles/CBMiogFBVV95cUxOdTVLTS1ZaXpvVTdBRzNWM1oyX0JxZ2o1VFdNTjl6c09INWs4Mk9qUFowRDZKOVhmV2kwT1hNZG44c3M5QnZHRVNEQkVnN2UxdzVDdWttRjNzRTFPSEJhVDBHQ2N6SjN5N1dVV0ZiZG5teEh1VWoxVk1yMFFQaGhJTUViMGdKOTFRLWw0aFpNNFNJcUVFRWpyU0owOXRDTklBYXc?oc=5
+   📝 Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
 
-**9. [Motor1] Fiat Has 5 New Models Coming Soon. Here's All Of Them**
-   🇨🇳 Fiat Has 5 全新 Models 來了 Soon. Here's All Of Them
-🔗 https://www.motor1.com/news/798495/new-fiat-models-2026/
+**14. [Autoblog] Toyota’s V8 GR Supercar Isn’t Even On Sale Yet And Two Wilder Ones Are Testing**
+   🇨🇳 Toyota’s V8 GR Supercar Isn’t 電動車en On Sale Yet And Two Wilder Ones Are 試駕ing
+🔗 https://www.carscoops.com/2026/07/toyota-gr-gt-variants/
 
-**10. [Motor1] Mitsubishi's Next SUV Could Revive An Iconic Off-Road Trim**
-   🇨🇳 Mitsubishi's Next SUV 越野車 Could R電動車ive An Iconic Off-Road Trim
-🔗 https://www.motor1.com/news/798486/mitsubishi-pajero-ralliart-off-road-variant/
+**15. [Autocar] The golden age of the rear-engine car**
+   🇨🇳 The golden age of the rear-引擎 car
+🔗 https://www.autocar.co.uk/car-news/slideshow/golden-age-rear-engine-car
+   📝 Millions of rear-engined cars roamed the globe in the 1960s
 
-**11. [RoadandTrack] Review: 2025 Ram Power Wagon and Rebel HD defend their mountain**
-   🇨🇳 R電動車iew: 2025年 公羊 馬力 旅行車 and Rebel HD defend their mountain
-🔗 https://www.motorauthority.com/news/1146014_2025-ram-power-wagon-rebel-hd-test-drive-review
-   📝 The 2025 Ram Power Wagon and Rebel HD get facelifts, and the Rebel adds power and gears to take on the new competition.
+**16. [Autocar] The intriguing gems of the Volvo Museum**
+   🇨🇳 The intriguing gems of the Volvo Museum
+🔗 https://www.autocar.co.uk/car-news/slideshow/intriguing-gems-volvo-museum-0
+   📝 Volvo&#039;s own museum was a treasure trove of legendary cars of the brand&#039;s past
 
-**12. [RoadandTrack] Deep dive: Bugatti Tourbillon aerodynamics**
-   🇨🇳 Deep dive: Bugatti Tourbillon aerodynamics
-🔗 https://www.motorauthority.com/news/1145905_deep-dive-bugatti-tourbillon-aerodynamics
-   📝 To top the Bugattis of the past, the Tourbillon has to be smooth. Here&#039;s how the aero engineers got it there.
+**17. [Autocar] Unusual car designs from Germany**
+   🇨🇳 Unusual car designs from Germany
+🔗 https://www.autocar.co.uk/car-news/slideshow/unusual-car-designs-germany
+   📝 A look at some of the most intriguing models to ever come from Germany
 
-**13. [Autocar] Bovensiepen 05 GT arrives as 790bhp super-estate**
-   🇨🇳 Bovensiepen 05 GT跑車 arrives as 790b匹 super-estate
-🔗 https://www.autocar.co.uk/car-news/new-cars/bovensiepen-05-gt-arrives-790bhp-super-estate
-   📝 Bovensiepen – erstwhile custodians of Alpina – has launched a more refined take on the M5 Touring
+**18. [RoadandTrack] NASCAR’s Best Team May Suddenly Have an Open Seat**
+   🇨🇳 NASCAR’s Best Team May Suddenly Have an Open Seat
+🔗 https://www.roadandtrack.com/news/a73250217/nascars-best-team-may-suddenly-have-an-open-seat/
+   📝 Alex Bowman is retiring at the end of the 2027 season, opening an opportunity at 15-time championship-winner Hendrick Motorsports.
 
-**14. [Autocar] Mercedes-AMG GLE and GLS gain upgraded 627bhp V8**
-   🇨🇳 Mercedes-AMG GLE and GLS gain upgraded 627b匹 V8
-🔗 https://www.autocar.co.uk/car-news/new-cars/mercedes-amg-gle-and-gls-gain-upgraded-627bhp-v8
-   📝 Potent new powerplant is also said to improve driveability and efficiency
+**19. [Autoblog] Ford’s $30K Electric Truck Will Run Apple Maps, Not Google**
+   🇨🇳 Ford’s $30K 電動車 Truck Will Run Apple Maps, Not Google
+🔗 https://www.carscoops.com/2026/07/ford-apple-navigation-partnership/
 
-**15. [Autoblog] Chrysler’s Designers Are Finally Free Of The 300 And The Minivan**
-   🇨🇳 Chrysler’s Designers Are Finally Free Of The 300 And The Mini客貨車
-🔗 https://www.carscoops.com/2026/06/chrysler-stla-one-revival/
-   📝 A new global architecture could give Chrysler the freedom it needs to move beyond the Pacifica
-
-**16. [Jalopnik] Here's How Your Car Can Become Uninsurable**
-   🇨🇳 Here's How Your Car Can Become Uninsurable
-🔗 https://www.jalopnik.com/2189313/car-insurance-company-you-can-become-uninsurable/
-   📝 Insurers can deny cover to customers for many reasons, including if the car is stolen, too valuable, or has been written off.
-
-**17. [Autoblog] GM Wants Your Parked EV To Power The Grid, But There’s A $20,000 Catch**
-   🇨🇳 GM Wants Your Parked 電動車 To 馬力 The Grid, But There’s A $20,000 Catch
-🔗 https://www.carscoops.com/2026/06/gm-vehicle-to-grid-charging/
-   📝 Turning your electric vehicle into a power plant sounds great until the invoice for the setup arrives
-
-**18. [Jalopnik] Here Is What NASA's Artemis III Mission Will Do**
-   🇨🇳 Here Is What NASA's Artemis III Mission Will Do
-🔗 https://www.jalopnik.com/2193310/nasa-artemis-iii-mission-details/
-
-**19. [Jalopnik] How You Should Clean Your Car's Touch Screen (And Mistakes You Need To Avoid)**
-   🇨🇳 How You Should Clean Your Car's Touch Screen (And Mistakes You Need To Avoid)
-🔗 https://www.jalopnik.com/2190789/best-and-worst-ways-to-clean-car-touch-screen/
-   📝 A microfiber towel plus soap and water or diluted isopropyl alcohol will clean your touch screen safely. No paper towels, bleach, or spraying alochol.
-
-**20. [Autoblog] The 2026 Chevy Suburban’s Best Seat Isn’t The One You’re Paying $101K To Drive From | Review**
-   🇨🇳 The 2026年 Ch電動車y Suburban’s Best Seat Isn’t The One You’re Paying $101K To Drive From | R電動車iew
-🔗 https://www.carscoops.com/2026/06/chevrolet-suburban-review-2026/
+**20. [Jalopnik] Faraday Future Is Somehow Still Alive And Testing The FX Super One, And I'm Scared**
+   🇨🇳 Faraday Future Is Somehow Still Alive And 試駕ing The FX Super One, And I'm Scared
+🔗 https://www.jalopnik.com/2222205/faraday-future-fx-super-one-still-alive-and-spotted-testing-in-ca/
+   📝 I know this first-hand because today, not only did I see a manufacturer-plated FX Super One parked in West Hollywood, I saw the same van again just fo...
 
 ---
-*🤖 Auto-generated at 2026-06-15 07:01*
+*🤖 Auto-generated at 2026-07-24 07:01*
 *📊 Data: 20 articles with summaries from 9 RSS feeds*

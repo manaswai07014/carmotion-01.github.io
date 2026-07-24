@@ -374,3 +374,67 @@ Format: [YYYY-MM-DD HH:MM] [OPERATION] [PAGE] [DETAIL]
 [2026-06-15 10:01] [INGEST] Series ingested: 928 — brand=Porsche
 [2026-06-15 10:01] [INGEST] Series ingested: 356 — brand=Porsche
 [2026-06-15 10:00] [INGEST] Porsche src=wikipedia tier=3 hp=n/a
+[2026-06-15 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-06-15.md
+[2026-06-16 07:02] [TREND-V3] v3 scan: 1 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-06-16 10:01] [INGEST] Brand ingested: Porsche — tier=2
+[2026-06-16 10:01] [INGEST] Series ingested: Cayman — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: Macan — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: 914 — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: 911 — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: 924 — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: 944 — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: 928 — brand=Porsche
+[2026-06-16 10:01] [INGEST] Series ingested: 918 Spyder — brand=Porsche
+[2026-06-16 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-06-16.md
+[2026-06-17 07:01] [TREND-V3] v3 scan: 1 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-06-17 11:01] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-06-17.md
+[2026-06-18 07:03] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-06-18 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-06-18.md
+[2026-06-19 07:03] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-06-19 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-06-19.md
+[2026-06-20 07:03] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-06-20 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-06-20.md
+[2026-06-21 07:02] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-10 07:02] [NEWS] 10 feeds OK, 85 articles fetched, 20 headlines delivered to Telegram
+[2026-07-10 07:03] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-10 07:03] [TREND] v3 16kw 0spike | hypercar=53 AMG=52 911=35 | RSS LIVE
+[2026-07-10 09:01] [COMPETITOR] v2 report generated src=YouTube-API live=true kizzombie=646shorts/188viral motomorfosis=81shorts/20viral
+[2026-07-10 11:08] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-10.md
+[2026-07-10 11:22] [SCRIPT] topic-priority-v2 -> exports/topic-priority/priority-2026-07-10.md
+[2026-07-10 11:22] [TELEGRAM] topic-priority-v2 Top 8 delivered message_id=4992
+[2026-07-15 07:20] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-15 10:03] [AUTO-INGEST] dry-run OK — no eligible brands (25 brand pages exist, all in cooldown). Priority top: Porsche(score=0.2), Nissan/Mercedes/Toyota(score=0.0)
+[2026-07-15 11:02] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-15.md
+[2026-07-15 11:19] [SCRIPT] topic-priority-v2 -> exports/topic-priority/priority-2026-07-15.md
+[2026-07-15 11:19] [TELEGRAM] topic-priority-v2 Top 8 delivered message_id=5115
+[2026-07-15 12:54] [FIX] daily_news_fetcher.py: replaced dead MotorAuthority feed (stale since 2025-03-30) with MotorTrend (Google News) + RoadandTrack direct RSS; added 30-day hard cutoff to is_recent(); added stale feed detection in main() — SQ9 no longer appears as #1
+[2026-07-16 07:21] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-16 10:29] [AUTO-INGEST] LIVE run (no --save) — no eligible brands (25 brand pages exist). Priority top: Porsche(score=0.2), Mercedes/Toyota/Ferrari/Nissan/Honda(score=0.0). Last successful ingest: 2026-06-16 Porsche (8 series, 7 generations). Cron job uses --save which is invalid for this script.
+[2026-07-16 11:09] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-16.md
+[2026-07-19 07:20] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-19 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-19.md
+[2026-07-19 11:01] [SCRIPT] topic-priority-v2 -> exports/topic-priority/priority-2026-07-19.md
+[2026-07-19 11:01] [TELEGRAM] topic-priority-v2 Top 8 delivered message_id=5255
+[2026-07-20 07:20] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-20 11:05] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-20.md
+[2026-07-20 11:06] [SCRIPT] topic-priority-v2 -> exports/topic-priority/priority-2026-07-20.md (deliver: origin, Top 8 via gateway)
+[2026-07-21 07:20] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+
+[2026-07-21 10:14] [AUTO-INGEST] LIVE run (no --save) — no eligible brands (all 10 candidates in cooldown). Priority top: Porsche(score=0.2), Mercedes(score=0.0). Last successful ingest: 2026-06-16 Porsche (8 series, 7 generations). Cron job prompt still carries invalid --save flag — dropped to bare script per skill instructions.
+[2026-07-21 11:12] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-21.md
+[2026-07-21 11:58] [CRON] topic_priority_v2 --save -> exports/topic-priority/priority-2026-07-21.md | Telegram delivered (chat 6394565017, 2775 chars, 1 part)
+[2026-07-22 07:21] [TREND-V3] 1 spike(s) from Google Trends API (live)
+[2026-07-22 07:21] [TREND-V3] v3 scan: 1 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-22 09:03] [COMPETITOR] v2 live=true kizzombie=655/191 motomorfosis=85/20 blueocean=Bugatti/McLaren/AstonMartin/Maserati/Bentley/RollsRoyce msg_id=5560
+[2026-07-22 11:03] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-22.md
+[2026-07-23 07:21] [TREND-V3] v3 scan: 1 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-23 11:10] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-23.md
+[2026-07-24 07:21] [TREND-V3] v3 scan: 1 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-24 11:04] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-24.md
+[2026-07-24 12:17] [LINT] errors=16 warnings=10 checked=3
+[2026-07-24 12:41] [LINT] errors=0 warnings=41 checked=19
+[2026-07-24 12:50] [LINT] errors=8 warnings=41 checked=19
+[2026-07-24 13:08] [LINT] errors=0 warnings=34 checked=19
+[2026-07-24 13:22] [LINT] errors=0 warnings=41 checked=19
+[2026-07-24 15:28] [LINT] errors=0 warnings=34 checked=19
+[2026-07-24 15:28] [SYNC] DB draft entries filled: db5/db11/dbs-superleggera/vantage/f-type/i-pace/ix3 — 7 entries updated with HP, engine, image data. SQ9 flagged as non-existent (left as draft). Wiki sync + lint: 0 errors, 36 passed.
