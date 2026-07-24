@@ -1,6 +1,6 @@
 # 🅿️ DB5 (1963–1965)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:28
+> Generation wiki page — synced from DB on 2026-07-24 15:47
 
 ## Spec Sheet
 - **Brand/Series:** Aston Martin / DB5
@@ -14,18 +14,18 @@
 - **Image Verified:** ❌
 
 ## Reference Image
-![DB5](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aston_Martin_DB5_%22FIA%22_001.jpg/330px-Aston_Martin_DB5_%22FIA%22_001.jpg)
+![DB5](https://upload.wikimedia.org/wikipedia/commons/2/22/Aston_Martin_DB5.jpg)
 
 Source: https://en.wikipedia.org/wiki/Aston_Martin_DB5
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:28
+- This page was auto-generated from DB sync on 2026-07-24 15:47
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/aston-martin/` for brand-level context
 
 ---
 ## Metadata (lint-readable)
-primary_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aston_Martin_DB5_%22FIA%22_001.jpg/330px-Aston_Martin_DB5_%22FIA%22_001.jpg
+primary_image_url: https://upload.wikimedia.org/wikipedia/commons/2/22/Aston_Martin_DB5.jpg
 image_verified: false
 gen_code: —
 hp_official: 286
@@ -35,4 +35,4 @@ year_start: 1963
 year_end: 1965
 status: published
 
-*Last updated: 2026-07-24 15:28*
+*Last updated: 2026-07-24 15:47*

@@ -1,6 +1,6 @@
 # 🅿️ Chiron Super Sport 300+ (2019–2022)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:28
+> Generation wiki page — synced from DB on 2026-07-24 15:47
 
 ## Spec Sheet
 - **Brand/Series:** Jaguar / Chiron
@@ -19,7 +19,7 @@
 Source: https://en.wikipedia.org/wiki/Bugatti_Chiron
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:28
+- This page was auto-generated from DB sync on 2026-07-24 15:47
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/jaguar/` for brand-level context
 
@@ -35,4 +35,4 @@ year_start: 2019
 year_end: 2022
 status: published
 
-*Last updated: 2026-07-24 15:28*
+*Last updated: 2026-07-24 15:47*

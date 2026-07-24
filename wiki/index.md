@@ -4,7 +4,7 @@ Updated: 2026-07-24 | Architecture: V4.1
 ## Quick Stats
 - Total Generations: 16 (15 published, 1 draft)
 - Total Brands: 4
-- Last Ingest: 2026-07-24 15:28
+- Last Ingest: 2026-07-24 15:47
 
 ## Brands
 - [Aston Martin](brands/aston-martin/index.md) (4 generations)

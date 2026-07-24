@@ -1,6 +1,6 @@
 # 🅿️ F-Type (2013–2024)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:28
+> Generation wiki page — synced from DB on 2026-07-24 15:47
 
 ## Spec Sheet
 - **Brand/Series:** Jaguar / F-Type
@@ -14,18 +14,18 @@
 - **Image Verified:** ❌
 
 ## Reference Image
-![F-Type](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2021_Jaguar_F-Type_P450_AWD%2C_front_8.16.21.jpg/330px-2021_Jaguar_F-Type_P450_AWD%2C_front_8.16.21.jpg)
+![F-Type](https://upload.wikimedia.org/wikipedia/commons/6/6a/2017_Jaguar_F-Type_SVR_Coup%C3%A9_-_fvl_5283_%2840857783022%29.jpg)
 
 Source: https://en.wikipedia.org/wiki/Jaguar_F-Type
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:28
+- This page was auto-generated from DB sync on 2026-07-24 15:47
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/jaguar/` for brand-level context
 
 ---
 ## Metadata (lint-readable)
-primary_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2021_Jaguar_F-Type_P450_AWD%2C_front_8.16.21.jpg/330px-2021_Jaguar_F-Type_P450_AWD%2C_front_8.16.21.jpg
+primary_image_url: https://upload.wikimedia.org/wikipedia/commons/6/6a/2017_Jaguar_F-Type_SVR_Coup%C3%A9_-_fvl_5283_%2840857783022%29.jpg
 image_verified: false
 gen_code: —
 hp_official: 575
@@ -35,4 +35,4 @@ year_start: 2013
 year_end: 2024
 status: published
 
-*Last updated: 2026-07-24 15:28*
+*Last updated: 2026-07-24 15:47*

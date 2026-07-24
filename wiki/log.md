@@ -438,3 +438,5 @@ Format: [YYYY-MM-DD HH:MM] [OPERATION] [PAGE] [DETAIL]
 [2026-07-24 13:22] [LINT] errors=0 warnings=41 checked=19
 [2026-07-24 15:28] [LINT] errors=0 warnings=34 checked=19
 [2026-07-24 15:28] [SYNC] DB draft entries filled: db5/db11/dbs-superleggera/vantage/f-type/i-pace/ix3 — 7 entries updated with HP, engine, image data. SQ9 flagged as non-existent (left as draft). Wiki sync + lint: 0 errors, 36 passed.
+[2026-07-24 15:47] [LINT] errors=0 warnings=34 checked=19
+[2026-07-24 15:35] [UPDATE] Subagent research cross-checked: DBS Superleggera year_start 2019→2018, F-Type year_end 2023→2024, 7 image URLs updated to Wikipedia Commons. All HP values confirmed by subagent. SQ9 confirmed non-existent.
