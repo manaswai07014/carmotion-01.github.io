@@ -440,3 +440,32 @@ Format: [YYYY-MM-DD HH:MM] [OPERATION] [PAGE] [DETAIL]
 [2026-07-24 15:28] [SYNC] DB draft entries filled: db5/db11/dbs-superleggera/vantage/f-type/i-pace/ix3 — 7 entries updated with HP, engine, image data. SQ9 flagged as non-existent (left as draft). Wiki sync + lint: 0 errors, 36 passed.
 [2026-07-24 15:47] [LINT] errors=0 warnings=34 checked=19
 [2026-07-24 15:35] [UPDATE] Subagent research cross-checked: DBS Superleggera year_start 2019→2018, F-Type year_end 2023→2024, 7 image URLs updated to Wikipedia Commons. All HP values confirmed by subagent. SQ9 confirmed non-existent.
+[2026-07-25 02:25] [TRIPLES-AUTOFILL] IDLE — no new triples (144 lines unchanged, 51 subjects); report written to agent-meta/triples-report.md; observed: 24/25 brand pages are stubs (tesla is only fully-populated one); 43% subjects have partial predicate sets; script idle path skips report write
+[2026-07-25 07:26] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-25 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-07-25 10:20] [INGEST] IDLE — auto_wiki_ingestion.py ran clean (exit 0, no --save). 17/17 brands have wiki page OR in 7d cooldown -> 0 ingested. Priority ranking saved. State: 22 brand folders, 22/22 STALE (>30d, bugatti/ferrari oldest 81d). aston-martin + aston_martin dupe folders still present. DB: 4 brands/9 series/16 gens (1 sq9 draft flagged non-existent). Lint 07:46 today: 0 errors, 34 warnings (19 orphans, 9 unverified images). Next: --brand X to force refresh; consider 07:45 sync+lint cron.
+[2026-07-25 11:22] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-25.md
+[2026-07-26 03:08] [TRIPLES-AUTOFILL] IDLE — no new triples (144 lines unchanged, 51 subjects, 144/144 valid JSON). Triples.jsonl stale 40 days (last write 2026-06-16). Script lives at ~/.hermes/scripts/ (NOT scripts/). 20/21 brand pages still stubs (only tesla has full Node data, 8 nodes). aston-martin/aston_martin twin folders confirmed divergent (color + model list differ). idle path still skips report write — cron agent hand-wrote agent-meta/triples-report.md (9.0KB). Next: sync_memory_cache.py --all catch-up (Option B), or --brand X ingest + re-merge (Option A)
+[2026-07-26 07:22] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-26 07:47] [LINT] errors=0 warnings=34 checked=19
+[2026-07-26 10:05] [LINT] errors=0 warnings=34 checked=19
+[2026-07-26 10:20] [INGEST] auto_wiki_ingestion.py idle - all 22 brand pages exist, 7d cooldown active. Priority top: Porsche 0.2, Ferrari/Mercedes/Lambo 0.0. Lint: 0 err / 34 warn. 22/22 brand pages STALE >30d. --save flag rejected (argparse exit 2), bare script OK exit 0.
+[2026-07-26 11:19] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-26.md
+[2026-07-27 07:20] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-27 07:45] [LINT] errors=0 warnings=34 checked=19
+[2026-07-27 10:18] [INGEST] auto_wiki_ingestion.py idle - all 22 brand pages exist, 7d cooldown active. Priority top: Porsche 0.2, Ferrari/Mercedes/Lambo 0.0. Lint: 0 err / 34 warn. 22/22 brand pages STALE >30d (oldest: ferrari 83d, bugatti 83d). Cron prompt had --save (unsupported), ran bare script, exit 0.
+[2026-07-27 11:03] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-27.md
+[2026-07-28 02:00] [TRIPLES] triples_auto_fill.py idle exit=0 triples=144(stable since 2026-06-16) report=handwritten-by-cron-operator
+[2026-07-28 07:20] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-28 07:46] [SYNC] sync_wiki_from_db.py — 16 generation pages, 4 brands (15 published + 1 draft), index.md updated
+[2026-07-28 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-07-28 11:02] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-28.md
+[2026-07-29 02:00] [TRIPLES] triples_auto_fill.py idle exit=0 triples=144(stable since 2026-06-16, 43d) report=handwritten-by-cron-operator
+[2026-07-29 07:20] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-29 07:45] [LINT] errors=0 warnings=34 checked=19
+[2026-07-29 11:06] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-29.md
+[2026-07-30 02:00] [TRIPLES] triples_auto_fill.py idle exit=0 triples=144(stable since 2026-06-16, 44d) report=handwritten-by-cron-operator
+[2026-07-30 07:21] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-30 07:22] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-07-30 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-07-30 09:16] [COMPETITOR-V2] kizzombie=658 shorts/966K motomorfosis=87 shorts/220K src=YouTubeDataAPI tier=1 Fresh=LIVE exit=0

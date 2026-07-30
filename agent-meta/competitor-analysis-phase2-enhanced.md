@@ -1,31 +1,32 @@
-# 📊 Daily Competitor Report — 2026-07-24 09:10 HKT
+# 📊 Daily Competitor Report — 2026-07-30 09:16 HKT
 
 ## ⚠️ DATA FRESHNESS
 - **Status:** ✅ LIVE
-- **Generated:** 2026-07-24 09:10 HKT
+- **Generated:** 2026-07-30 09:16 HKT
 - **API Status:** ✅ Successful
 
 ## 📱 Channel Overview
 | Channel | Subscribers | Shorts | Viral |
 |---------|------------|--------|-------|
-| @kizzombie | 966,000 | 656 | 191 |
-| @motomorfosis | 216,000 | 85 | 20 |
+| @kizzombie | 966,000 | 658 | 191 |
+| @motomorfosis | 220,000 | 87 | 19 |
 
 ## 🚨 Early Warning (Past 7 Days)
 | Channel | New Shorts | New Viral |
 |---------|-----------|----------|
-| @kizzombie | 5 | 0 |
-| @motomorfosis | 2 | 0 |
+| @kizzombie | 3 | 0 |
+| @motomorfosis | 8 | 0 |
 **@kizzombie recent uploads:**
-  • Mexico’s Cartel Tanks: Los Monstruos (2026-07-23) | 24,486 views
-  • 10 Corvette Concepts You Never Knew Existed (2026-07-21) | 106,865 views
-  • GM Graveyard: Dead Nameplates (2026-07-20) | 215,694 views
-  • Nissan Silvia: Every Generation (1965–2002) (2026-07-19) | 176,878 views
-  • Ford Mustang Concepts You Forgot Existed (2026-07-17) | 367,409 views
+  • The Evolution of U.S. Mail Trucks (2026-07-29) | 9,663 views
+  • 8 Iconic GTA V Cars in Real Life (2026-07-24) | 42,741 views
+  • Mexico’s Cartel Tanks: Los Monstruos (2026-07-23) | 48,919 views
 
 **@motomorfosis recent uploads:**
-  • The Best-Selling Car in History: Toyota Corolla (2026-07-22) | 19,131 views
-  • Mitsubishi Lancer Timeline (2026-07-19) | 11,570 views
+  • The Bike That Made Top Gun Famous: 1984 GPZ900R ✈️ (2026-07-29) | 32,010 views
+  • How a Beach Sketch Created Land Rover (2026-07-28) | 10,187 views
+  • Did You Know Indian Motorcycle Came First? (2026-07-28) | 33,796 views
+  • Why the 1972 Honda Civic Became an Instant Success (2026-07-27) | 27,075 views
+  • The Crazy Secret Behind Koenigsegg Evolution 🚀 (2026-07-27) | 30,004 views
 
 | Brand | kizzombie | motomorfosis | Opportunity |
 |-------|----------|--------------|-------------|
@@ -41,8 +42,8 @@
 | BMW | 18 | 5 | 🔴 CROWDED |
 | Mercedes | 23 | 3 | 🔴 CROWDED |
 | Nissan | 20 | 2 | 🔴 CROWDED |
-| Toyota | 36 | 7 | 🔴 CROWDED |
-| Honda | 23 | 14 | 🔴 CROWDED |
+| Toyota | 36 | 8 | 🔴 CROWDED |
+| Honda | 23 | 15 | 🔴 CROWDED |
 
 ## 📡 Data Source
 - **Source:** YouTube Data API v3 (live) OR cached data
