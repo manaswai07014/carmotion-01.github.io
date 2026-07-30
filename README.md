@@ -1,102 +1,149 @@
-# 🚗 CarMotion Daily — 汽車新聞自動更新網站
+# 🚗 CarMotion Daily — Automotive News Auto-Publishing Website
 
 ## 架構總覽
 
 ```
-每日 7:00AM HKT
+每日 08:00 HKT (Hermes cron)
    ↓
-[existing cron] daily_news_fetcher.py
+[existing cron] daily_news_fetcher.py → RSS fetch
    ↓ 產出 agent-meta/daily-brief.md (20條新聞)
    ↓
-[new cron] news_to_website.py  ← 惠惠自動處理
-   ├─ 讀取 daily-brief.md
-   ├─ 淨化內容（去廣告/補中文摘要）
-   ├─ 下載文章圖片（已有 auto_image_downloader.py）
-   ├─ 改寫標題 + 口語化廣東話摘要（惠惠 LLM）
-   ├─ 生成 Markdown 格式文章
-   ├─ 更新 index.json
-   └─ 寫入 website/content/news/YYYY-MM-DD.md
-   
-[new cron] 30min 後
+[existing cron] run_daily_pipeline.py  ← 一鍵 chain
+   ├─ Step 1: daily_news_fetcher.py
+   ├─ Step 2: news_to_website.py
+   │    ├─ 讀取 daily-brief.md
+   │    ├─ **Dedup pass**: scan 最近 7 日 _posts/ slug，skip 重複文章
+   │    ├─ 每篇新聞：
+   │    │    ├─ Decode Google News URL → fetch 真實 article body
+   │    │    ├─ Extract 真實圖片 (og:image + article body images)
+   │    │    ├─ **Hybrid Rewrite Engine** (Phase 1 v4):
+   │    │    │    ├─ Step A: LLM rephrase (MiniMax-M2 via Anthropic SDK)
+   │    │    │    │           — prompt 嚴格規定唔准 verbatim / 唔准 invent
+   │    │    │    └─ Step B: regex fallback (if LLM fail)
+   │    │    │                — _restate() / _merge_short_sentences()
+   │    │    │                — _derive_why_it_matters() / _derive_take()
+   │    │    └─ 生成 Markdown 格式文章 (全英文)
+   │    └─ Git commit + push (main → gh-pages subtree)
    ↓
-git push → GitHub Pages 自動建站
-   ↓
-https://carmotion-01.github.io （示例 URL）
+https://carmotion-daily.pages.dev  (Cloudflare Pages hosting)
 ```
 
 ## 技術 Stack
 
-- **Static Site Generator**: Jekyll + GitHub Pages
-- **內容格式**: Markdown (front-matter + body)
-- **圖片**: 下載後放 `website/static/images/news/YYYY-MM-DD/`
-- **部署**: git push 自動經 GitHub Pages -> 免費托管
-- **Domain**: 可以駁 carmotion.com（老闆有 domain 的話）
+- **Static Site Generator**: Jekyll 4.3 + GitHub Pages + Cloudflare Pages
+- **內容格式**: Markdown (front-matter + body), 全英文
+- **改寫引擎**: Hybrid — MiniMax-M2 LLM (via Anthropic-compatible API) + regex fallback
+- **圖片**: 真實 article images (og:image + body images), Wikipedia Commons fallback
+- **Dedup**: 7-day rolling window, filename slug 比對
+- **部署**: git push → GitHub Pages 自動建站 + Cloudflare Pages CDN
 
-## 惠惠日常工作流程（自動化）
+## news_to_website.py v4 — Hybrid Rewrite Pipeline
 
-### 每日 07:00 HKT — 新聞採集（現有）
-`daily_news_fetcher.py` → DB + daily-brief.md
+### 核心改動 (Phase 1, 2026-07-30)
 
-### 每日 08:00 HKT — 網頁生成（新增）
-Hermes 自動 cron job:
-1. 讀 `agent-meta/daily-brief.md`
-2. 對每篇新聞：
-   - 補通順廣東話口語化摘要（唔係機械翻譯）
-   - 改寫標題（吸引點擊，唔標題黨）
-   - 提取重點關鍵字做 tags
-3. 叫 `auto_image_downloader.py` 搵圖
-4. 生成每篇 1 個 MD 檔：
-   ```
-   website/content/news/2026-07-19-ferrari-849-testarossa.md
-   ```
-5. 更新首頁 `index.json` + RSS feed
-6. git commit + push → GitHub Pages 自動建站
+#### 1. Dedup Logic
+- `load_recent_slugs()` 掃描 `_posts/` 目錄
+- 7-day rolling window，用 filename slug（唔計日期）做 unique key
+- main() 入面 skip 重複 entries，queue 新嘢最多 5 篇/日
+
+#### 2. Hybrid Rewrite Engine (LLM + Regex fallback)
+- **Step A — LLM rephrase**（preferred）:
+  - `_llm_rephrase()` 經 MiniMax CN API (Anthropic-compatible) call MiniMax-M2
+  - `_load_llm_config()` 自動 detect provider: MiniMax CN 優先，NVIDIA fallback
+  - System prompt 嚴格規定: 唔准 verbatim copy / 唔准 invent facts / keep 數字 unchanged
+  - 每篇文章 1 次 LLM call，5 篇/日 = 5 calls
+  - Fallback to regex engine if API fail
+- **Step B — Regex fallback**:
+  - `_restate()` — strip "According to...", "The company said...", "The Ferrari..." → "Ferrari..."
+  - `_merge_short_sentences()` — 合併短句成段落，不再散亂
+  - `_derive_why_it_matters()` — 搵 body 入面 consequence-cue words 嘅句子
+  - `_derive_take()` — per-article editorial judgment, 唔再套模板
+  - 移除舊版 `_CONNECTORS` 機械拼接 ("In other words,", "That is —", ...)
+
+#### 3. CLI Flags
+- `--no-llm` — 停用 LLM rephrase，淨用 regex engine
+- `--dry-run` — 預覽唔寫檔
+- `--date YYYY-MM-DD` — backfill 指定日期
+
+### 已解決嘅 v1 問題
+| v1 問題 | v4 解法 |
+|---|---|
+| 重複發文（日日同一篇） | 7-day dedup check |
+| `ramRam` 品牌名大細楷混亂 | `_restate()` 正確處理品牌名 |
+| 機械式 "In other words," 拼接 | 移除 `_CONNECTORS`，改用 LLM or context-aware restate |
+| 模板式 "Why It Matters" | `_derive_why_it_matters()` 搵 body cue words |
+| 死板 "60 days playbook" Take | `_derive_take()` or LLM 真 editorial judgment |
+| 每篇 80% 重複 filler | LLM rephrase 每篇獨立生成，基於真實 article body |
+
+## 惠惠日常工作流程（自動化 cron）
+
+### 每日 08:00 HKT — Full Pipeline
+`run_daily_pipeline.py` 一鍵執行:
+1. `daily_news_fetcher.py` → 11 個 RSS feeds → `daily-brief.md` (20條)
+2. `news_to_website.py` →
+   - Dedup check (skip 最近 7 日重複)
+   - 5 篇新文章：
+     - Fetch real article body (gnews URL decode + body fetcher)
+     - Extract real images (og:image + article images)
+     - LLM rephrase (MiniMax-M2) 或 regex fallback
+     - Generate Jekyll markdown post
+3. `git commit + push` → main branch + gh-pages subtree rebuild
 
 ### 每日 08:30 HKT — 網頁上線
-老闆同讀者即刻睇到： https://carmotion-01.github.io
+讀者即刻睇到: `https://carmotion-daily.pages.dev`
 
-## 我幫老闆修改新聞做咩？
+## Pipeline 構件
 
-1. **口語化標題** — 本來 "Ferrari 849 Testarossa Spider – pictures" 變做 "🏎️ Ferrari Testarossa Spider 罕有原型車曝光"
-2. **廣東話摘要** — 將英文/機翻華文變做自然香港口語
-3. **補背景知識** — 加返些「上年 Ferrari 出過咩版本」嘅 context
-4. **揀靚圖** — auto_image_downloader 比起 Google 圖片搜尋搵最靚嗰張
-5. **SEO meta** — meta description、keywords、Open Graph
-6. **分類 tagging** —跑车/电动车/SUV/赛车... 讓讀者可以 filter
+| Script | 功能 |
+|---|---|
+| `daily_news_fetcher.py` | 11 個 RSS feeds → daily-brief.md (20條) |
+| `news_to_website.py` | brief → website posts (dedup + hybrid rewrite + images) |
+| `news_image_extractor.py` | Google News URL → original article → og:image + body images |
+| `gnews_url_decoder.py` | Google News redirect URL → real article URL |
+| `article_body_fetcher.py` | Real article URL → paragraphs + lede |
+| `auto_image_downloader.py` | Wikipedia Commons fallback image search |
+| `run_daily_pipeline.py` | 一鍵 chain: fetch → rewrite → git push |
 
-## 建站步驟（老闆 confirm 一聲我就做）
+## LLM Provider 配置
 
-### Step 1: 建立網站骨架
-- 寫 Jekyll config + layout
-- 首4個模板：首頁 / 新聞列表 / 新聞文 / 關於
-- Tailwind CSS 風格（黑紅跑車感）
+`_load_llm_config()` 自動 detect provider:
 
-### Step 2: 創建 GitHub repo
-- 用 `gh repo create carmotion-01/carmotion-01.github.io --public`
-- Set GitHub Pages → main branch /root
+### Priority 1: MiniMax CN (Anthropic-compatible)
+- 讀 `~/.hermes/.env` 的 `MINIMAX_CN_API_KEY` + `MINIMAX_CN_BASE_URL`
+- Model: `MiniMax-M2`
+- Base URL: `https://api.minimaxi.com/anthropic`
+- SDK: `anthropic` (Anthropic SDK v0.87+)
 
-### Step 3: 新增 Hermes cron job
-- 08:00 HKT 每日跑 news_to_website.py
-- 08:30 HKT 自動 git push
-- log 落 agent-meta/web-log.jsonl
+### Priority 2: NVIDIA (OpenAI-compatible, fallback)
+- 讀 `~/.hermes/config.yaml` 的 `providers.nvidia`
+- ⚠️ 2026-07-30 測試: API key 返回 403 Forbidden，需要更新
 
-### Step 4: 首次 launch
-- 生成第一日新聞網頁
-- 自動上架第一篇新聞  
-- 俾老闆過目 + revise
+### 安全原則
+- API key 只喺 script process 內，唔會 log 出嚟
+- LLM call timeout 預設 60s/篇，5 篇 = 最多 300s
+- 如果 LLM call fail → 自動 fallback 去 regex engine（唔會 block pipeline）
 
 ## 我已經有嘅資產
 
 ✅ `daily_news_fetcher.py` — 11個 RSS feeds 已 tune 好
-✅ `auto_image_downloader.py` — 自動搵圖已有
-✅ `daily-brief.md` 既有格式
-✅ Hermes telegram cron job 機制熟悉
-✅ Canada Telegram group 有 8726708023 chat_id
+✅ `news_to_website.py` v4 — Hybrid rewrite (LLM + regex fallback) + dedup
+✅ `auto_image_downloader.py` — Wikipedia fallback image search
+✅ `news_image_extractor.py` — Real article og:image + body image extraction
+✅ `gnews_url_decoder.py` + `article_body_fetcher.py` — Google News URL + body fetch
+✅ Jekyll website — Top Gear 紅黑風、mobile-first CSS
+✅ Hermes telegram cron job 機制
+✅ Cloudflare Pages hosting (carmotion-daily.pages.dev)
 
-## 需要老闆決定嘅嘢
+## 已知限制 / 下一步
 
-1. **Domain** — 用 GitHub Pages 免費 subdomain 定你自己買 domain？
-2. **語言** — 全廣東話定中英對照？
-3. **廣告/Monetization** — 加 AdSense？定先純 content？
-4. **歷史新聞** — 要唔要 backfill 之前幾個月新聞？
-5. **版面風格** — 想似 Top Gear 紅黑風、Jalopnik 報紙感、定你 литə.ru 有自己想法?
+| 項目 | 狀態 |
+|---|---|
+| NVIDIA API key 過期 (403) | MiniMax CN 已作為 primary provider |
+| Category pages (reviews, electric, etc.) | 連結存在但頁面未 build — Phase 2 |
+| Brand pages (Ferrari, Porsche, etc.) | 連結存在但頁面未 build — Phase 2 |
+| Pagination | 首頁只 show 12，Archive 20，無分頁 — Phase 2 |
+| About / Disclaimer / Contact | 空殼頁 — Phase 2 |
+| SEO meta optimization | jekyll-seo-tag 自動，無手動優化 — Phase 3 |
+| Sitemap + RSS feed | jekyll-sitemap 已裝，未確認 generate — Phase 3 |
+| Health check cron | 每日 smoke test 未 set — Phase 3 |
+| Client-side search | 未做 — Phase 3 |
