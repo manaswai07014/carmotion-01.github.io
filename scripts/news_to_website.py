@@ -604,6 +604,10 @@ def _paraphrase_paragraphs(paragraphs, title, source, brand, tags,
 
     restated = []
     for para in paras[:5]:
+        # Filter: skip paragraphs that aren't topically relevant to this article
+        # (e.g. evo.co.uk sometimes mixes SC01 content with a Golf GTI review)
+        if not _is_relevant_sentence(para, title, brand, tags, min_overlap=1):
+            continue
         # Restate sentence-by-sentence, then join to form a smooth paragraph
         sentences = re.split(r"(?<=[.!?])\s+", para)
         restated_sentences = [_restate(s) for s in sentences if s.strip()]
@@ -618,14 +622,21 @@ def _paraphrase_paragraphs(paragraphs, title, source, brand, tags,
             paragraph_text = paragraph_text[:380].rsplit(" ", 1)[0] + "…"
         restated.append(paragraph_text)
 
+    # If all paragraphs were filtered out (edge case), fall back to first para
+    if not restated and paras:
+        sentences = re.split(r"(?<=[.!?])\s+", paras[0])
+        restated.append(" ".join(_restate(s) for s in sentences if s.strip())[:380])
+
     body_parts.extend(restated)
 
     # Step 3 — Why It Matters: grounded in the actual body, not a template.
-    body_parts.append(f"\n## Why It Matters\n\n{_derive_why_it_matters(title, source, brand, tags, paras)}")
+    wim = _derive_why_it_matters(title, source, brand, tags, paras)
+    body_parts.append(f"\n## Why It Matters\n\n{wim}")
 
     # Step 4 — CarMotion Daily's Take: one sentence founded on the above,
-    #          never the same boilerplate across every article.
-    body_parts.append(f"\n## CarMotion Daily's Take\n\n{_derive_take(title, source, brand, tags, paras)}")
+    #          never the same boilerplate across every article, and never
+    #          a verbatim repeat of the Why It Matters line.
+    body_parts.append(f"\n## CarMotion Daily's Take\n\n{_derive_take(title, source, brand, tags, paras, why_it_matters=wim)}")
 
     return "\n\n".join(body_parts).strip() + "\n"
 
@@ -643,35 +654,123 @@ def _source_aware_hook(title: str, source: str, brand: str) -> str:
     return hook
 
 
+def _normalize(s: str) -> str:
+    """Normalize a sentence for dedup comparison: lowercase, strip punctuation/whitespace."""
+    return re.sub(r"[^\w\s]", "", s.lower()).strip() if s else ""
+
+
+def _is_relevant_sentence(sentence: str, title: str, brand: str,
+                            tags: list, min_overlap: int = 1) -> bool:
+    """
+    Check whether a candidate sentence is topically related to the article
+    by looking for content-word overlap with title/brand/tags.
+    Filters out author bios, boilerplate, and off-topic editorial chatter.
+    """
+    s_low = sentence.lower()
+    # Reject sentences that look like author bios or site navigation
+    bio_markers = ["subscribe", "sign up", "newsletter", "follow us",
+                   "cookie", "privacy policy", "read more", "click here",
+                   "download the app", "related articles", "you may also like",
+                   "advertisement", "sponsored content", "photo by",
+                   "getty images", "credit:"]
+    if any(m in s_low for m in bio_markers):
+        return False
+    # Reject CMS/JSON artifacts (e.g. {"component":"InlineGallery"...})
+    if s_low.lstrip().startswith("{") or '"component"' in s_low or '"props"' in s_low:
+        return False
+    # Reject copyright/boilerplate lines
+    if "©" in sentence or "all rights reserved" in s_low or "copyright" in s_low:
+        return False
+    # Require minimum sentence length to avoid navigation fragments
+    if len(sentence.strip()) < 40:
+        return False
+    # Extract significant content words from title (4+ chars, not stopwords)
+    stop = {"the", "this", "that", "with", "from", "have", "been", "will",
+            "their", "they", "than", "then", "into", "about", "after",
+            "could", "would", "should", "which", "when", "while", "what",
+            "your", "more", "most", "very", "just", "also", "some", "such",
+            "only", "even", "here", "there", "where", "says", "said"}
+    title_words = {w.lower() for w in re.findall(r"\b[A-Za-z][A-Za-z0-9]{2,}\b", title) if w.lower() not in stop}
+    # Add brand and tag words
+    all_topic_words = set(title_words)
+    if brand:
+        all_topic_words.add(brand.lower())
+        # Also add brand without spaces (e.g. "land rover" -> "rover")
+        for part in brand.split():
+            if len(part) >= 4:
+                all_topic_words.add(part.lower())
+    for tag in tags:
+        all_topic_words.add(tag.lower())
+    # Count how many topic words appear in the sentence
+    sentence_words = set(re.findall(r"\b[A-Za-z][A-Za-z0-9]{2,}\b", s_low))
+    overlap = len(all_topic_words & {w.lower() for w in sentence_words})
+    return overlap >= min_overlap
+
+
 def _derive_why_it_matters(title: str, source: str, brand: str,
                             tags: list, paragraphs: list) -> str:
     """
     Pull a signal from the *content* of the article rather than reciting a
     template. We attempt to find a sentence that introduces consequence or
-    motivation; fall back to a 1-line summary otherwise.
+    motivation AND is topically related to the article; fall back to a
+    grounded 1-line summary otherwise.
+
+    v2 fixes (2026-08-01):
+      • Topical relevance check: candidate sentence must share content words
+        with the title/brand/tags — prevents the SC01↔VW Golf incident where
+        an off-topic cue-word sentence was blindly copied.
+      • Scan ALL paragraphs (not just first 4) and prefer the most relevant.
+      • Strip boilerplate/author-bio sentences via _is_relevant_sentence.
+      • Never copy a sentence verbatim — always run through _restate().
     """
-    # Look for sentences that hint at "why" — contains cue words from the body
     cue_words = ["because", "since", "so that", "in order to", "reason",
                  "driven by", "marks", "signals", "paves", "sets the stage",
                  "suggests", "points to", "could lead", "might result",
                  "stake", "pressure", "bet on", "doubling down", "doubling-down",
                  "pivot", "shift", "recalibration", "important"]
-    for p in paragraphs[:4]:
+    best_candidate = None
+    best_overlap = 0
+    for p in paragraphs:
         sentences = re.split(r"(?<=[.!?])\s+", p)
         for s in sentences:
             s_low = s.lower()
-            if any(w in s_low for w in cue_words) and len(s) < 280:
-                # Found a consequence-statement sentence. Restate and use it.
-                candidate = _restate(s)
-                if brand:
-                    candidate = candidate.replace(
-                        brand, f"**{brand}**", 1) if brand.lower() in candidate.lower() else candidate
-                return candidate
-    # Fall back: craft a 1-line summary from title + brand + the longest paragraph.
-    long_para = max(paragraphs, key=len) if paragraphs else ""
+            if not any(w in s_low for w in cue_words):
+                continue
+            if len(s) < 200 or len(s) > 280:
+                continue
+            # Must be topically relevant — prevents off-topic sentences
+            if not _is_relevant_sentence(s, title, brand, tags, min_overlap=1):
+                continue
+            # Score by topical overlap to pick the best candidate
+            sentence_words = set(re.findall(r"\b[a-z]{2,}\b", s_low))
+            topic_words = set()
+            title_words = {w.lower() for w in re.findall(r"\b[A-Za-z]{4,}\b", title)}
+            topic_words.update(title_words)
+            if brand:
+                topic_words.add(brand.lower())
+            for tag in tags:
+                topic_words.add(tag.lower())
+            overlap = len(topic_words & sentence_words)
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_candidate = s
+    if best_candidate:
+        candidate = _restate(best_candidate)
+        if brand and brand.lower() in candidate.lower():
+            candidate = candidate.replace(brand, f"**{brand}**", 1)
+        return candidate
+    # Fall back: craft a 1-line summary from title + brand + the longest
+    # RELEVANT paragraph (not just the longest overall — might be boilerplate).
+    relevant_paras = [p for p in paragraphs
+                      if _is_relevant_sentence(p, title, brand, tags, min_overlap=1)]
+    search_pool = relevant_paras or paragraphs
+    long_para = max(search_pool, key=len) if search_pool else ""
     if long_para:
-        one_line = re.split(r"(?<=[.!?])\s+", long_para)[0]
-        return _restate(one_line)
+        # Find the first relevant SENTENCE, not just the first sentence
+        for sent in re.split(r"(?<=[.!?])\s+", long_para):
+            if _is_relevant_sentence(sent, title, brand, tags, min_overlap=1) and len(sent) > 60:
+                return _restate(sent)
+        return _restate(re.split(r"(?<=[.!?])\s+", long_para)[0])
     # Last-resort fallback (article-body-less)
     if "Electric" in tags:
         return f"The electric push from {brand or 'the automaker'} keeps reshaping which names matter in the segment."
@@ -685,36 +784,75 @@ def _derive_why_it_matters(title: str, source: str, brand: str,
 
 
 def _derive_take(title: str, source: str, brand: str,
-                  tags: list, paragraphs: list) -> str:
+                  tags: list, paragraphs: list,
+                  why_it_matters: str = "") -> str:
     """
     Generate a closing editorial take that is specific to the story, not a
     template repeated across every article.
 
-    Approach:
-      • If body contains forward-looking language ("next", "due", "later",
-        "could", "might", "expected") — frame the take around what to watch.
-      • Otherwise summarise the angle in a single grounded sentence.
+    v2 fixes (2026-08-01):
+      • Topical relevance: candidate sentence must be on-topic via
+        _is_relevant_sentence() — no more copying random article sentences.
+      • Forward-looking take builds on a RELEVANT sentence, not just any
+        paragraph that happens to contain "will" or "could".
+      • Tag-based closers are more varied and specific.
+      • Watch-this-space suffix only added when there IS a forward-looking
+        signal in the chosen sentence; otherwise use a context-aware closer.
     """
     fwd = re.compile(
         r"\b(next|later|due|expected|could|might|will|soon|upcoming|forthcoming|launches?|arriving|rolls out|debuts?|slated)\b",
         re.I,
     )
-    for p in paragraphs[:4]:
+    best_fwd = None
+    best_overlap = 0
+    for p in paragraphs:
+        if not _is_relevant_sentence(p, title, brand, tags, min_overlap=1):
+            continue
         if fwd.search(p):
-            sentence = re.split(r"(?<=[.!?])\s+", p)[0]
-            return _restate(sentence) + " Watch this space over the coming weeks."
+            for sent in re.split(r"(?<=[.!?])\s+", p):
+                if not _is_relevant_sentence(sent, title, brand, tags, min_overlap=1):
+                    continue
+                if not fwd.search(sent):
+                    continue
+                if len(sent) > 300 or len(sent) < 40:
+                    continue
+                sentence_words = set(re.findall(r"\b[a-z]{2,}\b", sent.lower()))
+                topic_words = {w.lower() for w in re.findall(r"\b[A-Za-z]{4,}\b", title)}
+                if brand:
+                    topic_words.add(brand.lower())
+                for tag in tags:
+                    topic_words.add(tag.lower())
+                overlap = len(topic_words & sentence_words)
+                if overlap > best_overlap:
+                    best_overlap = overlap
+                    best_fwd = sent
+    if best_fwd:
+        candidate = _restate(best_fwd)
+        # Don't repeat the Why It Matters sentence
+        if why_it_matters and _normalize(candidate) in _normalize(why_it_matters):
+            pass  # skip — fall through to tag-based closer
+        else:
+            return candidate + " Watch this space over the coming weeks."
     # No forward-looking signal — vary the take by tag so each article diverges.
     closer = {
-        "Electric": "If the execution delivers, this is the kind of EV move competitors will have to answer.",
+        "Electric": f"If {brand or 'the execution'} delivers, this is the kind of EV move competitors will have to answer.",
         "Motorsport": "The paddock is paying attention — and so should you.",
         "Classic": "For collectors, this is the sort of provenance that moves the needle at auction.",
         "Spy Shots": "Until official specs land, treat this as a strong hint rather than a confirmed spec sheet.",
-        "Reviews": "Worth a closer look if this variant is on your shortlist.",
+        "Reviews": f"Worth a closer look if this {brand or 'variant'} is on your shortlist.",
         "Industry": "Industry watchers will be following the follow-through, not just the headline.",
     }
     for t in tags:
         if t in closer:
             return closer[t]
+    # Final fallback: grounded in the article's own content
+    relevant_paras = [p for p in paragraphs
+                      if _is_relevant_sentence(p, title, brand, tags, min_overlap=1)]
+    if relevant_paras:
+        first_para = relevant_paras[0]
+        first_sent = re.split(r"(?<=[.!?])\s+", first_para)[0]
+        if len(first_sent) > 50:
+            return _restate(first_sent) + f" — the story from *{source}* bears tracking."
     return f"The story from *{source}* is worth tracking — specifics will tell us whether it lands as more than a headline."
 
 
@@ -795,8 +933,9 @@ def rewrite_content(entry: dict, tags: list, real_url: str = None,
     if spec_facts:
         specs_block = "\n\n## Key Numbers\n\n" + "\n".join(f"- {f}" for f in spec_facts)
 
+    wim_fallback = _derive_why_it_matters(title, source, brand, tags, [desc] if desc else [])
     take_block = (f"\n\n## CarMotion Daily's Take\n\n"
-                  f"{_derive_take(title, source, brand, tags, paragraphs=[desc] if desc else [])}")
+                  f"{_derive_take(title, source, brand, tags, paragraphs=[desc] if desc else [], why_it_matters=wim_fallback)}")
 
     body_text = "\n\n".join([
         story_open,
@@ -1032,7 +1171,8 @@ def main():
 
     for entry in entries:
         try:
-            render_post(entry, date_str, dry_run=args.dry_run)
+            render_post(entry, date_str, dry_run=args.dry_run,
+                        use_llm=not args.no_llm)
         except Exception as e:
             print(f"  [ERR] Failed to render entry {entry['n']}: {e}")
 

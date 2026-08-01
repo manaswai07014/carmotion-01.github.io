@@ -23,29 +23,64 @@ from pathlib import Path
 BASE   = Path(os.path.expanduser("~/car-evolution-project"))
 SCRIPTS = BASE / "scripts"
 WEBSITE = BASE / "website"
+LOG_DIR = BASE / "agent-meta"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+# Module-level buffer to capture all step output for log file
+log_lines: list = []
+
+def _log(msg: str):
+    """Append a line to the in-memory log buffer."""
+    log_lines.append(msg)
 
 def run(cmd, label, timeout=300):
-    """Run a command, stream output, return exit code."""
+    """Run a command, stream output, return exit code. Captures output for log."""
     print(f"\n{'='*60}")
     print(f"▶ {label}")
     print(f"  cmd: {' '.join(cmd)}")
     print(f"{'='*60}\n")
+    _log(f"\n{'='*60}")
+    _log(f"▶ {label} — {' '.join(cmd)}")
+    _log(f"{'='*60}")
     try:
         result = subprocess.run(
             cmd, cwd=str(BASE), timeout=timeout,
-            capture_output=False,  # stream to console
+            capture_output=True, text=True,
         )
+        if result.stdout:
+            for line in result.stdout.splitlines():
+                print(line)
+                _log(line)
+        if result.stderr:
+            for line in result.stderr.splitlines():
+                print(line)
+                _log(line)
         if result.returncode != 0:
             print(f"\n⚠️ {label} exited with code {result.returncode}")
+            _log(f"⚠️ {label} exited with code {result.returncode}")
             return False
         print(f"\n✓ {label} — OK")
+        _log(f"✓ {label} — OK")
         return True
     except subprocess.TimeoutExpired:
         print(f"\n⏰ {label} — TIMEOUT after {timeout}s")
+        _log(f"⏰ {label} — TIMEOUT after {timeout}s")
         return False
     except Exception as e:
         print(f"\n❌ {label} — ERROR: {e}")
+        _log(f"❌ {label} — ERROR: {e}")
         return False
+
+def _write_log(date_str: str, summary: dict):
+    """Write the pipeline run log to agent-meta/pipeline-log-YYYY-MM-DD.txt"""
+    log_file = LOG_DIR / f"pipeline-log-{date_str}.txt"
+    _log(f"\n{'='*60}")
+    _log(f"📋 Pipeline Summary — {date_str}")
+    _log(f"{'='*60}")
+    for k, v in summary.items():
+        _log(f"  {k}: {v}")
+    log_file.write_text("\n".join(log_lines) + "\n")
+    print(f"\n  Pipeline log written to: {log_file}")
 
 def git_commit_push(date_str, dry_run=False, no_push=False):
     """
@@ -143,6 +178,11 @@ def main():
     if not ok2:
         print("\n⚠️ Step 2 had issues — continuing to git anyway")
 
+    # Parse LLM stats from captured log
+    llm_success = sum(1 for l in log_lines if "[LLM] + rewrite generated" in l)
+    llm_fallback = sum(1 for l in log_lines if "falling back" in l.lower() or "fell back" in l.lower())
+    llm_disabled = any("disabled (--no-llm)" in l for l in log_lines)
+
     # Step 3: Git commit + push
     git_commit_push(date_str, no_push=args.no_push)
 
@@ -153,9 +193,23 @@ def main():
     print(f"  Step 1 (fetch):  {'✅' if ok1 else '❌'}")
     print(f"  Step 2 (website): {'✅' if ok2 else '⚠️'}")
     print(f"  Step 3 (git):    {'✅' if not args.no_push else '⏭️ skipped'}")
+    if llm_disabled:
+        print(f"  LLM:             ⏭️ disabled (--no-llm)")
+    else:
+        print(f"  LLM:             ✅ {llm_success} rephrased / ⚠️ {llm_fallback} fallback")
     print(f"\n  Posts dir: {WEBSITE / '_posts'}")
     print(f"  Images:   {WEBSITE / 'static' / 'images' / 'news'}")
     print()
+
+    # Write log file
+    _write_log(date_str, {
+        "Step 1 (fetch)": '✅' if ok1 else '❌',
+        "Step 2 (website)": '✅' if ok2 else '⚠️',
+        "Step 3 (git)": 'skipped' if args.no_push else 'done',
+        "LLM rephrased": llm_success,
+        "LLM fallback": llm_fallback,
+        "LLM disabled": llm_disabled,
+    })
 
 if __name__ == "__main__":
     main()
