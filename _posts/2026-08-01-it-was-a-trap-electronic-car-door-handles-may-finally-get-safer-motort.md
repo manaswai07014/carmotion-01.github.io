@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: "It Was a Trap? Electronic Car Door Handles May Finally Get Safer - motortrend.com"
+title: "It Was a Trap? Electronic Car Door Handles May Finally Get Safer - MotorTrend"
 date: 2026-08-01 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNM25qZEFNX3Fxd0I3dHVYcTFkOEQyYkt4WmtQTGpVYTZOMUZqLWhCT1JTNi1wLVF3cnlQcUJsZjVqeEgxb2l5TkxaNktWeEdoNzlQS0Q5WWtwcllEVjMtcmhINTNtc2dxbU93YUlld0o2ekxlTjlGRFpfSXJGNGJUcXRxMA?oc=5
@@ -18,8 +18,6 @@ New rules could force automakers to make emergency door releases obvious and eas
 
 The move followed a petition from Tesla Model 3 owner Kevin Clouse, who argued that his 2022 Model 3 failed to comply with Federal Motor Vehicle Safety Standard 206 after he struggled to escape the car following a head-on collision.
 
-NHTSA ultimately denied Clouse’s request for a defect investigation, finding that the petition did not present evidence of a likely safety-related defect warranting one. However, the agency agreed that the broader issue deserved attention and referred it to the Office of Rulemaking.
-
 Clouse detailed his traumatic experience after his Model 3 was involved in the collision that resulted in power loss. Teslas, like many of the latest vehicles, have electronic door-opening mechanisms that can become inoperable if a vehicle loses power. There are almost always backup mechanical releases, but in many cars these are poorly labeled (or not at all), difficult to…
 
 To that point, although Clouse eventually escaped the all-electric sedan, he also couldn’t locate the mechanical emergency release for the front door. Ultimately, Clouse climbed over the front seats and escaped through the rear passenger door window. The 2022 Model 3, the year and model Clouse was driving, does not have readily accessible mechanical emergency releases for…
@@ -32,7 +30,7 @@ New rules could force automakers to make emergency door releases obvious and eas
 
 ## CarMotion Daily's Take
 
-New rules could force automakers to make emergency door releases obvious and easy to find. Watch this space over the coming weeks.
+Industry watchers will be following the follow-through, not just the headline.
 
 
 ---
