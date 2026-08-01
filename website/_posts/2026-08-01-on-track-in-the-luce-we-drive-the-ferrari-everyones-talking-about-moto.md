@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: "On Track in the Luce: We Drive the Ferrari Everyone’s Talking About - motortrend.com"
+title: "On Track in the Luce: We Drive the Ferrari Everyone’s Talking About - MotorTrend"
 date: 2026-08-01 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9vX0d0VjczXzRERGtlMTk0eDZIRFd6WWl4RDJJX2ZIU2dBaFJBNEFXVzQwSmQ4OUNWbEo4ZVVJRW0yUElyVTloMjROeW9vZ0xybDZvNGx2NFVnRGgwdFN0TG5iYzFINncwRGJnQ2NwR3l6TUlGZUJUQ1BDQjkxblk?oc=5
@@ -27,12 +27,12 @@ The numbers back him up. Ferrari claims the Luce will sprint to 60 mph in less t
 
 ## Why It Matters
 
-This is the future.
+All we wanted to know for now is if it still feels like a proper Ferrari.
 
 
 ## CarMotion Daily's Take
 
-“Nobody told us we had to do an electric Ferrari,” Ferrari development test driver Raffaele de Simone said as he showed us around the heavily camo’d Luce prototype. Watch this space over the coming weeks.
+… The Ferrari Luce is us choosing to shape what comes next.”. Watch this space over the coming weeks.
 
 
 ---

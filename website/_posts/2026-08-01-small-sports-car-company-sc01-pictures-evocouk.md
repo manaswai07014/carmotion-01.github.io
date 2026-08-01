@@ -4,9 +4,9 @@ title: "Small Sports Car Company SC01 – pictures - evo.co.uk"
 date: 2026-08-01 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE94V1hLdzBOZFNsamdxLXh0TjV4VHhXbE4wZFBoVGFFS1oyYU1Bcy1jRjJqWDNJcEpHSVF3T0dXdEhPTlRpOXljSTdmdTNsem5GY1Y4akFQYk5jRW5FZU41OEIyYlowUHFReVhwTXVIdVJENXlPb281d05ZVlM?oc=5
-image: /static/images/news/small-sports-car-company-sc01-pictures-evocouk/small-sports-car-company-sc01-pictures-evocouk-1.jpg
-image_credit: "evo.co.uk (original article)"
-image_src: "https://media.evo.co.uk/image/private/s--bKhNz_p6--/f_auto,t_content-image-full-mobile@1/v1785318700/evo/2026/07%20July/Small%20Sports%20Car%20Company%20SC01-5.jpg"
+image: /static/images/news/small-sports-car-company-sc01-pictures-evocouk/small-sports-car-company-sc01-pictures-evocouk-1.png
+image_credit: "Wikipedia / Auto Shanghai"
+image_src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Auto_Shanghai_logo.svg/960px-Auto_Shanghai_logo.svg.png"
 tags: [Electric]
 ---
 
@@ -14,20 +14,28 @@ tags: [Electric]
 
 Images of the Small Sports Car Company SC01.
 
-Volkswagen Golf GTI Edition 50 review – the best hot Golf in years, and the fastest hot hatch we’ve tested. With the Edition 50, Volkswagen has produced the most hardcore road-going Golf since the Clubsport S. It’s the best Mk8 yet, and the fastest hot hatch…24 Jul 202624 Jul 2026This Lotus-inspired sports car has 429bhp and real driver focus: meet the SC01NewsThis…
-
-© Copyright Carwow Studio Limited 2025. All rights reserved. Evo™ is a registered trade mark. Carwow Studio Limited is part of the Carwow Group.
+BMW toyed with the idea of an E46 M3 Touring, making just one prototype. A UK company has picked up where it left off30 Jul 202630 Jul 2026I put budget tyres to the test in the wet, and the results were terrifyingOpinionI put budget tyres to the test in the wet, and the results were terrifying.
 
 
 ## Why It Matters
 
-With the Edition 50, Volkswagen has produced the most hardcore road-going Golf since the Clubsport S.
+A UK company has picked up where it left off30 Jul 202630 Jul 2026I put budget tyres to the test in the wet, and the results were terrifyingOpinionI put budget tyres to the test in the wet, and the results were terrifying.
 
+
+<figure class="article-inline-img">
+  <img src="/static/images/news/small-sports-car-company-sc01-pictures-evocouk/small-sports-car-company-sc01-pictures-evocouk-2.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: Wikipedia / List of battery electric vehicles</figcaption>
+</figure>
 
 ## CarMotion Daily's Take
 
 If the execution delivers, this is the kind of EV move competitors will have to answer.
 
+
+<figure class="article-inline-img">
+  <img src="/static/images/news/small-sports-car-company-sc01-pictures-evocouk/small-sports-car-company-sc01-pictures-evocouk-3.jpg" alt="" loading="lazy">
+  <figcaption class="img-credit">Source: Wikipedia / Small Sports Car SC01</figcaption>
+</figure>
 
 ---
 
