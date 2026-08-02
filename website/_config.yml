@@ -2,6 +2,17 @@ title: CarMotion Daily
 description: Daily automotive news — curated, rewritten, and published fresh every morning.
 url: https://carmotion-daily.pages.dev
 baseurl: ""
+lang: en_US
+
+# SEO metadata
+author: CarMotion Daily
+twitter:
+  username: CarMotion01
+social:
+  name: CarMotion Daily
+  links:
+    - https://www.youtube.com/@CarMotion-01
+logo: /assets/logo.png
 
 # Theme & build
 theme: minima  # we'll override heavily

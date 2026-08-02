@@ -173,6 +173,106 @@ def infer_tags(title):
     return tags
 
 
+# ---------- Q3: Strip source brand from title ----------
+# Common source suffixes/prefixes that appear in RSS titles:
+#   "... - topgear.com" | "... - evo.co.uk" | "... - MotorTrend"
+_SOURCE_SUFFIX_RE = re.compile(
+    r"\s*[-–—]\s*"
+    r"(topgear\.com|topgear|evo\.co\.uk|evo|motortrend|motor1|autocar|"
+    r"autocar\.co\.uk|road\s*&?\s*track|roadandtrack|insideevs|carscoops|"
+    r"autoblog|caranddriver|thesupercarblog|hypercarsupercars|"
+    r"thedriver\.io|carsizes\.com|motor1\.com|"
+    r"automotive\s*news|reuters|bbc|cnn|yahoo\s*news|google\s*news|"
+    r"[A-Z][A-Za-z0-9\s&.-]{2,30}\.(com|co\.uk|net|org|io))"
+    r"\s*$",
+    re.IGNORECASE,
+)
+
+
+def _strip_source_from_title(title: str) -> str:
+    """
+    Remove the trailing source-brand suffix from an RSS title.
+    e.g. "The new Ferrari F80 is here - topgear.com" → "The new Ferrari F80 is here"
+    Also handles ' | Source' and ' — Source' patterns.
+    """
+    cleaned = title.strip()
+    # Try regex first (covers domain-style suffixes)
+    m = _SOURCE_SUFFIX_RE.search(cleaned)
+    if m:
+        cleaned = cleaned[: m.start()].strip()
+    # Fallback: simple split on ' - ' or ' | ' — take the first part
+    #  only if the part after looks like a source (short, all-caps brand or domain-ish)
+    for sep in [" - ", " — ", " | "]:
+        if sep in cleaned:
+            parts = cleaned.rsplit(sep, 1)
+            suffix = parts[1].strip()
+            # If the suffix is short and doesn't start with a capital sentence word, skip
+            if len(suffix) < 35 and (
+                "." in suffix or suffix.isupper() or suffix.istitle()
+            ):
+                cleaned = parts[0].strip()
+                break
+    return cleaned
+
+
+# ---------- Q2: Extract meta description from body ----------
+_DESCRIPTION_RE = re.compile(
+    r"## Why It Matters\s*\n+(.*?)(?=\n## |\Z)",
+    re.DOTALL,
+)
+
+
+def _extract_description(body: str, title: str, source_desc: str = "") -> str:
+    """
+    Extract a short meta description (≤160 chars) from the article body.
+    Priority: 1) '## Why It Matters' section  2) '## The Story' first paragraph
+    3) source description from daily-brief  4) title
+    """
+    # Strategy 1: Why It Matters section
+    m = _DESCRIPTION_RE.search(body)
+    if m:
+        raw = m.group(1).strip()
+        # Strip markdown formatting + extra whitespace
+        raw = re.sub(r"\*+|#+|`+", "", raw)
+        raw = re.sub(r"\s+", " ", raw).strip()
+        if len(raw) > 20:
+            # Truncate at sentence boundary if possible
+            if len(raw) > 157:
+                # Find last period before 157 chars
+                truncated = raw[:157]
+                last_period = truncated.rfind(".")
+                if last_period > 80:
+                    raw = truncated[: last_period + 1]
+                else:
+                    raw = truncated.rstrip() + "…"
+            return raw
+
+    # Strategy 2: The Story first paragraph
+    story_re = re.compile(r"## The Story\s*\n+(.*?)(?=\n## |\Z)", re.DOTALL)
+    m2 = story_re.search(body)
+    if m2:
+        raw = re.sub(r"\*+|#+|`+", "", m2.group(1).strip())
+        raw = re.sub(r"\s+", " ", raw).strip()
+        if len(raw) > 20:
+            if len(raw) > 157:
+                truncated = raw[:157]
+                last_period = truncated.rfind(".")
+                if last_period > 80:
+                    raw = truncated[: last_period + 1]
+                else:
+                    raw = truncated.rstrip() + "…"
+            return raw
+
+    # Strategy 3: source description
+    if source_desc:
+        raw = re.sub(r"\s+", " ", source_desc).strip()
+        if len(raw) > 20:
+            return raw[:157].rstrip() + ("…" if len(raw) > 157 else "")
+
+    # Strategy 4: title
+    return title.strip()[:157]
+
+
 # ---------- Image fetching ----------
 def fetch_images_for_post(brand: str, fallback_query: str, slug: str,
                           max_images: int = 4, google_news_url: str = "") -> list:
@@ -976,13 +1076,17 @@ def render_gallery(images: list) -> str:
 # ---------- Single post ----------
 def render_post(entry: dict, date_str: str, dry_run: bool=False,
                  use_llm: bool=True):
-    slug = slugify(entry["title"])
+    # Q3: Strip source suffix early so slug also benefits
+    clean_title = _strip_source_from_title(entry["title"])
+    if clean_title != entry["title"]:
+        print(f"       [Q3] title cleaned: '{entry['title'][:55]}' → '{clean_title[:55]}'")
+    slug = slugify(clean_title)
     if not slug:
         slug = f"news-{entry['n']}"
-    tags = infer_tags(entry["title"])
-    brand = infer_brand(entry["title"])
+    tags = infer_tags(clean_title)
+    brand = infer_brand(clean_title)
 
-    print(f"  [{entry['n']:>2}] {entry['title'][:70]}")
+    print(f"  [{entry['n']:>2}] {clean_title[:70]}")
     print(f"       slug: {slug} | tags: {', '.join(tags)}")
 
     # Fetch images (1 hero + up to 3 gallery)
@@ -1002,7 +1106,7 @@ def render_post(entry: dict, date_str: str, dry_run: bool=False,
         # Pass the decoded real URL via google_news_url param (extractor will detect it's not Google News and skip decode)
         # But the extractor expects a Google News URL; simpler to keep using original news.google.com URL
         pass
-    images = fetch_images_for_post(brand, entry["title"], slug,
+    images = fetch_images_for_post(brand, clean_title, slug,
                                     max_images=4,
                                     google_news_url=entry["url"])
     hero_local = ""
@@ -1011,8 +1115,15 @@ def render_post(entry: dict, date_str: str, dry_run: bool=False,
         hero_local = "/" + images[0]["local_path"].replace("\\", "/")
         hero_credit = images[0]["credit"]
 
-    body = rewrite_content(entry, tags, real_url=real_source_url,
+    # Pass clean_title into entry copy so rewrite_content uses the cleaned title
+    entry_clean = dict(entry)
+    entry_clean["title"] = clean_title
+
+    body = rewrite_content(entry_clean, tags, real_url=real_source_url,
                             body=article_body, use_llm=use_llm)
+
+    # Q2: Extract meta description from body
+    meta_desc = _extract_description(body, clean_title, entry.get("description", ""))
 
     # Inline images: insert gallery images between body paragraphs (not all at end)
     gallery_images = images[1:] if len(images) > 1 else []
@@ -1071,10 +1182,12 @@ def render_post(entry: dict, date_str: str, dry_run: bool=False,
     hero_fm = hero_local if hero_local else '""'
     hero_src_url = images[0]["src_url"] if images else ""
     hero_src_credit = images[0]["credit"] if images else ""
-    safe_title = entry["title"].replace('"', "'")
+    safe_title = clean_title.replace('"', "'")
+    safe_desc = meta_desc.replace('"', "'").replace("\n", " ")
     front_matter = f"""---
 layout: news-item
 title: "{safe_title}"
+description: "{safe_desc}"
 date: {date_str} 08:00 +0800
 source: {entry['source']}
 source_url: {entry['url'].replace('"', "'")}

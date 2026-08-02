@@ -38,3 +38,32 @@ layout: default
     </div>
   </div>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ page.title | jsonify | escape }},
+  {% if page.image %}"image": ["{{ site.url }}{{ site.baseurl }}{{ page.image }}"],{% endif %}
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "CarMotion Daily",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CarMotion Daily",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}/assets/logo.png"
+    }
+  },
+  "description": {{ page.description | default: site.description | jsonify | escape }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.url | absolute_url | jsonify }}
+  }
+}
+</script>
