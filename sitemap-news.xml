@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+{% capture now_secs %}{{ site.time | date: '%s' }}{% endcapture %}
+{% assign cutoff_secs = now_secs | minus: 172800 %}
+{% for post in site.posts %}
+{% capture post_secs %}{{ post.date | date: '%s' }}{% endcapture %}
+{% assign post_secs_int = post_secs | plus: 0 %}
+{% assign cutoff_secs_int = cutoff_secs | plus: 0 %}
+{% if post_secs_int > cutoff_secs_int %}
+<url>
+  <loc>{{ post.url | absolute_url }}</loc>
+  <news:news>
+    <news:publication>
+      <news:name>CarMotion Daily</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+    <news:title>{{ post.title | strip_html | escape_once }}</news:title>
+  </news:news>
+</url>
+{% endif %}
+{% endfor %}
+</urlset>
