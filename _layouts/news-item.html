@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ site.baseurl }}/">Home</a> ›
+  {% if page.tags.size > 0 %}
+  <span>{{ page.tags[0] }}</span> ›
+  {% endif %}
+  <span class="current">{{ page.title | truncate: 50 }}</span>
+</nav>
+
 <article class="article">
   <header class="article-header">
     <div class="kicker">{{ page.source }}</div>
@@ -13,7 +21,7 @@ layout: default
   </header>
 
   {% if page.image %}
-  <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" class="article-hero-img">
+  <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" class="article-hero-img" width="1200" height="675" loading="eager">
   {% endif %}
 
   <div class="article-body">
@@ -38,6 +46,35 @@ layout: default
     </div>
   </div>
 </article>
+
+{%- comment -%} M8: Related articles by first tag {%- endcomment -%}
+{% assign related = site.posts | where_exp: "p", "p.tags contains page.tags[0]" | reject: "url", page.url | take: 4 %}
+{% if related.size > 0 %}
+<section class="related-articles">
+  <h3>Related Articles</h3>
+  <ul class="related-list">
+    {% for p in related %}
+    <li class="related-item">
+      <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+      <span class="related-date">{{ p.date | date: "%b %d, %Y" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{%- comment -%} M7: BreadcrumbList JSON-LD {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}{{ site.baseurl }}/"},
+    {% if page.tags.size > 0 %}{"@type": "ListItem", "position": 2, "name": {{ page.tags[0] | jsonify }}, "item": "{{ site.url }}{{ site.baseurl }}/category/{{ page.tags[0] | downcase }}.html"},{% endif %}
+    {"@type": "ListItem", "position": {% if page.tags.size > 0 %}3{% else %}2{% endif %}, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }}}
+  ]
+}
+</script>
 
 <script type="application/ld+json">
 {
