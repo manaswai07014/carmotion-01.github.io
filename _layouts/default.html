@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }} — CarMotion Daily</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
   <meta name="google-site-verification" content="dsNZuSZZhAkEbBZiw2XSaQLleIzrexX3etrPYhTeMK8" />
@@ -81,6 +83,32 @@
 <!-- Cloudflare Web Analytics beacon — privacy-first, no cookies -->
 <!-- SRI not used: Cloudflare beacon.min.js is auto-updated by Cloudflare -->
 {% include cloudflare-analytics.html %}
+
+{%- comment -%} L8: WebSite SearchAction schema {%- endcomment -%}
+{% if page.url == "/" or page.url == "/index.html" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "name": "{{ site.title }}",
+  "description": {{ site.description | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}/assets/logo.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}{{ site.baseurl }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endif %}
 
 </body>
 </html>
