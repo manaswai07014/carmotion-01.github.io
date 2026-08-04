@@ -1,0 +1,17 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+# Disallow crawling of build artifacts
+Disallow: /assets/css/
+Disallow: /scripts/
+
+# Allow news crawlers full access
+User-agent: Googlebot-News
+Allow: /
+
+# Sitemaps
+Sitemap: https://carmotion-daily.pages.dev/sitemap.xml
+Sitemap: https://carmotion-daily.pages.dev/sitemap-news.xml
