@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Bentley's EV Will Use an Orchestra to Replicate the Sound of a V8"
+description: "This story resonates because it puts Bentley squarely in the conversation. Industry watchers often read such moves as signals — for Bentley this could mean r…"
 date: 2026-07-19 08:00
 source: InsideEVs
 source_url: https://insideevs.com/news/801933/bentley-orchestra-replicate-v8-ev/

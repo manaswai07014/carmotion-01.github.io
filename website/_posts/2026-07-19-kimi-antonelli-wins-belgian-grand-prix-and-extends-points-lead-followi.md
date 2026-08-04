@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Kimi Antonelli Wins Belgian Grand Prix and Extends Points Lead Following Teammate's Lap 1 Retirement"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73179330/kimi-antonelli-wins-belgian-grand-prix-extends-points-lead-george-russell-lap-1-retirement/

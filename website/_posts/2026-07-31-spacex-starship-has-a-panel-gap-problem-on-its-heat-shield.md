@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "SpaceX Starship Has A Panel Gap Problem On Its Heat Shield"
+description: "If this sounds familiar, it's because it's the exact same procedure that the space shuttle had to go through during its life cycle, as Ars Technica notes."
 date: 2026-07-31 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2226685/spacex-starship-panel-gap-problem-heat-shield/

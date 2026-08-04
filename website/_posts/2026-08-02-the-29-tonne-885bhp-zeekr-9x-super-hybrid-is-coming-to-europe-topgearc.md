@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "The 2.9-tonne, 885bhp Zeekr 9X Super Hybrid is coming to Europe… - topgear.com"
+seo: false
+title: "The 2.9-tonne, 885bhp Zeekr 9X Super Hybrid is coming to Europe…"
+description: "Zeekr claims the 9X gets a “47in head-up display projecting navigation, speed, blind spot camera feed and information directly into the driver’s line of sigh…"
 date: 2026-08-02 08:00 +0800
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFpjN2hpVWdwTm9ic3F0eFhHVko3VFBQOEhMaUUzNzRFVkNoUjFWQWNyLTFqVWl0UWp4LVV4TWVxU0NzWkU2cGdTWHdzZEJQQ3Ftb1I5SV9KRzBIQUwtWHBYMFFtTEpSWVV2SmRWOGx3RzEyMWxYUkVtZ0MtSjdDenl3R29waG1EN3Z5U1M2Wmd2SDQ?oc=5

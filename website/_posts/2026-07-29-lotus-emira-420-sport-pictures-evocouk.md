@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Lotus Emira 420 Sport – pictures - evo.co.uk"
+seo: false
+title: "Lotus Emira 420 Sport"
+description: "This story resonates because it puts Lotus squarely in the conversation. Industry watchers often read such moves as signals — for Lotus this could mean re-en…"
 date: 2026-07-29 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1CM2tsOEs0NlBTZzAzenNxcU5EV3djTnR0eFRYaUhUdEh3OXFOTkJwSHRGVW5ROF9WQ1JsOFhyY3Q4cTl3bGVQUm5Dd1haNnVubWtZN25mUDhSYWhwdG1GdzJ4XzVyTl85b0doaFVRMWwzbFBfdG1lTV9sMA?oc=5

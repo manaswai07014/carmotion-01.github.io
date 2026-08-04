@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "U.S. Customs Seize $539,000 Luxury-Car Export Over Fraudulent Bills of Sale"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-23 08:00 +0800
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73229877/customs-seizes-luxury-car-export-over-fraudulent-bills-of-sale/

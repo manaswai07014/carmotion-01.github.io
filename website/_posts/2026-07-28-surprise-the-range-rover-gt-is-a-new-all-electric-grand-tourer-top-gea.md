@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Surprise! The Range Rover GT is a new, all-electric… grand tourer - Top Gear"
+seo: false
+title: "Surprise! The Range Rover GT is a new, all-electric… grand tourer"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-28 08:00 +0800
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQbjI1WkNFQ3kxRWM4SURKM0JtVWE1em5yWUwxbHlUT1AtZlRhQzJlRXJqQ0RQSURabk9jaHhiV1pyR1d0dDRJM3Z6UGtlVF9Qd0pDRUt5QmZBY0xCVnFxY3JObEtWbXNPV0JaOEpWVGZRbmxOWmV4QmE3ZGlqMWk5d0haSE9TQzlMUzhZUS1xbkdXS3ZQZUxIYVZVeVY3UQ?oc=5

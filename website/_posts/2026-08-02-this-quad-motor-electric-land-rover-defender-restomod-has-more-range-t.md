@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "This Quad-Motor Electric Land Rover Defender Restomod Has More Range Than Some Teslas"
+description: "With a claimed range of 375 miles WLTP, it can go further on one charge a Tesla Model Y base RWD (314 miles), Model Y Performance (360 miles), Model 3 base R…"
 date: 2026-08-02 08:00 +0800
 source: InsideEVs
 source_url: https://insideevs.com/news/803290/electric-land-rover-defender-restomod/

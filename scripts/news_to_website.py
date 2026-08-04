@@ -1186,6 +1186,7 @@ def render_post(entry: dict, date_str: str, dry_run: bool=False,
     safe_desc = meta_desc.replace('"', "'").replace("\n", " ")
     front_matter = f"""---
 layout: news-item
+seo: false
 title: "{safe_title}"
 description: "{safe_desc}"
 date: {date_str} 08:00 +0800

@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "The Quickest Trucks Are Now EVs, But The Fastest Trucks Are Still Gas (And Old)"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2216772/quickest-trucks-evs-fastest-still-gas-and-old/

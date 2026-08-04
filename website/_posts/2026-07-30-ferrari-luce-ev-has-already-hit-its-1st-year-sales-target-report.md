@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Ferrari Luce EV Has Already Hit Its 1st-Year Sales Target: Report"
+description: "This story resonates because it puts Ferrari squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean r…"
 date: 2026-07-30 08:00 +0800
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73295960/ferrari-luce-ev-1st-year-sales-target-report/

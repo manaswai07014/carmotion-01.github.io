@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Toyota’s New MR2 May Have Just Been Caught Testing For The First Time"
+description: "Understanding why this matters comes down to context.Each headline adds another data point to where power, money, and attention are flowing in the car world."
 date: 2026-07-22 08:00 +0800
 source: Autoblog
 source_url: https://www.carscoops.com/2026/07/toyota-mid-engine-sports-car-prototype/

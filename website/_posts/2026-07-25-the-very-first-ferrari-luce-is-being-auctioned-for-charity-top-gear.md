@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "The very first Ferrari Luce is being auctioned for charity - Top Gear"
+seo: false
+title: "The very first Ferrari Luce is being auctioned for charity"
+description: "This story resonates because it puts Ferrari squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean r…"
 date: 2026-07-25 08:00 +0800
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNQzVCaThxTmoxaFNNTFdJT3N5ellBbVZ4QkhJQTlhaHZ1YVUxeDVNeU1DVk90ZkVxVDk5bmdRSTlEdDBLSlk3SkZSTXNBWXMyc2Y5b1BTbzgwTndFN3JaWkdzVVVaTkRjQjg5VGE1UVoyenRhbTJMTUZFR3huVU1kLTM2aTdiVmJfaXhkTlp2YVg5MXc?oc=5

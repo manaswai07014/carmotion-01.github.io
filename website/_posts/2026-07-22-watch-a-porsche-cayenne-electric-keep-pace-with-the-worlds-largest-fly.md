@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Watch a Porsche Cayenne Electric Keep Pace With the World's Largest Flying Plane"
+description: "This story resonates because it puts Porsche squarely in the conversation. Industry watchers often read such moves as signals — for Porsche this could mean r…"
 date: 2026-07-22 08:00 +0800
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73221318/porsche-cayenne-electric-stratolaunch-roc-drag-race/

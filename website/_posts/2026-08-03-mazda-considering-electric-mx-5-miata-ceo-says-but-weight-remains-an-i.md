@@ -1,5 +1,6 @@
 ---
 layout: news-item
+seo: false
 title: "Mazda Considering Electric MX-5 Miata, CEO Says, But Weight Remains an Issue"
 description: "The potential need for a battery-electric powertrain makes Mazda’s idealized curb weight for the next generation that much more complicated."
 date: 2026-08-03 08:00 +0800

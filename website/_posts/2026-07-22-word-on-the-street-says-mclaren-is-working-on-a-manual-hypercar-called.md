@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Word On The Street Says McLaren Is Working On A Manual Hypercar Called The P50"
+description: "This story resonates because it puts McLaren squarely in the conversation. Industry watchers often read such moves as signals — for McLaren this could mean r…"
 date: 2026-07-22 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220666/mclaren-working-on-manual-hypercar-p50/

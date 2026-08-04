@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "GM Is Locking In A $1 Billion Contract With The Army As Truck Business Flourishes Under Trump"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-22 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220663/gm-1-billion-dollar-contract-army-truck-buisness-trump/

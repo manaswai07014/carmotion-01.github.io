@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "This Tiny Hatchback Is The Best-Selling Car In China. But How?"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: Motor1
 source_url: https://www.motor1.com/news/802061/best-selling-car-china/

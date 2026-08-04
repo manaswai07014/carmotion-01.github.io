@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "A New Mercedes G-Class With An Alibaba Kit Bid To $60,000 Below What The Owner Put In"
+description: "Understanding why this matters comes down to context.Each headline adds another data point to where power, money, and attention are flowing in the car world."
 date: 2026-07-23 08:00 +0800
 source: Autoblog
 source_url: https://www.carscoops.com/2026/07/mercedes-g550-modified-auction/

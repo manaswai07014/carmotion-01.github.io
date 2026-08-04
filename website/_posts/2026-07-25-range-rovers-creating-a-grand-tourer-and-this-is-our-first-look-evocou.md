@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Range Rover’s creating a grand tourer, and this is our first look - evo.co.uk"
+seo: false
+title: "Range Rover’s creating a grand tourer, and this is our first look"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-25 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWxtcm9pWWpOSllpRGJtZFNJcngxdnJFd2VzWXpyUUFmRmxnbjNHdmh1UkxpbW5kdXhGSVNmYjBRSm1uOFRlWHdqUmw4cXhFdjc0dGd1c3NKVXp6QTd6bllScGFILTZPcjlkMWFneVk4WTdjOGF4cEpHcEJCZE9iSXdQR3Z6bWtyUlVpSXkwa09uTkowS1JGS1dEOFpMZUhsZm9zVkJzNm1aMW8tRk95XzRn?oc=5

@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "On Track in the Luce: We Drive the Ferrari Everyone’s Talking About - MotorTrend"
+seo: false
+title: "On Track in the Luce: We Drive the Ferrari Everyone’s Talking About"
+description: "All we wanted to know for now is if it still feels like a proper Ferrari."
 date: 2026-08-01 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9vX0d0VjczXzRERGtlMTk0eDZIRFd6WWl4RDJJX2ZIU2dBaFJBNEFXVzQwSmQ4OUNWbEo4ZVVJRW0yUElyVTloMjROeW9vZ0xybDZvNGx2NFVnRGgwdFN0TG5iYzFINncwRGJnQ2NwR3l6TUlGZUJUQ1BDQjkxblk?oc=5

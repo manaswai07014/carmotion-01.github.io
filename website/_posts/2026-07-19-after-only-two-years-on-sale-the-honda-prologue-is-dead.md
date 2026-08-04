@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "After Only Two Years On Sale The Honda Prologue Is Dead"
+description: "This story resonates because it puts Honda squarely in the conversation. Industry watchers often read such moves as signals — for Honda this could mean re-en…"
 date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2217145/honda-prologue-dead-after-two-years/

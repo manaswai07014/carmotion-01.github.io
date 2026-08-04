@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Factorial Taps Hyundai Supplier To Solve Solid-State Batteries’ Biggest Problem"
+description: "This story resonates because it puts Hyundai squarely in the conversation. Industry watchers often read such moves as signals — for Hyundai this could mean r…"
 date: 2026-07-30 08:00 +0800
 source: InsideEVs
 source_url: https://insideevs.com/news/803125/factorial-sk-on-solid-state-battery-mou/

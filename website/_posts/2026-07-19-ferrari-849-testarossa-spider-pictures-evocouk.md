@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Ferrari 849 Testarossa Spider – pictures - evo.co.uk"
+seo: false
+title: "Ferrari 849 Testarossa Spider"
+description: "This story resonates because it puts Ferrari squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean r…"
 date: 2026-07-19 08:00
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNZFhrZ0lmbUNySkxxcE1sXzFoNE5nMWh1RDhiN2RCLWJlaDZqQUw2bEVGRVdGU0EzWkVOY3ZPNngtLVVJMjVZTEQxeG4zV01HYUh3bzR5RFVXcGk2ejRQb1c2MmhwYlktbmVVLXhhTUxteUl2OWRBRzFnRHFVQ0hxS0drYW1oRjNhNmVyZ1l1UElRazJv?oc=5

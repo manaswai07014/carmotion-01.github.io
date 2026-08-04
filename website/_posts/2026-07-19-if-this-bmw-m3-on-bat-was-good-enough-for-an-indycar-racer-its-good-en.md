@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "If This BMW M3 on BaT Was Good Enough for an IndyCar Racer, It's Good Enough for You"
+description: "This story resonates because it puts BMW squarely in the conversation. Industry watchers often read such moves as signals — for BMW this could mean re-engage…"
 date: 2026-07-19 08:00
 source: CarAndDriver
 source_url: https://www.caranddriver.com/news/a72626251/2006-bmw-m3-bring-a-trailer-auction/

@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "One-of-One 2027 Bentley Continental GTC Goes All-In on Purple Haze"
+description: "This story resonates because it puts Bentley squarely in the conversation. Industry watchers often read such moves as signals — for Bentley this could mean r…"
 date: 2026-07-30 08:00 +0800
 source: CarAndDriver
 source_url: https://www.caranddriver.com/news/a73295185/2027-bentley-continental-gtc-one-of-one-revealed/

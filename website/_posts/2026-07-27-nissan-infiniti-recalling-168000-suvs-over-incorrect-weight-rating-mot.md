@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Nissan, Infiniti Recalling 168,000 SUVs Over Incorrect Weight Rating - MotorTrend"
+seo: false
+title: "Nissan, Infiniti Recalling 168,000 SUVs Over Incorrect Weight Rating"
+description: "This story resonates because it puts Nissan squarely in the conversation. Industry watchers often read such moves as signals — for Nissan this could mean re-…"
 date: 2026-07-27 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFhKWVBQblMzT3NPT0NicVJaZEJ4NVE1U1NnY2xhd3VSaEs5YU5icTVIRElMWjRGOFNCLU5FWnJTQ254aW1ucDZxZFlESUNpZ1ZLd2hCWGhVUVJMajNqYS1xYVlVbV9UWnhJcGgtandKZDFuVlI1MVlIcy02M0dJcWp5NmI0Nlh3WFhoWFBBOGc0LXQ0?oc=5

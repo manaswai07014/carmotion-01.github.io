@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "It Was a Trap? Electronic Car Door Handles May Finally Get Safer - MotorTrend"
+seo: false
+title: "It Was a Trap? Electronic Car Door Handles May Finally Get Safer"
+description: "New rules could force automakers to make emergency door releases obvious and easy to find."
 date: 2026-08-01 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNM25qZEFNX3Fxd0I3dHVYcTFkOEQyYkt4WmtQTGpVYTZOMUZqLWhCT1JTNi1wLVF3cnlQcUJsZjVqeEgxb2l5TkxaNktWeEdoNzlQS0Q5WWtwcllEVjMtcmhINTNtc2dxbU93YUlld0o2ekxlTjlGRFpfSXJGNGJUcXRxMA?oc=5

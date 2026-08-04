@@ -1,5 +1,6 @@
 ---
 layout: news-item
+seo: false
 title: "F1 CEO Domenicali Says George Lucas Told Him Most New Fans Just Want to See Action"
 description: "“These [moves] are a piece of [what], if I may say, that these people just want to see, and just [be] connected to the quality of the drivers."
 date: 2026-08-03 08:00 +0800

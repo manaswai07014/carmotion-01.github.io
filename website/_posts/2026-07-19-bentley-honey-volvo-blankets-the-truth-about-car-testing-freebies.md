@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Bentley honey, Volvo blankets: The truth about car testing 'freebies'"
+description: "This story resonates because it puts Volvo squarely in the conversation. Industry watchers often read such moves as signals — for Volvo this could mean re-en…"
 date: 2026-07-19 08:00
 source: Autocar
 source_url: https://www.autocar.co.uk/opinion/new-cars/bentley-honey-volvo-blankets-truth-about-car-testing-freebies

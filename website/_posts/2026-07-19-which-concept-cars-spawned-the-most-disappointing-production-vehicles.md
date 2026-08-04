@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Which Concept Cars Spawned The Most Disappointing Production Vehicles?"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2217799/which-concept-cars-spawned-most-disappointing-production-vehicles-reader-question/

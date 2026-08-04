@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "These Musicians Should Make EV Sounds, According To Our Readers"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-22 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220382/these-musicians-should-make-ev-sounds-reader-answers/

@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "The All-New Mercedes-Benz GLA Is Bigger, Smarter, and Electrified - MotorTrend"
+seo: false
+title: "The All-New Mercedes-Benz GLA Is Bigger, Smarter, and Electrified"
+description: "Mercedes wanted little differentiation between models regardless of powertrain, and it picked the spots where they wanted them to be distinct—notably their f…"
 date: 2026-08-02 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1rbkl3QTViaENzVG9IX1FHSGNPVlZpb0NlR2ktM09lenNzYk9kVjU0NHIwdEN6S3RfNTdKX09RdGRtemxkd09sazlqWDhZODJVeFNVcThEbHpKTlFXaWxtamFTZkVnX21VV19rT0pQMGVnUHNNVzZMUXJzaw?oc=5

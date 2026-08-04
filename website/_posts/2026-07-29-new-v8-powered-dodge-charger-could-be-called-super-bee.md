@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "New V8-powered Dodge Charger could be called ‘Super Bee’"
+description: "This story resonates because it puts Dodge squarely in the conversation. Industry watchers often read such moves as signals — for Dodge this could mean re-en…"
 date: 2026-07-29 08:00 +0800
 source: SupercarBlog
 source_url: https://www.thesupercarblog.com/new-v8-powered-dodge-charger-could-be-called-super-bee/

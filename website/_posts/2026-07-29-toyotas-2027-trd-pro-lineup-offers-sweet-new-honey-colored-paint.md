@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Toyota's 2027 TRD Pro Lineup Offers Sweet New Honey-Colored Paint"
+description: "This story resonates because it puts Toyota squarely in the conversation. Industry watchers often read such moves as signals — for Toyota this could mean re-…"
 date: 2026-07-29 08:00 +0800
 source: CarAndDriver
 source_url: https://www.caranddriver.com/news/a73285208/toyota-2027-trd-pro-lineup-honeycomb-paint/

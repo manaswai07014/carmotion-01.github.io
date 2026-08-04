@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "GAC’s M8 Minivan Costs Less Than Half A Lexus LM 500h, But Nothing About It Feels Halved"
+description: "Understanding why this matters comes down to context.Each headline adds another data point to where power, money, and attention are flowing in the car world."
 date: 2026-07-19 08:00
 source: Autoblog
 source_url: https://www.carscoops.com/2026/07/gac-m8-phev-review/

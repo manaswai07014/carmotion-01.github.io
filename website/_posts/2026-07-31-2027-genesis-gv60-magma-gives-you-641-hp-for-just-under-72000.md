@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "2027 Genesis GV60 Magma Gives You 641 HP for Just Under $72,000"
+description: "Eric Stafford’s automobile addiction began before he could walk, and it has fueled his passion to write news, reviews, and more for Car and Driver since 2016…"
 date: 2026-07-31 08:00 +0800
 source: CarAndDriver
 source_url: https://www.caranddriver.com/news/a73299287/2027-genesis-gv60-magma-price/

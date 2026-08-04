@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Ram’s 1500 Rumble Bee Lineup Starts at Just $62,790"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-30 08:00 +0800
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73296082/ram-1500-rumble-bee-pricing/

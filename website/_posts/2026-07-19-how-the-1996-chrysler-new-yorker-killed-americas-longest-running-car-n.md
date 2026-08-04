@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "How The 1996 Chrysler New Yorker Killed America's Longest-Running Car Nameplate"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2216586/chrysler-new-yorker-1996-final-longest-running-american-nameplate/
