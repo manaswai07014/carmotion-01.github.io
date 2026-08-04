@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Ford's Next EVs Will Ditch Google For Apple Maps"
+description: "This story resonates because it puts Ford squarely in the conversation. Industry watchers often read such moves as signals — for Ford this could mean re-enga…"
 date: 2026-07-27 08:00 +0800
 source: Motor1
 source_url: https://www.motor1.com/news/802601/ford-evs-apple-maps/

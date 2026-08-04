@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Ford Just Made It Easier To Back Up Your House With An F-150 Hybrid Or Lightning"
+description: "This story resonates because it puts Ford squarely in the conversation. Industry watchers often read such moves as signals — for Ford this could mean re-enga…"
 date: 2026-07-24 08:00 +0800
 source: InsideEVs
 source_url: https://insideevs.com/news/802486/ford-truck-backup-power/

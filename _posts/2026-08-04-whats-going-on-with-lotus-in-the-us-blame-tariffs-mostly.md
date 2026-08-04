@@ -1,5 +1,6 @@
 ---
 layout: news-item
+seo: false
 title: "What’s Going On With Lotus in the U.S.? Blame Tariffs, Mostly"
 description: "It stands to reason that even if tariffs weren’t an issue, the built-in-China Lotus models, which use Geely-sourced Chinese software and hardware, would be s…"
 date: 2026-08-04 08:00 +0800

@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Big Owner Satisfaction Survey Suggests Big Problems For These Luxury Brands"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-24 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2221074/acsi-owner-satisfaction-survey-luxury-car-brands-in-trouble/

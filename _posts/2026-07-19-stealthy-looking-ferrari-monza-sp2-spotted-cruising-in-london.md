@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Stealthy-looking Ferrari Monza SP2 spotted cruising in London"
+description: "This story resonates because it puts Ferrari squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean r…"
 date: 2026-07-19 08:00
 source: SupercarBlog
 source_url: https://www.thesupercarblog.com/stealthy-looking-ferrari-monza-sp2-spotted-cruising-in-london/

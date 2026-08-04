@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "NASCAR’s Best Team May Suddenly Have an Open Seat"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-26 08:00 +0800
 source: RoadandTrack
 source_url: https://www.roadandtrack.com/news/a73250217/nascars-best-team-may-suddenly-have-an-open-seat/

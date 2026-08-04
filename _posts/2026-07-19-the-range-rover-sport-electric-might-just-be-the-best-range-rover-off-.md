@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "The Range Rover Sport electric might just be the best Range Rover off road - evo.co.uk"
+seo: false
+title: "The Range Rover Sport electric might just be the best Range Rover off road"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnZvMlgtMF9VakJrT191RU56M2U3b2xaQmNJLV9KR3cxXzhlYmVzVFZFM3cwalBWSVBnQjRsNXpyMnkxN1VyY01mLWhXNGcxS3AxNXltYzM4eU1zRVFGNGZnU0dIa0ZlS210M0JramwyX01hbm53TDNIUW92NVJRdUVDVE9hOXptajkwQzFsWnZmT3lMYk5XZW5tc3Rrc212b0VKc0dDVkxQZG0yaGdvM3liYkVfTUJleEFOVXhR?oc=5

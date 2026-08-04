@@ -1,5 +1,6 @@
 ---
 layout: news-item
+seo: false
 title: "Tested: The Lexus ES350e EV Is a Commuting All-Star"
 description: "Despite one serious limitation, the 2026 ES350e proves more than the sum of its parts."
 date: 2026-08-04 08:00 +0800

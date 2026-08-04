@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Ferrari Is Auctioning Off The First Example Of its First Electric Car. How Much Do You Think It'll Fetch?"
+description: "This story resonates because it puts Ferrari squarely in the conversation. Industry watchers often read such moves as signals — for Ferrari this could mean r…"
 date: 2026-07-19 08:00
 source: InsideEVs
 source_url: https://insideevs.com/news/802055/ferrari-luce-ev-auction-million/

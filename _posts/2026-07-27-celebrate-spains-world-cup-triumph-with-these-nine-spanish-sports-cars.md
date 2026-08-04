@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Celebrate Spain's World Cup triumph with these nine Spanish sports cars - Top Gear"
+seo: false
+title: "Celebrate Spain's World Cup triumph with these nine Spanish sports cars"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-27 08:00 +0800
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVZBNjVhV2pWSV9qdlprUVV4eTVyUzVscjBSTmRJTU91RjhjR0dsVERKTnlYbVhUSnZnRFo3ZW5JeHcta3I3NUw2Wm9CTk1IOWE4S3h3YkRFTEhmWEE4RGJtc3NFV3M4LXdrcy14MHBGVks1aENMTGloZ2FrYTlJTzQyMXRSTkxRTXNFUER0LTdkbWxHN3hCbEs1emx6NkZHMmY3VmhYZ2VJWWJ2SEt5Mk1wVEE?oc=5

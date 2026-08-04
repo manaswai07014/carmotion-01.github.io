@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Small Sports Car Company SC01 – pictures - evo.co.uk"
+seo: false
+title: "Small Sports Car Company SC01"
+description: "A UK company has picked up where it left off30 Jul 202630 Jul 2026I put budget tyres to the test in the wet, and the results were terrifyingOpinionI put budg…"
 date: 2026-08-01 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE94V1hLdzBOZFNsamdxLXh0TjV4VHhXbE4wZFBoVGFFS1oyYU1Bcy1jRjJqWDNJcEpHSVF3T0dXdEhPTlRpOXljSTdmdTNsem5GY1Y4akFQYk5jRW5FZU41OEIyYlowUHFReVhwTXVIdVJENXlPb281d05ZVlM?oc=5

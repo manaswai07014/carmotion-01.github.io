@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Ford Recalls Explorers and Aviators for Unexpectedly Reclining Seats"
+description: "This story resonates because it puts Ford squarely in the conversation. Industry watchers often read such moves as signals — for Ford this could mean re-enga…"
 date: 2026-07-30 08:00 +0800
 source: CarAndDriver
 source_url: https://www.caranddriver.com/news/a73295206/ford-explorer-aviator-reclining-seats-recall/

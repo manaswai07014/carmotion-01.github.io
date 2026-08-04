@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "A 48-Pound Electric Motor and a Diesel V-12 Could Transform Electric Flight - MotorTrend"
+seo: false
+title: "A 48-Pound Electric Motor and a Diesel V-12 Could Transform Electric Flight"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxOc1hrLV9xVVFYc21qeG9tV1ZRY0dUb21HdlJZTXdrb29pVGt4dEtwOW1EVEpzVjdJTHdja21zckZkaHQ5Q2E4NVhBaTg0WWdad3Q4YVlLWFpDTmVvczJnQUdMMWdUcVdJaUpQMjcxUEpEZl82UUE4Q2djVWZmako5S1JYZFY?oc=5

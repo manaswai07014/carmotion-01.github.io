@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Why hot hatch fans should pay attention to this affordable electric crossover - evo.co.uk"
+seo: false
+title: "Why hot hatch fans should pay attention to this affordable electric crossover"
+description: "This story resonates because it puts Ford squarely in the conversation. Industry watchers often read such moves as signals — for Ford this could mean re-enga…"
 date: 2026-07-28 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5BS2xtOUk2MVNYWXg5WTFjRWxIT0JROGVGOUFPa01CbHRKS0xqb1FJWE5ydHhaX0ZyaWhDM2I3MEhnMW9sdHdXS244TDN1Y3U1dVpFd3NrZ3BrZFhxdDBZWmtRRTRCWE51SWZ1OWZ0ZUNKN3dRRUlweg?oc=5

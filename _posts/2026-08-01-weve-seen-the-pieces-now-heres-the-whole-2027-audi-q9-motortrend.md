@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "We’ve Seen the Pieces, Now Here’s the Whole 2027 Audi Q9 - MotorTrend"
+seo: false
+title: "We’ve Seen the Pieces, Now Here’s the Whole 2027 Audi Q9"
+description: "Like the Q7, the Q9 has OLED taillights that can display various patterns, but on the Q9 the panel is curved, the first use of this technology in an Audi."
 date: 2026-08-01 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE94d1NWdHgtbHFfcFNCQnZwNHhtXzRtaWJFckdQeGpfQ21MX2N6QzE4em9zcEhxLW1ZX3RhR1dHWTk3UThpeXpJcjEwY1pzME93dTJENlFVR1dzazBMcmFtdWdwU3M5aFhYeWpN?oc=5

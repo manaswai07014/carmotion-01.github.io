@@ -1,5 +1,6 @@
 ---
 layout: news-item
+seo: false
 title: "We Drove the 2027 Slate Truck. Simplicity Might Be Its Superpower."
 description: "Yes, the Slate is bare bones personified, with utilitarian fabric on manually operated seats, a few well-damped rotary climate switches, and a universal dash…"
 date: 2026-08-03 08:00 +0800

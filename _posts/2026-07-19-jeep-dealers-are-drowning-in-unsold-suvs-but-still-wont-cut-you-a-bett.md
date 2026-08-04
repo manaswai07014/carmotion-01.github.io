@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Jeep Dealers Are Drowning In Unsold SUVs But Still Won’t Cut You A Better Deal"
+description: "Understanding why this matters comes down to context.Each headline adds another data point to where power, money, and attention are flowing in the car world."
 date: 2026-07-19 08:00
 source: Autoblog
 source_url: https://www.carscoops.com/2026/07/new-car-inventory-pricing-jeep/

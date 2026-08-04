@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Range Rover GT – pictures - evo.co.uk"
+seo: false
+title: "Range Rover GT"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-29 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNNmRyRFdOLTVDaWFFOW9HT2U3VFYxbXQzbmV3WWlhTEtKZ2pfSDNWYmZIbzY0YTNJdThxREQ0N1pNdEFpdDJmT1doNklWQVkyVE9BZkYtVWxzTTcybEFVNTMzWG82aG02c1hoZFhScmZUUkhaajUxWG9RQnFyOUtkVw?oc=5

@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "The Next Miata Will Be Ready To Go Electric: Mazda CEO"
+description: "However, in 2025, Auto Express found patents of a Mazda MX-5 with batteries in its transmission tunnel."
 date: 2026-07-31 08:00 +0800
 source: InsideEVs
 source_url: https://insideevs.com/news/803155/mazda-miata-ready-for-electric/

@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "Take cover! Aston Martin has built a massive, military-grade V12 supertruck - Top Gear"
+seo: false
+title: "Take cover! Aston Martin has built a massive, military-grade V12 supertruck"
+description: "This story resonates because it puts Aston Martin squarely in the conversation. Industry watchers often read such moves as signals — for Aston Martin this co…"
 date: 2026-07-19 08:00
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3ZkQWpNZGstaldBbURXMlFvZldhZDBUM1hjUWlSc0tJdFdEdW9mdHJKM0pRMFhkaUR3YWNzdFBkUVdLR0lSY3djaE5UTmwwWWhIZmo0SFpLZ3lOcW5za2FMVzR4dDd0TzFvMFBiNGZBcGNRR3RFbmprcVFmSzlTZUFOZE14WnFQdkJPVnFJVkU5ajBfTndOaXhJYXladmRJaE9PS3otb3h2d1IwbnNuaEU2VQ?oc=5

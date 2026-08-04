@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "The 'Road Rover' Is Real: New Range Rover GT Is A Badly Named Electric Crossover-Coupe-Sedan-Thing"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-23 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220777/land-rover-range-rover-gt-electric-sedan-teasers-details/

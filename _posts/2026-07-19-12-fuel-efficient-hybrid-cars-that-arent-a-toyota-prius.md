@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "12 Fuel-Efficient Hybrid Cars That Aren't A Toyota Prius"
+description: "This story resonates because it puts Toyota squarely in the conversation. Industry watchers often read such moves as signals — for Toyota this could mean re-…"
 date: 2026-07-19 08:00
 source: Jalopnik
 source_url: https://www.jalopnik.com/2214279/fuel-efficient-hybrid-cars-not-toyota-prius/

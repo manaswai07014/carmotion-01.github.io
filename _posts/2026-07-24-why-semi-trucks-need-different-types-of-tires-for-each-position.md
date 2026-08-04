@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Why Semi Trucks Need Different Types Of Tires For Each Position"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-24 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2220236/why-semi-truck-tires-are-different-in-each-position/

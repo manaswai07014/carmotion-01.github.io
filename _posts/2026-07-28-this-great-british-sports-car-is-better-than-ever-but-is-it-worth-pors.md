@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "This great British sports car is better than ever, but is it worth Porsche 911 money? - evo.co.uk"
+seo: false
+title: "This great British sports car is better than ever, but is it worth Porsche 911 money?"
+description: "This story resonates because it puts Porsche squarely in the conversation. Industry watchers often read such moves as signals — for Porsche this could mean r…"
 date: 2026-07-28 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJUODlsNFIzQzNsV1BXNGlYaTVPNUdhTS1RZm02SnBfSEhHaGZhZDBtZ2x6ZVJCcmNselhvNmRhMXlmaW1JMWFQNFIzdkNja3pObDdEWC12Y0dWSGJwVHRfZkh2WVB0bjA5V1d3ZDVmWFhQa253Uk9LR1BtNnJsUERQZ2V4ZEtIN2Y2RHl2WkdKVnVGYjhPYkVyRElaa3FWOUV3OWRtdw?oc=5

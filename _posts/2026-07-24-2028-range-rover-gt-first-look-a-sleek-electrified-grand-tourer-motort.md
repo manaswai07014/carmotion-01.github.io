@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "2028 Range Rover GT First Look: A Sleek, Electrified Grand Tourer - MotorTrend"
+seo: false
+title: "2028 Range Rover GT First Look: A Sleek, Electrified Grand Tourer"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-24 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMib0FVX3lxTFBkQi1kUmRyeFlISHk3TmpFNnA0cXlHcnZlV3ZUWGJlZjlwMl9SczVfcmZ5b0cwejJ2Wm1OeWlfa2c2dVU2TUxUOW5jVUJjWGFHTV9pbG95cjlsdzNIY2o1blRoYmNTRnpka280V3VxRQ?oc=5

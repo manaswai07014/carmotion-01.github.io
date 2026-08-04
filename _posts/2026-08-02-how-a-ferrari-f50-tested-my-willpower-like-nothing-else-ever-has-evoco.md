@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "How a Ferrari F50 tested my willpower like nothing else ever has - evo.co.uk"
+seo: false
+title: "How a Ferrari F50 tested my willpower like nothing else ever has"
+description: "Conducted over four days, covering meaningful mileage on challenging roads, it’s a test that I’m proud to say only evo can do."
 date: 2026-08-02 08:00 +0800
 source: Evo-GN
 source_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxObWFNenRiekVrVjhkVmd3ZFg4dUZ5ZEtLS0ctbG1vR3ZabHJJY2JLa2RvM0NjUl9jMEhfRUpEeDJteVFCVXdjb2VMUUxnc0R2bGFESmxWbHVQSlVsb2F6X2NsYi1MWTg1YzYwSUtkbXNYWmJTLU9WYzc3eHBRY29oZ2ZSelh0SnNiMzFZNXZ0aUl3NC10UzUwZDRnazNTM0dXNjBGQ09IZUk?oc=5

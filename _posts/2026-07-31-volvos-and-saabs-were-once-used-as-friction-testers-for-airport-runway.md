@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Volvos And Saabs Were Once Used As 'Friction Testers' For Airport Runways"
+description: "In Saab's absence, SARSYS has pivoted to installing its friction testing equipment in Volvo wagons and other vehicles."
 date: 2026-07-31 08:00 +0800
 source: Jalopnik
 source_url: https://www.jalopnik.com/2225492/volvo-v90-wagons-sarsys-airport-runway-friction-testers/

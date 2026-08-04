@@ -1,5 +1,6 @@
 ---
 layout: news-item
+seo: false
 title: "The Land Rover Defender V8 is dead, but is that a bad thing?"
 description: "These numbers sound reasonable, and they are, but when each and every Defender model weighs in the region of 2."
 date: 2026-08-03 08:00 +0800

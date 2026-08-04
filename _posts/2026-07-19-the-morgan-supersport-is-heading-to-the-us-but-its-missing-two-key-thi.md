@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "The Morgan Supersport is heading to the US, but it’s missing two key things - Top Gear"
+seo: false
+title: "The Morgan Supersport is heading to the US, but it’s missing two key things"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-19 08:00
 source: TopGear
 source_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2piTzN5aWUzUkppTVVhSU11RzVTZnkyeWxaOVdkQzYtbGswc3NoMUZQMnRaT3B0enc5cmpDbVNSSnphclRXWks0anpLbU9DRXVMakw3VVlqMi1JaEItLVFuWHRnc3g0N2VrZDZMODlVb1JqRDhmcjRSLVh3aVdlekQxUmNDMmFWQ2FmSnhyeERhaHd4elY0?oc=5

@@ -1,6 +1,8 @@
 ---
 layout: news-item
-title: "America's Car Owners Picked Their Winners (and Losers). The Biggest Surprises? - MotorTrend"
+seo: false
+title: "America's Car Owners Picked Their Winners (and Losers). The Biggest Surprises?"
+description: "This story resonates because it marks a notable moment for the industry. Industry watchers often read such moves as signals — for the general landscape this…"
 date: 2026-07-25 08:00 +0800
 source: MotorTrend
 source_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9iTTN3YUxPRFR1Vks3Z0JVcms0R21VMVlCWWQ0LW93SW43eXU1MXRHeVF4UUZ6WnNhYS1fSlJ0S0dBTWx5S1MwVU9LQ3NuSnJFajJ2TzNmNTE2bG9vY2psdmZtVklFNzAxenNQSjR0VQ?oc=5

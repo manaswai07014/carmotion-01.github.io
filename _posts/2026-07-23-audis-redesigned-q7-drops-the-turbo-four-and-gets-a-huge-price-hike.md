@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Audi's Redesigned Q7 Drops the Turbo Four and Gets a Huge Price Hike"
+description: "This story resonates because it puts Audi squarely in the conversation. Industry watchers often read such moves as signals — for Audi this could mean re-enga…"
 date: 2026-07-23 08:00 +0800
 source: CarAndDriver
 source_url: https://www.caranddriver.com/news/a73229860/2027-audi-q7-sq7-price/

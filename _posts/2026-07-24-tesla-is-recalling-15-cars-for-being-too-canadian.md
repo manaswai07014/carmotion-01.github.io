@@ -1,6 +1,8 @@
 ---
 layout: news-item
+seo: false
 title: "Tesla Is Recalling 15 Cars For Being Too Canadian"
+description: "This story resonates because it puts Tesla squarely in the conversation. Industry watchers often read such moves as signals — for Tesla this could mean re-en…"
 date: 2026-07-24 08:00 +0800
 source: InsideEVs
 source_url: https://insideevs.com/news/802480/tesla-recalls-15-canadian-models/
