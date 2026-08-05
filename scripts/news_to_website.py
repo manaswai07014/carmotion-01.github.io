@@ -292,7 +292,12 @@ def fetch_images_for_post(brand: str, fallback_query: str, slug: str,
         except Exception as e:
             print(f"  [IMG] real extractor error: {e}")
 
-    # Strategy 2: Wikipedia Commons fallback
+    # Strategy 2: Wikipedia Commons fallback (IMPROVED v2 — relevance-filtered)
+    # Changes:
+    #   - SVG/logo filtered out (never use .svg as news image)
+    #   - Relevance scoring: Wikipedia page title must overlap with brand+title keywords
+    #   - Brand-only fallback uses "brand car" to avoid non-vehicle results
+    #   - "No image > wrong image" — if no relevant result, return empty list
     if not DOWNLOADER_OK:
         return []
     images_out = []
@@ -300,8 +305,10 @@ def fetch_images_for_post(brand: str, fallback_query: str, slug: str,
         # Build search query from brand + promising title keywords (skip stopwords)
         stop = {"the", "a", "an", "of", "and", "or", "to", "is", "are", "with",
                 "for", "in", "on", "at", "by", "from", "this", "that", "it",
-                "its", "be", "was", "were", "has", "have", "had", "will"}
-        title_tokens = [t for t in re.split(r"[^\w]", fallback_query) if t and t.lower() not in stop]
+                "its", "be", "was", "were", "has", "have", "had", "will",
+                "new", "says", "but", "more", "than", "has", "its", "your",
+                "what", "why", "how", "can", "could", "should", "would"}
+        title_tokens = [t for t in re.split(r"[^\w]", fallback_query) if t and t.lower() not in stop and len(t) > 2]
         if brand:
             # brand + first 3 meaningful title words
             q_parts = [brand] + title_tokens[:3]
@@ -309,21 +316,66 @@ def fetch_images_for_post(brand: str, fallback_query: str, slug: str,
             q_parts = title_tokens[:5]
         search_q = " ".join(q_parts)
 
-        wiki_imgs = wikipedia_generator_search(search_q, limit=max_images)
-        if not wiki_imgs and brand:
-            # Fallback: brand-only search
-            wiki_imgs = wikipedia_generator_search(brand, limit=max_images)
+        # Build relevance keywords set for scoring (lowercased)
+        relevance_keywords = set()
+        if brand:
+            for w in re.split(r"[^\w]", brand.lower()):
+                if w and len(w) > 2:
+                    relevance_keywords.add(w)
+        for t in title_tokens:
+            relevance_keywords.add(t.lower())
 
-        # Download verified images to static/images/news/<slug>/
+        wiki_imgs = wikipedia_generator_search(search_q, limit=max_images * 3)
+        if not wiki_imgs and brand:
+            # Fallback: brand + "car" to get vehicle-related pages
+            wiki_imgs = wikipedia_generator_search(f"{brand} car", limit=max_images * 3)
+
+        # Filter + score images by relevance
+        good_images = []
+        for img in wiki_imgs:
+            # Skip SVGs (logos, icons, diagrams)
+            filename = img.get("filename", "").lower()
+            if filename.endswith(".svg") or ".svg/" in filename or "logo" in filename:
+                continue
+            # Skip small thumbnails (likely icons)
+            size_str = img.get("size", "?px").replace("px", "")
+            try:
+                if int(size_str) < 200:
+                    continue
+            except (ValueError, TypeError):
+                pass  # unknown size — allow it through
+
+            # Relevance check: page title should contain at least 1 keyword
+            page_title = img.get("page", "").lower()
+            if page_title and relevance_keywords:
+                overlap = sum(1 for kw in relevance_keywords if kw in page_title)
+                if overlap == 0:
+                    # Page title has zero keyword overlap — skip
+                    continue
+                img["_relevance"] = overlap
+            else:
+                img["_relevance"] = 0
+            good_images.append(img)
+
+        # Sort by relevance (highest first)
+        good_images.sort(key=lambda x: x.get("_relevance", 0), reverse=True)
+
+        # Download top relevant images
         dest_dir = IMG_BASE / slug
         dest_dir.mkdir(parents=True, exist_ok=True)
-        for i, img in enumerate(wiki_imgs[:max_images]):
+        downloaded = 0
+        for img in good_images:
+            if downloaded >= max_images:
+                break
             if not img.get("verified"):
                 continue
             ext = ".jpg"
-            if ".png" in img.get("filename", ""):
+            fn = img.get("filename", "")
+            if ".png" in fn:
                 ext = ".png"
-            local_name = f"{slug}-{i+1}{ext}"
+            elif ".webp" in fn:
+                ext = ".webp"
+            local_name = f"{slug}-{downloaded+1}{ext}"
             local_path = dest_dir / local_name
             if download_image(img["url"], local_path):
                 images_out.append({
@@ -331,6 +383,10 @@ def fetch_images_for_post(brand: str, fallback_query: str, slug: str,
                     "src_url": img["url"],
                     "credit": f"Wikipedia / {img.get('page', 'Wikimedia Commons')}",
                 })
+                downloaded += 1
+
+        if not images_out:
+            print(f"  [IMG] Wikipedia fallback: no relevant images found (searched '{search_q}')")
 
     except Exception as e:
         print(f"  [IMG] fetch_images_for_post error: {e}")
