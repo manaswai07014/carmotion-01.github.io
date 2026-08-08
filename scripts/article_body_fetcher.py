@@ -137,27 +137,86 @@ def _try_json_ld(html: str) -> dict:
 
 
 def _try_article_paragraphs(html: str) -> dict:
-    """Strategy 3: visible <article><p> paragraph scraping."""
-    m = re.search(r'<article[^>]*>(.*?)</article>', html, re.S)
-    article_html = m.group(1) if m else html
-    # Strip script/style/aside/nav inside article
-    article_html = re.sub(r'<script[^>]*>.*?</script>', '', article_html, flags=re.S)
-    article_html = re.sub(r'<style[^>]*>.*?</style>', '', article_html, flags=re.S)
-    article_html = re.sub(r'<aside[^>]*>.*?</aside>', '', article_html, flags=re.S)
-    article_html = re.sub(r'<nav[^>]*>.*?</nav>', '', article_html, flags=re.S)
-    paragraphs = []
-    for m2 in re.findall(r'<p[^>]*>(.*?)</p>', article_html, re.S):
-        text = _html_to_plain(m2)
-        if text and len(text) > 50:
-            # Skip ad/promo signatures
-            if not re.match(r'^(subscribe|sign up|read more|follow us|share this)',
+    """
+    Strategy 3: visible <p> paragraph scraping from multiple content containers.
+
+    Bug 2 fix (2026-08-08): previously only looked inside <article> tags.
+    Many automotive sites (autocar.co.uk, evo.co.uk, caranddriver.com) don't
+    use <article> or use it with paywall-truncated content. Now we try multiple
+    common content containers, and if all targeted attempts yield too few
+    paragraphs, we fall back to a full-page <p> scan with strict content filters.
+    """
+    # Content container selectors, in priority order
+    # Bug 2 fix (2026-08-08): expanded beyond <article> to cover common CMS
+    # patterns — Drupal (autocar.co.uk), WordPress, Ghost, bespoke.
+    container_patterns = [
+        r'<article[^>]*>(.*?)</article>',
+        r'<div[^>]+class="[^"]*(?:article-content|article-body|article-section|story-content|story-body|post-content|entry-content|content-body|article__body|article-text|main-content|field-name-body)[^"]*"[^>]*>(.*?)</div>',
+        r'<main[^>]*>(.*?)</main>',
+        r'<div[^>]+id="(?:content|article|story|post|main)[^"]*"[^>]*>(.*?)</div>',
+        r'<div[^>]+role="main"[^>]*>(.*?)</div>',
+    ]
+
+    # Strip script/style/aside/nav from the full html once
+    cleaned_html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.S)
+    cleaned_html = re.sub(r'<style[^>]*>.*?</style>', '', cleaned_html, flags=re.S)
+    cleaned_html = re.sub(r'<aside[^>]*>.*?</aside>', '', cleaned_html, flags=re.S)
+    cleaned_html = re.sub(r'<nav[^>]*>.*?</nav>', '', cleaned_html, flags=re.S)
+    cleaned_html = re.sub(r'<header[^>]*>.*?</header>', '', cleaned_html, flags=re.S)
+    cleaned_html = re.sub(r'<footer[^>]*>.*?</footer>', '', cleaned_html, flags=re.S)
+
+    best_paragraphs = []
+    for pattern in container_patterns:
+        m = re.search(pattern, cleaned_html, re.S)
+        if not m:
+            continue
+        # For patterns with 2 capture groups (div with class), take the last group
+        article_html = m.group(m.lastindex) if m.lastindex else m.group(1)
+        paragraphs = []
+        for m2 in re.findall(r'<p[^>]*>(.*?)</p>', article_html, re.S):
+            text = _html_to_plain(m2)
+            if text and len(text) > 50:
+                # Skip ad/promo/navigation signatures
+                if not re.match(r'^(subscribe|sign up|read more|follow us|share this|newsletter|cookie|privacy|advertisement|sponsored|related|you may also like|recommended|popular stories|more from|see also|photo by|credit:)',
+                                text, re.I):
+                    paragraphs.append(text)
+        if len(paragraphs) > len(best_paragraphs):
+            best_paragraphs = paragraphs
+        if len(best_paragraphs) >= 3:
+            break  # Good enough, stop trying more selectors
+
+    # Bug 2 fix: if targeted selectors gave too few paragraphs, try
+    # a full-page <p> scan with strict content filtering to rescue
+    # paywall-truncated or non-<article> sites.
+    if len(best_paragraphs) < 2:
+        all_p_texts = []
+        for m2 in re.findall(r'<p[^>]*>(.*?)</p>', cleaned_html, re.S):
+            text = _html_to_plain(m2)
+            if text and len(text) > 80:
+                # Strict filter: skip boilerplate, ad, navigation, UI text
+                if re.match(r'^(subscribe|sign up|read more|follow us|share this|newsletter|cookie|privacy|advertisement|sponsored|related|you may also like|recommended|popular stories|more from|see also|photo by|credit:|copyright|all rights reserved|to comment|log in|create an account|join our|whatsapp|felix is|he has interviewed)',
                             text, re.I):
-                paragraphs.append(text)
+                    continue
+                # Skip lines that look like navigation/UI (short, no sentence structure)
+                if not re.search(r'[.!?]', text):
+                    continue
+                # Skip paragraphs that are clearly author bios (a common autocar pattern)
+                # These typically contain "is [Publication]'s [role]" or "has interviewed"
+                if re.search(r"\bis\s+(?:autocar|autocar's|our)\s+(deputy editor|editor|reviewer|journalist|columnist)", text, re.I):
+                    continue
+                # Skip "related stories" link blocks (often start with another car name)
+                if re.match(r'^(chery tiggo|lexus es|read our|see our|find out|discover more|explore our)', text, re.I):
+                    continue
+                all_p_texts.append(text)
+        # Use full-page scan only if it found significantly more paragraphs
+        if len(all_p_texts) > len(best_paragraphs):
+            best_paragraphs = all_p_texts
+
     og_desc_match = re.search(
         r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
         html, re.I)
     lede = og_desc_match.group(1) if og_desc_match else ""
-    return {"lede": lede, "paragraphs": paragraphs}
+    return {"lede": lede, "paragraphs": best_paragraphs}
 
 
 def _try_og_description(html: str) -> dict:
@@ -176,7 +235,16 @@ def _try_og_description(html: str) -> dict:
 
 
 def fetch_article_body(url: str) -> dict:
-    """Main entry. Returns {lede, paragraphs} or None."""
+    """
+    Main entry. Returns {lede, paragraphs} or None.
+
+    Bug 2 fix (2026-08-08): previously, the function returned on the first
+    strategy that produced ANY result (even a single-paragraph JSON-LD),
+    preventing strategies 3-4 from running. Now we collect results from all
+    strategies and pick the one with the most paragraphs — so a site that
+    has JSON-LD with a short articleBody AND visible <p> paragraphs will
+    get the richer <p> extraction instead of being stuck with 1 paragraph.
+    """
     if not url or not url.startswith(('http://', 'https://')):
         return None
     code, body = _fetch(url, timeout=15)
@@ -185,7 +253,8 @@ def fetch_article_body(url: str) -> dict:
     html = body.decode('utf-8', errors='replace')
     if len(html) < 500:
         return None
-    # Try each strategy in order
+    # Try each strategy and collect all valid results
+    candidates = []
     for fn in (_try_next_data, _try_json_ld, _try_article_paragraphs, _try_og_description):
         try:
             result = fn(html)
@@ -195,8 +264,13 @@ def fetch_article_body(url: str) -> dict:
             # Sanity: too few paragraphs + too short lede = not a real article body
             if not result['paragraphs'] and len(result.get('lede', '')) < 100:
                 continue
-            return result
-    return None
+            candidates.append(result)
+    if not candidates:
+        return None
+    # Pick the candidate with the most paragraphs (richest content wins).
+    # If tied on paragraph count, prefer the one with the longest lede.
+    best = max(candidates, key=lambda r: (len(r.get('paragraphs', [])), len(r.get('lede', ''))))
+    return best
 
 
 # CLI test

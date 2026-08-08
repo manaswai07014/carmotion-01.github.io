@@ -160,8 +160,13 @@ def main():
         return
 
     # Step 1: Fetch news → daily-brief.md (5 articles)
+    # Bug 1 fix (2026-08-08): use sys.executable instead of "python3" so cron
+    # runs propagate the venv python (with anthropic/openai installed) to child
+    # scripts. Previously "python3" resolved to /usr/bin/python3 (system) under
+    # cron's minimal PATH, causing all LLM rephrase calls to fail with
+    # "anthropic lib not installed" and fall back to the regex engine.
     ok1 = run(
-        ["python3", str(SCRIPTS / "daily_news_fetcher.py")],
+        [sys.executable, str(SCRIPTS / "daily_news_fetcher.py")],
         "Step 1/3: Fetch RSS → daily-brief.md (5 articles)",
         timeout=120,
     )
@@ -170,8 +175,9 @@ def main():
         sys.exit(1)
 
     # Step 2: Generate website posts + images
+    # Bug 1 fix (2026-08-08): same sys.executable fix as Step 1.
     ok2 = run(
-        ["python3", str(SCRIPTS / "news_to_website.py"), "--date", date_str],
+        [sys.executable, str(SCRIPTS / "news_to_website.py"), "--date", date_str],
         f"Step 2/3: Generate website posts for {date_str}",
         timeout=300,
     )
