@@ -1,4 +1,4 @@
-# Lint Report — 2026-07-24 15:47
+# Lint Report — 2026-08-09 07:46
 Mode: FULL (all 8 checks)
 ## Summary
 - Errors:   0
@@ -38,9 +38,9 @@ Mode: FULL (all 8 checks)
 [WARN] no image set: mclaren-p1-p12-f1-gt
 [WARN] unverified image: f-type
 [WARN] stale draft (no updated_at): sq9
-[WARN] DB/wiki out of sync: wiki/mclaren-p1-p12-p1-gt.md exists but not in DB
 [WARN] DB/wiki out of sync: wiki/mclaren-p1-p12-f1-gt.md exists but not in DB
 [WARN] DB/wiki out of sync: wiki/mclaren-p1-p12-p12-supercar.md exists but not in DB
+[WARN] DB/wiki out of sync: wiki/mclaren-p1-p12-p1-gt.md exists but not in DB
 
 ## Passed
 - OK    image verified: bolide

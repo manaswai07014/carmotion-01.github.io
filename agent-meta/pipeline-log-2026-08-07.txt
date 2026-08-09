@@ -1,0 +1,185 @@
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-07 — python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-07
+============================================================
+📰 news_to_website.py v3 — 2026-08-07
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 37 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] Meteorite Strikes On Cars Are Rare, But It Has Happened At Least Thric
+       slug: meteorite-strikes-on-cars-are-rare-but-it-has-happened-at-least-thrice | tags: Industry
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2231315/at-least-three-meteorite-st... → https://www.jalopnik.com/2231315/at-least-three-meteorite-strikes-cars/
+  [download] ✓ meteorite-strikes-on-cars-are-rare-but-it-has-happened-at-least-thrice-1.jpg (483KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/intro...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/intro...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/meteo...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/meteo...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/when-...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/when-...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-meteorite-strikes-on-cars-are-rare-but-it-has-happened-at-least-thrice.md
+  [ 2] Tesla Superchargers Are Coming To EVgo Stations
+       slug: tesla-superchargers-are-coming-to-evgo-stations | tags: Tesla, Electric
+       [body] ✓ 3 paragraphs fetched
+  [decoder] https://insideevs.com/news/803934/evgo-tesla-superchargers-v... → https://insideevs.com/news/803934/evgo-tesla-superchargers-v4/
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-1.jpg (129KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Mkg7J8/s5/evgo-supercharger.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Mkg7J8/s5/evgo-supercharger.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/3WmPG1/s5/tesla-model-y-charging-at-an-evgo-ch...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/3WmPG1/s5/tesla-model-y-charging-at-an-evgo-ch...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ZnzBB3/s5/pilot-gm-evgo-charger.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ZnzBB3/s5/pilot-gm-evgo-charger.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJZn7/s5/evgo-charging-station-at-a-shopping-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJZn7/s5/evgo-charging-station-at-a-shopping-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8ElR/s5/byd-denza-z9s.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8ElR/s5/byd-denza-z9s.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3nNvG/s5/florida-nevi-top.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3nNvG/s5/florida-nevi-top.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s6/ford-uev-platform-details.webp...)
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-2.jpg (18KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s6/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-3.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYb66/s6/2026-ford-mustang-mach-e-rally.webp...)
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-4.jpg (23KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-tesla-superchargers-are-coming-to-evgo-stations.md
+  [ 3] Rules May Vary, But Driving Without A Bumper Is Always A Bad Idea
+       slug: rules-may-vary-but-driving-without-a-bumper-is-always-a-bad-idea | tags: Industry
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2230919/driving-without-bumper-rule... → https://www.jalopnik.com/2230919/driving-without-bumper-rules-vary-bad-idea/
+  [download] ✓ rules-may-vary-but-driving-without-a-bumper-is-always-a-bad-idea-1.jpg (309KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-rules-may-vary-but-driving-without-a-bumper-is-always-a-bad-idea.md
+  [ 4] Zoox's Autonomous Pod Without A Steering Wheel Wants Your Money Now
+       slug: zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now | tags: Industry
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://insideevs.com/news/803923/zoox-allowed-charge-robota... → https://insideevs.com/news/803923/zoox-allowed-charge-robotaxi-rides/
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-1.jpg (128KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/JONPXM/s5/zoox-robotaxi-las-vegas.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/JONPXM/s5/zoox-robotaxi-las-vegas.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2lKNo/s5/zoox-robotaxi-las-vegas.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2lKNo/s5/zoox-robotaxi-las-vegas.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/wl802G/s5/zoox-robotaxi-las-vegas.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/wl802G/s5/zoox-robotaxi-las-vegas.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbY4L0/s5/amazon-zoox-robotaxi-plant5.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbY4L0/s5/amazon-zoox-robotaxi-plant5.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eVwYm/s5/zoox-robotaxi-driving-on-public-road...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eVwYm/s5/zoox-robotaxi-driving-on-public-road...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7xWN/s5/telo-mt1-towing.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7xWN/s5/telo-mt1-towing.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s6/ford-uev-platform-details.webp...)
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-2.jpg (18KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s6/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-3.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYb66/s6/2026-ford-mustang-mach-e-rally.webp...)
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-4.jpg (23KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now.md
+  [ 5] Some Owners Say Tesla's New FSD Update Is Causing Their Cars' Computer
+       slug: some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers- | tags: Tesla
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://insideevs.com/news/803866/tesla-autopilot-computer-f... → https://insideevs.com/news/803866/tesla-autopilot-computer-fsd-overheating/
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--1.jpg (263KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6Yvkv/s5/tesla-model-y-standard-ap-fsd-visual...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6Yvkv/s5/tesla-model-y-standard-ap-fsd-visual...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJB6K/s5/tesla-fsd-europe-quiz-netherlands.we...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJB6K/s5/tesla-fsd-europe-quiz-netherlands.jp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NEnz/s5/tesla-cybertruck-order-hero.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NEnz/s5/tesla-cybertruck-order-hero.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/MkgZKw/s5/podcast-thumbnail.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/MkgZKw/s5/podcast-thumbnail.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s6/ford-uev-platform-details.webp...)
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--2.jpg (18KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s6/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--3.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYb66/s6/2026-ford-mustang-mach-e-rally.webp...)
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--4.jpg (23KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers-.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+✓ Step 2/3: Generate website posts for 2026-08-07 — OK
+
+============================================================
+📋 Pipeline Summary — 2026-08-07
+============================================================
+  Step 1 (fetch): ✅
+  Step 2 (website): ✅
+  Step 3 (git): done
+  LLM rephrased: 0
+  LLM fallback: 10
+  LLM disabled: False

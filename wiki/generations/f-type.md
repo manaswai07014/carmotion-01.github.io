@@ -1,6 +1,6 @@
 # 🅿️ F-Type (2013–2024)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:47
+> Generation wiki page — synced from DB on 2026-08-09 07:46
 
 ## Spec Sheet
 - **Brand/Series:** Jaguar / F-Type
@@ -19,7 +19,7 @@
 Source: https://en.wikipedia.org/wiki/Jaguar_F-Type
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:47
+- This page was auto-generated from DB sync on 2026-08-09 07:46
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/jaguar/` for brand-level context
 
@@ -35,4 +35,4 @@ year_start: 2013
 year_end: 2024
 status: published
 
-*Last updated: 2026-07-24 15:47*
+*Last updated: 2026-08-09 07:46*

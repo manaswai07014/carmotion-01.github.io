@@ -1,6 +1,6 @@
 # 🅿️ SQ9 (—)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:47
+> Generation wiki page — synced from DB on 2026-08-09 07:46
 
 ## Spec Sheet
 - **Brand/Series:** Audi / SQ9
@@ -17,7 +17,7 @@
 ⚠️ No image set — needs manual verification
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:47
+- This page was auto-generated from DB sync on 2026-08-09 07:46
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/audi/` for brand-level context
 
@@ -33,4 +33,4 @@ year_start: —
 year_end: present
 status: draft
 
-*Last updated: 2026-07-24 15:47*
+*Last updated: 2026-08-09 07:46*

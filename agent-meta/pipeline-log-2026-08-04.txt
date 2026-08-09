@@ -1,0 +1,114 @@
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-04 — python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-04
+============================================================
+📰 news_to_website.py v3 — 2026-08-04
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 33 unique slugs published in last 7d
+  ↳ skipped 2 duplicate(s):
+     • small-sports-car-company-sc01-pictures-evocouk — Small Sports Car Company SC01 – pictures - evo.co.uk
+     • the-gargantuan-new-audi-q9-is-officially-too-large-for-london-top-gear — The gargantuan new Audi Q9 is officially too large for Londo
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+       [Q3] title cleaned: 'What’s Going On With Lotus in the U.S.? Blame Tariffs, ' → 'What’s Going On With Lotus in the U.S.? Blame Tariffs, '
+  [ 2] What’s Going On With Lotus in the U.S.? Blame Tariffs, Mostly
+       slug: whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly | tags: Lotus
+       [body] ✓ 16 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMif0FVX3lxTE5DWDhtRHB... → https://www.motortrend.com/news/whats-going-on-with-lotus-us-sales-tariffs
+  [download] ✓ whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly-1.jpg (321KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly.md
+       [Q3] title cleaned: 'We Drove the 2027 Slate Truck. Simplicity Might Be Its ' → 'We Drove the 2027 Slate Truck. Simplicity Might Be Its '
+  [ 4] We Drove the 2027 Slate Truck. Simplicity Might Be Its Superpower.
+       slug: we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower | tags: Industry
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMifkFVX3lxTE13bFlIdTN... → https://www.motortrend.com/reviews/first-drive-2027-slate-truck-prototype
+  [download] ✓ we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower-1.jpg (293KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower.md
+       [Q3] title cleaned: 'Tested: The Lexus ES350e EV Is a Commuting All-Star - M' → 'Tested: The Lexus ES350e EV Is a Commuting All-Star'
+  [ 5] Tested: The Lexus ES350e EV Is a Commuting All-Star
+       slug: tested-the-lexus-es350e-ev-is-a-commuting-all-star | tags: Lexus, Electric
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMidEFVX3lxTE9xekwxSHI... → https://www.motortrend.com/reviews/first-test-2026-lexus-es350e-ev
+  [download] ✓ tested-the-lexus-es350e-ev-is-a-commuting-all-star-1.jpg (225KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-tested-the-lexus-es350e-ev-is-a-commuting-all-star.md
+       [Q3] title cleaned: 'A New, Restyled C9 Chevy Corvette Is Closer Than You Th' → 'A New, Restyled C9 Chevy Corvette Is Closer Than You Th'
+  [ 6] A New, Restyled C9 Chevy Corvette Is Closer Than You Think
+       slug: a-new-restyled-c9-chevy-corvette-is-closer-than-you-think | tags: Electric
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiekFVX3lxTE5wdXFyN3F... → https://www.motortrend.com/news/2030-chevrolet-corvette-c9-future-cars
+  [download] ✓ a-new-restyled-c9-chevy-corvette-is-closer-than-you-think-1.jpg (264KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-a-new-restyled-c9-chevy-corvette-is-closer-than-you-think.md
+       [Q3] title cleaned: 'BMW M3 Touring E46 – pictures - evo.co.uk' → 'BMW M3 Touring E46'
+  [ 7] BMW M3 Touring E46
+       slug: bmw-m3-touring-e46 | tags: BMW
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMicEFVX3lxTE03bWlicWV... → https://www.evo.co.uk/bmw/m3/208967/bmw-m3-touring-e46-pictures
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DQAkOcrt--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--XYbU80M1--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TAwcKCiT--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--8OtwOMI4--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--mDtHp3fA--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--5WJLYfJC--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--dD8aMoR5--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--rVuGa6oB--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--G3KhEHQ_--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CY0bGPX9--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--LpGd701d--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--gOujPb8i--/f_auto,t_content-image-full-...)
+  [download] ✓ bmw-m3-touring-e46-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DQAkOcrt--/f_auto,t_card-mobile@1/v1785...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--sDtfvNUG--/f_auto,t_card-mobile@1/v1784...)
+  [download] ✓ bmw-m3-touring-e46-2.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--k0RAXKTl--/f_auto,t_card-mobile@1/v1755...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-bmw-m3-touring-e46.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+✓ Step 2/3: Generate website posts for 2026-08-04 — OK
+
+============================================================
+📋 Pipeline Summary — 2026-08-04
+============================================================
+  Step 1 (fetch): ✅
+  Step 2 (website): ✅
+  Step 3 (git): done
+  LLM rephrased: 0
+  LLM fallback: 10
+  LLM disabled: False

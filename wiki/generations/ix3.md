@@ -1,6 +1,6 @@
 # 🅿️ iX3 (2020–present)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:47
+> Generation wiki page — synced from DB on 2026-08-09 07:46
 
 ## Spec Sheet
 - **Brand/Series:** BMW / iX3
@@ -19,7 +19,7 @@
 Source: https://en.wikipedia.org/wiki/BMW_iX3
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:47
+- This page was auto-generated from DB sync on 2026-08-09 07:46
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/bmw/` for brand-level context
 
@@ -35,4 +35,4 @@ year_start: 2020
 year_end: present
 status: published
 
-*Last updated: 2026-07-24 15:47*
+*Last updated: 2026-08-09 07:46*

@@ -1,0 +1,102 @@
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-03 — python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-03
+============================================================
+📰 news_to_website.py v3 — 2026-08-03
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 31 unique slugs published in last 7d
+  ↳ skipped 3 duplicate(s):
+     • the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort — The All-New Mercedes-Benz GLA Is Bigger, Smarter, and Electr
+     • small-sports-car-company-sc01-pictures-evocouk — Small Sports Car Company SC01 – pictures - evo.co.uk
+     • on-track-in-the-luce-we-drive-the-ferrari-everyones-talking-about-moto — On Track in the Luce: We Drive the Ferrari Everyone’s Talkin
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+       [Q3] title cleaned: 'What’s Going On With Lotus in the U.S.? Blame Tariffs, ' → 'What’s Going On With Lotus in the U.S.? Blame Tariffs, '
+  [ 3] What’s Going On With Lotus in the U.S.? Blame Tariffs, Mostly
+       slug: whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly | tags: Lotus
+       [body] ✓ 16 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMif0FVX3lxTE5DWDhtRHB... → https://www.motortrend.com/news/whats-going-on-with-lotus-us-sales-tariffs
+  [download] ✓ whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly-1.jpg (321KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly.md
+       [Q3] title cleaned: 'The Land Rover Defender V8 is dead, but is that a bad t' → 'The Land Rover Defender V8 is dead, but is that a bad t'
+  [ 5] The Land Rover Defender V8 is dead, but is that a bad thing?
+       slug: the-land-rover-defender-v8-is-dead-but-is-that-a-bad-thing | tags: Land Rover
+       [body] ✓ 27 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNU9iWHZ... → https://www.evo.co.uk/land-rover/defender/204321/land-rover-defender-v8-2021-2026-review-britains-mercedes-g63-rival-is
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--JmbbLJQo--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Z_pHVSwE--/f_auto,t_card-mobile@1/v1785...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DQAkOcrt--/f_auto,t_card-mobile@1/v1785...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--tfCgkxwQ--/f_auto,t_card-mobile@1/v1785...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-the-land-rover-defender-v8-is-dead-but-is-that-a-bad-thing.md
+       [Q3] title cleaned: 'We Drove the 2027 Slate Truck. Simplicity Might Be Its ' → 'We Drove the 2027 Slate Truck. Simplicity Might Be Its '
+  [ 6] We Drove the 2027 Slate Truck. Simplicity Might Be Its Superpower.
+       slug: we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower | tags: Industry
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMifkFVX3lxTE13bFlIdTN... → https://www.motortrend.com/reviews/first-drive-2027-slate-truck-prototype
+  [download] ✓ we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower-1.jpg (293KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower.md
+  [ 7] F1 CEO Domenicali Says George Lucas Told Him Most New Fans Just Want t
+       slug: f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t | tags: Motorsport
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73309340/f1-ceo-domenical... → https://www.roadandtrack.com/news/a73309340/f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-to-see-
+  [download] ✓ f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t-1.jpg (491KB) via og:image
+  [download] ✓ f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t-2.jpg (339KB) via twitter:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t.md
+  [ 8] Mazda Considering Electric MX-5 Miata, CEO Says, But Weight Remains an
+       slug: mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i | tags: Mazda, Electric
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73306836/mazda-mx-5-miata... → https://www.roadandtrack.com/news/a73306836/mazda-mx-5-miata-electric-future/
+  [download] ✓ mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i-1.jpg (65KB) via og:image
+  [download] ✓ mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i-2.jpg (65KB) via twitter:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+✓ Step 2/3: Generate website posts for 2026-08-03 — OK
+
+============================================================
+📋 Pipeline Summary — 2026-08-03
+============================================================
+  Step 1 (fetch): ✅
+  Step 2 (website): ✅
+  Step 3 (git): done
+  LLM rephrased: 0
+  LLM fallback: 10
+  LLM disabled: False

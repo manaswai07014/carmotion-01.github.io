@@ -60,6 +60,12 @@ DESC_RE  = re.compile(r"📝\s*(.+)")
 SLUG_RE  = re.compile(r"[^\w\s-]")
 SLUG_WS  = re.compile(r"[\s_-]+")
 
+# ---- 1000-word minimum body filter (2026-08-09 boss directive) ----
+# Articles whose fetched body has fewer than this many words (combined
+# across all paragraphs) are skipped. This drops short/brief news items
+# and ensures every published post has substantial source content.
+MIN_BODY_WORDS = 800
+
 
 def slugify(text, maxlen=70):
     s = SLUG_RE.sub("", text.lower())
@@ -514,18 +520,19 @@ def _llm_rephrase(title: str, source: str, brand: str, tags: list,
     cfg = _LLM_CFG_CACHE
     provider_type = cfg.get("provider_type", "openai")
 
-    # Join paragraphs into a compact source text. Cap at ~3500 chars to keep the
-    # call cheap and inside a single query's typical context budget.
+    # Join paragraphs into full source text. Cap at ~12000 chars — enough for
+    # a 1000+ word rewrite without truncating mid-paragraph. The 1000-word
+    # minimum body filter upstream already ensures we have substantial source.
     body_text = "\n\n".join(p for p in paragraphs if p.strip())
-    if len(body_text) > 3500:
-        body_text = body_text[:3500] + "..."
+    if len(body_text) > 12000:
+        body_text = body_text[:12000] + "..."
     tag_str = ", ".join(tags) if tags else "Industry"
     brand_str = brand or "the automaker"
 
     system_prompt = (
         "You are a clean, professional automotive news writer for a site called "
         "CarMotion Daily. Your job: take an original news article and write a "
-        "short rewritten summary in clear English prose, with three sections "
+        "comprehensive rewritten article in clear English prose, with three sections "
         "marked by '## The Story', '## Why It Matters', "
         "and \"## CarMotion Daily's Take\".\n\n"
         "Hard rules:\n"
@@ -537,7 +544,16 @@ def _llm_rephrase(title: str, source: str, brand: str, tags: list,
         "exactly as in the source.\n"
         "4. Keep all proper nouns (brand, model, person names) exactly "
         "as in the source.\n"
-        "5. Each section: 2-4 sentences. Total body: under 250 words.\n"
+        "5. The rewritten article MUST be at least 1000 words. "
+        "Use the full source body — cover all key points, context, "
+        "reactions, and implications. Each section should be multiple "
+        "paragraphs:\n"
+        "   • ## The Story: 500-700 words — the full narrative, background, "
+        "key facts, quotes, and timeline.\n"
+        "   • ## Why It Matters: 200-300 words — industry context, "
+        "competitive landscape, what this means for consumers.\n"
+        "   • ## CarMotion Daily's Take: 150-200 words — our editorial "
+        "perspective and forward-looking analysis.\n"
         "6. Output Markdown only - no preamble, no explanation, "
         "no disclaimer text, no code fences. Just the three sections.\n"
         "7. DO NOT add a Source or Copyright section "
@@ -759,7 +775,7 @@ def _paraphrase_paragraphs(paragraphs, title, source, brand, tags,
         body_parts.append(hook)
 
     restated = []
-    for para in paras[:5]:
+    for para in paras[:12]:
         # Filter: skip paragraphs that aren't topically relevant to this article
         # (e.g. evo.co.uk sometimes mixes SC01 content with a Golf GTI review)
         if not _is_relevant_sentence(para, title, brand, tags, min_overlap=1):
@@ -773,9 +789,6 @@ def _paraphrase_paragraphs(paragraphs, title, source, brand, tags,
             if not deduped or deduped[-1] != s:
                 deduped.append(s)
         paragraph_text = " ".join(deduped).strip()
-        # Cap length so body stays mobile-friendly
-        if len(paragraph_text) > 380:
-            paragraph_text = paragraph_text[:380].rsplit(" ", 1)[0] + "…"
         restated.append(paragraph_text)
 
     # If all paragraphs were filtered out (edge case), fall back to first para
@@ -1157,6 +1170,22 @@ def render_post(entry: dict, date_str: str, dry_run: bool=False,
         except Exception as e:
             print(f"       [body] ⚠ fetch failed: {e}")
 
+    # ---- 1000-word minimum body filter (2026-08-09 boss directive) ----
+    # Skip articles whose fetched body is too short. We count the combined
+    # word count of all fetched paragraphs (NOT the rewritten output, which
+    # is intentionally a summary). This ensures we only publish articles
+    # that have enough real source content to produce a substantial read.
+    if article_body and article_body.get("paragraphs"):
+        body_words = sum(len(p.split()) for p in article_body["paragraphs"])
+        if body_words < MIN_BODY_WORDS:
+            print(f"       [SKIP] body too short ({body_words} words < {MIN_BODY_WORDS} min) — skipping")
+            return None
+        print(f"       [body] {body_words} words (≥{MIN_BODY_WORDS} ✓)")
+    elif BODY_FETCHER_OK:
+        # No body fetched at all — can't verify length, skip per directive
+        print(f"       [SKIP] no body fetched — cannot verify ≥{MIN_BODY_WORDS} words, skipping")
+        return None
+
     # Step B: fetch images — use real_source_url if available (avoids duplicate decode)
     if real_source_url and "news.google.com" not in real_source_url:
         # Pass the decoded real URL via google_news_url param (extractor will detect it's not Google News and skip decode)
@@ -1297,8 +1326,8 @@ def main():
 
     print(f"Found {len(entries)} entries in daily-brief.md\n")
 
-    # Limit to 5 posts per day (per boss requirement 2026-07-22)
-    MAX_POSTS = 5
+    # Limit to 3 posts per day (2026-08-09 boss directive: 1000+ words each, max 3)
+    MAX_POSTS = 3
 
     # ---- Dedup pass: skip entries whose slug already published in the last
     #      DEDUP_WINDOW_DAYS days (prevents the same article reappearing daily).
@@ -1334,19 +1363,41 @@ def main():
     else:
         print(f"  ✓ {len(fresh_entries)} fresh articles queued")
 
+    # ---- Collect MORE entries than MAX_POSTS so we can skip short ones ----
+    # The 1000-word body filter may reject several entries, so we queue up to
+    # MAX_POSTS + 15 candidates and let render_post filter by body length.
+    # render_post returns None when it skips a too-short article; we then
+    # continue to the next candidate until we have MAX_POSTS written posts.
     entries = fresh_entries
-    print(f"\nProcessing {len(entries)} entries\n")
+    # Try to queue more candidates from the full parsed list so short ones
+    # can be replaced. Re-use the original `entries` from parse_brief().
+    all_parsed = parse_brief(BRIEF)
+    extra_candidates = [e for e in all_parsed
+                        if e not in fresh_entries
+                        and slugify(e["title"]) not in recent_slugs]
+    entries = fresh_entries + extra_candidates[:15]
+    print(f"\nProcessing up to {len(entries)} candidates (target {MAX_POSTS} published)\n")
 
     POSTS.mkdir(parents=True, exist_ok=True)
 
+    published = 0
+    skipped_short = 0
     for entry in entries:
+        if published >= MAX_POSTS:
+            break
         try:
-            render_post(entry, date_str, dry_run=args.dry_run,
+            result = render_post(entry, date_str, dry_run=args.dry_run,
                         use_llm=not args.no_llm)
+            if result is None:
+                skipped_short += 1
+                continue
+            published += 1
         except Exception as e:
             print(f"  [ERR] Failed to render entry {entry['n']}: {e}")
 
-    print(f"\n✓ Done. Posts written to {POSTS}")
+    if skipped_short:
+        print(f"\n  ℹ {skipped_short} article(s) skipped (body < {MIN_BODY_WORDS} words)")
+    print(f"\n✓ Done. {published} posts written to {POSTS}")
     if not args.dry_run and DOWNLOADER_OK:
         collected = 0
         for d in (IMG_BASE / p for p in os.listdir(IMG_BASE) if (IMG_BASE / p).is_dir() if IMG_BASE.exists()):

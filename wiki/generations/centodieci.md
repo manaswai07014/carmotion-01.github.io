@@ -1,6 +1,6 @@
 # 🅿️ Centodieci (2022–2022)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:47
+> Generation wiki page — synced from DB on 2026-08-09 07:46
 
 ## Spec Sheet
 - **Brand/Series:** Jaguar / Chiron
@@ -19,7 +19,7 @@
 Source: https://en.wikipedia.org/wiki/Bugatti_Centodieci
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:47
+- This page was auto-generated from DB sync on 2026-08-09 07:46
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/jaguar/` for brand-level context
 
@@ -35,4 +35,4 @@ year_start: 2022
 year_end: 2022
 status: published
 
-*Last updated: 2026-07-24 15:47*
+*Last updated: 2026-08-09 07:46*

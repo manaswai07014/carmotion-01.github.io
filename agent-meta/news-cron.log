@@ -1785,3 +1785,2500 @@ Processing 5 entries (capped at 5/day)
   Posts dir: /home/hermes/car-evolution-project/website/_posts
   Images:   /home/hermes/car-evolution-project/website/static/images/news
 
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 89 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-25
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] The very first Ferrari Luce is being auctioned for charity - Top Gear
+       slug: the-very-first-ferrari-luce-is-being-auctioned-for-charity-top-gear | tags: Ferrari
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikwFBVV95cUxNQzVCaTh... → https://www.topgear.com/car-news/electric/very-first-ferrari-luce-being-auctioned-charity
+  [download] ✓ the-very-first-ferrari-luce-is-being-auctioned-for-charity-top-gear-1.jpg (34KB) via og:image
+  [download] ✓ the-very-first-ferrari-luce-is-being-auctioned-for-charity-top-gear-2.jpg (708KB) via img
+  [download] ✓ the-very-first-ferrari-luce-is-being-auctioned-for-charity-top-gear-3.jpg (873KB) via img
+  [download] ✓ the-very-first-ferrari-luce-is-being-auctioned-for-charity-top-gear-4.jpg (1014KB) via img
+       ✓ wrote 2026-07-25-the-very-first-ferrari-luce-is-being-auctioned-for-charity-top-gear.md
+  [ 2] This great British sports car is better than ever, but is it worth Por
+       slug: this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors | tags: Porsche, Electric
+       [body] ✓ 34 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJ... → https://www.evo.co.uk/reviews/208947/new-lotus-emira-420-sport-review-taking-aim-at-the-porsche-cayman-gt4
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--wvcpH_sJ--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Vdd7dpWF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--AM1xvcaC--/f_auto,t_related-embed-mobil...)
+  [download] ✓ this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--xKPEbHkg--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6pXUqAnF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcrYfpmM--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--coPW6OHb--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--UyLOOgbf--/f_auto,t_related-embed-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--7GToaCHQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--qR2r5Z8C--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CgdAddS8--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--HslTLZnB--/f_auto,t_card-mobile@1/v1774...)
+       ✓ wrote 2026-07-25-this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors.md
+  [ 3] Range Rover’s creating a grand tourer, and this is our first look - ev
+       slug: range-rovers-creating-a-grand-tourer-and-this-is-our-first-look-evocou | tags: Electric
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWxtcm9... → https://www.evo.co.uk/land-rover/range-rover/208946/the-incoming-range-rover-gt-takes-a-leaf-out-of-jaguars-book
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Y5KjIiLs--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--GqKLyk_f--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--i7UrIJp_--/f_auto,t_card-mobile@1/v1770...)
+       ✓ wrote 2026-07-25-range-rovers-creating-a-grand-tourer-and-this-is-our-first-look-evocou.md
+  [ 4] America's Car Owners Picked Their Winners (and Losers). The Biggest Su
+       slug: americas-car-owners-picked-their-winners-and-losers-the-biggest-surpri | tags: Industry
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMib0FVX3lxTE9iTTN3YUx... → https://www.motortrend.com/news/2026-car-satisfaction-rankings
+  [download] ✓ americas-car-owners-picked-their-winners-and-losers-the-biggest-surpri-1.jpg (201KB) via og:image
+       ✓ wrote 2026-07-25-americas-car-owners-picked-their-winners-and-losers-the-biggest-surpri.md
+  [ 5] Celebrate Spain's World Cup triumph with these nine Spanish sports car
+       slug: celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars | tags: Motorsport
+  [decoder] https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVZBNjV... → https://www.topgear.com/car-news/top-gears-top-9/celebrate-spains-world-cup-triumph-these-nine-spanish-sports-cars
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-1.jpg (50KB) via og:image
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/news-listicle/image/2026/07/Pegaso%2...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-2.jpg (22KB) via img
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-3.jpg (18KB) via img
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Tauro%20V8%20Spider.jpg?w=42...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Spania%20GTA%20Spano.jpg?w=4...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Hispano-Suiza%20Dubonnet%20X...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-4.jpg (15KB) via img
+       ✓ wrote 2026-07-25-celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-25
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-25
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-25
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-25 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-25
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-26
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] Nissan, Infiniti Recalling 168,000 SUVs Over Incorrect Weight Rating -
+       slug: nissan-infiniti-recalling-168000-suvs-over-incorrect-weight-rating-mot | tags: Nissan
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFhKWVB... → https://www.motortrend.com/news/nissan-infiniti-recall-168000-suvs-incorrect-weight-rating
+  [download] ✓ nissan-infiniti-recalling-168000-suvs-over-incorrect-weight-rating-mot-1.jpg (359KB) via og:image
+       ✓ wrote 2026-07-26-nissan-infiniti-recalling-168000-suvs-over-incorrect-weight-rating-mot.md
+  [ 2] This great British sports car is better than ever, but is it worth Por
+       slug: this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors | tags: Porsche, Electric
+       [body] ✓ 34 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJ... → https://www.evo.co.uk/reviews/208947/new-lotus-emira-420-sport-review-taking-aim-at-the-porsche-cayman-gt4
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--wvcpH_sJ--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Vdd7dpWF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--AM1xvcaC--/f_auto,t_related-embed-mobil...)
+  [download] ✓ this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--xKPEbHkg--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6pXUqAnF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcrYfpmM--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--coPW6OHb--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--UyLOOgbf--/f_auto,t_related-embed-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--7GToaCHQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--qR2r5Z8C--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CgdAddS8--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--HslTLZnB--/f_auto,t_card-mobile@1/v1774...)
+       ✓ wrote 2026-07-26-this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors.md
+  [ 3] Range Rover’s creating a grand tourer, and this is our first look - ev
+       slug: range-rovers-creating-a-grand-tourer-and-this-is-our-first-look-evocou | tags: Electric
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWxtcm9... → https://www.evo.co.uk/land-rover/range-rover/208946/the-incoming-range-rover-gt-takes-a-leaf-out-of-jaguars-book
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Y5KjIiLs--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--GqKLyk_f--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--i7UrIJp_--/f_auto,t_card-mobile@1/v1770...)
+       ✓ wrote 2026-07-26-range-rovers-creating-a-grand-tourer-and-this-is-our-first-look-evocou.md
+  [ 4] Celebrate Spain's World Cup triumph with these nine Spanish sports car
+       slug: celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars | tags: Motorsport
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVZBNjV... → https://www.topgear.com/car-news/top-gears-top-9/celebrate-spains-world-cup-triumph-these-nine-spanish-sports-cars
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-1.jpg (50KB) via og:image
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/news-listicle/image/2026/07/Pegaso%2...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-2.jpg (22KB) via img
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-3.jpg (18KB) via img
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Tauro%20V8%20Spider.jpg?w=42...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Spania%20GTA%20Spano.jpg?w=4...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Hispano-Suiza%20Dubonnet%20X...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-4.jpg (15KB) via img
+       ✓ wrote 2026-07-26-celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars.md
+  [ 5] NASCAR’s Best Team May Suddenly Have an Open Seat
+       slug: nascars-best-team-may-suddenly-have-an-open-seat | tags: Industry
+       [body] ✓ 13 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73250217/nascars-best-tea... → https://www.roadandtrack.com/news/a73250217/nascars-best-team-may-suddenly-have-an-open-seat/
+  [download] ✓ nascars-best-team-may-suddenly-have-an-open-seat-1.jpg (857KB) via og:image
+  [download] ✓ nascars-best-team-may-suddenly-have-an-open-seat-2.jpg (857KB) via twitter:image
+       ✓ wrote 2026-07-26-nascars-best-team-may-suddenly-have-an-open-seat.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-26
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-26
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-26
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-26 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-26
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-27
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] Nissan, Infiniti Recalling 168,000 SUVs Over Incorrect Weight Rating -
+       slug: nissan-infiniti-recalling-168000-suvs-over-incorrect-weight-rating-mot | tags: Nissan
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFhKWVB... → https://www.motortrend.com/news/nissan-infiniti-recall-168000-suvs-incorrect-weight-rating
+  [download] ✓ nissan-infiniti-recalling-168000-suvs-over-incorrect-weight-rating-mot-1.jpg (359KB) via og:image
+       ✓ wrote 2026-07-27-nissan-infiniti-recalling-168000-suvs-over-incorrect-weight-rating-mot.md
+  [ 2] This great British sports car is better than ever, but is it worth Por
+       slug: this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors | tags: Porsche, Electric
+       [body] ✓ 34 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJ... → https://www.evo.co.uk/reviews/208947/new-lotus-emira-420-sport-review-taking-aim-at-the-porsche-cayman-gt4
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--wvcpH_sJ--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Vdd7dpWF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--m-d1fncx--/f_auto,t_related-embed-mobil...)
+  [download] ✓ this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--xKPEbHkg--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6pXUqAnF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcrYfpmM--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--coPW6OHb--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--UyLOOgbf--/f_auto,t_related-embed-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--7GToaCHQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--qR2r5Z8C--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CgdAddS8--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--HslTLZnB--/f_auto,t_card-mobile@1/v1774...)
+       ✓ wrote 2026-07-27-this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors.md
+  [ 3] Celebrate Spain's World Cup triumph with these nine Spanish sports car
+       slug: celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars | tags: Motorsport
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVZBNjV... → https://www.topgear.com/car-news/top-gears-top-9/celebrate-spains-world-cup-triumph-these-nine-spanish-sports-cars
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-1.jpg (50KB) via og:image
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/news-listicle/image/2026/07/Pegaso%2...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-2.jpg (22KB) via img
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-3.jpg (18KB) via img
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Tauro%20V8%20Spider.jpg?w=42...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Spania%20GTA%20Spano.jpg?w=4...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Hispano-Suiza%20Dubonnet%20X...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-4.jpg (15KB) via img
+       ✓ wrote 2026-07-27-celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars.md
+  [ 4] Denza Bao 5 review: Chinese Defender rival gets 537bhp and many screen
+       slug: denza-bao-5-review-chinese-defender-rival-gets-537bhp-and-many-screens | tags: Electric, Reviews
+       [body] ✓ 21 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMia0FVX3lxTE94ZTIzWGh... → https://www.topgear.com/car-reviews/denza/bao-5/first-drive
+  [download] ✓ denza-bao-5-review-chinese-defender-rival-gets-537bhp-and-many-screens-1.jpg (91KB) via og:image
+  [download] ✓ denza-bao-5-review-chinese-defender-rival-gets-537bhp-and-many-screens-2.jpg (1438KB) via img
+  [download] ✓ denza-bao-5-review-chinese-defender-rival-gets-537bhp-and-many-screens-3.jpg (1084KB) via img
+  [download] ✓ denza-bao-5-review-chinese-defender-rival-gets-537bhp-and-many-screens-4.jpg (963KB) via img
+       ✓ wrote 2026-07-27-denza-bao-5-review-chinese-defender-rival-gets-537bhp-and-many-screens.md
+  [ 5] Ford's Next EVs Will Ditch Google For Apple Maps
+       slug: fords-next-evs-will-ditch-google-for-apple-maps | tags: Ford, Electric
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://www.motor1.com/news/802601/ford-evs-apple-maps/... → https://www.motor1.com/news/802601/ford-evs-apple-maps/
+  [download] ✓ fords-next-evs-will-ditch-google-for-apple-maps-1.jpg (105KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ojPBgE/s5/ford-30-000-electric-truck.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ojPBgE/s5/ford-30-000-electric-truck.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/XBk/s3/jeff-perez2.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/XBk/s3/jeff-perez2.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bg1E0w/s5/apple-carplay-ios-18-updated-apple-m...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bg1E0w/s5/apple-carplay-ios-18-updated-apple-m...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3Qznx/s5/ev-play-lt-in-a-chevrolet-equinox.we...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3Qznx/s5/ev-play-lt-in-a-chevrolet-equinox.jp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlwz7R/s5/rivian-california-dune-edition-r1s-a...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlwz7R/s5/rivian-california-dune-edition-r1s-a...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ojGKe7/s5/apple-ios-26-update.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ojGKe7/s5/apple-ios-26-update.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W87pR6/s5/bad-touchscreen.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W87pR6/s5/bad-touchscreen.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ojPBgE/s6/ford-30-000-electric-truck.webp...)
+  [download] ✓ fords-next-evs-will-ditch-google-for-apple-maps-2.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/6Z8BzZ/s5/kia-new-models-2026.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/6Z8BzZ/s5/kia-new-models-2026.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Ak3xqO/s5/2027-nissan-z.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Ak3xqO/s5/2027-nissan-z.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXZ8pm/s5/ford-maverick-sv300t-first-drive-rev...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXZ8pm/s5/ford-maverick-sv300t-first-drive-rev...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NgPw/s5/third-generation-honda-ridgeline-tea...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NgPw/s5/third-generation-honda-ridgeline-tea...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yqjj/s6/man-goes-to-carmax.webp...)
+  [download] ✓ fords-next-evs-will-ditch-google-for-apple-maps-3.jpg (24KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXZ9nv/s6/2027-lexus-tz.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXZ9nv/s6/2027-lexus-tz.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/nAlEJy/s6/man-trades-in-ford-f-150..webp...)
+  [download] ✓ fords-next-evs-will-ditch-google-for-apple-maps-4.jpg (18KB) via picture
+       ✓ wrote 2026-07-27-fords-next-evs-will-ditch-google-for-apple-maps.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-27
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-27
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-27
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-27 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-27
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-28
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] This great British sports car is better than ever, but is it worth Por
+       slug: this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors | tags: Porsche, Electric
+       [body] ✓ 34 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJ... → https://www.evo.co.uk/reviews/208947/new-lotus-emira-420-sport-review-taking-aim-at-the-porsche-cayman-gt4
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--wvcpH_sJ--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Vdd7dpWF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--m-d1fncx--/f_auto,t_related-embed-mobil...)
+  [download] ✓ this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--xKPEbHkg--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6pXUqAnF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcrYfpmM--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--coPW6OHb--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--UyLOOgbf--/f_auto,t_related-embed-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--7GToaCHQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--qR2r5Z8C--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CgdAddS8--/f_auto,t_content-image-full-...)
+       ✓ wrote 2026-07-28-this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors.md
+  [ 2] Range Rover GT – pictures - evo.co.uk
+       slug: range-rover-gt-pictures-evocouk | tags: Electric
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMigAFBVV95cUxNNmRyRFd... → https://www.evo.co.uk/land-rover/range-rover/208943/range-rover-gt-pictures
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Y5KjIiLs--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--GqKLyk_f--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--m7eCGYaz--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--NZ4va2oW--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--8aRY3N2h--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Y5KjIiLs--/f_auto,t_card-mobile@1/v1784...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--i7UrIJp_--/f_auto,t_card-mobile@1/v1770...)
+       ✓ wrote 2026-07-28-range-rover-gt-pictures-evocouk.md
+  [ 3] Why hot hatch fans should pay attention to this affordable electric cr
+       slug: why-hot-hatch-fans-should-pay-attention-to-this-affordable-electric-cr | tags: Ford, Electric
+       [body] ✓ 16 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMieEFVX3lxTE5BS2xtOUk... → https://www.evo.co.uk/vauxhall/mokka/208945/vauxhall-mokka-gse-review
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--EUF_ZS3j--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--leKgJXt7--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--vrlKPE-N--/f_auto,t_content-image-full-...)
+       ✓ wrote 2026-07-28-why-hot-hatch-fans-should-pay-attention-to-this-affordable-electric-cr.md
+  [ 4] Surprise! The Range Rover GT is a new, all-electric… grand tourer - To
+       slug: surprise-the-range-rover-gt-is-a-new-all-electric-grand-tourer-top-gea | tags: Electric
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMingFBVV95cUxQbjI1WkN... → https://www.topgear.com/car-news/electric/surprise-range-rover-gt-a-new-all-electric-grand-tourer
+  [download] ✓ surprise-the-range-rover-gt-is-a-new-all-electric-grand-tourer-top-gea-1.jpg (700KB) via img
+  [download] ✓ surprise-the-range-rover-gt-is-a-new-all-electric-grand-tourer-top-gea-2.jpg (2262KB) via img
+  [download] ✓ surprise-the-range-rover-gt-is-a-new-all-electric-grand-tourer-top-gea-3.jpg (18KB) via img
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/images/news-article/2026/07/7fa95cfd...)
+  [download] ✓ surprise-the-range-rover-gt-is-a-new-all-electric-grand-tourer-top-gea-4.jpg (17KB) via img
+       ✓ wrote 2026-07-28-surprise-the-range-rover-gt-is-a-new-all-electric-grand-tourer-top-gea.md
+  [ 5] Celebrate Spain's World Cup triumph with these nine Spanish sports car
+       slug: celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars | tags: Motorsport
+  [decoder] https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVZBNjV... → https://www.topgear.com/car-news/top-gears-top-9/celebrate-spains-world-cup-triumph-these-nine-spanish-sports-cars
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-1.jpg (50KB) via og:image
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/news-listicle/image/2026/07/Pegaso%2...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-2.jpg (22KB) via img
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-3.jpg (18KB) via img
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Tauro%20V8%20Spider.jpg?w=42...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Spania%20GTA%20Spano.jpg?w=4...)
+  [download] ✗ skipped (https://www.topgear.com/sites/default/files/2026/07/Hispano-Suiza%20Dubonnet%20X...)
+  [download] ✓ celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars-4.jpg (15KB) via img
+       ✓ wrote 2026-07-28-celebrate-spains-world-cup-triumph-with-these-nine-spanish-sports-cars.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-28
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-28
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-28
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-28 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-28
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 3 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 88 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-29
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] Lotus Emira 420 Sport – pictures - evo.co.uk
+       slug: lotus-emira-420-sport-pictures-evocouk | tags: Lotus, Electric
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMie0FVX3lxTE1CM2tsOEs... → https://www.evo.co.uk/lotus/emira/208948/lotus-emira-420-sport-pictures
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--wvcpH_sJ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--fLBRcYQC--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--coPW6OHb--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Vdd7dpWF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CgdAddS8--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--3I7OlvP_--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--7GToaCHQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--qR2r5Z8C--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--xKPEbHkg--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--zJ5UqNjO--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6hEiW7TU--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6pXUqAnF--/f_auto,t_content-image-full-...)
+  [download] ✓ lotus-emira-420-sport-pictures-evocouk-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcACjQJC--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DtapdFro--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcrYfpmM--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--ijJISZL8--/f_auto,t_card-mobile@1/v1779...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--bCr15gHd--/f_auto,t_card-mobile@1/v1763...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--3xhZ5TUj--/f_auto,t_card-mobile@1/v1757...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--oevBEaFK--/f_auto,t_card-mobile@1/v1751...)
+       ✓ wrote 2026-07-29-lotus-emira-420-sport-pictures-evocouk.md
+  [ 2] This great British sports car is better than ever, but is it worth Por
+       slug: this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors | tags: Porsche, Electric
+       [body] ✓ 34 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFVLQnJ... → https://www.evo.co.uk/reviews/208947/new-lotus-emira-420-sport-review-taking-aim-at-the-porsche-cayman-gt4
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--wvcpH_sJ--/f_auto,t_content-image-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Vdd7dpWF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--m-d1fncx--/f_auto,t_related-embed-mobil...)
+  [download] ✓ this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--xKPEbHkg--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--6pXUqAnF--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TcrYfpmM--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--coPW6OHb--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--UyLOOgbf--/f_auto,t_related-embed-mobil...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--7GToaCHQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--qR2r5Z8C--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CgdAddS8--/f_auto,t_content-image-full-...)
+       ✓ wrote 2026-07-29-this-great-british-sports-car-is-better-than-ever-but-is-it-worth-pors.md
+  [ 3] Range Rover GT – pictures - evo.co.uk
+       slug: range-rover-gt-pictures-evocouk | tags: Electric
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMigAFBVV95cUxNNmRyRFd... → https://www.evo.co.uk/land-rover/range-rover/208943/range-rover-gt-pictures
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Y5KjIiLs--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--GqKLyk_f--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--m7eCGYaz--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--NZ4va2oW--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--8aRY3N2h--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Y5KjIiLs--/f_auto,t_card-mobile@1/v1784...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--i7UrIJp_--/f_auto,t_card-mobile@1/v1770...)
+       ✓ wrote 2026-07-29-range-rover-gt-pictures-evocouk.md
+  [ 4] Toyota's 2027 TRD Pro Lineup Offers Sweet New Honey-Colored Paint
+       slug: toyotas-2027-trd-pro-lineup-offers-sweet-new-honey-colored-paint | tags: Toyota
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://www.caranddriver.com/news/a73285208/toyota-2027-trd-... → https://www.caranddriver.com/news/a73285208/toyota-2027-trd-pro-lineup-honeycomb-paint/
+  [download] ✓ toyotas-2027-trd-pro-lineup-offers-sweet-new-honey-colored-paint-1.jpg (1163KB) via og:image
+  [download] ✓ toyotas-2027-trd-pro-lineup-offers-sweet-new-honey-colored-paint-2.jpg (1163KB) via twitter:image
+       ✓ wrote 2026-07-29-toyotas-2027-trd-pro-lineup-offers-sweet-new-honey-colored-paint.md
+  [ 5] New V8-powered Dodge Charger could be called ‘Super Bee’
+       slug: new-v8-powered-dodge-charger-could-be-called-super-bee | tags: Dodge
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://www.thesupercarblog.com/new-v8-powered-dodge-charger... → https://www.thesupercarblog.com/new-v8-powered-dodge-charger-could-be-called-super-bee/
+  [extract] no images found in https://www.thesupercarblog.com/new-v8-powered-dodge-charger-could-be-called-super-bee/
+       ✓ wrote 2026-07-29-new-v8-powered-dodge-charger-could-be-called-super-bee.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-29
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-29
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-29
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-29 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-29
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 4 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 89 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-30
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+
+Found 20 entries in daily-brief.md
+
+Processing 5 entries (capped at 5/day)
+
+  [ 1] Factorial Taps Hyundai Supplier To Solve Solid-State Batteries’ Bigges
+       slug: factorial-taps-hyundai-supplier-to-solve-solid-state-batteries-biggest | tags: Hyundai
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://insideevs.com/news/803125/factorial-sk-on-solid-stat... → https://insideevs.com/news/803125/factorial-sk-on-solid-state-battery-mou/
+  [download] ✓ factorial-taps-hyundai-supplier-to-solve-solid-state-batteries-biggest-1.jpg (56KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2NOypx/s5/factorial-energy-solid-state-battery...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2NOypx/s5/factorial-energy-solid-state-battery...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/lKwg/s3/suvrat-kothari.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/lKwg/s3/suvrat-kothari.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/40Eyrq/s5/mercedes-eqs-solid-state-battery.web...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/40Eyrq/s5/mercedes-eqs-solid-state-battery.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/3WERvK/s5/stellantis-factorial-dodge-charger-d...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/3WERvK/s5/stellantis-factorial-dodge-charger-d...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqklWP/s5/mg-plug-in-hybrid.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqklWP/s5/mg-plug-in-hybrid.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eoBKEW/s5/2026-gmc-sierra-ev.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eoBKEW/s5/2026-gmc-sierra-ev.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/nAgp6y/s5/karma-factorial-energy-solid-state-e...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/nAgp6y/s5/karma-factorial-energy-solid-state-e...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYege/s5/sk-on-solid-state-ev-battery.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYege/s5/sk-on-solid-state-ev-battery.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/wlWVqL/s6/faw-hongqi-ehs7.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/wlWVqL/s6/faw-hongqi-ehs7.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QebNvN/s5/byd-racco-kei-car-auf-der-japan-mobi...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QebNvN/s5/byd-racco-kei-car-auf-der-japan-mobi...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWJze/s5/rivian-r2-charging----out-of-spec.we...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWJze/s5/rivian-r2-charging----out-of-spec.jp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGPQ79/s5/porsche-struggling.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGPQ79/s5/porsche-struggling.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/VzWZmL/s6/bmw-plant-woodruff-battery-productio...)
+  [download] ✓ factorial-taps-hyundai-supplier-to-solve-solid-state-batteries-biggest-2.jpg (33KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/1Zw7l9/s6/sila-factory.webp...)
+  [download] ✓ factorial-taps-hyundai-supplier-to-solve-solid-state-batteries-biggest-3.jpg (31KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2l877/s6/dsc07733-2.webp...)
+  [download] ✓ factorial-taps-hyundai-supplier-to-solve-solid-state-batteries-biggest-4.jpg (20KB) via picture
+       ✓ wrote 2026-07-30-factorial-taps-hyundai-supplier-to-solve-solid-state-batteries-biggest.md
+  [ 2] One-of-One 2027 Bentley Continental GTC Goes All-In on Purple Haze
+       slug: one-of-one-2027-bentley-continental-gtc-goes-all-in-on-purple-haze | tags: Bentley
+       [body] ✓ 11 paragraphs fetched
+  [decoder] https://www.caranddriver.com/news/a73295185/2027-bentley-con... → https://www.caranddriver.com/news/a73295185/2027-bentley-continental-gtc-one-of-one-revealed/
+  [download] ✓ one-of-one-2027-bentley-continental-gtc-goes-all-in-on-purple-haze-1.jpg (561KB) via og:image
+  [download] ✓ one-of-one-2027-bentley-continental-gtc-goes-all-in-on-purple-haze-2.jpg (561KB) via twitter:image
+       ✓ wrote 2026-07-30-one-of-one-2027-bentley-continental-gtc-goes-all-in-on-purple-haze.md
+  [ 3] Ferrari Luce EV Has Already Hit Its 1st-Year Sales Target: Report
+       slug: ferrari-luce-ev-has-already-hit-its-1st-year-sales-target-report | tags: Ferrari, Electric
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73295960/ferrari-luce-ev-... → https://www.roadandtrack.com/news/a73295960/ferrari-luce-ev-1st-year-sales-target-report/
+  [download] ✓ ferrari-luce-ev-has-already-hit-its-1st-year-sales-target-report-1.jpg (261KB) via og:image
+  [download] ✓ ferrari-luce-ev-has-already-hit-its-1st-year-sales-target-report-2.jpg (261KB) via twitter:image
+       ✓ wrote 2026-07-30-ferrari-luce-ev-has-already-hit-its-1st-year-sales-target-report.md
+  [ 4] Ford Recalls Explorers and Aviators for Unexpectedly Reclining Seats
+       slug: ford-recalls-explorers-and-aviators-for-unexpectedly-reclining-seats | tags: Ford
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://www.caranddriver.com/news/a73295206/ford-explorer-av... → https://www.caranddriver.com/news/a73295206/ford-explorer-aviator-reclining-seats-recall/
+  [download] ✓ ford-recalls-explorers-and-aviators-for-unexpectedly-reclining-seats-1.jpg (757KB) via og:image
+  [download] ✓ ford-recalls-explorers-and-aviators-for-unexpectedly-reclining-seats-2.jpg (757KB) via twitter:image
+       ✓ wrote 2026-07-30-ford-recalls-explorers-and-aviators-for-unexpectedly-reclining-seats.md
+  [ 5] Ram’s 1500 Rumble Bee Lineup Starts at Just $62,790
+       slug: rams-1500-rumble-bee-lineup-starts-at-just-62790 | tags: Industry
+       [body] ✓ 11 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73296082/ram-1500-rumble-... → https://www.roadandtrack.com/news/a73296082/ram-1500-rumble-bee-pricing/
+  [download] ✓ rams-1500-rumble-bee-lineup-starts-at-just-62790-1.jpg (621KB) via og:image
+  [download] ✓ rams-1500-rumble-bee-lineup-starts-at-just-62790-2.jpg (621KB) via twitter:image
+       ✓ wrote 2026-07-30-rams-1500-rumble-bee-lineup-starts-at-just-62790.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-30
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-30
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-30
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-30 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-30
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-07-31
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 25 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] Volvos And Saabs Were Once Used As "Friction Testers" For Airport Runw
+       slug: volvos-and-saabs-were-once-used-as-friction-testers-for-airport-runway | tags: Volvo
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2225492/volvo-v90-wagons-sarsys-air... → https://www.jalopnik.com/2225492/volvo-v90-wagons-sarsys-airport-runway-friction-testers/
+  [download] ✓ volvos-and-saabs-were-once-used-as-friction-testers-for-airport-runway-1.jpg (319KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/volvos-and-saabs-were-once-used-as-friction...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/volvos-and-saabs-were-once-used-as-friction...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-07-31-volvos-and-saabs-were-once-used-as-friction-testers-for-airport-runway.md
+  [ 2] The Next Miata Will Be Ready To Go Electric: Mazda CEO
+       slug: the-next-miata-will-be-ready-to-go-electric-mazda-ceo | tags: Mazda, Electric
+       [body] ✓ 3 paragraphs fetched
+  [decoder] https://insideevs.com/news/803155/mazda-miata-ready-for-elec... → https://insideevs.com/news/803155/mazda-miata-ready-for-electric/
+  [download] ✓ the-next-miata-will-be-ready-to-go-electric-mazda-ceo-1.jpg (114KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/OoeJ8X/s5/2024-mazda-mx-5-miata-jdm.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/OoeJ8X/s5/2024-mazda-mx-5-miata-jdm.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2NL06p/s5/2024-mazda-mx-5-miata-jdm.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2NL06p/s5/2024-mazda-mx-5-miata-jdm.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QevMZY/s5/electrogenic-na-mazda-miata-ev.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/QevMZY/s5/electrogenic-na-mazda-miata-ev.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXZzJm/s6/voyah-ev-charging.webp...)
+  [download] ✓ the-next-miata-will-be-ready-to-go-electric-mazda-ceo-2.jpg (21KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8K3jq/s5/2028-mercedes-benz-gla-european-mode...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8K3jq/s5/2028-mercedes-benz-gla-european-mode...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8zMm/s5/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8zMm/s5/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYnMM/s5/genesis-gv60-magma-2026.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYnMM/s5/genesis-gv60-magma-2026.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGn2v/s6/2026-tesla-model-y-standard.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGn2v/s6/2026-tesla-model-y-standard.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7XVP/s6/superpanther-etopas-600.webp...)
+  [download] ✓ the-next-miata-will-be-ready-to-go-electric-mazda-ceo-3.jpg (34KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGPwAb/s6/ferrari-luce.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGPwAb/s6/ferrari-luce.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8K3jq/s6/2028-mercedes-benz-gla-european-mode...)
+  [download] ✓ the-next-miata-will-be-ready-to-go-electric-mazda-ceo-4.jpg (25KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-07-31-the-next-miata-will-be-ready-to-go-electric-mazda-ceo.md
+  [ 3] SpaceX Starship Has A Panel Gap Problem On Its Heat Shield
+       slug: spacex-starship-has-a-panel-gap-problem-on-its-heat-shield | tags: Motorsport
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2226685/spacex-starship-panel-gap-p... → https://www.jalopnik.com/2226685/spacex-starship-panel-gap-problem-heat-shield/
+  [download] ✓ spacex-starship-has-a-panel-gap-problem-on-its-heat-shield-1.jpg (607KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/spacex-starship-has-a-panel-gap-problem-on-...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/spacex-starship-has-a-panel-gap-problem-on-...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-07-31-spacex-starship-has-a-panel-gap-problem-on-its-heat-shield.md
+  [ 4] Now You Can Take More Video Calls From Your Tesla
+       slug: now-you-can-take-more-video-calls-from-your-tesla | tags: Tesla
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://insideevs.com/news/803123/tesla-video-meeting-integr... → https://insideevs.com/news/803123/tesla-video-meeting-integration-update/
+  [download] ✓ now-you-can-take-more-video-calls-from-your-tesla-1.jpg (44KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGn2v/s5/2026-tesla-model-y-standard.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGn2v/s5/2026-tesla-model-y-standard.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/qkYQ0v/s5/ever-tesla-model-y-video.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/qkYQ0v/s5/ever-tesla-model-y-video.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/JOZx96/s5/tesla-model-s-door-handle.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/JOZx96/s5/tesla-model-s-door-handle.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6Yvkv/s5/tesla-model-y-standard-ap-fsd-visual...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6Yvkv/s5/tesla-model-y-standard-ap-fsd-visual...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/8A32wM/s5/tesla-q2.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/8A32wM/s5/tesla-q2.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXZzJm/s6/voyah-ev-charging.webp...)
+  [download] ✓ now-you-can-take-more-video-calls-from-your-tesla-2.jpg (21KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8K3jq/s5/2028-mercedes-benz-gla-european-mode...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8K3jq/s5/2028-mercedes-benz-gla-european-mode...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8zMm/s5/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8zMm/s5/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYnMM/s5/genesis-gv60-magma-2026.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYnMM/s5/genesis-gv60-magma-2026.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8zMm/s6/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✓ now-you-can-take-more-video-calls-from-your-tesla-3.jpg (24KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7XVP/s6/superpanther-etopas-600.webp...)
+  [download] ✓ now-you-can-take-more-video-calls-from-your-tesla-4.jpg (34KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-07-31-now-you-can-take-more-video-calls-from-your-tesla.md
+  [ 5] 2027 Genesis GV60 Magma Gives You 641 HP for Just Under $72,000
+       slug: 2027-genesis-gv60-magma-gives-you-641-hp-for-just-under-72000 | tags: Industry
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://www.caranddriver.com/news/a73299287/2027-genesis-gv6... → https://www.caranddriver.com/news/a73299287/2027-genesis-gv60-magma-price/
+  [download] ✓ 2027-genesis-gv60-magma-gives-you-641-hp-for-just-under-72000-1.jpg (414KB) via og:image
+  [download] ✓ 2027-genesis-gv60-magma-gives-you-641-hp-for-just-under-72000-2.jpg (414KB) via twitter:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-07-31-2027-genesis-gv60-magma-gives-you-641-hp-for-just-under-72000.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-07-31
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-07-31
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-07-31
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-07-31 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-07-31
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+📰 news_to_website.py v3 — 2026-08-01
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 25 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] Small Sports Car Company SC01 – pictures - evo.co.uk
+       slug: small-sports-car-company-sc01-pictures-evocouk | tags: Electric
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMifEFVX3lxTE94V1hLdzB... → https://www.evo.co.uk/news/208964/small-sports-car-company-sc01-pictures
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--tfCgkxwQ--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--lSjv1XYf--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--WYY36GsB--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--PGGKMdTE--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--PfYk9Voy--/f_auto,t_content-image-full-...)
+  [download] ✓ small-sports-car-company-sc01-pictures-evocouk-1.jpg (16KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--tfCgkxwQ--/f_auto,t_card-mobile@1/v1785...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-01-small-sports-car-company-sc01-pictures-evocouk.md
+  [ 2] On Track in the Luce: We Drive the Ferrari Everyone’s Talking About - 
+       slug: on-track-in-the-luce-we-drive-the-ferrari-everyones-talking-about-moto | tags: Ferrari, Electric
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMif0FVX3lxTE9vX0d0Vjc... → https://www.motortrend.com/reviews/first-drive-2028-ferrari-luce-prototype
+  [download] ✓ on-track-in-the-luce-we-drive-the-ferrari-everyones-talking-about-moto-1.jpg (305KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-01-on-track-in-the-luce-we-drive-the-ferrari-everyones-talking-about-moto.md
+  [ 3] It Was a Trap? Electronic Car Door Handles May Finally Get Safer - mot
+       slug: it-was-a-trap-electronic-car-door-handles-may-finally-get-safer-motort | tags: Industry
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMigwFBVV95cUxNM25qZEF... → https://www.motortrend.com/news/nhtsa-electronic-emergency-door-release-rules
+  [download] ✓ it-was-a-trap-electronic-car-door-handles-may-finally-get-safer-motort-1.jpg (95KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-01-it-was-a-trap-electronic-car-door-handles-may-finally-get-safer-motort.md
+  [ 4] The 2.9-tonne, 885bhp Zeekr 9X Super Hybrid is coming to Europe… - Top
+       slug: the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-top-gear | tags: Industry
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFpjN2h... → https://www.topgear.com/car-news/suvs/29-tonne-885bhp-zeekr-9x-super-hybrid-coming-europe
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-top-gear-1.jpg (92KB) via og:image
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-top-gear-2.jpg (262KB) via img
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-top-gear-3.jpg (972KB) via img
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-top-gear-4.jpg (2940KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-01-the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-top-gear.md
+  [ 5] We’ve Seen the Pieces, Now Here’s the Whole 2027 Audi Q9 - motortrend.
+       slug: weve-seen-the-pieces-now-heres-the-whole-2027-audi-q9-motortrendcom | tags: Audi
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMia0FVX3lxTE94d1NWdHg... → https://www.motortrend.com/news/first-look-2027-audi-q9-sq9
+  [download] ✓ weve-seen-the-pieces-now-heres-the-whole-2027-audi-q9-motortrendcom-1.jpg (208KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-01-weve-seen-the-pieces-now-heres-the-whole-2027-audi-q9-motortrendcom.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+🚀 CarMotion Daily Pipeline — 2026-08-01
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-01
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-01
+============================================================
+
+
+✓ Step 2/3: Generate website posts for 2026-08-01 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-01
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+🚀 CarMotion Daily Pipeline — 2026-08-02
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-02
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-02
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-02
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 28 unique slugs published in last 7d
+  ↳ skipped 2 duplicate(s):
+     • small-sports-car-company-sc01-pictures-evocouk — Small Sports Car Company SC01 – pictures - evo.co.uk
+     • weve-seen-the-pieces-now-heres-the-whole-2027-audi-q9-motortrend — We’ve Seen the Pieces, Now Here’s the Whole 2027 Audi Q9 - M
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] The All-New Mercedes-Benz GLA Is Bigger, Smarter, and Electrified - Mo
+       slug: the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort | tags: Mercedes
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMie0FVX3lxTE1rbkl3QTV... → https://www.motortrend.com/news/first-look-2028-mercedes-benz-gla-class
+  [download] ✓ the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort-1.jpg (305KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort.md
+  [ 3] The 2.9-tonne, 885bhp Zeekr 9X Super Hybrid is coming to Europe… - top
+       slug: the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc | tags: Industry
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFpjN2h... → https://www.topgear.com/car-news/suvs/29-tonne-885bhp-zeekr-9x-super-hybrid-coming-europe
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-1.jpg (92KB) via og:image
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-2.jpg (262KB) via img
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-3.jpg (972KB) via img
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-4.jpg (2940KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc.md
+  [ 5] The gargantuan new Audi Q9 is officially too large for London - topgea
+       slug: the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc | tags: Audi
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEZ6QlY... → https://www.topgear.com/car-news/suvs/gargantuan-new-audi-q9-officially-too-large-london
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-1.jpg (87KB) via og:image
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-2.jpg (1468KB) via img
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-3.jpg (1769KB) via img
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-4.jpg (1277KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc.md
+  [ 6] How a Ferrari F50 tested my willpower like nothing else ever has - evo
+       slug: how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has-evoco | tags: Ferrari, Electric
+       [body] ✓ 17 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqAFBVV95cUxObWFNenR... → https://www.evo.co.uk/ferrari/f50/208961/how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-...)
+  [download] ✓ how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has-evoco-1.jpg (15KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has-evoco.md
+  [ 7] This Quad-Motor Electric Land Rover Defender Restomod Has More Range T
+       slug: this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t | tags: Tesla, Electric
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://insideevs.com/news/803290/electric-land-rover-defend... → https://insideevs.com/news/803290/electric-land-rover-defender-restomod/
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-1.jpg (204KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QPJA/s5/the-landrovers---press-04.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QPJA/s5/the-landrovers---press-04.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8AzK/s5/the-landrovers---press--10.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8AzK/s5/the-landrovers---press--10.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/6Z8JBZ/s5/the-landrovers---electric-defender-p...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/6Z8JBZ/s5/the-landrovers---electric-defender-p...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/40YgPY/s5/the-landrovers-dashboard---press.web...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/40YgPY/s5/the-landrovers-dashboard---press.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/OoeeKR/s5/land-rover-defender-shore-tender-ev-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/OoeeKR/s5/land-rover-defender-shore-tender-ev-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/rKOp6Y/s5/project-ghost-classic-land-rover-def...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/rKOp6Y/s5/project-ghost-classic-land-rover-def...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbY4L0/s6/amazon-zoox-robotaxi-plant5.webp...)
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-2.jpg (24KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2N4okn/s5/tesla-model-s-video-thumbnail.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2N4okn/s5/tesla-model-s-video-thumbnail.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKJYP/s5/podcast-thumbnail-ferrari.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKJYP/s5/podcast-thumbnail-ferrari.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bg1mkm/s5/ford-china-mach-e.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bg1mkm/s5/ford-china-mach-e.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6x0vz/s6/tesla-china.webp...)
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-3.jpg (15KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGPX1y/s6/ioniq-6-nc-trip-owner.webp...)
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-4.jpg (29KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-02 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-02
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-02.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-03
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-03
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-03
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-03
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 31 unique slugs published in last 7d
+  ↳ skipped 3 duplicate(s):
+     • the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort — The All-New Mercedes-Benz GLA Is Bigger, Smarter, and Electr
+     • small-sports-car-company-sc01-pictures-evocouk — Small Sports Car Company SC01 – pictures - evo.co.uk
+     • on-track-in-the-luce-we-drive-the-ferrari-everyones-talking-about-moto — On Track in the Luce: We Drive the Ferrari Everyone’s Talkin
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+       [Q3] title cleaned: 'What’s Going On With Lotus in the U.S.? Blame Tariffs, ' → 'What’s Going On With Lotus in the U.S.? Blame Tariffs, '
+  [ 3] What’s Going On With Lotus in the U.S.? Blame Tariffs, Mostly
+       slug: whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly | tags: Lotus
+       [body] ✓ 16 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMif0FVX3lxTE5DWDhtRHB... → https://www.motortrend.com/news/whats-going-on-with-lotus-us-sales-tariffs
+  [download] ✓ whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly-1.jpg (321KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly.md
+       [Q3] title cleaned: 'The Land Rover Defender V8 is dead, but is that a bad t' → 'The Land Rover Defender V8 is dead, but is that a bad t'
+  [ 5] The Land Rover Defender V8 is dead, but is that a bad thing?
+       slug: the-land-rover-defender-v8-is-dead-but-is-that-a-bad-thing | tags: Land Rover
+       [body] ✓ 27 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNU9iWHZ... → https://www.evo.co.uk/land-rover/defender/204321/land-rover-defender-v8-2021-2026-review-britains-mercedes-g63-rival-is
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--JmbbLJQo--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--Z_pHVSwE--/f_auto,t_card-mobile@1/v1785...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DQAkOcrt--/f_auto,t_card-mobile@1/v1785...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--tfCgkxwQ--/f_auto,t_card-mobile@1/v1785...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-the-land-rover-defender-v8-is-dead-but-is-that-a-bad-thing.md
+       [Q3] title cleaned: 'We Drove the 2027 Slate Truck. Simplicity Might Be Its ' → 'We Drove the 2027 Slate Truck. Simplicity Might Be Its '
+  [ 6] We Drove the 2027 Slate Truck. Simplicity Might Be Its Superpower.
+       slug: we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower | tags: Industry
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMifkFVX3lxTE13bFlIdTN... → https://www.motortrend.com/reviews/first-drive-2027-slate-truck-prototype
+  [download] ✓ we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower-1.jpg (293KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower.md
+  [ 7] F1 CEO Domenicali Says George Lucas Told Him Most New Fans Just Want t
+       slug: f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t | tags: Motorsport
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73309340/f1-ceo-domenical... → https://www.roadandtrack.com/news/a73309340/f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-to-see-
+  [download] ✓ f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t-1.jpg (491KB) via og:image
+  [download] ✓ f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t-2.jpg (339KB) via twitter:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-f1-ceo-domenicali-says-george-lucas-told-him-most-new-fans-just-want-t.md
+  [ 8] Mazda Considering Electric MX-5 Miata, CEO Says, But Weight Remains an
+       slug: mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i | tags: Mazda, Electric
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73306836/mazda-mx-5-miata... → https://www.roadandtrack.com/news/a73306836/mazda-mx-5-miata-electric-future/
+  [download] ✓ mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i-1.jpg (65KB) via og:image
+  [download] ✓ mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i-2.jpg (65KB) via twitter:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-03-mazda-considering-electric-mx-5-miata-ceo-says-but-weight-remains-an-i.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-03 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-03
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-03.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-04
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-04
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-04
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-04
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 33 unique slugs published in last 7d
+  ↳ skipped 2 duplicate(s):
+     • small-sports-car-company-sc01-pictures-evocouk — Small Sports Car Company SC01 – pictures - evo.co.uk
+     • the-gargantuan-new-audi-q9-is-officially-too-large-for-london-top-gear — The gargantuan new Audi Q9 is officially too large for Londo
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+       [Q3] title cleaned: 'What’s Going On With Lotus in the U.S.? Blame Tariffs, ' → 'What’s Going On With Lotus in the U.S.? Blame Tariffs, '
+  [ 2] What’s Going On With Lotus in the U.S.? Blame Tariffs, Mostly
+       slug: whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly | tags: Lotus
+       [body] ✓ 16 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMif0FVX3lxTE5DWDhtRHB... → https://www.motortrend.com/news/whats-going-on-with-lotus-us-sales-tariffs
+  [download] ✓ whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly-1.jpg (321KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-whats-going-on-with-lotus-in-the-us-blame-tariffs-mostly.md
+       [Q3] title cleaned: 'We Drove the 2027 Slate Truck. Simplicity Might Be Its ' → 'We Drove the 2027 Slate Truck. Simplicity Might Be Its '
+  [ 4] We Drove the 2027 Slate Truck. Simplicity Might Be Its Superpower.
+       slug: we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower | tags: Industry
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMifkFVX3lxTE13bFlIdTN... → https://www.motortrend.com/reviews/first-drive-2027-slate-truck-prototype
+  [download] ✓ we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower-1.jpg (293KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-we-drove-the-2027-slate-truck-simplicity-might-be-its-superpower.md
+       [Q3] title cleaned: 'Tested: The Lexus ES350e EV Is a Commuting All-Star - M' → 'Tested: The Lexus ES350e EV Is a Commuting All-Star'
+  [ 5] Tested: The Lexus ES350e EV Is a Commuting All-Star
+       slug: tested-the-lexus-es350e-ev-is-a-commuting-all-star | tags: Lexus, Electric
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMidEFVX3lxTE9xekwxSHI... → https://www.motortrend.com/reviews/first-test-2026-lexus-es350e-ev
+  [download] ✓ tested-the-lexus-es350e-ev-is-a-commuting-all-star-1.jpg (225KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-tested-the-lexus-es350e-ev-is-a-commuting-all-star.md
+       [Q3] title cleaned: 'A New, Restyled C9 Chevy Corvette Is Closer Than You Th' → 'A New, Restyled C9 Chevy Corvette Is Closer Than You Th'
+  [ 6] A New, Restyled C9 Chevy Corvette Is Closer Than You Think
+       slug: a-new-restyled-c9-chevy-corvette-is-closer-than-you-think | tags: Electric
+       [body] ✓ 8 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiekFVX3lxTE5wdXFyN3F... → https://www.motortrend.com/news/2030-chevrolet-corvette-c9-future-cars
+  [download] ✓ a-new-restyled-c9-chevy-corvette-is-closer-than-you-think-1.jpg (264KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-a-new-restyled-c9-chevy-corvette-is-closer-than-you-think.md
+       [Q3] title cleaned: 'BMW M3 Touring E46 – pictures - evo.co.uk' → 'BMW M3 Touring E46'
+  [ 7] BMW M3 Touring E46
+       slug: bmw-m3-touring-e46 | tags: BMW
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMicEFVX3lxTE03bWlicWV... → https://www.evo.co.uk/bmw/m3/208967/bmw-m3-touring-e46-pictures
+  [download] ✗ skipped (https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-ima...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DQAkOcrt--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--XYbU80M1--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--TAwcKCiT--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--8OtwOMI4--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--mDtHp3fA--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--5WJLYfJC--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--dD8aMoR5--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--rVuGa6oB--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--G3KhEHQ_--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--CY0bGPX9--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--LpGd701d--/f_auto,t_content-image-full-...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--gOujPb8i--/f_auto,t_content-image-full-...)
+  [download] ✓ bmw-m3-touring-e46-1.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--DQAkOcrt--/f_auto,t_card-mobile@1/v1785...)
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--sDtfvNUG--/f_auto,t_card-mobile@1/v1784...)
+  [download] ✓ bmw-m3-touring-e46-2.jpg (15KB) via img
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--k0RAXKTl--/f_auto,t_card-mobile@1/v1755...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-04-bmw-m3-touring-e46.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-04 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-04
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-04.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-05
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-05
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-05
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-05
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 37 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] How BMW cut the X5's emissions by 40% – before turning a wheel
+       slug: how-bmw-cut-the-x5s-emissions-by-40-before-turning-a-wheel | tags: BMW
+       [body] ✓ 1 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/technology/how-bmw-cut-x5... → https://www.autocar.co.uk/car-news/technology/how-bmw-cut-x5s-emissions-40-%E2%80%93-turning-wheel
+  [download] ✓ how-bmw-cut-the-x5s-emissions-by-40-before-turning-a-wheel-1.jpg (384KB) via og:image
+  [download] ✓ how-bmw-cut-the-x5s-emissions-by-40-before-turning-a-wheel-2.jpg (42KB) via picture
+  [download] ✓ how-bmw-cut-the-x5s-emissions-by-40-before-turning-a-wheel-3.jpg (92KB) via picture
+  [download] ✓ how-bmw-cut-the-x5s-emissions-by-40-before-turning-a-wheel-4.jpg (47KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-05-how-bmw-cut-the-x5s-emissions-by-40-before-turning-a-wheel.md
+  [ 2] The Triumph TR7 is an overlooked sports car hero (yes, really)
+       slug: the-triumph-tr7-is-an-overlooked-sports-car-hero-yes-really | tags: Industry
+       [body] ✓ 2 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/opinion/used-cars/triumph-tr7-over... → https://www.autocar.co.uk/opinion/used-cars/triumph-tr7-overlooked-sports-car-hero-yes-really
+  [download] ✓ the-triumph-tr7-is-an-overlooked-sports-car-hero-yes-really-1.jpg (255KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-05-the-triumph-tr7-is-an-overlooked-sports-car-hero-yes-really.md
+  [ 3] Smart #2: Fortwo successor's design outed ahead of October debut
+       slug: smart-2-fortwo-successors-design-outed-ahead-of-october-debut | tags: Industry
+       [body] ✓ 1 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/electric-cars/smart-2-for... → https://www.autocar.co.uk/car-news/electric-cars/smart-2-fortwo-successors-design-outed-ahead-october-debut
+  [download] ✓ smart-2-fortwo-successors-design-outed-ahead-of-october-debut-1.jpg (545KB) via og:image
+  [download] ✓ smart-2-fortwo-successors-design-outed-ahead-of-october-debut-2.jpg (42KB) via picture
+  [download] ✓ smart-2-fortwo-successors-design-outed-ahead-of-october-debut-3.jpg (92KB) via picture
+  [download] ✓ smart-2-fortwo-successors-design-outed-ahead-of-october-debut-4.jpg (47KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-05-smart-2-fortwo-successors-design-outed-ahead-of-october-debut.md
+  [ 4] A Pagani’s Bolts Alone Cost More Than A New Porsche 911
+       slug: a-paganis-bolts-alone-cost-more-than-a-new-porsche-911 | tags: Porsche
+  [decoder] https://www.carscoops.com/2026/08/pagani-titanium-bolts-cost... → https://www.carscoops.com/2026/08/pagani-titanium-bolts-cost/
+  [extract] no images found in https://www.carscoops.com/2026/08/pagani-titanium-bolts-cost/
+       ✓ wrote 2026-08-05-a-paganis-bolts-alone-cost-more-than-a-new-porsche-911.md
+  [ 5] Mercedes-AMG’s New CLA45 EV Knocks Out a 7:32 Nurburgring Lap Time
+       slug: mercedes-amgs-new-cla45-ev-knocks-out-a-732-nurburgring-lap-time | tags: Mercedes, Electric
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://www.roadandtrack.com/news/a73344147/mercedes-amg-cla... → https://www.roadandtrack.com/news/a73344147/mercedes-amg-cla45-ev-nurburgring-lap-time-7-32/
+  [download] ✓ mercedes-amgs-new-cla45-ev-knocks-out-a-732-nurburgring-lap-time-1.jpg (740KB) via og:image
+  [download] ✓ mercedes-amgs-new-cla45-ev-knocks-out-a-732-nurburgring-lap-time-2.jpg (740KB) via twitter:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-05-mercedes-amgs-new-cla45-ev-knocks-out-a-732-nurburgring-lap-time.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-05 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-05
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 8 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-05.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-06
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-06
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-06
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-06
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 37 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] Amalfi Spider: Epic Greek blast in Ferrari's £227k 'entry' drop-top
+       slug: amalfi-spider-epic-greek-blast-in-ferraris-227k-entry-drop-top | tags: Ferrari
+       [body] ✓ 31 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/new-cars/amalfi-spider-ep... → https://www.autocar.co.uk/car-news/new-cars/amalfi-spider-epic-greek-blast-ferraris-%C2%A3227k-entry-drop-top
+  [download] ✓ amalfi-spider-epic-greek-blast-in-ferraris-227k-entry-drop-top-1.jpg (444KB) via og:image
+  [download] ✓ amalfi-spider-epic-greek-blast-in-ferraris-227k-entry-drop-top-2.jpg (38KB) via picture
+  [download] ✓ amalfi-spider-epic-greek-blast-in-ferraris-227k-entry-drop-top-3.jpg (76KB) via picture
+  [download] ✓ amalfi-spider-epic-greek-blast-in-ferraris-227k-entry-drop-top-4.jpg (26KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-06-amalfi-spider-epic-greek-blast-in-ferraris-227k-entry-drop-top.md
+  [ 2] Who is China really stealing sales from?
+       slug: who-is-china-really-stealing-sales-from | tags: Industry
+       [body] ✓ 2 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/opinion/new-cars/who-china-really-... → https://www.autocar.co.uk/opinion/new-cars/who-china-really-stealing-sales
+  [download] ✓ who-is-china-really-stealing-sales-from-1.jpg (154KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-06-who-is-china-really-stealing-sales-from.md
+  [ 3] New Denza D9 is a £75k luxury MPV with plug-in hybrid power
+       slug: new-denza-d9-is-a-75k-luxury-mpv-with-plug-in-hybrid-power | tags: Industry
+       [body] ✓ 1 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/new-cars/new-denza-d9-%C2... → https://www.autocar.co.uk/car-news/new-cars/new-denza-d9-%C2%A375k-luxury-mpv-plug-hybrid-power
+  [download] ✓ new-denza-d9-is-a-75k-luxury-mpv-with-plug-in-hybrid-power-1.jpg (576KB) via og:image
+  [download] ✓ new-denza-d9-is-a-75k-luxury-mpv-with-plug-in-hybrid-power-2.jpg (38KB) via picture
+  [download] ✓ new-denza-d9-is-a-75k-luxury-mpv-with-plug-in-hybrid-power-3.jpg (76KB) via picture
+  [download] ✓ new-denza-d9-is-a-75k-luxury-mpv-with-plug-in-hybrid-power-4.jpg (26KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-06-new-denza-d9-is-a-75k-luxury-mpv-with-plug-in-hybrid-power.md
+  [ 4] 5 ways to prepare your car for the summer holidays
+       slug: 5-ways-to-prepare-your-car-for-the-summer-holidays | tags: Industry
+       [body] ✓ 1 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/advertising-promotions-pr... → https://www.autocar.co.uk/car-news/advertising-promotions-promoted-by-kwik-fit/5-ways-prepare-your-car-summer-holidays
+  [download] ✓ 5-ways-to-prepare-your-car-for-the-summer-holidays-1.jpg (1387KB) via og:image
+  [download] ✓ 5-ways-to-prepare-your-car-for-the-summer-holidays-2.jpg (38KB) via picture
+  [download] ✓ 5-ways-to-prepare-your-car-for-the-summer-holidays-3.jpg (76KB) via picture
+  [download] ✓ 5-ways-to-prepare-your-car-for-the-summer-holidays-4.jpg (26KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-06-5-ways-to-prepare-your-car-for-the-summer-holidays.md
+  [ 5] EVs and hybrids drive UK car market to best July since Covid
+       slug: evs-and-hybrids-drive-uk-car-market-to-best-july-since-covid | tags: Electric
+       [body] ✓ 1 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/electric-cars/evs-and-hyb... → https://www.autocar.co.uk/car-news/electric-cars/evs-and-hybrids-drive-uk-car-market-best-july-covid
+  [download] ✓ evs-and-hybrids-drive-uk-car-market-to-best-july-since-covid-1.jpg (309KB) via og:image
+  [download] ✓ evs-and-hybrids-drive-uk-car-market-to-best-july-since-covid-2.jpg (38KB) via picture
+  [download] ✓ evs-and-hybrids-drive-uk-car-market-to-best-july-since-covid-3.jpg (76KB) via picture
+  [download] ✓ evs-and-hybrids-drive-uk-car-market-to-best-july-since-covid-4.jpg (26KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-06-evs-and-hybrids-drive-uk-car-market-to-best-july-since-covid.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-06 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-06
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-06.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-07
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 90 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-07
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-07
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-07
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 37 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] Meteorite Strikes On Cars Are Rare, But It Has Happened At Least Thric
+       slug: meteorite-strikes-on-cars-are-rare-but-it-has-happened-at-least-thrice | tags: Industry
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2231315/at-least-three-meteorite-st... → https://www.jalopnik.com/2231315/at-least-three-meteorite-strikes-cars/
+  [download] ✓ meteorite-strikes-on-cars-are-rare-but-it-has-happened-at-least-thrice-1.jpg (483KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/intro...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/intro...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/meteo...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/meteo...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/when-...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/at-least-three-meteorite-strikes-cars/when-...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-meteorite-strikes-on-cars-are-rare-but-it-has-happened-at-least-thrice.md
+  [ 2] Tesla Superchargers Are Coming To EVgo Stations
+       slug: tesla-superchargers-are-coming-to-evgo-stations | tags: Tesla, Electric
+       [body] ✓ 3 paragraphs fetched
+  [decoder] https://insideevs.com/news/803934/evgo-tesla-superchargers-v... → https://insideevs.com/news/803934/evgo-tesla-superchargers-v4/
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-1.jpg (129KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Mkg7J8/s5/evgo-supercharger.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Mkg7J8/s5/evgo-supercharger.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/3WmPG1/s5/tesla-model-y-charging-at-an-evgo-ch...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/3WmPG1/s5/tesla-model-y-charging-at-an-evgo-ch...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ZnzBB3/s5/pilot-gm-evgo-charger.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ZnzBB3/s5/pilot-gm-evgo-charger.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJZn7/s5/evgo-charging-station-at-a-shopping-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJZn7/s5/evgo-charging-station-at-a-shopping-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8ElR/s5/byd-denza-z9s.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8ElR/s5/byd-denza-z9s.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3nNvG/s5/florida-nevi-top.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3nNvG/s5/florida-nevi-top.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s6/ford-uev-platform-details.webp...)
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-2.jpg (18KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s6/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-3.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYb66/s6/2026-ford-mustang-mach-e-rally.webp...)
+  [download] ✓ tesla-superchargers-are-coming-to-evgo-stations-4.jpg (23KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-tesla-superchargers-are-coming-to-evgo-stations.md
+  [ 3] Rules May Vary, But Driving Without A Bumper Is Always A Bad Idea
+       slug: rules-may-vary-but-driving-without-a-bumper-is-always-a-bad-idea | tags: Industry
+       [body] ✓ 6 paragraphs fetched
+  [decoder] https://www.jalopnik.com/2230919/driving-without-bumper-rule... → https://www.jalopnik.com/2230919/driving-without-bumper-rules-vary-bad-idea/
+  [download] ✓ rules-may-vary-but-driving-without-a-bumper-is-always-a-bad-idea-1.jpg (309KB) via og:image
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [download] ✗ skipped (https://www.jalopnik.com/img/gallery/rules-may-vary-but-driving-without-a-bumper...)
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-rules-may-vary-but-driving-without-a-bumper-is-always-a-bad-idea.md
+  [ 4] Zoox's Autonomous Pod Without A Steering Wheel Wants Your Money Now
+       slug: zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now | tags: Industry
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://insideevs.com/news/803923/zoox-allowed-charge-robota... → https://insideevs.com/news/803923/zoox-allowed-charge-robotaxi-rides/
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-1.jpg (128KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/JONPXM/s5/zoox-robotaxi-las-vegas.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/JONPXM/s5/zoox-robotaxi-las-vegas.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2lKNo/s5/zoox-robotaxi-las-vegas.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2lKNo/s5/zoox-robotaxi-las-vegas.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/wl802G/s5/zoox-robotaxi-las-vegas.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/wl802G/s5/zoox-robotaxi-las-vegas.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbY4L0/s5/amazon-zoox-robotaxi-plant5.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbY4L0/s5/amazon-zoox-robotaxi-plant5.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eVwYm/s5/zoox-robotaxi-driving-on-public-road...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eVwYm/s5/zoox-robotaxi-driving-on-public-road...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7xWN/s5/telo-mt1-towing.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/eo7xWN/s5/telo-mt1-towing.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s6/ford-uev-platform-details.webp...)
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-2.jpg (18KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s6/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-3.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYb66/s6/2026-ford-mustang-mach-e-rally.webp...)
+  [download] ✓ zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now-4.jpg (23KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-zooxs-autonomous-pod-without-a-steering-wheel-wants-your-money-now.md
+  [ 5] Some Owners Say Tesla's New FSD Update Is Causing Their Cars' Computer
+       slug: some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers- | tags: Tesla
+       [body] ✓ 5 paragraphs fetched
+  [decoder] https://insideevs.com/news/803866/tesla-autopilot-computer-f... → https://insideevs.com/news/803866/tesla-autopilot-computer-fsd-overheating/
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--1.jpg (263KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/xqnLvP/s5/2022-tesla-model-3-side-profile.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6Yvkv/s5/tesla-model-y-standard-ap-fsd-visual...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6Yvkv/s5/tesla-model-y-standard-ap-fsd-visual...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJB6K/s5/tesla-fsd-europe-quiz-netherlands.we...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJB6K/s5/tesla-fsd-europe-quiz-netherlands.jp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NEnz/s5/tesla-cybertruck-order-hero.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NEnz/s5/tesla-cybertruck-order-hero.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/MkgZKw/s5/podcast-thumbnail.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/MkgZKw/s5/podcast-thumbnail.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s6/ford-uev-platform-details.webp...)
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--2.jpg (18KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s5/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgGo7l/s6/zeekr-7gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/L3yB7Q/s6/2027-mercedes-amg-gt-53-4-door-coupe...)
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--3.jpg (20KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYb66/s6/2026-ford-mustang-mach-e-rally.webp...)
+  [download] ✓ some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers--4.jpg (23KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-07-some-owners-say-teslas-new-fsd-update-is-causing-their-cars-computers-.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-07 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-07
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-07.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-08
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 89 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-08
+  cmd: python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-08
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-08
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 37 unique slugs published in last 7d
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+       [Q3] title cleaned: 'Here’s How Walmart Is Betting Big on EV Charging - Moto' → 'Here’s How Walmart Is Betting Big on EV Charging'
+  [ 1] Here’s How Walmart Is Betting Big on EV Charging
+       slug: heres-how-walmart-is-betting-big-on-ev-charging | tags: Electric
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMieEFVX3lxTE5WbW9HTXU... → https://www.motortrend.com/news/walmart-is-betting-big-on-ev-charging
+  [download] ✓ heres-how-walmart-is-betting-big-on-ev-charging-1.jpg (817KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-08-heres-how-walmart-is-betting-big-on-ev-charging.md
+       [Q3] title cleaned: 'Driven: Ferrari’s Amalfi Spider Proves That Its “Junior' → 'Driven: Ferrari’s Amalfi Spider Proves That Its “Junior'
+  [ 2] Driven: Ferrari’s Amalfi Spider Proves That Its “Junior” Car Is Anythi
+       slug: driven-ferraris-amalfi-spider-proves-that-its-junior-car-is-anything-b | tags: Ferrari
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMifkFVX3lxTFB0RzYxRXM... → https://www.motortrend.com/reviews/first-drive-2027-ferrari-amalfi-spider
+  [download] ✓ driven-ferraris-amalfi-spider-proves-that-its-junior-car-is-anything-b-1.jpg (216KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-08-driven-ferraris-amalfi-spider-proves-that-its-junior-car-is-anything-b.md
+       [Q3] title cleaned: 'The Two-Door Scrambler Will Finally Come Back to Life a' → 'The Two-Door Scrambler Will Finally Come Back to Life a'
+  [ 3] The Two-Door Scrambler Will Finally Come Back to Life as Jeep’s Desert
+       slug: the-two-door-scrambler-will-finally-come-back-to-life-as-jeeps-desert- | tags: Industry
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMicEFVX3lxTE5DZkpwZGZ... → https://www.motortrend.com/news/2028-jeep-scrambler-future-cars
+  [download] ✓ the-two-door-scrambler-will-finally-come-back-to-life-as-jeeps-desert--1.jpg (278KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-08-the-two-door-scrambler-will-finally-come-back-to-life-as-jeeps-desert-.md
+  [ 4] Video | Is the Skoda Enyaq vRS the ultimate one-car garage?
+       slug: video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage | tags: Skoda
+       [body] ✓ 9 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-video/video-skoda-enyaq-vrs-ul... → https://www.autocar.co.uk/car-video/video-skoda-enyaq-vrs-ultimate-one-car-garage
+  [download] ✓ video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage-1.jpg (695KB) via og:image
+  [download] ✓ video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage-2.jpg (35KB) via picture
+  [download] ✓ video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage-3.jpg (35KB) via picture
+  [download] ✓ video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage-4.jpg (37KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-08-video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage.md
+  [ 5] I own a classic Alpine A110 and a new one - guess which I'd keep
+       slug: i-own-a-classic-alpine-a110-and-a-new-one-guess-which-id-keep | tags: Classic
+       [body] ✓ 1 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/used-cars/i-own-classic-a... → https://www.autocar.co.uk/car-news/used-cars/i-own-classic-alpine-a110-and-new-one-guess-which-id-keep
+  [download] ✓ i-own-a-classic-alpine-a110-and-a-new-one-guess-which-id-keep-1.jpg (516KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-08-i-own-a-classic-alpine-a110-and-a-new-one-guess-which-id-keep.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-08 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-08
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-08.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-09
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles)
+  cmd: /home/hermes/apps/hermes-agent/venv/bin/python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 4 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] MiniMax translation failed: HTTP Error 429: Too Many Requests
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 88 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-09
+  cmd: /home/hermes/apps/hermes-agent/venv/bin/python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-09
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-09
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 37 unique slugs published in last 7d
+  ↳ skipped 2 duplicate(s):
+     • video-is-the-skoda-enyaq-vrs-the-ultimate-one-car-garage — Video | Is the Skoda Enyaq vRS the ultimate one-car garage?
+     • i-own-a-classic-alpine-a110-and-a-new-one-guess-which-id-keep — I own a classic Alpine A110 and a new one - guess which I'd 
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+       [Q3] title cleaned: 'We Caught a Tesla Cybercab Prototype Charging, and It R' → 'We Caught a Tesla Cybercab Prototype Charging, and It R'
+  [ 1] We Caught a Tesla Cybercab Prototype Charging, and It Revealed More Th
+       slug: we-caught-a-tesla-cybercab-prototype-charging-and-it-revealed-more-tha | tags: Tesla, Electric, Spy Shots
+       [body] ✓ 7 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikAFBVV95cUxOenlTWGF... → https://www.motortrend.com/news/tesla-cybercab-prototype-cybertruck-yoke-steering-wheel
+  [download] ✓ we-caught-a-tesla-cybercab-prototype-charging-and-it-revealed-more-tha-1.jpg (352KB) via og:image
+  [LLM] call failed: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': '已达到 Token Plan 用量上限：请升级 Token Plan 套餐或购买积分补充用量。 (2056)'}, 'request_id': '06c685987ee1e41d4f21685e8eab4b74'} - falling back to regex engine
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-09-we-caught-a-tesla-cybercab-prototype-charging-and-it-revealed-more-tha.md
+  [ 4] Ford Fathom: name confirmed for £21k 'skunkworks' EV
+       slug: ford-fathom-name-confirmed-for-21k-skunkworks-ev | tags: Ford, Electric
+       [body] ✓ 28 paragraphs fetched
+  [decoder] https://www.autocar.co.uk/car-news/electric-cars/ford-fathom... → https://www.autocar.co.uk/car-news/electric-cars/ford-fathom-name-confirmed-%C2%A321k-skunkworks-ev
+  [download] ✓ ford-fathom-name-confirmed-for-21k-skunkworks-ev-1.jpg (907KB) via og:image
+  [filter] skipped small image 350x231 (38KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_small_break...)
+  [download] ✓ ford-fathom-name-confirmed-for-21k-skunkworks-ev-2.jpg (76KB) via picture
+  [filter] skipped small image 150x99 (26KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [filter] skipped small image 150x99 (26KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [filter] skipped small image 150x99 (47KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [filter] skipped small image 150x99 (47KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [filter] skipped small image 150x99 (28KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [filter] skipped small image 150x99 (28KB)
+  [download] ✗ skipped (https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/ac_xsmall_brea...)
+  [LLM] call failed: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': '已达到 Token Plan 用量上限：请升级 Token Plan 套餐或购买积分补充用量。 (2056)'}, 'request_id': '06c685a820b8e00595d859f27eb0caec'} - falling back to regex engine
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-09-ford-fathom-name-confirmed-for-21k-skunkworks-ev.md
+  [ 5] Clemson's Solar-Powered EV Project Looks Like A Cardboard Shoe. But It
+       slug: clemsons-solar-powered-ev-project-looks-like-a-cardboard-shoe-but-its- | tags: Electric
+       [body] ✓ 13 paragraphs fetched
+  [decoder] https://insideevs.com/news/804099/clemson-bmw-energy-positiv... → https://insideevs.com/news/804099/clemson-bmw-energy-positive-ev/
+  [download] ✓ clemsons-solar-powered-ev-project-looks-like-a-cardboard-shoe-but-its--1.jpg (186KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMv1/s5/bmw-clemson-deep-orange-17.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMv1/s5/bmw-clemson-deep-orange-17.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia1.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Znz3rr/s5/bmw-clemson-deep-orange-17.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Znz3rr/s5/bmw-clemson-deep-orange-17.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWvB7/s5/bmw-clemson-deep-orange-17.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWvB7/s5/bmw-clemson-deep-orange-17.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/7Z2k2A/s5/nissan-ariya-solar-concept.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/7Z2k2A/s5/nissan-ariya-solar-concept.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgPXP3/s5/bmw-i3-munich.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgPXP3/s5/bmw-i3-munich.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMzA/s6/ford-fathom-and-scout-traveler.webp...)
+  [filter] skipped small image 445x250 (28KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMzA/s6/ford-fathom-and-scout-traveler.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eK11W/s5/ford-compact-truck-ev-front-2.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eK11W/s5/ford-compact-truck-ev-front-2.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Oo9O3B/s6/lucid-cosmos.webp...)
+  [filter] skipped small image 445x250 (19KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Oo9O3B/s6/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqkWKe/s6/ford-bronco-ev.webp...)
+  [filter] skipped small image 445x250 (18KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqkWKe/s6/ford-bronco-ev.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWvr6/s6/tesla-fsd-reaction-test-hero.webp...)
+  [filter] skipped small image 445x250 (29KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWvr6/s6/tesla-fsd-reaction-test-hero.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Akn9EP/s6/2026-subaru-trailseeker-first-drive....)
+  [filter] skipped small image 445x250 (27KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Akn9EP/s6/2026-subaru-trailseeker-first-drive....)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/mMzGNP/s6/tesla-powered-electric-mini-jet-boat...)
+  [filter] skipped small image 445x250 (24KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/mMzGNP/s6/tesla-powered-electric-mini-jet-boat...)
+  [LLM] call failed: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': '已达到 Token Plan 用量上限：请升级 Token Plan 套餐或购买积分补充用量。 (2056)'}, 'request_id': '06c685cdb3d54b41dcaefff444f68a6e'} - falling back to regex engine
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-09-clemsons-solar-powered-ev-project-looks-like-a-cardboard-shoe-but-its-.md
+  [ 6] Toyota Will Modernize Your Aging Plug-In With Its Factory Upgrade Prog
+       slug: toyota-will-modernize-your-aging-plug-in-with-its-factory-upgrade-prog | tags: Toyota
+       [body] ✓ 14 paragraphs fetched
+  [decoder] https://insideevs.com/news/804088/toyota-retrofit-old-car-te... → https://insideevs.com/news/804088/toyota-retrofit-old-car-tech/
+  [download] ✓ toyota-will-modernize-your-aging-plug-in-with-its-factory-upgrade-prog-1.jpg (82KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbYBAA/s5/lexus-rz-upgrades.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbYBAA/s5/lexus-rz-upgrades.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/AK6O/s3/rob-stumpf.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NMvN/s5/lexus-rz-retrofit-program.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NMvN/s5/lexus-rz-retrofit-program.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8Ke3o/s5/a-volvo-ex60-at-a-tesla-supercharger...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/W8Ke3o/s5/a-volvo-ex60-at-a-tesla-supercharger...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ko4go4/s5/2025-volkswagen-id.-buzz.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/ko4go4/s5/2025-volkswagen-id.-buzz.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYlWA/s5/kia-ev4-gt.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/BXYlWA/s5/kia-ev4-gt.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqMRYm/s5/rivian-r2-lidar.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqMRYm/s5/rivian-r2-lidar.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMzA/s6/ford-fathom-and-scout-traveler.webp...)
+  [filter] skipped small image 445x250 (28KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMzA/s6/ford-fathom-and-scout-traveler.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eK11W/s5/ford-compact-truck-ev-front-2.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eK11W/s5/ford-compact-truck-ev-front-2.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbMyVq/s6/toyota-hybrid-synergy-drive.webp...)
+  [filter] skipped small image 445x250 (22KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbMyVq/s6/toyota-hybrid-synergy-drive.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Oo9O3B/s6/lucid-cosmos.webp...)
+  [filter] skipped small image 445x250 (19KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Oo9O3B/s6/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJZp8/s6/evs-on-buttons-lead-image.webp...)
+  [filter] skipped small image 445x250 (18KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/zxJZp8/s6/evs-on-buttons-lead-image.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqkWKe/s6/ford-bronco-ev.webp...)
+  [filter] skipped small image 445x250 (18KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqkWKe/s6/ford-bronco-ev.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGK23X/s6/2026-toyota-bz.webp...)
+  [filter] skipped small image 445x250 (23KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGK23X/s6/2026-toyota-bz.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8l4g/s6/repsol-nexa-95-renewable-gas.webp...)
+  [filter] skipped small image 445x250 (19KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/9m8l4g/s6/repsol-nexa-95-renewable-gas.jpg...)
+  [LLM] call failed: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': '已达到 Token Plan 用量上限：请升级 Token Plan 套餐或购买积分补充用量。 (2056)'}, 'request_id': '06c685eddee624d423a9e38f1647236e'} - falling back to regex engine
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-09-toyota-will-modernize-your-aging-plug-in-with-its-factory-upgrade-prog.md
+  [ 7] What To Know About California's $3,500 EV Rebate—And Which Teslas Qual
+       slug: what-to-know-about-californias-3500-ev-rebateand-which-teslas-qualify | tags: Tesla, Electric
+       [body] ✓ 16 paragraphs fetched
+  [decoder] https://insideevs.com/news/804079/california-ev-incentive-ho... → https://insideevs.com/news/804079/california-ev-incentive-how-it-works-tesla/
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/oop2/s3/tim-levin.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/oop2/s3/tim-levin.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2lYKe/s5/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/y2lYKe/s5/2027-rivian-r2-first-drive-on--and-o...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgPXP3/s5/bmw-i3-munich.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bgPXP3/s5/bmw-i3-munich.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s5/ford-uev-platform-details.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/XBX1x2/s5/ford-uev-platform-details.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NM33/s5/nyc-curbside-ev-charger.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6NM33/s5/nyc-curbside-ev-charger.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKjBR/s5/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMzA/s6/ford-fathom-and-scout-traveler.webp...)
+  [filter] skipped small image 445x250 (28KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMzA/s6/ford-fathom-and-scout-traveler.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Qe7EE8/s5/slate-first-drive-review.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eK11W/s5/ford-compact-truck-ev-front-2.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/0eK11W/s5/ford-compact-truck-ev-front-2.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Oo9O3B/s6/lucid-cosmos.webp...)
+  [filter] skipped small image 445x250 (19KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Oo9O3B/s6/lucid-cosmos.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqkWKe/s6/ford-bronco-ev.webp...)
+  [filter] skipped small image 445x250 (18KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/RqkWKe/s6/ford-bronco-ev.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWvr6/s6/tesla-fsd-reaction-test-hero.webp...)
+  [filter] skipped small image 445x250 (29KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/jlWvr6/s6/tesla-fsd-reaction-test-hero.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Akn9EP/s6/2026-subaru-trailseeker-first-drive....)
+  [filter] skipped small image 445x250 (27KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/Akn9EP/s6/2026-subaru-trailseeker-first-drive....)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/mMzGNP/s6/tesla-powered-electric-mini-jet-boat...)
+  [filter] skipped small image 445x250 (24KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/mMzGNP/s6/tesla-powered-electric-mini-jet-boat...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMv1/s6/bmw-clemson-deep-orange-17.webp...)
+  [filter] skipped small image 445x250 (28KB)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QMv1/s6/bmw-clemson-deep-orange-17.jpg...)
+  [LLM] call failed: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': '已达到 Token Plan 用量上限：请升级 Token Plan 套餐或购买积分补充用量。 (2056)'}, 'request_id': '06c6861938876f0e1cf2f6ccffa3aa09'} - falling back to regex engine
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-09-what-to-know-about-californias-3500-ev-rebateand-which-teslas-qualify.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-09 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-09
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 10 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-09.txt
+
+🚀 CarMotion Daily Pipeline — 2026-08-10
+   base: /home/hermes/car-evolution-project
+   push: True
+   dry:  False
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (20 headlines, 3 will be published)
+  cmd: /home/hermes/apps/hermes-agent/venv/bin/python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] TheDrive: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Carscoops: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] TTAC: 10 articles
+[00:00] ArsTechnica: 8 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 107 total articles, keeping top 20
+
+✓ Step 1/3: Fetch RSS → daily-brief.md (20 headlines, 3 will be published) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-10
+  cmd: /home/hermes/apps/hermes-agent/venv/bin/python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-10
+============================================================
+
+📰 news_to_website.py v3 — 2026-08-10
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 40 unique slugs published in last 7d
+  ↳ skipped 1 duplicate(s):
+     • we-caught-a-tesla-cybercab-prototype-charging-and-it-revealed-more-tha — We Caught a Tesla Cybercab Prototype Charging, and It Reveal
+  ✓ 3 fresh articles queued
+
+Processing up to 16 candidates (target 3 published)
+
+  [ 1] EVgo starts building Tesla Superchargers under license
+       slug: evgo-starts-building-tesla-superchargers-under-license | tags: Tesla, Electric
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+  [ 3] Pushing the limits: Infinite Machine's Olto is barely a bicycle
+       slug: pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle | tags: Industry
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+       [Q3] title cleaned: 'Volkswagen Golf GTI - long-term review - Top Gear' → 'Volkswagen Golf GTI - long-term review'
+  [ 4] Volkswagen Golf GTI - long-term review
+       slug: volkswagen-golf-gti-long-term-review | tags: Volkswagen, Electric, Reviews
+       [body] ✓ 21 paragraphs fetched
+       [body] 1237 words (≥800 ✓)
+  [decoder] https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnZ0MGx... → https://www.topgear.com/long-term-car-reviews/volkswagen/golf/20-tsi-265-gti-5dr-dsg/report-3
+  [download] ✓ volkswagen-golf-gti-long-term-review-1.jpg (107KB) via og:image
+  [download] ✓ volkswagen-golf-gti-long-term-review-2.jpg (1256KB) via img
+  [download] ✓ volkswagen-golf-gti-long-term-review-3.jpg (1318KB) via img
+  [download] ✓ volkswagen-golf-gti-long-term-review-4.jpg (2125KB) via img
+  [LLM] output missing required sections - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-10-volkswagen-golf-gti-long-term-review.md
+  [ 5] China is Tesla's cash cow, but for how much longer?
+       slug: china-is-teslas-cash-cow-but-for-how-much-longer | tags: Tesla
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+  [ 6] 2027 Chevrolet Corvette Grand Sport X proves code is as important as h
+       slug: 2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-h | tags: Chevrolet, Electric
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+  [ 7] SRT Unveils 'eBoost Air' Twin-Turbo Supercharger System
+       slug: srt-unveils-eboost-air-twin-turbo-supercharger-system | tags: Industry
+       [body] ✓ 10 paragraphs fetched
+       [SKIP] body too short (418 words < 800 min) — skipping
+  [11] Tales From the Beat — Episode 142: Informed.Now CEO Kira Shishkin
+       slug: tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin | tags: Industry
+       [body] ✓ 23 paragraphs fetched
+       [body] 850 words (≥800 ✓)
+  [decoder] https://www.thetruthaboutcars.com/cars/news-blog/tales-from-... → https://www.thetruthaboutcars.com/cars/news-blog/tales-from-the-beat-episode-142-informed-now-ceo-kira-shishkin-45136000
+  [download] ✓ tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin-1.jpg (100KB) via og:image
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/resources/imgs-responsive/pixel.png...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/22/16291/report-gm-allege...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/30/10372/connie-peters-dr...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/contentmedia/2026/06/26/10031/med...)
+  [filter] skipped small image 414x295 (29KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/08/06/09011/tales-from-the-b...)
+  [download] ✓ tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin-2.jpg (55KB) via picture
+  [download] ✓ tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin-3.jpg (63KB) via picture
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/08/06/09491/sporty-and-newly...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/30/09471/honda-s2000-did-...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/28/09371/compact-truck-20...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/22/09551/hatchbacks-2026-...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/08/09371/get-one-its-back...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/02/15421/acura-nsx-nc1-is...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/06/30/13151/2026-chevrolet-c...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989240/best-bed-liner...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989159/best-car-lifts...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989264/best-tail-ligh...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989291/best-bumper-gu...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989213/best-oil-drain...)
+  [filter] skipped small image 350x220 (18KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/07/18231/recall-alert-202...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/23/08221/2026-honda-hr-v-...)
+  [filter] skipped small image 350x220 (23KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/25/15011/ford-charging-49...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/05/07/08411/bozi-breakdown-5...)
+  [filter] skipped small image 350x220 (19KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/15/12281/junkyard-find-19...)
+  [filter] skipped small image 350x220 (14KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/05/04/10041/gas-prices-high-...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/22/15563/lego-volvo-conce...)
+  [filter] skipped small image 350x220 (15KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/18/16251/2027-bmw-3-serie...)
+  [filter] skipped small image 350x220 (29KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/05/12084/used-car-of-the-...)
+  [filter] skipped small image 350x220 (17KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/10/08441/boston-dynamics-...)
+  [filter] skipped small image 350x220 (15KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/20/15591/these-are-the-20...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/15/14401/junkyard-find-19...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/06/12/09131/honda-recalls-1m...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/05/21/12441/fiat-x1-25-the-e...)
+  [filter] skipped small image 350x220 (17KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/13/14511/honda-pilot-elit...)
+  [filter] skipped small image 350x220 (17KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/14/18231/qotd-what-are-yo...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/30/15106/2026-polaris-sli...)
+  [filter] skipped small image 350x220 (19KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/16/15322/2027-kia-telluri...)
+  [LLM] output missing required sections - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-10-tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin.md
+       [Q3] title cleaned: 'The Rivian R2’s Real-World Range and Charging Numbers A' → 'The Rivian R2’s Real-World Range and Charging Numbers A'
+  [12] The Rivian R2’s Real-World Range and Charging Numbers Are Better Than 
+       slug: the-rivian-r2s-real-world-range-and-charging-numbers-are-better-than-y | tags: Rivian
+       [body] ✓ 10 paragraphs fetched
+       [body] 809 words (≥800 ✓)
+  [decoder] https://news.google.com/rss/articles/CBMijgFBVV95cUxQZmlFSE5... → https://www.motortrend.com/reviews/2027-rivian-r2-real-world-range-fast-charging-test
+  [download] ✓ the-rivian-r2s-real-world-range-and-charging-numbers-are-better-than-y-1.jpg (600KB) via og:image
+  [LLM] output missing required sections - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-10-the-rivian-r2s-real-world-range-and-charging-numbers-are-better-than-y.md
+
+  ℹ 5 article(s) skipped (body < 800 words)
+
+✓ Done. 3 posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+
+✓ Step 2/3: Generate website posts for 2026-08-10 — OK
+
+============================================================
+▶ Git commit + push
+============================================================
+
+  ✓ committed to main
+  ✓ pushed main
+  → rebuilding gh-pages subtree...
+  ✓ subtree split done
+  ✓ pushed gh-pages (GitHub Pages will rebuild)
+
+============================================================
+📋 Pipeline Summary — 2026-08-10
+============================================================
+  Step 1 (fetch):  ✅
+  Step 2 (website): ✅
+  Step 3 (git):    ✅
+  LLM:             ✅ 0 rephrased / ⚠️ 6 fallback
+
+  Posts dir: /home/hermes/car-evolution-project/website/_posts
+  Images:   /home/hermes/car-evolution-project/website/static/images/news
+
+
+  Pipeline log written to: /home/hermes/car-evolution-project/agent-meta/pipeline-log-2026-08-10.txt

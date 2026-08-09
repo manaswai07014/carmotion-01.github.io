@@ -99,7 +99,7 @@ def git_commit_push(date_str, dry_run=False, no_push=False):
 
     # Commit on main
     subprocess.run(["git", "add", "-A", "website/"], cwd=str(BASE), capture_output=True)
-    r = subprocess.run(["git", "commit", "-m", f"[daily-pipeline] CarMotion Daily {date_str} — 5 articles + images"],
+    r = subprocess.run(["git", "commit", "-m", f"[daily-pipeline] CarMotion Daily {date_str} — 3 articles + images"],
                         cwd=str(BASE), capture_output=True, text=True)
     if r.returncode == 0:
         print("  ✓ committed to main")
@@ -167,7 +167,7 @@ def main():
     # "anthropic lib not installed" and fall back to the regex engine.
     ok1 = run(
         [sys.executable, str(SCRIPTS / "daily_news_fetcher.py")],
-        "Step 1/3: Fetch RSS → daily-brief.md (5 articles)",
+        "Step 1/3: Fetch RSS → daily-brief.md (20 headlines, 3 will be published)",
         timeout=120,
     )
     if not ok1:

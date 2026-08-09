@@ -1,6 +1,6 @@
 # 🅿️ DB5 (1963–1965)
 
-> Generation wiki page — synced from DB on 2026-07-24 15:47
+> Generation wiki page — synced from DB on 2026-08-09 07:46
 
 ## Spec Sheet
 - **Brand/Series:** Aston Martin / DB5
@@ -19,7 +19,7 @@
 Source: https://en.wikipedia.org/wiki/Aston_Martin_DB5
 
 ## Notes
-- This page was auto-generated from DB sync on 2026-07-24 15:47
+- This page was auto-generated from DB sync on 2026-08-09 07:46
 - All HP values should be verified against original sources before use in Shorts scripts
 - See `wiki/brands/aston-martin/` for brand-level context
 
@@ -35,4 +35,4 @@ year_start: 1963
 year_end: 1965
 status: published
 
-*Last updated: 2026-07-24 15:47*
+*Last updated: 2026-08-09 07:46*

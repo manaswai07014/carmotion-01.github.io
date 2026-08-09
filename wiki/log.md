@@ -469,3 +469,41 @@ Format: [YYYY-MM-DD HH:MM] [OPERATION] [PAGE] [DETAIL]
 [2026-07-30 07:22] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
 [2026-07-30 07:46] [LINT] errors=0 warnings=34 checked=19
 [2026-07-30 09:16] [COMPETITOR-V2] kizzombie=658 shorts/966K motomorfosis=87 shorts/220K src=YouTubeDataAPI tier=1 Fresh=LIVE exit=0
+[2026-07-30 11:07] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-30.md
+[2026-07-30 11:35] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-30.md
+[2026-07-31 07:21] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-31 07:24] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-07-31 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-07-31 07:49] [LINT] errors=0 warnings=34 checked=19
+[2026-07-31 11:15] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-07-31.md
+[2026-08-01 07:21] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-08-01 07:45] [LINT] errors=0 warnings=34 checked=19
+[2026-08-01 11:01] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-01.md
+[2026-08-02 07:21] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-08-02 07:45] [LINT] errors=0 warnings=34 checked=19
+[2026-08-02 09:01] [COMPETITOR] v2 report generated src=YouTube-API live=true kizzombie=658shorts/192viral motomorfosis=89shorts/18viral
+[2026-08-02 11:00] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-02.md
+[2026-08-03 07:20] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-08-03 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-08-03 11:03] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-03.md
+[2026-08-04 02:12] [TRIPLES] idle run exit 0 — triples.jsonl=144 stable (~50d flat), wiki/brands=22 STALE, wiki/series=139 opsket layer not scanned, bugs persist
+[2026-08-04 07:03] [NEWS] fetcher OK 11 feeds 90 total 20 kept — brief + telegram msg saved
+[2026-08-04 07:25] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-08-04 07:45] [LINT] errors=0 warnings=34 checked=19
+[2026-08-04 11:11] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-04.md
+[2026-08-05 07:23] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-08-05 08:02] [LINT] errors=0 warnings=34 checked=19
+[2026-08-05 11:14] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-05.md
+[2026-08-06 07:22] [TREND-V3] v3 scan: 0 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-08-06 07:50] [LINT] errors=0 warnings=34 checked=19
+[2026-08-06 08:23] [BACKUP] cars_20260806_082348.db size=88KB
+[2026-08-06 11:03] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-06.md
+[2026-08-07 07:24] [TREND-V3] v3 scan: 1 spikes — Google News RSS (v3: recency + velocity + diversity) — Fresh=LIVE
+[2026-08-07 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-08-07 11:17] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-07.md
+[2026-08-08 07:24] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-08-08 07:50] [LINT] errors=0 warnings=34 checked=19
+[2026-08-08 11:07] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-08.md
+[2026-08-09 07:21] [TREND-V3] v3 scan: 0 spikes — Google Trends API (live) — Fresh=LIVE
+[2026-08-09 07:46] [LINT] errors=0 warnings=34 checked=19
+[2026-08-09 11:05] [TOPIC-V2] Topic priority V2 report generated — /home/hermes/car-evolution-project/exports/topic-priority/priority-2026-08-09.md

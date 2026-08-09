@@ -1,0 +1,125 @@
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] Autocar: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Autoblog: 10 articles
+[00:00] InsideEVs: 10 articles
+[00:00] SupercarBlog: 5 articles
+[00:01] Using API key for 20 titles
+[00:01] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:01] Done. Fetched 90 total articles, keeping top 20
+✓ Step 1/3: Fetch RSS → daily-brief.md (5 articles) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-02 — python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-02
+============================================================
+📰 news_to_website.py v3 — 2026-08-02
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 28 unique slugs published in last 7d
+  ↳ skipped 2 duplicate(s):
+     • small-sports-car-company-sc01-pictures-evocouk — Small Sports Car Company SC01 – pictures - evo.co.uk
+     • weve-seen-the-pieces-now-heres-the-whole-2027-audi-q9-motortrend — We’ve Seen the Pieces, Now Here’s the Whole 2027 Audi Q9 - M
+  ✓ 5 fresh articles queued
+
+Processing 5 entries
+
+  [ 1] The All-New Mercedes-Benz GLA Is Bigger, Smarter, and Electrified - Mo
+       slug: the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort | tags: Mercedes
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMie0FVX3lxTE1rbkl3QTV... → https://www.motortrend.com/news/first-look-2028-mercedes-benz-gla-class
+  [download] ✓ the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort-1.jpg (305KB) via og:image
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-the-all-new-mercedes-benz-gla-is-bigger-smarter-and-electrified-motort.md
+  [ 3] The 2.9-tonne, 885bhp Zeekr 9X Super Hybrid is coming to Europe… - top
+       slug: the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc | tags: Industry
+       [body] ✓ 10 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFpjN2h... → https://www.topgear.com/car-news/suvs/29-tonne-885bhp-zeekr-9x-super-hybrid-coming-europe
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-1.jpg (92KB) via og:image
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-2.jpg (262KB) via img
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-3.jpg (972KB) via img
+  [download] ✓ the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc-4.jpg (2940KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-the-29-tonne-885bhp-zeekr-9x-super-hybrid-is-coming-to-europe-topgearc.md
+  [ 5] The gargantuan new Audi Q9 is officially too large for London - topgea
+       slug: the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc | tags: Audi
+       [body] ✓ 12 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEZ6QlY... → https://www.topgear.com/car-news/suvs/gargantuan-new-audi-q9-officially-too-large-london
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-1.jpg (87KB) via og:image
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-2.jpg (1468KB) via img
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-3.jpg (1769KB) via img
+  [download] ✓ the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc-4.jpg (1277KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-the-gargantuan-new-audi-q9-is-officially-too-large-for-london-topgearc.md
+  [ 6] How a Ferrari F50 tested my willpower like nothing else ever has - evo
+       slug: how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has-evoco | tags: Ferrari, Electric
+       [body] ✓ 17 paragraphs fetched
+  [decoder] https://news.google.com/rss/articles/CBMiqAFBVV95cUxObWFNenR... → https://www.evo.co.uk/ferrari/f50/208961/how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has
+  [download] ✗ skipped (https://media.evo.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-...)
+  [download] ✓ how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has-evoco-1.jpg (15KB) via img
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-how-a-ferrari-f50-tested-my-willpower-like-nothing-else-ever-has-evoco.md
+  [ 7] This Quad-Motor Electric Land Rover Defender Restomod Has More Range T
+       slug: this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t | tags: Tesla, Electric
+       [body] ✓ 4 paragraphs fetched
+  [decoder] https://insideevs.com/news/803290/electric-land-rover-defend... → https://insideevs.com/news/803290/electric-land-rover-defender-restomod/
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-1.jpg (204KB) via og:image
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QPJA/s5/the-landrovers---press-04.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/G3QPJA/s5/the-landrovers---press-04.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/atr/xorv/s3/nico-demattia.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8AzK/s5/the-landrovers---press--10.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/vx8AzK/s5/the-landrovers---press--10.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/6Z8JBZ/s5/the-landrovers---electric-defender-p...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/6Z8JBZ/s5/the-landrovers---electric-defender-p...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/40YgPY/s5/the-landrovers-dashboard---press.web...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/40YgPY/s5/the-landrovers-dashboard---press.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/OoeeKR/s5/land-rover-defender-shore-tender-ev-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/OoeeKR/s5/land-rover-defender-shore-tender-ev-...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/rKOp6Y/s5/project-ghost-classic-land-rover-def...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/rKOp6Y/s5/project-ghost-classic-land-rover-def...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/KbY4L0/s6/amazon-zoox-robotaxi-plant5.webp...)
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-2.jpg (24KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2N4okn/s5/tesla-model-s-video-thumbnail.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/2N4okn/s5/tesla-model-s-video-thumbnail.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKJYP/s5/podcast-thumbnail-ferrari.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/koKJYP/s5/podcast-thumbnail-ferrari.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bg1mkm/s5/ford-china-mach-e.webp...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/bg1mkm/s5/ford-china-mach-e.jpg...)
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/E6x0vz/s6/tesla-china.webp...)
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-3.jpg (15KB) via picture
+  [download] ✗ skipped (https://cdn.motor1.com/images/mgl/NGPX1y/s6/ioniq-6-nc-trip-owner.webp...)
+  [download] ✓ this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t-4.jpg (29KB) via picture
+  [LLM] anthropic lib not installed - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-02-this-quad-motor-electric-land-rover-defender-restomod-has-more-range-t.md
+
+✓ Done. Posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+✓ Step 2/3: Generate website posts for 2026-08-02 — OK
+
+============================================================
+📋 Pipeline Summary — 2026-08-02
+============================================================
+  Step 1 (fetch): ✅
+  Step 2 (website): ✅
+  Step 3 (git): done
+  LLM rephrased: 0
+  LLM fallback: 10
+  LLM disabled: False

@@ -1,0 +1,158 @@
+
+============================================================
+▶ Step 1/3: Fetch RSS → daily-brief.md (20 headlines, 3 will be published) — /home/hermes/apps/hermes-agent/venv/bin/python3 /home/hermes/car-evolution-project/scripts/daily_news_fetcher.py
+============================================================
+[00:00] TopGear: 5 articles
+[00:00] CarAndDriver: 10 articles
+[00:00] RoadandTrack: 10 articles
+[00:00] TheDrive: 10 articles
+[00:00] Jalopnik: 10 articles
+[00:00] Evo-GN: 5 articles
+[00:00] MotorTrend: 5 articles
+[00:00] Motor1: 10 articles
+[00:00] Carscoops: 10 articles
+[00:00] InsideEVs: 9 articles
+[00:00] SupercarBlog: 5 articles
+[00:00] TTAC: 10 articles
+[00:00] ArsTechnica: 8 articles
+[00:00] Using API key for 20 titles
+[00:00] Updated daily-brief.md with 20 detailed articles (bilingual)
+[00:00] Done. Fetched 107 total articles, keeping top 20
+✓ Step 1/3: Fetch RSS → daily-brief.md (20 headlines, 3 will be published) — OK
+
+============================================================
+▶ Step 2/3: Generate website posts for 2026-08-10 — /home/hermes/apps/hermes-agent/venv/bin/python3 /home/hermes/car-evolution-project/scripts/news_to_website.py --date 2026-08-10
+============================================================
+📰 news_to_website.py v3 — 2026-08-10
+   brief:  /home/hermes/car-evolution-project/agent-meta/daily-brief.md
+   output: /home/hermes/car-evolution-project/website/_posts
+   llm:    enabled
+
+Found 20 entries in daily-brief.md
+
+Dedup: 40 unique slugs published in last 7d
+  ↳ skipped 1 duplicate(s):
+     • we-caught-a-tesla-cybercab-prototype-charging-and-it-revealed-more-tha — We Caught a Tesla Cybercab Prototype Charging, and It Reveal
+  ✓ 3 fresh articles queued
+
+Processing up to 16 candidates (target 3 published)
+
+  [ 1] EVgo starts building Tesla Superchargers under license
+       slug: evgo-starts-building-tesla-superchargers-under-license | tags: Tesla, Electric
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+  [ 3] Pushing the limits: Infinite Machine's Olto is barely a bicycle
+       slug: pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle | tags: Industry
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+       [Q3] title cleaned: 'Volkswagen Golf GTI - long-term review - Top Gear' → 'Volkswagen Golf GTI - long-term review'
+  [ 4] Volkswagen Golf GTI - long-term review
+       slug: volkswagen-golf-gti-long-term-review | tags: Volkswagen, Electric, Reviews
+       [body] ✓ 21 paragraphs fetched
+       [body] 1237 words (≥800 ✓)
+  [decoder] https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnZ0MGx... → https://www.topgear.com/long-term-car-reviews/volkswagen/golf/20-tsi-265-gti-5dr-dsg/report-3
+  [download] ✓ volkswagen-golf-gti-long-term-review-1.jpg (107KB) via og:image
+  [download] ✓ volkswagen-golf-gti-long-term-review-2.jpg (1256KB) via img
+  [download] ✓ volkswagen-golf-gti-long-term-review-3.jpg (1318KB) via img
+  [download] ✓ volkswagen-golf-gti-long-term-review-4.jpg (2125KB) via img
+  [LLM] output missing required sections - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-10-volkswagen-golf-gti-long-term-review.md
+  [ 5] China is Tesla's cash cow, but for how much longer?
+       slug: china-is-teslas-cash-cow-but-for-how-much-longer | tags: Tesla
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+  [ 6] 2027 Chevrolet Corvette Grand Sport X proves code is as important as h
+       slug: 2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-h | tags: Chevrolet, Electric
+       [SKIP] no body fetched — cannot verify ≥800 words, skipping
+  [ 7] SRT Unveils 'eBoost Air' Twin-Turbo Supercharger System
+       slug: srt-unveils-eboost-air-twin-turbo-supercharger-system | tags: Industry
+       [body] ✓ 10 paragraphs fetched
+       [SKIP] body too short (418 words < 800 min) — skipping
+  [11] Tales From the Beat — Episode 142: Informed.Now CEO Kira Shishkin
+       slug: tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin | tags: Industry
+       [body] ✓ 23 paragraphs fetched
+       [body] 850 words (≥800 ✓)
+  [decoder] https://www.thetruthaboutcars.com/cars/news-blog/tales-from-... → https://www.thetruthaboutcars.com/cars/news-blog/tales-from-the-beat-episode-142-informed-now-ceo-kira-shishkin-45136000
+  [download] ✓ tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin-1.jpg (100KB) via og:image
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/resources/imgs-responsive/pixel.png...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/22/16291/report-gm-allege...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/30/10372/connie-peters-dr...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/contentmedia/2026/06/26/10031/med...)
+  [filter] skipped small image 414x295 (29KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/08/06/09011/tales-from-the-b...)
+  [download] ✓ tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin-2.jpg (55KB) via picture
+  [download] ✓ tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin-3.jpg (63KB) via picture
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/08/06/09491/sporty-and-newly...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/30/09471/honda-s2000-did-...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/28/09371/compact-truck-20...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/22/09551/hatchbacks-2026-...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/08/09371/get-one-its-back...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/02/15421/acura-nsx-nc1-is...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/06/30/13151/2026-chevrolet-c...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989240/best-bed-liner...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989159/best-car-lifts...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989264/best-tail-ligh...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989291/best-bumper-gu...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2022/07/14/8989213/best-oil-drain...)
+  [filter] skipped small image 350x220 (18KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/07/18231/recall-alert-202...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/23/08221/2026-honda-hr-v-...)
+  [filter] skipped small image 350x220 (23KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/25/15011/ford-charging-49...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/05/07/08411/bozi-breakdown-5...)
+  [filter] skipped small image 350x220 (19KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/15/12281/junkyard-find-19...)
+  [filter] skipped small image 350x220 (14KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/05/04/10041/gas-prices-high-...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/22/15563/lego-volvo-conce...)
+  [filter] skipped small image 350x220 (15KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/18/16251/2027-bmw-3-serie...)
+  [filter] skipped small image 350x220 (29KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/05/12084/used-car-of-the-...)
+  [filter] skipped small image 350x220 (17KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/07/10/08441/boston-dynamics-...)
+  [filter] skipped small image 350x220 (15KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/20/15591/these-are-the-20...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/02/15/14401/junkyard-find-19...)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/06/12/09131/honda-recalls-1m...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/05/21/12441/fiat-x1-25-the-e...)
+  [filter] skipped small image 350x220 (17KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/13/14511/honda-pilot-elit...)
+  [filter] skipped small image 350x220 (17KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/04/14/18231/qotd-what-are-yo...)
+  [filter] skipped small image 350x220 (16KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/30/15106/2026-polaris-sli...)
+  [filter] skipped small image 350x220 (19KB)
+  [download] ✗ skipped (https://cdn-fastly.thetruthaboutcars.com/media/2026/03/16/15322/2027-kia-telluri...)
+  [LLM] output missing required sections - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-10-tales-from-the-beat-episode-142-informednow-ceo-kira-shishkin.md
+       [Q3] title cleaned: 'The Rivian R2’s Real-World Range and Charging Numbers A' → 'The Rivian R2’s Real-World Range and Charging Numbers A'
+  [12] The Rivian R2’s Real-World Range and Charging Numbers Are Better Than 
+       slug: the-rivian-r2s-real-world-range-and-charging-numbers-are-better-than-y | tags: Rivian
+       [body] ✓ 10 paragraphs fetched
+       [body] 809 words (≥800 ✓)
+  [decoder] https://news.google.com/rss/articles/CBMijgFBVV95cUxQZmlFSE5... → https://www.motortrend.com/reviews/2027-rivian-r2-real-world-range-fast-charging-test
+  [download] ✓ the-rivian-r2s-real-world-range-and-charging-numbers-are-better-than-y-1.jpg (600KB) via og:image
+  [LLM] output missing required sections - falling back
+  [LLM] fell back to regex engine for this article
+       ✓ wrote 2026-08-10-the-rivian-r2s-real-world-range-and-charging-numbers-are-better-than-y.md
+
+  ℹ 5 article(s) skipped (body < 800 words)
+
+✓ Done. 3 posts written to /home/hermes/car-evolution-project/website/_posts
+   Images saved under: /home/hermes/car-evolution-project/website/static/images/news
+✓ Step 2/3: Generate website posts for 2026-08-10 — OK
+
+============================================================
+📋 Pipeline Summary — 2026-08-10
+============================================================
+  Step 1 (fetch): ✅
+  Step 2 (website): ✅
+  Step 3 (git): done
+  LLM rephrased: 0
+  LLM fallback: 6
+  LLM disabled: False

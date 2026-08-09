@@ -18,14 +18,19 @@ RSS_FEEDS = [
     ('TopGear',      'https://news.google.com/rss/search?q=cars+site:topgear.com&hl=en-US&gl=US&ceid=US:en'),
     ('CarAndDriver', 'https://www.caranddriver.com/rss/all.xml'),
     ('RoadandTrack', 'https://www.roadandtrack.com/rss/all.xml'),
-    ('Autocar',      'https://www.autocar.co.uk/rss'),
+    # Replaced Autocar (avg 220 words/article — too short) with The Drive,
+    # The Truth About Cars, and Ars Technica Cars — all produce long-form
+    # automotive content. 2026-08-09 boss directive.
+    ('TheDrive',     'https://www.thedrive.com/feed'),
     ('Jalopnik',     'https://jalopnik.com/feed'),
     ('Evo-GN',       'https://news.google.com/rss/search?q=site:evo.co.uk&hl=en-US&gl=US&ceid=US:en'),
     ('MotorTrend',   'https://news.google.com/rss/search?q=site:motortrend.com+cars&hl=en-US&gl=US&ceid=US:en'),
     ('Motor1',       'https://www.motor1.com/rss/news/all/'),
-    ('Autoblog',     'https://www.carscoops.com/feed'),
+    ('Carscoops',    'https://www.carscoops.com/feed'),
     ('InsideEVs',    'https://insideevs.com/feed/'),
     ('SupercarBlog', 'https://www.thesupercarblog.com/feed/'),
+    ('TTAC',         'https://www.thetruthaboutcars.com/feed'),
+    ('ArsTechnica',  'https://feeds.arstechnica.com/arstechnica/cars'),
 ]
 
 # Google News redirector fix — convert Google News URLs to direct article URLs
