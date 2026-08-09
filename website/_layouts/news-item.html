@@ -18,6 +18,9 @@ seo: false
     {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
     <div class="meta-line">
       By <a href="{{ site.baseurl }}/about.html">CarMotion Editorial Team</a> · {{ page.date | date: "%B %d, %Y" }} · Source: {{ page.source }} · Curated & rewritten by CarMotion Daily
+      {% assign word_count = page.content | strip_html | number_of_words %}
+      {% assign minutes = word_count | divided_by: 200 | at_least: 1 %}
+      <span class="reading-time">· 📖 {{ minutes }} min read ({{ word_count }} words)</span>
     </div>
   </header>
 

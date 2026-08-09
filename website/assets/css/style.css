@@ -378,19 +378,20 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   font-style: italic;
 }
 .article-body {
-  font-size: 17px;
-  line-height: 1.75;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.003em;
 }
-.article-body p { margin-bottom: 16px; }
+.article-body p { margin-bottom: 20px; }
 .article-body h2 {
   font-size: 22px;
-  margin: 28px 0 12px;
+  margin: 32px 0 14px;
   border-left: 4px solid var(--accent);
-  padding-left: 12px;
+  padding-left: 14px;
 }
 .article-body h3 {
   font-size: 19px;
-  margin: 24px 0 10px;
+  margin: 28px 0 12px;
 }
 .article-body ul, .article-body ol { margin-left: 24px; margin-bottom: 16px; }
 .article-body li { margin-bottom: 6px; }
@@ -509,6 +510,58 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 800; line-height: 1.2;
   color: #5a4a1c;
   border-radius: 0 6px 6px 0;
 }
+
+/* Reading time badge */
+.reading-time {
+  color: var(--text-mute);
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   DARK MODE (2026-08-09)
+   Body gets [data-theme="dark"] attribute via toggle button. Default light.
+   ========================================================================== */
+[data-theme="dark"] {
+  --bg:          #121212;
+  --bg-dark:     #0a0a0a;
+  --bg-card:    #1a1a1a;
+  --text:       #e8e8e8;
+  --text-mute:  #999;
+  --border:     #2a2a2a;
+  --border-soft:#1f1f1f;
+  --shadow: 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-lg:0 6px 18px rgba(0,0,0,0.5);
+}
+[data-theme="dark"] .site-header { background: var(--bg-dark); }
+[data-theme="dark"] .hero { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 60%, #2a0000 100%); }
+[data-theme="dark"] .news-card { background: var(--bg-card); border-color: var(--border); }
+[data-theme="dark"] .news-body h2 a { color: var(--text); }
+[data-theme="dark"] .news-body p { color: var(--text-mute); }
+[data-theme="dark"] .article-body { color: var(--text); }
+[data-theme="dark"] .article-body p { color: var(--text); }
+[data-theme="dark"] .article-body blockquote { background: #1f1f1f; color: var(--text-mute); }
+[data-theme="dark"] .related-item { background: var(--bg-card); border-color: var(--border-soft); }
+[data-theme="dark"] .related-item a { color: var(--text); }
+[data-theme="dark"] .source-box { background: #1f1f1f; }
+[data-theme="dark"] .disclaimer { background: #2a2300; border-color: #4a3c00; color: #d4b838; }
+
+/* Theme toggle button — sits in header next to logo */
+.theme-toggle {
+  background: transparent;
+  border: 1px solid #444;
+  color: #ddd;
+  font-size: 18px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1;
+  margin-left: auto;
+  transition: border-color 0.18s ease;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+[data-theme="dark"] .theme-toggle { border-color: #555; }
 
 /* ---------- Archive list — Enhanced ---------- */
 .archive { margin-top: 48px; padding-top: 32px; border-top: 2px solid var(--border-soft); }
