@@ -41,6 +41,7 @@
         </div>
       </div>
       <a href="{{ site.baseurl }}/about.html" class="nav-item">About</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
     </nav>
   </div>
 </header>
@@ -54,7 +55,7 @@
     <div>
       <h4>CarMotion Daily</h4>
       <p style="font-size:13px;color:#b6b8b9;line-height:1.6;">
-        Auto-curated automotive news from 11 major publications.<br>
+        Auto-curated automotive news from 13 major publications.<br>
         Rewritten, tagged, and published fresh every morning at 8 AM HKT.
       </p>
     </div>
@@ -109,6 +110,32 @@
 }
 </script>
 {% endif %}
+
+<!-- Dark mode toggle — 2026-08-09 -->
+<script>
+(function(){
+  var btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+  // Restore saved preference
+  var saved = localStorage.getItem('carmotion-theme');
+  if (saved === 'dark') {
+    document.body.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀️';
+  }
+  btn.addEventListener('click', function(){
+    var isDark = document.body.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      document.body.removeAttribute('data-theme');
+      btn.textContent = '🌙';
+      localStorage.setItem('carmotion-theme', 'light');
+    } else {
+      document.body.setAttribute('data-theme', 'dark');
+      btn.textContent = '☀️';
+      localStorage.setItem('carmotion-theme', 'dark');
+    }
+  });
+})();
+</script>
 
 </body>
 </html>

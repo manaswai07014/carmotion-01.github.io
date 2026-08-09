@@ -30,6 +30,9 @@ title: CarMotion Daily — Automotive News, Updated Daily
       <div class="news-meta-row">
         <span class="news-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <span class="news-source">{{ post.source }}</span>
+        {% assign word_count = post.content | strip_html | number_of_words %}
+        {% assign minutes = word_count | divided_by: 200 | at_least: 1 %}
+        <span class="reading-time">📖 {{ minutes }} min read</span>
       </div>
       <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
