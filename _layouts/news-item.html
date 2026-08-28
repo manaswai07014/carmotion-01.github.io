@@ -38,6 +38,22 @@ seo: false
   </div>
   {% endif %}
 
+  {%- comment -%} Share buttons + reading progress — added 2026-08-28 {%- endcomment -%}
+  <div class="share-bar" aria-label="Share this article">
+    <span class="share-label">Share:</span>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn share-tw" aria-label="Share on Twitter">𝕏 Twitter</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn share-fb" aria-label="Share on Facebook">f Facebook</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" class="share-btn share-li" aria-label="Share on LinkedIn">in LinkedIn</a>
+    <a href="mailto:?subject={{ page.title | url_encode }}&body={{ page.url | absolute_url | url_encode }}" class="share-btn share-em" aria-label="Share via email">✉ Email</a>
+    <button class="share-btn share-cp" onclick="(function(btn){
+      navigator.clipboard.writeText('{{ page.url | absolute_url }}').then(function(){
+        var orig=btn.textContent; btn.textContent='✓ Copied'; setTimeout(function(){btn.textContent=orig;},1500);
+      });
+    })(this)" aria-label="Copy link">🔗 Copy</button>
+  </div>
+
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+
   <div style="margin-top:48px;padding-top:24px;border-top:1px solid var(--border-soft);">
     <div class="source-box" style="background:var(--bg);border-left:4px solid var(--accent);padding:20px 24px;">
       <strong>📝 Original Source:</strong><br>

@@ -1,0 +1,120 @@
+---
+layout: default
+title: Search — CarMotion Daily
+permalink: /search/
+seo: false
+---
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>🔍 Search</h1>
+    <p class="tagline">Find articles across {{ site.posts | size }} published stories.</p>
+  </div>
+</div>
+
+<section class="container" style="max-width:760px;margin:0 auto;padding:24px 16px;">
+  <div style="position:relative;margin-bottom:24px;">
+    <input id="search-input" type="search" placeholder="Type to search articles, brands, tags…"
+           autofocus
+           style="width:100%;padding:18px 56px 18px 20px;font-size:17px;border:2px solid var(--border);border-radius:8px;background:var(--bg-card);color:var(--text);font-family:var(--font-b);"
+           aria-label="Search articles">
+    <span style="position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:20px;opacity:0.5;">🔎</span>
+  </div>
+  <div id="search-stats" style="font-size:13px;color:var(--text-mute);margin-bottom:16px;"></div>
+  <div id="search-results"></div>
+</section>
+
+<!-- Build search index from Jekyll data -->
+<script id="search-data" type="application/json">
+[
+{%- assign all_posts = site.posts | sort: "date" | reverse -%}
+{%- for post in all_posts limit: 500 -%}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+    "source": {{ post.source | jsonify }},
+    "tags": [{%- for t in post.tags -%}{{ t | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor -%}],
+    "excerpt": {{ post.excerpt | strip_html | truncate: 200 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]
+</script>
+
+<!-- SAFETY: All dynamic strings are passed through escapeHtml() before insertion.
+// The only "trusted" markup we emit is <mark> for the highlight wrapper,
+// and we explicitly escape the query inside the regex. No raw HTML from posts. -->
+<script>
+(function(){
+  var data = JSON.parse(document.getElementById('search-data').textContent);
+  var input = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  var stats = document.getElementById('search-stats');
+
+  // Read ?q= from URL
+  var params = new URLSearchParams(location.search);
+  if (params.get('q')) input.value = params.get('q');
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function highlight(text, query) {
+    if (!query) return escapeHtml(text);
+    var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    return escapeHtml(text).replace(re, '<mark style="background:#fff3a3;color:#1a1a1a;padding:0 2px;border-radius:2px;">$1</mark>');
+  }
+
+  function render(query) {
+    if (!query) {
+      results.innerHTML = '<div style="text-align:center;padding:40px 20px;color:var(--text-mute);">Start typing to search ' + data.length + ' articles.</div>';
+      stats.textContent = '';
+      return;
+    }
+    var q = query.toLowerCase();
+    var matches = data.filter(function(p){
+      return p.title.toLowerCase().indexOf(q) !== -1 ||
+             p.excerpt.toLowerCase().indexOf(q) !== -1 ||
+             p.source.toLowerCase().indexOf(q) !== -1 ||
+             p.tags.some(function(t){ return t.toLowerCase().indexOf(q) !== -1; });
+    });
+
+    stats.textContent = matches.length + ' result' + (matches.length === 1 ? '' : 's') + ' for "' + query + '"';
+
+    if (!matches.length) {
+      results.innerHTML = '<div style="text-align:center;padding:40px 20px;color:var(--text-mute);">No articles found. Try a different keyword.</div>';
+      return;
+    }
+
+    var html = matches.slice(0, 30).map(function(p){
+      return '<article style="padding:18px 0;border-bottom:1px solid var(--border-soft);">' +
+        '<a href="' + p.url + '" style="display:block;color:var(--text);text-decoration:none;">' +
+        '<div style="font-size:12px;color:var(--text-mute);margin-bottom:6px;">' +
+          '<span>' + p.date + '</span> · <span style="color:var(--accent);font-weight:600;">' + escapeHtml(p.source) + '</span>' +
+        '</div>' +
+        '<h3 style="font-size:18px;margin-bottom:8px;color:var(--text);">' + highlight(p.title, query) + '</h3>' +
+        '<p style="font-size:14px;color:var(--text-mute);line-height:1.5;margin:0;">' + highlight(p.excerpt, query) + '</p>' +
+        (p.tags.length ? '<div style="margin-top:8px;">' + p.tags.slice(0,3).map(function(t){return '<span class="tag">#' + escapeHtml(t) + '</span>';}).join(' ') + '</div>' : '') +
+        '</a></article>';
+    }).join('');
+    if (matches.length > 30) html += '<div style="text-align:center;padding:20px;color:var(--text-mute);font-size:14px;">Showing first 30 of ' + matches.length + ' results. Refine your search to narrow down.</div>';
+    results.innerHTML = html;
+  }
+
+  var debounceTimer;
+  input.addEventListener('input', function(){
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function(){
+      var q = input.value.trim();
+      // Update URL without reload
+      if (q) history.replaceState(null, '', '?q=' + encodeURIComponent(q));
+      else history.replaceState(null, '', location.pathname);
+      render(q);
+    }, 120);
+  });
+
+  render(input.value.trim());
+})();
+</script>
