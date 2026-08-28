@@ -20,27 +20,10 @@
   <div class="header-inner">
     <a href="{{ site.baseurl }}/" class="logo">Car<span class="accent">Motion</span> Daily</a>
     <nav class="nav-menu">
-      <div class="nav-item">Category
-        <div class="dropdown">
-          <a href="{{ site.baseurl }}/category/news.html">All News</a>
-          <a href="{{ site.baseurl }}/category/reviews.html">Reviews</a>
-          <a href="{{ site.baseurl }}/category/spy-shots.html">Spy Shots</a>
-          <a href="{{ site.baseurl }}/category/electric.html">Electric</a>
-          <a href="{{ site.baseurl }}/category/classic.html">Classic</a>
-          <a href="{{ site.baseurl }}/category/motorsport.html">Motorsport</a>
-        </div>
-      </div>
-      <div class="nav-item">Brand
-        <div class="dropdown">
-          <a href="{{ site.baseurl }}/brand/ferrari.html">Ferrari</a>
-          <a href="{{ site.baseurl }}/brand/porsche.html">Porsche</a>
-          <a href="{{ site.baseurl }}/brand/lamborghini.html">Lamborghini</a>
-          <a href="{{ site.baseurl }}/brand/bmw.html">BMW</a>
-          <a href="{{ site.baseurl }}/brand/mercedes.html">Mercedes-AMG</a>
-          <a href="{{ site.baseurl }}/brand/tesla.html">Tesla</a>
-        </div>
-      </div>
+      <a href="{{ site.baseurl }}/category/" class="nav-item">Categories</a>
+      <a href="{{ site.baseurl }}/brand/" class="nav-item">Brands</a>
       <a href="{{ site.baseurl }}/about.html" class="nav-item">About</a>
+      <a href="{{ site.baseurl }}/search/" class="nav-item" aria-label="Search">🔍</a>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
     </nav>
   </div>
@@ -134,6 +117,29 @@
       localStorage.setItem('carmotion-theme', 'dark');
     }
   });
+})();
+</script>
+
+<!-- Reading progress bar — 2026-08-28 -->
+<script>
+(function(){
+  var bar = document.getElementById('reading-progress');
+  if (!bar) return;
+  var ticking = false;
+  function update() {
+    var h = document.documentElement;
+    var b = document.body;
+    var st = window.pageYOffset || h.scrollTop || b.scrollTop || 0;
+    var sh = (h.scrollHeight || b.scrollHeight || 1) - window.innerHeight;
+    var pct = sh > 0 ? Math.min(100, Math.max(0, (st / sh) * 100)) : 0;
+    bar.style.width = pct + '%';
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){
+    if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
 })();
 </script>
 

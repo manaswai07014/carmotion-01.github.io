@@ -1,0 +1,57 @@
+---
+layout: default
+title: "{{ page.tag }} — CarMotion Daily"
+seo: false
+---
+
+{%- comment -%}
+Match by tag name (case-sensitive). Posts with this tag in their tags list.
+{%- endcomment -%}
+
+{% assign tag = page.tag | default: 'Unknown' %}
+{% assign matching = site.posts | where_exp: "p", "p.tags contains tag" | sort: "date" | reverse %}
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>#{{ tag }}</h1>
+    <p class="tagline">{{ matching | size }} article{% if matching.size != 1 %}s{% endif %} tagged with #{{ tag }}</p>
+    <p class="meta"><a href="{{ '/category/' | relative_url }}" style="color:#fff;text-decoration:underline;">← All categories</a></p>
+  </div>
+</div>
+
+<section class="news-grid">
+{%- if matching.size == 0 -%}
+  <div style="text-align:center;padding:60px 20px;color:var(--text-mute);">
+    <p>No articles found for this tag yet.</p>
+    <p><a href="{{ '/' | relative_url }}">← Back to homepage</a></p>
+  </div>
+{%- else -%}
+  {% for post in matching limit: 36 %}
+  <article class="news-card">
+    <a href="{{ post.url | prepend: site.baseurl }}" style="display:block;">
+      {% if post.image %}
+      <div class="news-image">
+        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="lazy"
+             onerror="this.style.display='none'; this.parentElement.classList.add('news-image-placeholder'); this.parentElement.textContent='🏎️';">
+      </div>
+      {% else %}
+      <div class="news-image">
+        <div class="news-image-placeholder">🏎️</div>
+      </div>
+      {% endif %}
+    </a>
+    <div class="news-body">
+      <div class="news-meta-row">
+        <span class="news-date">{{ post.date | date: "%b %d, %Y" }}</span>
+        <span class="news-source">{{ post.source }}</span>
+      </div>
+      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      <div class="news-tags">
+        {% for t in post.tags limit:3 %}<span class="tag">#{{ t }}</span>{% endfor %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+{%- endif -%}
+</section>

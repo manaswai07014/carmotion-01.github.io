@@ -1,0 +1,41 @@
+---
+layout: default
+title: Brands — CarMotion Daily
+permalink: /brand/
+seo: false
+---
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>🏎️ Brands</h1>
+    <p class="tagline">All manufacturers we've covered.</p>
+  </div>
+</div>
+
+{% assign seen = "" | split: "" %}
+{% assign brands = "" | split: "" %}
+{% for post in site.posts %}
+  {% assign brand_tag = post.tags | first %}
+  {% unless seen contains brand_tag %}
+    {% assign seen = seen | push: brand_tag %}
+    {% assign brands = brands | push: brand_tag %}
+  {% endunless %}
+{% endfor %}
+{% assign sorted_brands = brands | sort %}
+
+<section class="container" style="max-width:1100px;margin:0 auto;padding:32px 16px;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;">
+    {% for brand in sorted_brands %}
+      {% assign count = 0 %}
+      {% for p in site.posts %}{% if p.tags[0] == brand %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
+      <a href="{{ brand | slugify | prepend: '/brand/' | append: '/' | relative_url }}" class="brand-card" style="display:block;padding:18px;background:var(--bg-card);border:1px solid var(--border-soft);border-radius:8px;text-decoration:none;color:var(--text);text-align:center;transition:all 0.15s;">
+        <div style="font-size:14px;font-weight:700;color:var(--text);">{{ brand }}</div>
+        <div style="font-size:12px;color:var(--text-mute);margin-top:4px;">{{ count }} article{% if count != 1 %}s{% endif %}</div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+.brand-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow); }
+</style>
