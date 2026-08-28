@@ -1,0 +1,122 @@
+<!-- _includes/newsletter-signup.html — V4-B1 inline signup form
+Uses Buttondown (https://buttondown.email) as the email backend. Action URL
+is the user's specific Buttondown endpoint — replace crmotion@ in production
+by editing one line below. The form is progressively enhanced; if JS is
+disabled it falls back to a normal form POST.
+-->
+
+<style>
+.newsletter-card {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 28px 28px 24px;
+  margin: 32px 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.newsletter-card::before {
+  content: "";
+  position: absolute;
+  top: -2px; left: -2px; right: -2px; bottom: -2px;
+  background: linear-gradient(135deg, var(--accent, #d5001c), #ff4060);
+  z-index: -1;
+  border-radius: 12px;
+  opacity: 0.6;
+  filter: blur(8px);
+}
+.newsletter-card h3 {
+  font-size: 20px;
+  margin: 0 0 6px;
+  font-weight: 800;
+}
+.newsletter-card p {
+  font-size: 13px;
+  color: #ccc;
+  margin: 0 0 16px;
+  line-height: 1.5;
+}
+.newsletter-card form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.newsletter-card input[type="email"] {
+  flex: 1 1 240px;
+  padding: 12px 14px;
+  border: 1px solid #444;
+  background: #0a0a0a;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+.newsletter-card input[type="email"]:focus {
+  outline: none;
+  border-color: var(--accent, #d5001c);
+  box-shadow: 0 0 0 2px rgba(213, 0, 28, 0.3);
+}
+.newsletter-card button {
+  padding: 12px 24px;
+  background: var(--accent, #d5001c);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s;
+}
+.newsletter-card button:hover {
+  background: #ff2540;
+}
+.newsletter-card .newsletter-meta {
+  font-size: 11px;
+  color: #888;
+  margin-top: 12px;
+}
+.newsletter-card .newsletter-success {
+  display: none;
+  padding: 16px;
+  background: rgba(40, 167, 69, 0.15);
+  border: 1px solid rgba(40, 167, 69, 0.4);
+  border-radius: 6px;
+  color: #4ade80;
+  font-size: 14px;
+  font-weight: 600;
+}
+</style>
+
+<div class="newsletter-card" id="newsletter-card">
+  <h3>📬 Get the Daily Brief</h3>
+  <p>One short email each morning with the top 3 stories from CarMotion Daily. No spam, unsubscribe anytime.</p>
+  <form action="https://buttondown.email/us/carmotion-daily" method="post" target="_blank" id="newsletter-form">
+    <input type="email" name="email" id="newsletter-email" placeholder="your@email.com" required autocomplete="email">
+    <button type="submit">Subscribe</button>
+  </form>
+  <p class="newsletter-meta">🔒 We never share your email. Powered by Buttondown.</p>
+  <div class="newsletter-success" id="newsletter-success">
+    ✅ Thanks! Check your inbox to confirm.
+  </div>
+</div>
+
+<script>
+// Progressive enhancement: show success message after submit, no full reload.
+(function(){
+  var form = document.getElementById('newsletter-form');
+  var success = document.getElementById('newsletter-success');
+  var card = document.getElementById('newsletter-card');
+  if (!form) return;
+  form.addEventListener('submit', function(){
+    // Let the form POST to buttondown in the new tab, then reveal success.
+    setTimeout(function(){
+      if (success && card) {
+        success.style.display = 'block';
+        form.style.display = 'none';
+      }
+    }, 200);
+  });
+})();
+</script>

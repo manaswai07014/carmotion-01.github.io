@@ -12,6 +12,15 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
   <meta name="google-site-verification" content="dsNZuSZZhAkEbBZiw2XSaQLleIzrexX3etrPYhTeMK8" />
   {% unless page.seo == false %}{% seo %}{% endunless %}
+  {%- comment -%} V4-C5: For news posts, override og:image with branded 1200x630 build-time OG. {%- endcomment -%}
+  {% if page.og_override == true and page.slug %}
+  <meta property="og:image" content="{{ site.url }}/og/{{ page.slug }}.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ page.title | escape }}">
+  <meta name="twitter:image" content="{{ site.url }}/og/{{ page.slug }}.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  {% endif %}
 </head>
 <body>
 
