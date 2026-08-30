@@ -2,6 +2,17 @@
 layout: default
 title: AI & Automation Disclosure
 permalink: /ai-disclosure.html
+faq:
+  - q: "Does CarMotion Daily use AI to write its articles?"
+    a: "Yes. CarMotion Daily uses a large language model (LLM) to curate and rewrite automotive news from 13 major publications. The LLM restates facts in fresh wording but does not invent facts, numbers, or quotes."
+  - q: "Which sources does CarMotion Daily aggregate from?"
+    a: "MotorTrend, Top Gear, evo, InsideEVs, Road & Track, Autocar, Jalopnik, Motor1, Autoblog, CarAndDriver, Carscoops, The Drive, and SupercarBlog."
+  - q: "Do you claim original reporting credit?"
+    a: "No. Every article links back to its original source. All trademarks and copyrights belong to their respective owners."
+  - q: "Can I trust the technical specs (horsepower, year, range) in your articles?"
+    a: "Yes. Our pipeline explicitly preserves all numerical facts unchanged from the source — horsepower, torque, 0-60 times, range, and prices are never modified during the rewrite."
+  - q: "How can I request a correction or takedown?"
+    a: "Use the contact page. We honor takedown requests within 48 hours and publish corrections prominently."
 ---
 
 <div class="article-body" style="max-width: 720px; margin: 0 auto;">

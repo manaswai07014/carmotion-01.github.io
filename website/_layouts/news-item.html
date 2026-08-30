@@ -26,7 +26,9 @@ og_override: true
   </header>
 
   {% if page.image %}
-  <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" class="article-hero-img" width="1200" height="675" loading="eager">
+  {%- comment -%} PATCH 2026-08-30: preload hero + explicit dimensions + async decode (Core Web Vitals) {%- endcomment -%}
+  <link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}">
+  <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" class="article-hero-img" width="1200" height="675" loading="eager" decoding="async" fetchpriority="high">
   {% endif %}
 
   <div class="article-body">
@@ -68,20 +70,36 @@ og_override: true
   </div>
 </article>
 
-{%- comment -%} M8: Related articles by first tag {%- endcomment -%}
-{% assign related = site.posts | where_exp: "p", "p.tags contains page.tags[0]" | reject: "url", page.url | take: 4 %}
-{% if related.size > 0 %}
+{%- comment -%} M8: Related articles by first tag (enhanced 2026-08-30 with image + better matching) {%- endcomment -%}
+{% if page.tags and page.tags.size > 0 %}
+  {% assign related = "" | split: "" %}
+  {% for tag in page.tags limit:2 %}
+    {% assign tag_posts = site.posts | where_exp: "p", "p.tags contains tag" | reject: "url", page.url %}
+    {% assign related = related | concat: tag_posts %}
+  {% endfor %}
+  {% assign related = related | uniq | sort: "date" | reverse | take: 4 %}
+  {% if related.size > 0 %}
 <section class="related-articles">
-  <h3>Related Articles</h3>
+  <h3>📰 Related Articles</h3>
   <ul class="related-list">
     {% for p in related %}
     <li class="related-item">
-      <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-      <span class="related-date">{{ p.date | date: "%b %d, %Y" }}</span>
+      <a href="{{ p.url | prepend: site.baseurl }}" style="display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit;">
+        {% if p.image %}
+        <img src="{{ p.image | prepend: site.baseurl }}" alt="" loading="lazy" decoding="async" width="80" height="60" style="width:80px;height:60px;object-fit:cover;border-radius:6px;flex-shrink:0;">
+        {% else %}
+        <div style="width:80px;height:60px;background:var(--bg-dark);color:#fff;display:flex;align-items:center;justify-content:center;border-radius:6px;font-size:24px;flex-shrink:0;">🏎️</div>
+        {% endif %}
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:14px;font-weight:600;line-height:1.3;color:var(--text);">{{ p.title | truncate: 70 }}</div>
+          <div style="font-size:11px;color:var(--text-mute);margin-top:3px;">{{ p.source }} · {{ p.date | date: "%b %d, %Y" }}</div>
+        </div>
+      </a>
     </li>
     {% endfor %}
   </ul>
 </section>
+  {% endif %}
 {% endif %}
 
 {%- comment -%} M7: BreadcrumbList JSON-LD {%- endcomment -%}

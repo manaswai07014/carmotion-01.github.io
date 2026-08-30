@@ -28,7 +28,7 @@ TOP3 PICK: latest 3 posts (today's fresh stories).
       <a href="{{ post.url | prepend: site.baseurl }}" style="display:block;color:inherit;text-decoration:none;">
         {% if post.image %}
         <div class="top3-img">
-          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="eager"
+          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="eager" decoding="async" fetchpriority="high" width="400" height="225"
                onerror="this.style.display='none'; this.parentElement.classList.add('news-image-placeholder'); this.parentElement.textContent='🏎️';">
         </div>
         {% endif %}
@@ -57,7 +57,7 @@ TOP3 PICK: latest 3 posts (today's fresh stories).
         <a href="{{ post.url | prepend: site.baseurl }}" style="display:block;">
           {% if post.image %}
           <div class="news-image">
-            <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="lazy"
+            <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="lazy" decoding="async" width="400" height="225"
                  onerror="this.style.display='none'; this.parentElement.classList.add('news-image-placeholder'); this.parentElement.textContent='🏎️';">
           </div>
           {% else %}
