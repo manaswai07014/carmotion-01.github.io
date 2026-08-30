@@ -437,36 +437,78 @@ body[data-theme="dark"] .trending-item { background: #1a1a1a; border-color: #2a2
 body[data-theme="dark"] .share-btn { background: #1a1a1a; color: #e0e0e0; border-color: #333; }
 .article-header { margin-bottom: 32px; border-bottom: 3px solid var(--accent); padding-bottom: 20px; }
 .article-header .kicker {
-  display: inline-block;
-  background: var(--accent);
+  margin-bottom: 14px;
+}
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
   color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 4px 10px;
-  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 6px 12px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-bottom: 12px;
-  border-radius: 3px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(213, 0, 28, 0.3);
+}
+.source-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse-badge 2s ease-in-out infinite;
+}
+@keyframes pulse-badge {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
 }
 .article-header h1 {
-  font-size: 32px;
-  margin-bottom: 8px;
-  line-height: 1.15;
+  font-size: 36px;
+  margin-bottom: 10px;
+  line-height: 1.18;
+  font-weight: 900;
+  letter-spacing: -0.5px;
 }
 .article-header .subtitle {
   font-size: 18px;
   color: var(--text-mute);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  line-height: 1.5;
 }
 .meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
   font-size: 13px;
   color: var(--text-mute);
+  padding: 10px 0;
+}
+.meta-line a { color: var(--accent); font-weight: 600; }
+.meta-line .byline { font-weight: 600; color: var(--text); }
+.meta-line .meta-dot { color: var(--border); margin: 0 2px; }
+.meta-line time { color: var(--text); font-weight: 500; }
+.curated-tag {
+  background: rgba(213, 0, 28, 0.08);
+  color: var(--accent-dark);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .article-hero-img {
   width: 100%;
-  border-radius: 6px;
-  margin-bottom: 24px;
+  border-radius: 8px;
+  margin-bottom: 28px;
   box-shadow: var(--shadow-lg);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 /* M7: Breadcrumbs */

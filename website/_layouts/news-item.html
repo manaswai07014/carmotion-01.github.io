@@ -7,18 +7,24 @@ og_override: true
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <a href="{{ site.baseurl }}/">Home</a> ›
   {% if page.tags.size > 0 %}
-  <span>{{ page.tags[0] }}</span> ›
+  <a href="{{ site.baseurl }}/category/{{ page.tags[0] | downcase | replace: ' ', '-' }}.html">{{ page.tags[0] }}</a> ›
   {% endif %}
   <span class="current">{{ page.title | truncate: 50 }}</span>
 </nav>
 
 <article class="article">
   <header class="article-header">
-    <div class="kicker">{{ page.source }}</div>
+    <div class="kicker"><span class="source-badge">{{ page.source }}</span></div>
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
     <div class="meta-line">
-      By <a href="{{ site.baseurl }}/about.html">CarMotion Editorial Team</a> · {{ page.date | date: "%B %d, %Y" }} · Source: {{ page.source }} · Curated & rewritten by CarMotion Daily
+      <span class="byline">By <a href="{{ site.baseurl }}/about.html">CarMotion Editorial Team</a></span>
+      <span class="meta-dot">·</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <span class="meta-dot">·</span>
+      <span>Source: {{ page.source }}</span>
+      <span class="meta-dot">·</span>
+      <span class="curated-tag">Curated & rewritten by CarMotion Daily</span>
       {% assign word_count = page.content | strip_html | number_of_words %}
       {% assign minutes = word_count | divided_by: 200 | at_least: 1 %}
       <span class="reading-time">· 📖 {{ minutes }} min read ({{ word_count }} words)</span>
@@ -26,7 +32,6 @@ og_override: true
   </header>
 
   {% if page.image %}
-  {%- comment -%} PATCH 2026-08-30: preload hero + explicit dimensions + async decode (Core Web Vitals) {%- endcomment -%}
   <link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}">
   <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" class="article-hero-img" width="1200" height="675" loading="eager" decoding="async" fetchpriority="high">
   {% endif %}
