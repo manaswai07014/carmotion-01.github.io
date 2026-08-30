@@ -4,11 +4,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }} — CarMotion Daily</title>
+
+  {# PATCH 2026-08-30: Per-page canonical to prevent duplicate-content penalty #}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  {# PATCH 2026-08-30: og:site_name + og:type=article for news posts #}
+  <meta property="og:site_name" content="CarMotion Daily">
+  {% if page.layout == 'news-item' or page.date %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="article:author" content="CarMotion Editorial Team">
+  <meta property="article:section" content="Automotive">
+  {% for tag in page.tags limit:3 %}<meta property="article:tag" content="{{ tag }}">{% endfor %}
+  {% else %}
+  <meta property="og:type" content="website">
+  {% endif %}
+
+  {# PATCH 2026-08-30: Twitter Card rich — reading time + creator #}
+  {% assign wc = page.content | default: '' | strip_html | number_of_words %}
+  {% assign minutes = wc | divided_by: 200 | at_least: 1 %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@CarMotion01">
+  <meta name="twitter:creator" content="@CarMotion01">
+  {% if minutes > 0 %}<meta name="twitter:label1" content="Reading time"><meta name="twitter:data1" content="{{ minutes }} min">{% endif %}
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  {# PATCH 2026-08-30: font-display=swap to avoid FOIT #}
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  {# PATCH 2026-08-30: PWA manifest + theme color #}
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+  <meta name="theme-color" content="#d5001c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
   <link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  {# PATCH 2026-08-30: Inline critical CSS for above-the-fold (LCP improvement) #}
+  <style>*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}body{font-family:"Fira Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1a1a1a;background:#fff;line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}.site-header{background:#0a0a0a;color:#fff;padding:14px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.3)}.header-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;justify-content:space-between;align-items:center;gap:16px}.logo{font-weight:900;font-size:20px;color:#fff;text-decoration:none}.hero{background:#0a0a0a;color:#fff;padding:48px 16px;text-align:center}.hero h1{font-size:42px;font-weight:900;margin-bottom:12px}.hero .tagline{font-size:18px;color:#b6b8b9;max-width:680px;margin:0 auto}.hero .meta{margin-top:16px;font-size:13px;color:#888}img{max-width:100%;height:auto;display:block}@media(max-width:768px){.hero h1{font-size:32px}}</style>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css"></noscript>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
   <meta name="google-site-verification" content="dsNZuSZZhAkEbBZiw2XSaQLleIzrexX3etrPYhTeMK8" />
   {% unless page.seo == false %}{% seo %}{% endunless %}
@@ -19,7 +55,6 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{{ page.title | escape }}">
   <meta name="twitter:image" content="{{ site.url }}/og/{{ page.slug }}.jpg">
-  <meta name="twitter:card" content="summary_large_image">
   {% endif %}
 </head>
 <body>
@@ -99,6 +134,28 @@
     "target": "{{ site.url }}{{ site.baseurl }}/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
+}
+</script>
+{% endif %}
+
+{%- comment -%} PATCH 2026-08-30: FAQ schema for policy pages with `faq:` frontmatter {%- endcomment -%}
+{% if page.faq and page.faq.size > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
 }
 </script>
 {% endif %}

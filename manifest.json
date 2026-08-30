@@ -1,0 +1,20 @@
+{
+  "name": "CarMotion Daily",
+  "short_name": "CarMotion",
+  "description": "Daily automotive news — curated, rewritten, and published fresh every morning.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#d5001c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["news", "automotive", "lifestyle"],
+  "lang": "en-US"
+}
