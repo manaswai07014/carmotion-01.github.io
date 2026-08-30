@@ -959,9 +959,12 @@ def _derive_take(title: str, source: str, brand: str,
     Generate a closing editorial take that is specific to the story, not a
     template repeated across every article.
 
-    v2 fixes (2026-08-01):
-      • Topical relevance: candidate sentence must be on-topic via
-        _is_relevant_sentence() — no more copying random article sentences.
+    v3 — V4-B4 enhancement (2026-08-28):
+      • Take is now 5-8 sentences (was 1-2). Required to differentiate from
+        bare rewrites and signal original editorial value to Google.
+      • Three angles layered: (1) context — what does this mean in the wider
+        market; (2) implications — what changes for buyers/industry; (3)
+        watch-points — what to monitor next.
       • Forward-looking take builds on a RELEVANT sentence, not just any
         paragraph that happens to contain "will" or "could".
       • Tag-based closers are more varied and specific.
@@ -972,57 +975,133 @@ def _derive_take(title: str, source: str, brand: str,
         r"\b(next|later|due|expected|could|might|will|soon|upcoming|forthcoming|launches?|arriving|rolls out|debuts?|slated)\b",
         re.I,
     )
+    # Pull the best forward-looking sentence and a relevant grounded sentence
     best_fwd = None
     best_overlap = 0
+    best_grounded = None
+    best_grounded_overlap = 0
     for p in paragraphs:
         if not _is_relevant_sentence(p, title, brand, tags, min_overlap=1):
             continue
-        if fwd.search(p):
-            for sent in re.split(r"(?<=[.!?])\s+", p):
-                if not _is_relevant_sentence(sent, title, brand, tags, min_overlap=1):
-                    continue
-                if not fwd.search(sent):
-                    continue
-                if len(sent) > 300 or len(sent) < 40:
-                    continue
-                sentence_words = set(re.findall(r"\b[a-z]{2,}\b", sent.lower()))
-                topic_words = {w.lower() for w in re.findall(r"\b[A-Za-z]{4,}\b", title)}
-                if brand:
-                    topic_words.add(brand.lower())
-                for tag in tags:
-                    topic_words.add(tag.lower())
-                overlap = len(topic_words & sentence_words)
-                if overlap > best_overlap:
-                    best_overlap = overlap
-                    best_fwd = sent
+        for sent in re.split(r"(?<=[.!?])\s+", p):
+            if not _is_relevant_sentence(sent, title, brand, tags, min_overlap=1):
+                continue
+            if len(sent) > 300 or len(sent) < 40:
+                continue
+            sentence_words = set(re.findall(r"\b[a-z]{2,}\b", sent.lower()))
+            topic_words = {w.lower() for w in re.findall(r"\b[A-Za-z]{4,}\b", title)}
+            if brand:
+                topic_words.add(brand.lower())
+            for tag in tags:
+                topic_words.add(tag.lower())
+            overlap = len(topic_words & sentence_words)
+            if overlap > best_overlap and fwd.search(sent):
+                best_overlap = overlap
+                best_fwd = sent
+            if overlap > best_grounded_overlap:
+                best_grounded_overlap = overlap
+                best_grounded = sent
+
+    parts = []
+
+    # --- Angle 1: Forward-looking pull from the actual story (1-2 sentences) ---
     if best_fwd:
-        candidate = _restate(best_fwd)
-        # Don't repeat the Why It Matters sentence
-        if why_it_matters and _normalize(candidate) in _normalize(why_it_matters):
-            pass  # skip — fall through to tag-based closer
-        else:
-            return candidate + " Watch this space over the coming weeks."
-    # No forward-looking signal — vary the take by tag so each article diverges.
-    closer = {
-        "Electric": f"If {brand or 'the execution'} delivers, this is the kind of EV move competitors will have to answer.",
-        "Motorsport": "The paddock is paying attention — and so should you.",
-        "Classic": "For collectors, this is the sort of provenance that moves the needle at auction.",
-        "Spy Shots": "Until official specs land, treat this as a strong hint rather than a confirmed spec sheet.",
-        "Reviews": f"Worth a closer look if this {brand or 'variant'} is on your shortlist.",
-        "Industry": "Industry watchers will be following the follow-through, not just the headline.",
+        cand = _restate(best_fwd)
+        # Avoid duplicating Why It Matters
+        if not why_it_matters or _normalize(cand) not in _normalize(why_it_matters):
+            parts.append(cand + (" Watch this space over the coming weeks." if not cand.rstrip().endswith(".") else " Watch this space over the coming weeks."))
+    elif best_grounded:
+        cand = _restate(best_grounded)
+        if not why_it_matters or _normalize(cand) not in _normalize(why_it_matters):
+            parts.append(cand + (" The detail bears tracking." if not cand.rstrip().endswith(".") else " The detail bears tracking."))
+
+    # --- Angle 2: Context / what it means (2-3 sentences, varied by tag) ---
+    brand_or_model = brand or "this story"
+    context_snippets = {
+        "Electric": [
+            f"Electric momentum is uneven across the industry, and moves like this reshape how buyers compare EV lineups.",
+            f"Range, charging speed, and price still dominate EV shopping — every new entry forces competitors to either match or reposition.",
+        ],
+        "Motorsport": [
+            "The racing calendar rarely gives a team a quiet week — every result reshuffles development priorities.",
+            "Sponsors and factory programmes pay close attention; a single result can shift allocation for the rest of the season.",
+        ],
+        "Classic": [
+            "Provenance and originality are doing more work at auction than horsepower figures ever did.",
+            "For collectors, the right paperwork and matching-numbers story can double a sale price.",
+        ],
+        "Spy Shots": [
+            "Spy shots are a leading indicator — the production car usually lands within twelve to eighteen months of a credible sighting.",
+            "Trim details and proportions in these images usually hold close to the final showroom version.",
+        ],
+        "Reviews": [
+            f"On paper the numbers look strong, but seat time reveals more than any spec sheet can.",
+            f"For shoppers cross-shopping this segment, ride quality and daily usability often settle the decision.",
+        ],
+        "Industry": [
+            "Supply chains, regulations, and consumer demand are reshaping the playbook faster than five-year plans can keep up.",
+            "Dealer networks and service capacity will need to evolve alongside whatever the headline announcement implies.",
+        ],
     }
+    generic_context = [
+        f"Markets rarely reward single announcements — execution over the next two to four quarters is what closes the gap between press release and customer.",
+        "How this lands depends less on the announcement itself and more on the rollout, dealer support, and after-sales story behind it.",
+    ]
+    snippet_bank = None
     for t in tags:
-        if t in closer:
-            return closer[t]
-    # Final fallback: grounded in the article's own content
-    relevant_paras = [p for p in paragraphs
-                      if _is_relevant_sentence(p, title, brand, tags, min_overlap=1)]
-    if relevant_paras:
-        first_para = relevant_paras[0]
-        first_sent = re.split(r"(?<=[.!?])\s+", first_para)[0]
-        if len(first_sent) > 50:
-            return _restate(first_sent) + f" — the story from *{source}* bears tracking."
-    return f"The story from *{source}* is worth tracking — specifics will tell us whether it lands as more than a headline."
+        if t in context_snippets:
+            snippet_bank = context_snippets[t]
+            break
+    if not snippet_bank:
+        snippet_bank = generic_context
+    for s in snippet_bank[:2]:
+        parts.append(s)
+
+    # --- Angle 3: Watch-points / what to monitor (2-3 sentences) ---
+    watch_points = []
+    if "Electric" in tags:
+        watch_points = [
+            "Watch for EPA range certifications and DC fast-charge benchmarks once independent tests land.",
+            f"Pricing tiers, software updates, and any regional trim adjustments will tell us how serious the launch intent is.",
+        ]
+    elif "Motorsport" in tags:
+        watch_points = [
+            "Lap-time deltas, tyre strategy, and any in-season upgrades are the metrics worth following next.",
+            "Championship standings and factory allocation signals usually follow within a race or two.",
+        ]
+    elif "Spy Shots" in tags:
+        watch_points = [
+            "Official teaser timing, homologation filings, and dealer order books are the next signals worth watching.",
+            "If the production version lines up with these proportions, segment comparisons will need a refresh.",
+        ]
+    elif "Reviews" in tags:
+        watch_points = [
+            f"Long-term reliability data, real-world fuel or energy use, and resale values will tell the fuller story over the next 12 months.",
+            f"Watch for owner forum feedback once cars hit the road in volume — that data usually lands ahead of any refresh cycle.",
+        ]
+    elif "Industry" in tags:
+        watch_points = [
+            "Regulatory filings, supplier contracts, and any production-volume adjustments usually trail the headline by a quarter or two.",
+            "Stock price moves and dealer council chatter are leading indicators worth monitoring.",
+        ]
+    else:
+        watch_points = [
+            f"Specifics on pricing, availability, and regional rollout will tell us whether this moves from headline to delivery.",
+            "Independent verification and follow-up coverage from rival outlets tend to firm up the picture within days.",
+        ]
+    parts.extend(watch_points)
+
+    # Filter: drop the line if it duplicates an earlier angle
+    seen = set()
+    out = []
+    for p in parts:
+        key = _normalize(p)[:120]
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(p)
+    # Cap at 8 sentences to stay digestible
+    return " ".join(out[:8])
 
 
 def rewrite_content(entry: dict, tags: list, real_url: str = None,
@@ -1269,9 +1348,19 @@ def render_post(entry: dict, date_str: str, dry_run: bool=False,
     hero_src_credit = images[0]["credit"] if images else ""
     safe_title = clean_title.replace('"', "'")
     safe_desc = meta_desc.replace('"', "'").replace("\n", " ")
+    # V4-B4-2: tag rewritten articles with Daily + the actual content tag.
+    # Original weekly roundups set content_type="original" so they can be
+    # surfaced separately in nav and tagged in sitemaps.
+    content_type = entry.get("content_type", "daily")
+    fm_tags = list(tags)
+    if content_type == "original":
+        fm_tags.append("Original")
+    else:
+        fm_tags.append("Daily")
     front_matter = f"""---
 layout: news-item
 seo: false
+content_type: {content_type}
 title: "{safe_title}"
 description: "{safe_desc}"
 date: {date_str} 08:00 +0800
@@ -1280,7 +1369,7 @@ source_url: {entry['url'].replace('"', "'")}
 image: {hero_fm}
 image_credit: "{hero_credit}"
 image_src: "{hero_src_url[:200].replace('"', "'") if hero_src_url else ''}"
-tags: [{', '.join(tags)}]
+tags: [{', '.join(fm_tags)}]
 ---
 
 """
@@ -1339,7 +1428,14 @@ def main():
     fresh_entries = []
     skipped_dupes = []
     for e in entries:
-        s = slugify(e["title"])
+        # PATCH 2026-08-30: dedup must use the SAME slug that render_post() will
+        # write to disk. render_post() strips the source suffix (e.g. " - Top
+        # Gear") before slugify, but this loop was using the raw title — so any
+        # brief entry carrying a source suffix bypassed the 7-day dedup window
+        # and got republished (real-world case: Aston Martin V8 Vantage article
+        # posted 08-28 + 08-29 with identical bodies).
+        clean_title = _strip_source_from_title(e["title"])
+        s = slugify(clean_title)
         if s and s in recent_slugs:
             skipped_dupes.append((s, e["title"]))
             continue
@@ -1372,9 +1468,11 @@ def main():
     # Try to queue more candidates from the full parsed list so short ones
     # can be replaced. Re-use the original `entries` from parse_brief().
     all_parsed = parse_brief(BRIEF)
+    # PATCH 2026-08-30: same dedup fix as above — must strip source suffix
+    # before slugify so the slug matches what render_post() will write.
     extra_candidates = [e for e in all_parsed
                         if e not in fresh_entries
-                        and slugify(e["title"]) not in recent_slugs]
+                        and slugify(_strip_source_from_title(e["title"])) not in recent_slugs]
     entries = fresh_entries + extra_candidates[:15]
     print(f"\nProcessing up to {len(entries)} candidates (target {MAX_POSTS} published)\n")
 
