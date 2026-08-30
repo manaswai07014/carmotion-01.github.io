@@ -2,6 +2,17 @@
 layout: default
 title: Disclaimer
 permalink: /disclaimer.html
+faq:
+  - q: "Is CarMotion Daily an original news publisher?"
+    a: "No. CarMotion Daily is an automated automotive news aggregation website. All content is curated, rewritten, and published by automated systems with editorial oversight. We do not claim original reporting credit."
+  - q: "Can I trust the accuracy of the information?"
+    a: "We strive to preserve all factual data (numbers, dates, specs) from original sources, but errors may occur. CarMotion Daily does not guarantee the accuracy, completeness, or timeliness of any information published."
+  - q: "Are the images used on CarMotion Daily owned by you?"
+    a: "No. Images are extracted from original news articles via Open Graph protocol or sourced from Wikimedia Commons. Each image includes attribution to its source. Takedown requests are honored via our contact page."
+  - q: "Am I allowed to visit external links from CarMotion Daily?"
+    a: "Yes. CarMotion Daily contains links to external websites (original news sources). We are not responsible for the content, accuracy, or availability of these external sites. Visiting external links is at your own risk."
+  - q: "Does CarMotion Daily use AI to write content?"
+    a: "Yes. CarMotion Daily uses AI and automation in its content pipeline. See our AI & Automation Disclosure page for full details on how AI is used."
 ---
 
 <div class="article-body" style="max-width: 720px; margin: 0 auto;">

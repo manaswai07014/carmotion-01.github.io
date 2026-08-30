@@ -2,6 +2,17 @@
 layout: default
 title: Corrections Policy
 permalink: /corrections-policy.html
+faq:
+  - q: "How do I report a factual error in an article?"
+    a: "Use the contact page and include: (1) the article title or URL, (2) a description of the error, (3) the correct information with a source if possible. Our editorial team reviews every report within 24 hours."
+  - q: "How quickly do you correct errors?"
+    a: "We cross-check the claim against the original source within 24 hours of receiving your report. If confirmed, the article is updated immediately and a correction note is appended to the bottom of the article."
+  - q: "What does a correction note look like?"
+    a: "A correction note appears at the bottom of the corrected article in this format: 'Correction (Date): An earlier version of this article [description of error]. This has been updated to [correct information].'"
+  - q: "Do you ever retract articles entirely?"
+    a: "Yes. If an article is found to be substantially inaccurate or misleading, it may be retracted entirely. Retracted articles remain online with a prominent retraction notice, and the URL is preserved to avoid broken links."
+  - q: "I'm an original publisher — can I request a takedown?"
+    a: "Yes. Original source publishers who believe their content has been used in a way that exceeds Fair Use may request takedown via our contact page. We review and respond within 48 hours."
 ---
 
 <div class="article-body" style="max-width: 720px; margin: 0 auto;">

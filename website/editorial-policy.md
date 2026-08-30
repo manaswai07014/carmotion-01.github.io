@@ -2,6 +2,17 @@
 layout: default
 title: Editorial Policy
 permalink: /editorial-policy.html
+faq:
+  - q: "What is CarMotion Daily's editorial mission?"
+    a: "To provide a clean, ad-free daily snapshot of the most interesting automotive news from major publications — making it easy for car enthusiasts to stay informed without paywalls, popups, or clickbait."
+  - q: "How many articles do you publish per day?"
+    a: "A maximum of 5 articles per day. The cap is a deliberate editorial choice to maintain quality over quantity and comply with search engine quality guidelines on scaled content abuse."
+  - q: "Do you copy articles verbatim from other sites?"
+    a: "No. Every sentence is restated in fresh wording by our LLM pipeline. We do not copy verbatim. All numbers, proper nouns, and dates are preserved exactly as in the source for factual fidelity."
+  - q: "Do you add original analysis?"
+    a: "Yes. Each article includes a 'Why It Matters' section and a 'CarMotion Daily's Take' section that provide editorial context beyond the source article. We also publish weekly comparison articles and brand deep-dives clearly marked as original content."
+  - q: "What are your core editorial values?"
+    a: "Transparency (we disclose AI usage), Accuracy (errors corrected promptly), Fair Use (short summaries under 250 words with full source links), and No Clickbait (titles accurately reflect story content)."
 ---
 
 <div class="article-body" style="max-width: 720px; margin: 0 auto;">
