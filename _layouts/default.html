@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }} — CarMotion Daily</title>
 
-  {# PATCH 2026-08-30: Per-page canonical to prevent duplicate-content penalty #}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  {# PATCH 2026-08-30: og:site_name + og:type=article for news posts #}
   <meta property="og:site_name" content="CarMotion Daily">
   {% if page.layout == 'news-item' or page.date %}
   <meta property="og:type" content="article">
@@ -21,7 +19,6 @@
   <meta property="og:type" content="website">
   {% endif %}
 
-  {# PATCH 2026-08-30: Twitter Card rich — reading time + creator #}
   {% assign wc = page.content | default: '' | strip_html | number_of_words %}
   {% assign minutes = wc | divided_by: 200 | at_least: 1 %}
   <meta name="twitter:card" content="summary_large_image">
@@ -31,18 +28,15 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  {# PATCH 2026-08-30: font-display=swap to avoid FOIT #}
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
-  {# PATCH 2026-08-30: PWA manifest + theme color #}
   <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
   <meta name="theme-color" content="#d5001c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
-  {# PATCH 2026-08-30: Inline critical CSS for above-the-fold (LCP improvement) #}
-  <style>*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}body{font-family:"Fira Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1a1a1a;background:#fff;line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}.site-header{background:#0a0a0a;color:#fff;padding:14px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.3)}.header-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;justify-content:space-between;align-items:center;gap:16px}.logo{font-weight:900;font-size:20px;color:#fff;text-decoration:none}.hero{background:#0a0a0a;color:#fff;padding:48px 16px;text-align:center}.hero h1{font-size:42px;font-weight:900;margin-bottom:12px}.hero .tagline{font-size:18px;color:#b6b8b9;max-width:680px;margin:0 auto}.hero .meta{margin-top:16px;font-size:13px;color:#888}img{max-width:100%;height:auto;display:block}@media(max-width:768px){.hero h1{font-size:32px}}</style>
+  <style>*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}body{font-family:"Fira Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1a1a1a;background:#fff;line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}.site-header{background:#0a0a0a;color:#fff;padding:14px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.3)}.header-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;justify-content:space-between;align-items:center;gap:16px}.logo{font-weight:900;font-size:20px;color:#fff;text-decoration:none}.hero{background:#0a0a0a;color:#fff;padding:48px 16px;text-align:center}.hero h1{font-size:42px;font-weight:900;margin-bottom:12px}.hero .tagline{font-size:18px;color:#b6b8b9;max-width:680px;margin:0 auto}.hero .meta{margin-top:16px;font-size:13px;color:#888}.article-header h1{font-size:36px;margin-bottom:10px;line-height:1.18;font-weight:900;letter-spacing:-0.5px}.source-badge{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#d5001c,#a80016);color:#fff;font-size:11px;font-weight:800;padding:6px 12px;letter-spacing:1.5px;text-transform:uppercase;border-radius:4px;box-shadow:0 2px 8px rgba(213,0,28,.3)}.source-badge::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;display:inline-block;animation:pulse-badge 2s ease-in-out infinite}@keyframes pulse-badge{0%,100%{opacity:1}50%{opacity:.4}}.meta-line{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:13px;color:#6b6b6b;padding:10px 0}.meta-line .byline{font-weight:600;color:#1a1a1a}.meta-line .meta-dot{color:#e5e5e5;margin:0 2px}.meta-line time{color:#1a1a1a;font-weight:500}.curated-tag{background:rgba(213,0,28,.08);color:#a80016;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}.article-hero-img{width:100%;border-radius:8px;margin-bottom:28px;box-shadow:0 6px 18px rgba(0,0,0,.12);aspect-ratio:16/9;object-fit:cover}img{max-width:100%;height:auto;display:block}@media(max-width:768px){.hero h1{font-size:32px}.article-header h1{font-size:28px}}</style>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css"></noscript>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
@@ -138,7 +132,6 @@
 </script>
 {% endif %}
 
-{%- comment -%} PATCH 2026-08-30: FAQ schema for policy pages with `faq:` frontmatter {%- endcomment -%}
 {% if page.faq and page.faq.size > 0 %}
 <script type="application/ld+json">
 {
