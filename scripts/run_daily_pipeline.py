@@ -184,6 +184,16 @@ def main():
     if not ok2:
         print("\n⚠️ Step 2 had issues — continuing to git anyway")
 
+    # V4-C5: Generate branded Open Graph (1200x630) images for social sharing.
+    # Runs after Step 2 so hero images are already downloaded. Best-effort —
+    # if PIL/network is unhappy we keep the post and skip OG rather than fail.
+    print("\n--- V4-C5: OG image generation ---")
+    run(
+        [sys.executable, str(SCRIPTS / "og_image_generator.py"), "--days", "2"],
+        "Step 2b/3: Generate 1200x630 OG images",
+        timeout=120,
+    )
+
     # Parse LLM stats from captured log
     llm_success = sum(1 for l in log_lines if "[LLM] + rewrite generated" in l)
     llm_fallback = sum(1 for l in log_lines if "falling back" in l.lower() or "fell back" in l.lower())
