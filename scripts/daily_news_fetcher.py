@@ -268,17 +268,23 @@ def translate_to_chinese(title):
     return result
 
 def translate_titles_llm(titles, api_key=None):
-    """Translate English titles to Traditional Chinese using MiniMax-M2.7 Anthropic API."""
+    """Translate English titles to Traditional Chinese.
+
+    W97 (2026-10-22): routed through the shared llm_client — NVIDIA NIM primary
+    (老闆 directive: all cron pipelines use the NVIDIA API), MiniMax CN as the
+    fallback. `api_key` is kept for backward compatibility but is no longer
+    required — llm_client resolves its own credentials (env → .env → config.yaml).
+    """
     if not titles:
         return titles
-    
-    if not api_key:
+
+    import sys as _sys
+    _sys.path.insert(0, "/home/hermes/.hermes/lib")
+    try:
+        from llm_client import call_llm_text
+    except Exception as _e:  # noqa: BLE001
+        log(f'llm_client import failed ({_e}) — using glossary fallback')
         return [translate_to_chinese(t) for t in titles]
-    
-    import json
-    
-    # MiniMax-M2.7 Anthropic-compatible endpoint
-    base_url = 'https://api.minimaxi.com/anthropic/v1/messages'
     
     brand_glossary = (
         "Brand translations: BMW=寶馬, Mercedes-Benz/AMG=平治, Audi=奧迪, Porsche=保時捷, "
@@ -301,48 +307,29 @@ Brand translations: {brand_glossary}
 {chr(10).join(f'{t}' for i, t in enumerate(titles))}"""
     
     try:
-        data = json.dumps({
-            'model': 'MiniMax-M2.7',
-            'messages': [{'role': 'user', 'content': prompt}],
-            'max_tokens': 2000,
-            'thinking': {'type': 'off'},
-        }).encode('utf-8')
-        
-        req = urllib.request.Request(
-            base_url,
-            data=data,
-            headers={
-                'Content-Type': 'application/json',
-                'Authorization': f'Bearer {api_key}',
-                'anthropic-version': '2023-06-01',
-            },
-            method='POST',
-        )
-        
-        with urllib.request.urlopen(req, timeout=120, context=CTX) as resp:
-            result = json.loads(resp.read().decode('utf-8'))
-            content = result.get('content', [])
-            
-            # Get text from content blocks - expect plain text, one translation per line
-            for c in content:
-                if c.get('type') == 'text':
-                    response_text = c.get('text', '').strip()
-                    lines_raw = response_text.split('\n')
-                    translations = []
-                    for line in lines_raw:
-                        line = line.strip()
-                        # Skip empty lines and explanatory lines
-                        if not line or re.match(r'^[A-Z][a-z]', line) or line.startswith(('Here', 'The', 'A ', 'This', 'These', 'That', 'These')):
-                            continue
-                        # Remove leading numbers/dots like "1. " or "1) "
-                        line = re.sub(r'^[\d\.\)\-]+\s*', '', line).strip()
-                        if line and len(line) > 3:
-                            translations.append(line)
-                    if len(translations) >= len(titles):
-                        log(f'Translated {len(translations)} titles via MiniMax-M2.7')
-                        return translations[:len(titles)]
+        response_text = (call_llm_text(
+            system="You translate car news headlines into Traditional Chinese (Cantonese). "
+                   "Reply with one translation per line only — no numbering, no commentary.",
+            user=prompt, max_tokens=3000, timeout=300,
+        ) or "").strip()
+
+        translations = []
+        for line in response_text.split('\n'):
+            line = line.strip()
+            # Skip empty lines and explanatory lines
+            if not line or re.match(r'^[A-Z][a-z]', line) or line.startswith(('Here', 'The', 'A ', 'This', 'These', 'That')):
+                continue
+            # Remove leading numbers/dots like "1. " or "1) "
+            line = re.sub(r'^[\d\.\)\-]+\s*', '', line).strip()
+            if line and len(line) > 3:
+                translations.append(line)
+        # A partial list is worse than the glossary fallback — keep the guard.
+        if len(translations) >= len(titles):
+            log(f'Translated {len(translations)} titles via llm_client (NVIDIA primary)')
+            return translations[:len(titles)]
+        log(f'LLM returned {len(translations)}/{len(titles)} translations — using glossary fallback')
     except Exception as e:
-        log(f'MiniMax translation failed: {e}')
+        log(f'LLM translation failed: {e}')
     
     return [translate_to_chinese(t) for t in titles]
 
@@ -425,25 +412,33 @@ def update_brief(entries, max_articles=20, llm_api_key=None, feed_status=None):
 def main():
     import os
     NEWS_DIR.mkdir(parents=True, exist_ok=True)
-    # Try to get MiniMax CN API key from environment or .env file
-    llm_api_key = os.environ.get('MINIMAX_CN_API_KEY', None)
+    # W97 (2026-10-22): NVIDIA FIRST — 老闆 directive, all cron pipelines use the
+    # NVIDIA API. The value is only a "LLM enabled" sentinel; llm_client resolves
+    # its own credentials (env → .env → config.yaml providers.nvidia).
+    llm_api_key = os.environ.get('NVIDIA_API_KEY', None)
+    env_file = Path.home() / '.hermes' / '.env'
+    if (not llm_api_key or llm_api_key in ('', '***')) and env_file.exists():
+        for line in env_file.read_text().splitlines():
+            if line.startswith('NVIDIA_API_KEY='):
+                val = line.split('=', 1)[1].strip()
+                if val and val not in ('', '***'):
+                    llm_api_key = val
+                    break
+    # Fallback: MiniMax CN key (usable again only if the account is topped up)
     if not llm_api_key or llm_api_key in ('', '***'):
-        env_file = Path.home() / '.hermes' / '.env'
-        if env_file.exists():
-            for line in env_file.read_text().splitlines():
-                if line.startswith('MINIMAX_CN_API_KEY='):
-                    val = line.split('=', 1)[1].strip()
-                    if val and val not in ('', '***'):
-                        llm_api_key = val
-                        break
-    # Fallback 2: read from backup key file
+        llm_api_key = os.environ.get('MINIMAX_CN_API_KEY', None)
+    if (not llm_api_key or llm_api_key in ('', '***')) and env_file.exists():
+        for line in env_file.read_text().splitlines():
+            if line.startswith('MINIMAX_CN_API_KEY='):
+                val = line.split('=', 1)[1].strip()
+                if val and val not in ('', '***'):
+                    llm_api_key = val
+                    break
+    # Last resort: backup key file
     if not llm_api_key or llm_api_key in ('', '***'):
         key_file = Path.home() / '.hermes' / '.env.minimax-key'
         if key_file.exists():
             llm_api_key = key_file.read_text().strip()
-    # Fallback 3: environment variable
-    if not llm_api_key or llm_api_key in ('', '***'):
-        llm_api_key = os.environ.get('MINIMAX_CN_API_KEY_FALLBACK', None)
     all_entries = []
     feed_status = []
     stale_feeds = []

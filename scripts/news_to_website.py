@@ -445,27 +445,52 @@ def _load_llm_config():
     We deliberately read .env directly (not via config.yaml) so the secrets
     stay inside this script's process and never reach the log.
     """
-    # Try MiniMax CN first
+    # W97 (2026-10-22): NVIDIA FIRST. 老闆 directive — route every cron pipeline
+    # through the NVIDIA API (free tier, OpenAI-compatible). MiniMax CN is now
+    # only a fallback: its balance is exhausted (HTTP 402 on every model) and
+    # MiniMax-M2 was retired by the provider (HTTP 404 "no longer available").
     env_path = Path.home() / ".hermes" / ".env"
-    mm_key = ""
-    mm_url = ""
+    env_vals = {}
     if env_path.exists():
         try:
             with open(env_path, "r") as f:
                 for line in f:
                     line = line.strip()
-                    # Match MINIMAX_CN_API_KEY= and MINIMAX_CN_BASE_URL= from .env
-                    if line.startswith("MINIMAX_CN_API_KEY=") and not mm_key:
-                        mm_key = line.split("=", 1)[1].strip()
-                    elif line.startswith("MINIMAX_CN_BASE_URL=") and not mm_url:
-                        mm_url = line.split("=", 1)[1].strip()
+                    if "=" in line and not line.startswith("#"):
+                        k, v = line.split("=", 1)
+                        env_vals[k.strip()] = v.strip().strip('"').strip("'")
         except Exception:
             pass
+
+    nv_key = os.environ.get("NVIDIA_API_KEY") or env_vals.get("NVIDIA_API_KEY", "")
+    nv_base = os.environ.get("NVIDIA_BASE_URL") or env_vals.get("NVIDIA_BASE_URL", "")
+    if not (nv_key and nv_base):
+        config_path = Path.home() / ".hermes" / "config.yaml"
+        if config_path.exists():
+            try:
+                with open(config_path, "r") as f:
+                    cfg_y = _yaml.safe_load(f) or {}
+                p = (cfg_y.get("providers") or {}).get("nvidia") or {}
+                nv_key = nv_key or p.get("api_key") or ""
+                nv_base = nv_base or p.get("base_url") or ""
+            except Exception:
+                pass
+    if nv_key and nv_base:
+        return {
+            "api_key": nv_key,
+            "base_url": nv_base.rstrip("/"),
+            "model": os.environ.get("RECIPE_NVIDIA_MODEL", "deepseek-ai/deepseek-v4.1-flash"),
+            "provider_type": "openai",
+        }
+
+    # Fallback: MiniMax CN (anthropic-compatible)
+    mm_key = os.environ.get("MINIMAX_CN_API_KEY") or env_vals.get("MINIMAX_CN_API_KEY", "")
+    mm_url = os.environ.get("MINIMAX_CN_BASE_URL") or env_vals.get("MINIMAX_CN_BASE_URL", "")
     if mm_key and mm_url:
         return {
             "api_key": mm_key,
             "base_url": mm_url,
-            "model": "MiniMax-M2",
+            "model": os.environ.get("RECIPE_LLM_MODEL", "MiniMax-M3.1-Flash"),
             "provider_type": "anthropic",
         }
 
