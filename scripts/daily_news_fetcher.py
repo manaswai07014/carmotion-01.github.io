@@ -310,7 +310,7 @@ Brand translations: {brand_glossary}
         response_text = (call_llm_text(
             system="You translate car news headlines into Traditional Chinese (Cantonese). "
                    "Reply with one translation per line only — no numbering, no commentary.",
-            user=prompt, max_tokens=3000, timeout=300,
+            user=prompt, max_tokens=8000, timeout=300,
         ) or "").strip()
 
         translations = []
@@ -328,6 +328,7 @@ Brand translations: {brand_glossary}
             log(f'Translated {len(translations)} titles via llm_client (NVIDIA primary)')
             return translations[:len(titles)]
         log(f'LLM returned {len(translations)}/{len(titles)} translations — using glossary fallback')
+        log(f'[DEBUG] raw LLM response ({len(response_text)} chars): {response_text[:400]!r}')
     except Exception as e:
         log(f'LLM translation failed: {e}')
     

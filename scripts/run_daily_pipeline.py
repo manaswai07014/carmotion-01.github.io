@@ -168,7 +168,10 @@ def main():
     ok1 = run(
         [sys.executable, str(SCRIPTS / "daily_news_fetcher.py")],
         "Step 1/3: Fetch RSS → daily-brief.md (20 headlines, 3 will be published)",
-        timeout=120,
+        # W97 (2026-10-23): raised 120 → 420. Step 1 now includes an NVIDIA LLM
+        # title-translation call (~53s for 20 headlines) on top of the 8-feed RSS
+        # fetch, so 120s aborted the whole pipeline with "TIMEOUT after 120s".
+        timeout=420,
     )
     if not ok1:
         print("\n❌ Step 1 failed — aborting pipeline")
@@ -179,7 +182,10 @@ def main():
     ok2 = run(
         [sys.executable, str(SCRIPTS / "news_to_website.py"), "--date", date_str],
         f"Step 2/3: Generate website posts for {date_str}",
-        timeout=300,
+        # W97 (2026-10-23): raised 300 → 1200. news_to_website.py makes several
+        # LLM calls (3 article rephrases + metadata) and the shared llm_client now
+        # routes them through NVIDIA, which is slower per call than MiniMax was.
+        timeout=1200,
     )
     if not ok2:
         print("\n⚠️ Step 2 had issues — continuing to git anyway")
